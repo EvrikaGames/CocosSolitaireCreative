@@ -1,0 +1,1 @@
+{"version":3,"sources":["file:///D:/Cocos/CocosSolitaireCreative/assets/scripts/solitaire/CardData.ts"],"names":[],"mappings":";;;;;;;;;;;;gFAAA","sourcesContent":["// CardData.ts\r\nexport interface ICardData {\r\n    letter: string;\r\n    position: number;\r\n    revealed: boolean;\r\n}\r\n"]}

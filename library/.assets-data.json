@@ -1,0 +1,1350 @@
+{
+  "07fd8267-3679-443b-bea4-e451ed506db8": {
+    "url": "db://assets/resources",
+    "value": {},
+    "versionCode": 1
+  },
+  "0b0bd46e-01e9-438a-947f-3c7b07a50907": {
+    "url": "db://assets/scenes",
+    "value": {},
+    "versionCode": 1
+  },
+  "14b4ab56-c428-4eda-819b-c6755a201ea9": {
+    "url": "db://assets/scripts",
+    "value": {},
+    "versionCode": 1
+  },
+  "936f1fec-91b3-4ca1-a8b4-6793e3500a3c": {
+    "url": "db://assets/resources/animations",
+    "value": {},
+    "versionCode": 1
+  },
+  "54f8857e-a9a3-46be-975c-dfe55cafda52": {
+    "url": "db://assets/resources/configs",
+    "value": {},
+    "versionCode": 1
+  },
+  "22669288-daef-4cb4-86dc-9b5fc560e6ab": {
+    "url": "db://assets/resources/sounds",
+    "value": {},
+    "versionCode": 1
+  },
+  "7e7bcede-fe98-4060-9ec9-b3800d819b11": {
+    "url": "db://assets/resources/ui",
+    "value": {},
+    "versionCode": 1
+  },
+  "107207b5-5d60-4891-8403-9372389f0334": {
+    "url": "db://assets/scripts/connector",
+    "value": {},
+    "versionCode": 1
+  },
+  "0100bc23-e47e-4d04-b4ba-e60d6fc6fb91": {
+    "url": "db://assets/scripts/crossword",
+    "value": {},
+    "versionCode": 1
+  },
+  "36b16163-a572-4f30-9b74-dd386ef8574c": {
+    "url": "db://assets/scripts/hint",
+    "value": {},
+    "versionCode": 1
+  },
+  "db0c8e0d-3690-42b6-830b-d4412572523b": {
+    "url": "db://assets/scripts/services",
+    "value": {},
+    "versionCode": 1
+  },
+  "a291b764-d818-446f-82ba-114ed30835cc": {
+    "url": "db://assets/scripts/sound",
+    "value": {},
+    "versionCode": 1
+  },
+  "2230398b-3343-4045-a36f-91d9f55d9654": {
+    "url": "db://assets/scripts/ui",
+    "value": {},
+    "versionCode": 1
+  },
+  "3575749c-f500-4a48-a009-7e61460ed7e4": {
+    "url": "db://assets/scripts/connector/LettersConnectorController.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "caf0475f-9db4-47ff-a7d6-f37182ace59c": {
+    "url": "db://assets/scripts/crossword/Crossword.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "4b9eedc2-c42e-4742-ac8f-2cf281322290": {
+    "url": "db://assets/scripts/crossword/CrosswordCell.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "e53d9e9e-f294-4409-99d7-82a7fd4a1c77": {
+    "url": "db://assets/scripts/crossword/CrosswordController.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "bfff1c11-902d-42ce-9c0c-bd2c3009c1e0": {
+    "url": "db://assets/scripts/crossword/CrosswordWord.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "6171f9cb-fc6c-4a5f-bb64-250b24ee5f72": {
+    "url": "db://assets/scripts/hint/HintController.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "f7b169e0-84a2-42cc-a7b6-a6734d197cb9": {
+    "url": "db://assets/scripts/services/StoreController.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "daad551e-acc6-424a-bdd6-98af528b5574": {
+    "url": "db://assets/scripts/services/super_html_playable.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "6532c9eb-1747-47e1-a466-993b0fb81d1a": {
+    "url": "db://assets/scripts/sound/SoundController.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "b1de0192-d5bf-4a06-8932-d1feb03b9f60": {
+    "url": "db://assets/scripts/ui/ConnectorLetterComponent.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "dae467cb-2b7d-4013-bd37-80296a8c9688": {
+    "url": "db://assets/scripts/ui/CrosswordLetterComponent.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "44c33bdd-16bb-4323-81b9-72d6d029f7a0": {
+    "url": "db://assets/scripts/ui/LettersLabelComponent.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "dff2bab5-505e-44d3-843a-05078fbe8772": {
+    "url": "db://assets/scripts/ui/LineGraphics.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "72ff507e-ca37-4005-aa92-7553d37b6c42": {
+    "url": "db://assets/scripts/ui/ScreenScaler.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "f10c185d-c7de-4982-a8dc-eb26b693425f": {
+    "url": "db://assets/scripts/ui/StoreButtonComponent.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "f4131f95-ceb2-490c-9fc3-a88665645b4d": {
+    "url": "db://assets/scenes/main.scene",
+    "value": {},
+    "versionCode": 1
+  },
+  "633af8ef-fad3-49ad-ba54-d7aaef2ccca2": {
+    "url": "db://assets/resources/animations/pulse.anim",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "fd53aa59-b106-427f-b8d4-8b1a5d9f1b50": {
+    "url": "db://assets/resources/animations/shake.anim",
+    "value": {},
+    "versionCode": 1
+  },
+  "1cbb9f0b-d9fa-4717-9377-267409d49290": {
+    "url": "db://assets/resources/configs/crossword-en-v2.txt",
+    "value": {},
+    "versionCode": 1
+  },
+  "5ce84e39-1fbf-442d-bb2f-0eabe3c11f98": {
+    "url": "db://assets/resources/configs/crossword-en.txt",
+    "value": {},
+    "versionCode": 1
+  },
+  "b960b4c9-0223-47ee-ae75-3318e349c7e4": {
+    "url": "db://assets/resources/configs/crossword-v2.txt",
+    "value": {},
+    "versionCode": 1
+  },
+  "81fddd95-9c1d-4aaa-b53a-ee26e9626403": {
+    "url": "db://assets/resources/configs/crossword.txt",
+    "value": {},
+    "versionCode": 1
+  },
+  "7be71878-d8fd-4d0d-b800-2a16b6870d40": {
+    "url": "db://assets/resources/configs/letters-en-v2.txt",
+    "value": {},
+    "versionCode": 1
+  },
+  "8d1bf530-1752-4786-a990-353c27106089": {
+    "url": "db://assets/resources/configs/sentences.txt",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "277b8188-42ec-422f-a632-8c59ea00a429": {
+    "url": "db://assets/resources/configs/letters-v2.txt",
+    "value": {},
+    "versionCode": 1
+  },
+  "3ba33739-9c2f-4ee3-b0a4-eee3330c8141": {
+    "url": "db://assets/resources/configs/words.txt",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "605f6ffc-50a5-470a-8754-816175437d5e": {
+    "url": "db://assets/resources/sounds/correct.mp3",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "9b9dd169-1bd7-4dfe-819c-579067af921f": {
+    "url": "db://assets/resources/sounds/hint.mp3",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "d984b6ab-fb65-41a0-ace8-a9d60558b701": {
+    "url": "db://assets/resources/sounds/letter1.mp3",
+    "value": {},
+    "versionCode": 1
+  },
+  "41960aea-3280-48fb-a5f4-618c891d0ecd": {
+    "url": "db://assets/resources/sounds/letter2.mp3",
+    "value": {},
+    "versionCode": 1
+  },
+  "ad110b58-6261-4e8f-8c26-17193c0025e4": {
+    "url": "db://assets/resources/sounds/letter3.mp3",
+    "value": {},
+    "versionCode": 1
+  },
+  "4d4a57bf-3083-46c9-9284-3d98cd7e676a": {
+    "url": "db://assets/resources/sounds/shuffle.mp3",
+    "value": {},
+    "versionCode": 1
+  },
+  "45f7e90a-a9d4-42ff-abdd-a7148b534a4e": {
+    "url": "db://assets/resources/sounds/wrong.mp3",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "124d1228-8ae0-4f97-9bb5-7ee72addcf04": {
+    "url": "db://assets/ui/background.jpg",
+    "value": {},
+    "versionCode": 1
+  },
+  "f241e4a0-0fd5-40f1-bd88-44e2fc1e0569": {
+    "url": "db://assets/resources/ui/circle.png",
+    "value": {},
+    "versionCode": 1
+  },
+  "e6ea058f-ab0b-45af-bdf4-c24e108d1fd6": {
+    "url": "db://assets/resources/ui/download_icon.png",
+    "value": {},
+    "versionCode": 1
+  },
+  "ff7a67be-dd64-4a9c-a75f-d2a4ae4fca83": {
+    "url": "db://assets/resources/ui/hint_icon.png",
+    "value": {},
+    "versionCode": 1
+  },
+  "8f7863ea-9248-4cb1-84e8-a6253168f4cd": {
+    "url": "db://assets/resources/ui/rect_big.png",
+    "value": {},
+    "versionCode": 1
+  },
+  "e6ea058f-ab0b-45af-bdf4-c24e108d1fd6@6c48a": {
+    "url": "db://assets/resources/ui/download_icon.png@6c48a",
+    "value": {
+      "depends": [
+        "e6ea058f-ab0b-45af-bdf4-c24e108d1fd6"
+      ]
+    },
+    "versionCode": 1
+  },
+  "ff7a67be-dd64-4a9c-a75f-d2a4ae4fca83@6c48a": {
+    "url": "db://assets/resources/ui/hint_icon.png@6c48a",
+    "value": {
+      "depends": [
+        "ff7a67be-dd64-4a9c-a75f-d2a4ae4fca83"
+      ]
+    },
+    "versionCode": 1
+  },
+  "e6ea058f-ab0b-45af-bdf4-c24e108d1fd6@f9941": {
+    "url": "db://assets/resources/ui/download_icon.png@f9941",
+    "value": {
+      "depends": [
+        "e6ea058f-ab0b-45af-bdf4-c24e108d1fd6@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "f045afb4-d00e-44c7-aa2c-0d49eae75e66": {
+    "url": "db://assets/resources/ui/rect_small.png",
+    "value": {},
+    "versionCode": 1
+  },
+  "ff7a67be-dd64-4a9c-a75f-d2a4ae4fca83@f9941": {
+    "url": "db://assets/resources/ui/hint_icon.png@f9941",
+    "value": {
+      "depends": [
+        "ff7a67be-dd64-4a9c-a75f-d2a4ae4fca83@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "8f7863ea-9248-4cb1-84e8-a6253168f4cd@6c48a": {
+    "url": "db://assets/resources/ui/rect_big.png@6c48a",
+    "value": {
+      "depends": [
+        "8f7863ea-9248-4cb1-84e8-a6253168f4cd"
+      ]
+    },
+    "versionCode": 1
+  },
+  "8f7863ea-9248-4cb1-84e8-a6253168f4cd@f9941": {
+    "url": "db://assets/resources/ui/rect_big.png@f9941",
+    "value": {
+      "depends": [
+        "8f7863ea-9248-4cb1-84e8-a6253168f4cd@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "f045afb4-d00e-44c7-aa2c-0d49eae75e66@6c48a": {
+    "url": "db://assets/resources/ui/rect_small.png@6c48a",
+    "value": {
+      "depends": [
+        "f045afb4-d00e-44c7-aa2c-0d49eae75e66"
+      ]
+    },
+    "versionCode": 1
+  },
+  "f045afb4-d00e-44c7-aa2c-0d49eae75e66@f9941": {
+    "url": "db://assets/resources/ui/rect_small.png@f9941",
+    "value": {
+      "depends": [
+        "f045afb4-d00e-44c7-aa2c-0d49eae75e66@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "f241e4a0-0fd5-40f1-bd88-44e2fc1e0569@6c48a": {
+    "url": "db://assets/resources/ui/circle.png@6c48a",
+    "value": {
+      "depends": [
+        "f241e4a0-0fd5-40f1-bd88-44e2fc1e0569"
+      ]
+    },
+    "versionCode": 1
+  },
+  "f241e4a0-0fd5-40f1-bd88-44e2fc1e0569@f9941": {
+    "url": "db://assets/resources/ui/circle.png@f9941",
+    "value": {
+      "depends": [
+        "f241e4a0-0fd5-40f1-bd88-44e2fc1e0569@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "124d1228-8ae0-4f97-9bb5-7ee72addcf04@6c48a": {
+    "url": "db://assets/ui/background.jpg@6c48a",
+    "value": {
+      "depends": [
+        "124d1228-8ae0-4f97-9bb5-7ee72addcf04"
+      ]
+    },
+    "versionCode": 1
+  },
+  "124d1228-8ae0-4f97-9bb5-7ee72addcf04@f9941": {
+    "url": "db://assets/ui/background.jpg@f9941",
+    "value": {
+      "depends": [
+        "124d1228-8ae0-4f97-9bb5-7ee72addcf04@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "8333d836-1de7-4ad6-a1f3-79d94b6570fc": {
+    "url": "db://assets/prefabs",
+    "value": {},
+    "versionCode": 1
+  },
+  "abd1afb7-1926-4221-8a7b-b2e339e0c41b": {
+    "url": "db://assets/ui",
+    "value": {},
+    "versionCode": 1
+  },
+  "43d32974-38f0-4945-ae21-f9eeba685533": {
+    "url": "db://assets/scripts/quiz",
+    "value": {},
+    "versionCode": 1
+  },
+  "c9e65202-8d72-4a96-a77e-a4ed3c5b535f": {
+    "url": "db://assets/scripts/services",
+    "value": {},
+    "versionCode": 1
+  },
+  "fc26ff6b-1124-4f53-bd08-1bf2a9bfd401": {
+    "url": "db://assets/scripts/wordConnect",
+    "value": {},
+    "versionCode": 1
+  },
+  "7835944e-00cb-4f36-9cf3-593563529b69": {
+    "url": "db://assets/resources/animations/quiz",
+    "value": {},
+    "versionCode": 1
+  },
+  "6b9a9914-feeb-4e4b-982d-8cd58133cc48": {
+    "url": "db://assets/scripts/wordConnect/description",
+    "value": {},
+    "versionCode": 1
+  },
+  "1bc4ced6-5a39-4a5f-a947-946a4f30d900": {
+    "url": "db://assets/scripts/wordConnect/spelling",
+    "value": {},
+    "versionCode": 1
+  },
+  "a5bb49b8-e17f-4ac6-869b-d1c00a2ed84f": {
+    "url": "db://assets/scripts/quiz/HintComponent.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "eb31ba34-a383-4a4a-9a37-728685b2afbd": {
+    "url": "db://assets/scripts/quiz/QuizController.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "bfb85ab6-fc2d-4016-a559-ca8000ddc622": {
+    "url": "db://assets/scripts/quiz/QuizData.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "1130057d-b8a0-4ff2-8730-945981d4ac09": {
+    "url": "db://assets/scripts/quiz/QuizDescription.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "9ccbbf2e-ab15-45ff-a5a6-3226443d4c4b": {
+    "url": "db://assets/scripts/quiz/QuizScaler.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "51ef1643-7124-4884-b731-bf6d7a8580d2": {
+    "url": "db://assets/scripts/quiz/QuizVariant.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "ba26f07a-5677-4158-b26e-2b865b3c191a": {
+    "url": "db://assets/scripts/quiz/ResultScreen.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "7ee2306f-260f-4232-ac42-b31941231a9b": {
+    "url": "db://assets/scripts/solitaire/TutorialHandMover.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "f18989da-3586-45e2-9868-c1f1dd2df0c4": {
+    "url": "db://assets/scripts/wordConnect/CorrectLabelComponent.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "49374a8d-236a-473b-b468-4c6b73c70b64": {
+    "url": "db://assets/scripts/wordConnect/WordConnectScreenScaler.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "5fd1b96c-c62d-411f-a745-24d97c329a9d": {
+    "url": "db://assets/scripts/wordConnect/description/DescriptionView.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "1200ca8c-c3ce-457c-b2ee-b38fc2af9727": {
+    "url": "db://assets/scripts/wordConnect/spelling/SpellingController.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "eec17175-0acb-418e-ac35-5548f35c04e1": {
+    "url": "db://assets/scripts/wordConnect/spelling/SpellingData.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "e558fa6d-63f5-417b-b566-bb9aefa87497": {
+    "url": "db://assets/scripts/wordConnect/spelling/SpellingLetter.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "5c2fa998-1286-49ce-b49f-52cac74010a1": {
+    "url": "db://assets/scripts/wordConnect/spelling/SpellingVariant.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "ec9c6627-34d7-47f8-b6cb-a3a3ff13dbf2": {
+    "url": "db://assets/scripts/wordConnect/spelling/SpellingView.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "08f13206-de3f-4aed-b036-bf4403287765": {
+    "url": "db://assets/prefabs/Letter.prefab",
+    "value": {},
+    "versionCode": 1
+  },
+  "736da22a-e976-4b1e-b71d-1c0c074979e6": {
+    "url": "db://assets/prefabs/QuizVariant.prefab",
+    "value": {},
+    "versionCode": 1
+  },
+  "5d4759e1-b135-4a84-a0d4-24b9ace353b7": {
+    "url": "db://assets/prefabs/SpellingVariant.prefab",
+    "value": {},
+    "versionCode": 1
+  },
+  "9b17edbf-e587-442d-bdb7-307a07347fc8": {
+    "url": "db://assets/scenes/quiz.scene",
+    "value": {},
+    "versionCode": 1
+  },
+  "e9844cbf-51a7-416c-9f72-94bc2337acc1": {
+    "url": "db://assets/scenes/wordConnect.scene",
+    "value": {},
+    "versionCode": 1
+  },
+  "82f145af-57e5-4c7f-8f44-c6525452fe7e": {
+    "url": "db://assets/ui/rounded-in-photoretrica.png",
+    "value": {},
+    "versionCode": 1
+  },
+  "6d06e7a2-1c7e-443d-8aec-c53cbfde4b61": {
+    "url": "db://assets/resources/animations/changeLevel.anim",
+    "value": {},
+    "versionCode": 1
+  },
+  "df8a92d8-03f5-4f52-ae6e-c6dd8768cf46": {
+    "url": "db://assets/resources/animations/fadeInSpellingVariant.anim",
+    "value": {},
+    "versionCode": 1
+  },
+  "26785220-dbef-485e-bb04-10390211d33d": {
+    "url": "db://assets/resources/animations/showCorrect.anim",
+    "value": {},
+    "versionCode": 1
+  },
+  "82f145af-57e5-4c7f-8f44-c6525452fe7e@6c48a": {
+    "url": "db://assets/ui/rounded-in-photoretrica.png@6c48a",
+    "value": {
+      "depends": [
+        "82f145af-57e5-4c7f-8f44-c6525452fe7e"
+      ]
+    },
+    "versionCode": 1
+  },
+  "82f145af-57e5-4c7f-8f44-c6525452fe7e@f9941": {
+    "url": "db://assets/ui/rounded-in-photoretrica.png@f9941",
+    "value": {
+      "depends": [
+        "82f145af-57e5-4c7f-8f44-c6525452fe7e@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "568aa5eb-5e12-42d2-967b-60ec09e7a747": {
+    "url": "db://assets/resources/configs/quizConfig.txt",
+    "value": {},
+    "versionCode": 1
+  },
+  "c621bcaa-06ea-49a4-a119-f7e7080965b0": {
+    "url": "db://assets/resources/configs/wordConnectConfig.txt",
+    "value": {},
+    "versionCode": 1
+  },
+  "7656127f-343d-4044-a6f8-988c47a91c36": {
+    "url": "db://assets/resources/ui/hand.png",
+    "value": {},
+    "versionCode": 1
+  },
+  "7656127f-343d-4044-a6f8-988c47a91c36@6c48a": {
+    "url": "db://assets/resources/ui/hand.png@6c48a",
+    "value": {
+      "depends": [
+        "7656127f-343d-4044-a6f8-988c47a91c36"
+      ]
+    },
+    "versionCode": 1
+  },
+  "7656127f-343d-4044-a6f8-988c47a91c36@f9941": {
+    "url": "db://assets/resources/ui/hand.png@f9941",
+    "value": {
+      "depends": [
+        "7656127f-343d-4044-a6f8-988c47a91c36@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "153a8445-a27b-448f-b858-e7da5c1dd69c": {
+    "url": "db://assets/ui/Onion_450_240.png",
+    "value": {},
+    "versionCode": 1
+  },
+  "153a8445-a27b-448f-b858-e7da5c1dd69c@6c48a": {
+    "url": "db://assets/ui/Onion_450_240.png@6c48a",
+    "value": {
+      "depends": [
+        "153a8445-a27b-448f-b858-e7da5c1dd69c"
+      ]
+    },
+    "versionCode": 1
+  },
+  "9943c496-0ca2-48d3-8844-419490aec84b": {
+    "url": "db://assets/ui/Potato_450_240.png",
+    "value": {},
+    "versionCode": 1
+  },
+  "153a8445-a27b-448f-b858-e7da5c1dd69c@f9941": {
+    "url": "db://assets/ui/Onion_450_240.png@f9941",
+    "value": {
+      "depends": [
+        "153a8445-a27b-448f-b858-e7da5c1dd69c@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "9943c496-0ca2-48d3-8844-419490aec84b@6c48a": {
+    "url": "db://assets/ui/Potato_450_240.png@6c48a",
+    "value": {
+      "depends": [
+        "9943c496-0ca2-48d3-8844-419490aec84b"
+      ]
+    },
+    "versionCode": 1
+  },
+  "9943c496-0ca2-48d3-8844-419490aec84b@f9941": {
+    "url": "db://assets/ui/Potato_450_240.png@f9941",
+    "value": {
+      "depends": [
+        "9943c496-0ca2-48d3-8844-419490aec84b@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "cec0d49c-12f6-474e-ac80-0747e5a4cbb9": {
+    "url": "db://assets/ui/Tomato_450_240.png",
+    "value": {},
+    "versionCode": 1
+  },
+  "9ea06a64-3e41-4460-b876-21007b108191": {
+    "url": "db://assets/ui/unnamed (2)-round-corners.png",
+    "value": {},
+    "versionCode": 1
+  },
+  "4e447ff5-4080-4c2e-8d70-543e36cb248a": {
+    "url": "db://assets/resources/animations/quiz/quizShake.anim",
+    "value": {},
+    "versionCode": 1
+  },
+  "cec0d49c-12f6-474e-ac80-0747e5a4cbb9@6c48a": {
+    "url": "db://assets/ui/Tomato_450_240.png@6c48a",
+    "value": {
+      "depends": [
+        "cec0d49c-12f6-474e-ac80-0747e5a4cbb9"
+      ]
+    },
+    "versionCode": 1
+  },
+  "efc6e5aa-579a-4509-bf14-0b22cc78e403": {
+    "url": "db://assets/resources/animations/quiz/showCorrect.anim",
+    "value": {},
+    "versionCode": 1
+  },
+  "50289882-6fab-43d4-b78a-aad9c0fe9dab": {
+    "url": "db://assets/resources/animations/quiz/showResult.anim",
+    "value": {},
+    "versionCode": 1
+  },
+  "9ea06a64-3e41-4460-b876-21007b108191@6c48a": {
+    "url": "db://assets/ui/unnamed (2)-round-corners.png@6c48a",
+    "value": {
+      "depends": [
+        "9ea06a64-3e41-4460-b876-21007b108191"
+      ]
+    },
+    "versionCode": 1
+  },
+  "cec0d49c-12f6-474e-ac80-0747e5a4cbb9@f9941": {
+    "url": "db://assets/ui/Tomato_450_240.png@f9941",
+    "value": {
+      "depends": [
+        "cec0d49c-12f6-474e-ac80-0747e5a4cbb9@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "9ea06a64-3e41-4460-b876-21007b108191@f9941": {
+    "url": "db://assets/ui/unnamed (2)-round-corners.png@f9941",
+    "value": {
+      "depends": [
+        "9ea06a64-3e41-4460-b876-21007b108191@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "42ca3f57-a654-4d75-a7ff-424b10ddbb1a": {
+    "url": "db://assets/resources/configs/cards.txt",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "bd7eb744-952e-4fbf-a188-d194610a53cc": {
+    "url": "db://assets/resources/ui/golden_gate.png",
+    "value": {},
+    "versionCode": 1
+  },
+  "e0605290-246f-4afe-9805-6c592eecf07f": {
+    "url": "db://assets/resources/ui/grand_canyon.png",
+    "value": {},
+    "versionCode": 1
+  },
+  "a3f9d99f-3799-4dc2-a174-5780db727d36": {
+    "url": "db://assets/resources/ui/sweden.png",
+    "value": {},
+    "versionCode": 1
+  },
+  "48e834c9-0768-4a9d-9173-79219774c48a": {
+    "url": "db://assets/resources/ui/taj_mahal.png",
+    "value": {},
+    "versionCode": 1
+  },
+  "187d7a2e-ad71-449a-9fa9-b00c2c269fab": {
+    "url": "db://assets/ui",
+    "value": {},
+    "versionCode": 1
+  },
+  "bd7eb744-952e-4fbf-a188-d194610a53cc@6c48a": {
+    "url": "db://assets/resources/ui/golden_gate.png@6c48a",
+    "value": {
+      "depends": [
+        "bd7eb744-952e-4fbf-a188-d194610a53cc"
+      ]
+    },
+    "versionCode": 1
+  },
+  "bd7eb744-952e-4fbf-a188-d194610a53cc@f9941": {
+    "url": "db://assets/resources/ui/golden_gate.png@f9941",
+    "value": {
+      "depends": [
+        "bd7eb744-952e-4fbf-a188-d194610a53cc@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "e0605290-246f-4afe-9805-6c592eecf07f@6c48a": {
+    "url": "db://assets/resources/ui/grand_canyon.png@6c48a",
+    "value": {
+      "depends": [
+        "e0605290-246f-4afe-9805-6c592eecf07f"
+      ]
+    },
+    "versionCode": 1
+  },
+  "a3f9d99f-3799-4dc2-a174-5780db727d36@6c48a": {
+    "url": "db://assets/resources/ui/sweden.png@6c48a",
+    "value": {
+      "depends": [
+        "a3f9d99f-3799-4dc2-a174-5780db727d36"
+      ]
+    },
+    "versionCode": 1
+  },
+  "48e834c9-0768-4a9d-9173-79219774c48a@6c48a": {
+    "url": "db://assets/resources/ui/taj_mahal.png@6c48a",
+    "value": {
+      "depends": [
+        "48e834c9-0768-4a9d-9173-79219774c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "e0605290-246f-4afe-9805-6c592eecf07f@f9941": {
+    "url": "db://assets/resources/ui/grand_canyon.png@f9941",
+    "value": {
+      "depends": [
+        "e0605290-246f-4afe-9805-6c592eecf07f@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "a3f9d99f-3799-4dc2-a174-5780db727d36@f9941": {
+    "url": "db://assets/resources/ui/sweden.png@f9941",
+    "value": {
+      "depends": [
+        "a3f9d99f-3799-4dc2-a174-5780db727d36@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "48e834c9-0768-4a9d-9173-79219774c48a@f9941": {
+    "url": "db://assets/resources/ui/taj_mahal.png@f9941",
+    "value": {
+      "depends": [
+        "48e834c9-0768-4a9d-9173-79219774c48a@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "dc2dda4d-4285-4c9b-a5be-643ce0534e83": {
+    "url": "db://assets/scenes/main.scene",
+    "value": {
+      "depends": [
+        "dc2dda4d-4285-4c9b-a5be-643ce0534e83",
+        "fb4f930a-5251-42e3-8e74-3c6832d9ddfe@f9941",
+        "26070fdd-87ea-4f33-b4b5-039186c01fe7@f9941",
+        "c7fdad19-7aa5-4fe3-a781-4c3868ccd1a4@f9941",
+        "633af8ef-fad3-49ad-ba54-d7aaef2ccca2",
+        "e65b4630-c4d4-4a6c-9d7d-11197bf9b9af@f9941",
+        "acbbee80-fda1-4695-9de1-f307a7b4907e@f9941",
+        "aa88f858-6a7c-4e50-85df-16dbaa991162@f9941",
+        "6fc246e6-e86a-4758-864c-da5cd3b93ba0",
+        "41812075-5872-4d22-ae09-db5a8a128bed",
+        "189313e1-5a22-4e45-9d3b-3874c655d63e",
+        "4d7666f6-f37f-4eb8-bf14-5b12c8a59f6e@f9941",
+        "29a8c3d6-9db7-4064-8000-7cfe17b880ca@f9941",
+        "3822d17d-6024-4998-aaf9-448ba294e7d8@f9941",
+        "d5fc1acd-3841-4205-86a4-cc9d4f150b67@f9941",
+        "230118d9-c05a-4d39-aeec-45ede3987558@f9941",
+        "f4f2ed51-ac26-4cbb-be12-e236315222b3",
+        "605f6ffc-50a5-470a-8754-816175437d5e",
+        "45f7e90a-a9d4-42ff-abdd-a7148b534a4e",
+        "9b9dd169-1bd7-4dfe-819c-579067af921f"
+      ],
+      "dependScripts": [
+        "f10c185d-c7de-4982-a8dc-eb26b693425f",
+        "475131d6-1190-4d2a-957c-aa53438384ec",
+        "a7e6eceb-a918-41b7-ba48-1f4d352e926f",
+        "45241b55-6213-4772-ac40-edea0cbf6e54",
+        "6532c9eb-1747-47e1-a466-993b0fb81d1a",
+        "7ee2306f-260f-4232-ac42-b31941231a9b"
+      ]
+    },
+    "versionCode": 1
+  },
+  "acbbee80-fda1-4695-9de1-f307a7b4907e": {
+    "url": "db://assets/ui/background.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "acbbee80-fda1-4695-9de1-f307a7b4907e@6c48a": {
+    "url": "db://assets/ui/background.png@6c48a",
+    "value": {
+      "depends": [
+        "acbbee80-fda1-4695-9de1-f307a7b4907e"
+      ]
+    },
+    "versionCode": 1
+  },
+  "acbbee80-fda1-4695-9de1-f307a7b4907e@f9941": {
+    "url": "db://assets/ui/background.png@f9941",
+    "value": {
+      "depends": [
+        "acbbee80-fda1-4695-9de1-f307a7b4907e@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "fb4f930a-5251-42e3-8e74-3c6832d9ddfe": {
+    "url": "db://assets/ui/Component 2.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "fb4f930a-5251-42e3-8e74-3c6832d9ddfe@6c48a": {
+    "url": "db://assets/ui/Component 2.png@6c48a",
+    "value": {
+      "depends": [
+        "fb4f930a-5251-42e3-8e74-3c6832d9ddfe"
+      ]
+    },
+    "versionCode": 1
+  },
+  "fb4f930a-5251-42e3-8e74-3c6832d9ddfe@f9941": {
+    "url": "db://assets/ui/Component 2.png@f9941",
+    "value": {
+      "depends": [
+        "fb4f930a-5251-42e3-8e74-3c6832d9ddfe@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "22a509cd-7164-4e0d-934a-33162f27e622": {
+    "url": "db://assets/ui/Property 1=Variant2.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "22a509cd-7164-4e0d-934a-33162f27e622@6c48a": {
+    "url": "db://assets/ui/Property 1=Variant2.png@6c48a",
+    "value": {
+      "depends": [
+        "22a509cd-7164-4e0d-934a-33162f27e622"
+      ]
+    },
+    "versionCode": 1
+  },
+  "f15eae12-5007-44d5-893b-d7ee6b208441": {
+    "url": "db://assets/ui/Property 1=Default.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "f15eae12-5007-44d5-893b-d7ee6b208441@6c48a": {
+    "url": "db://assets/ui/Property 1=Default.png@6c48a",
+    "value": {
+      "depends": [
+        "f15eae12-5007-44d5-893b-d7ee6b208441"
+      ]
+    },
+    "versionCode": 1
+  },
+  "f15eae12-5007-44d5-893b-d7ee6b208441@f9941": {
+    "url": "db://assets/ui/Property 1=Default.png@f9941",
+    "value": {
+      "depends": [
+        "f15eae12-5007-44d5-893b-d7ee6b208441@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "22a509cd-7164-4e0d-934a-33162f27e622@f9941": {
+    "url": "db://assets/ui/Property 1=Variant2.png@f9941",
+    "value": {
+      "depends": [
+        "22a509cd-7164-4e0d-934a-33162f27e622@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "26070fdd-87ea-4f33-b4b5-039186c01fe7": {
+    "url": "db://assets/ui/Rectangle 5.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "26070fdd-87ea-4f33-b4b5-039186c01fe7@6c48a": {
+    "url": "db://assets/ui/Rectangle 5.png@6c48a",
+    "value": {
+      "depends": [
+        "26070fdd-87ea-4f33-b4b5-039186c01fe7"
+      ]
+    },
+    "versionCode": 1
+  },
+  "26070fdd-87ea-4f33-b4b5-039186c01fe7@f9941": {
+    "url": "db://assets/ui/Rectangle 5.png@f9941",
+    "value": {
+      "depends": [
+        "26070fdd-87ea-4f33-b4b5-039186c01fe7@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "c7fdad19-7aa5-4fe3-a781-4c3868ccd1a4": {
+    "url": "db://assets/ui/Buttons.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "c7fdad19-7aa5-4fe3-a781-4c3868ccd1a4@6c48a": {
+    "url": "db://assets/ui/Buttons.png@6c48a",
+    "value": {
+      "depends": [
+        "c7fdad19-7aa5-4fe3-a781-4c3868ccd1a4"
+      ]
+    },
+    "versionCode": 1
+  },
+  "c7fdad19-7aa5-4fe3-a781-4c3868ccd1a4@f9941": {
+    "url": "db://assets/ui/Buttons.png@f9941",
+    "value": {
+      "depends": [
+        "c7fdad19-7aa5-4fe3-a781-4c3868ccd1a4@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "e65b4630-c4d4-4a6c-9d7d-11197bf9b9af": {
+    "url": "db://assets/ui/Rectangle 4.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "e65b4630-c4d4-4a6c-9d7d-11197bf9b9af@6c48a": {
+    "url": "db://assets/ui/Rectangle 4.png@6c48a",
+    "value": {
+      "depends": [
+        "e65b4630-c4d4-4a6c-9d7d-11197bf9b9af"
+      ]
+    },
+    "versionCode": 1
+  },
+  "e65b4630-c4d4-4a6c-9d7d-11197bf9b9af@f9941": {
+    "url": "db://assets/ui/Rectangle 4.png@f9941",
+    "value": {
+      "depends": [
+        "e65b4630-c4d4-4a6c-9d7d-11197bf9b9af@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "fca30587-5035-4adc-85fa-a619adf615e0": {
+    "url": "db://assets/scripts/solitaire",
+    "value": {},
+    "versionCode": 1
+  },
+  "b054b0f9-d551-4efa-83d8-1abf8b70403b": {
+    "url": "db://assets/scripts/solitaire/ICardData.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "475131d6-1190-4d2a-957c-aa53438384ec": {
+    "url": "db://assets/scripts/solitaire/GameController.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "afa4c943-531c-4c23-9494-a7877b577fb2": {
+    "url": "db://assets/scripts/solitaire/Card.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "17baa3e8-8c49-42d7-b116-681adfea90b3": {
+    "url": "db://assets/ui/Cards.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "17baa3e8-8c49-42d7-b116-681adfea90b3@6c48a": {
+    "url": "db://assets/ui/Cards.png@6c48a",
+    "value": {
+      "depends": [
+        "17baa3e8-8c49-42d7-b116-681adfea90b3"
+      ]
+    },
+    "versionCode": 1
+  },
+  "e231b14e-adfa-4f5e-aeeb-769161fb5653": {
+    "url": "db://assets/ui/CardBack.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "e231b14e-adfa-4f5e-aeeb-769161fb5653@6c48a": {
+    "url": "db://assets/ui/CardBack.png@6c48a",
+    "value": {
+      "depends": [
+        "e231b14e-adfa-4f5e-aeeb-769161fb5653"
+      ]
+    },
+    "versionCode": 1
+  },
+  "e231b14e-adfa-4f5e-aeeb-769161fb5653@f9941": {
+    "url": "db://assets/ui/CardBack.png@f9941",
+    "value": {
+      "depends": [
+        "e231b14e-adfa-4f5e-aeeb-769161fb5653@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "17baa3e8-8c49-42d7-b116-681adfea90b3@f9941": {
+    "url": "db://assets/ui/Cards.png@f9941",
+    "value": {
+      "depends": [
+        "17baa3e8-8c49-42d7-b116-681adfea90b3@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "6fc246e6-e86a-4758-864c-da5cd3b93ba0": {
+    "url": "db://assets/prefabs/Card.prefab",
+    "value": {
+      "depends": [
+        "17baa3e8-8c49-42d7-b116-681adfea90b3@f9941",
+        "e231b14e-adfa-4f5e-aeeb-769161fb5653@f9941"
+      ],
+      "dependScripts": [
+        "afa4c943-531c-4c23-9494-a7877b577fb2"
+      ]
+    },
+    "versionCode": 1
+  },
+  "10a63032-1612-4848-9eaf-7b582f6e0bde": {
+    "url": "db://assets/scripts/solitaire/IWordData.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "d48fdb37-1db4-40ed-8200-03289c8f06ba": {
+    "url": "db://assets/scripts/solitaire/WordLine.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "ce94b6d9-4210-4766-82bb-c0503f491690": {
+    "url": "db://assets/scripts/solitaire/Letter.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "41812075-5872-4d22-ae09-db5a8a128bed": {
+    "url": "db://assets/prefabs/Word.prefab",
+    "value": {
+      "depends": [
+        "22a509cd-7164-4e0d-934a-33162f27e622@f9941",
+        "c31cef33-1266-4a99-bfe8-8400f560bbe8",
+        "f15eae12-5007-44d5-893b-d7ee6b208441@f9941"
+      ],
+      "dependScripts": [
+        "5dc38a51-536d-4696-928e-80720967e982"
+      ]
+    },
+    "versionCode": 1
+  },
+  "5dc38a51-536d-4696-928e-80720967e982": {
+    "url": "db://assets/scripts/solitaire/Word.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "67c4946b-896f-4b52-af80-59d808bd3f81": {
+    "url": "db://assets/prefabs/Label.prefab",
+    "value": {},
+    "versionCode": 1
+  },
+  "189313e1-5a22-4e45-9d3b-3874c655d63e": {
+    "url": "db://assets/prefabs/LetterSlot.prefab",
+    "value": {
+      "depends": [
+        "17baa3e8-8c49-42d7-b116-681adfea90b3@f9941"
+      ],
+      "dependScripts": [
+        "ce94b6d9-4210-4766-82bb-c0503f491690"
+      ]
+    },
+    "versionCode": 1
+  },
+  "922bdd02-54c7-4a71-a2af-707ae734bf76": {
+    "url": "db://assets/resources/animations/pulseCard.anim",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "af31fa9f-41bd-480a-9369-5ebb76359ada": {
+    "url": "db://assets/resources/animations/rotateCard.anim",
+    "value": {},
+    "versionCode": 1
+  },
+  "a7e6eceb-a918-41b7-ba48-1f4d352e926f": {
+    "url": "db://assets/scripts/solitaire/Blocker.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "aa88f858-6a7c-4e50-85df-16dbaa991162": {
+    "url": "db://assets/ui/Group 1907.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "aa88f858-6a7c-4e50-85df-16dbaa991162@6c48a": {
+    "url": "db://assets/ui/Group 1907.png@6c48a",
+    "value": {
+      "depends": [
+        "aa88f858-6a7c-4e50-85df-16dbaa991162"
+      ]
+    },
+    "versionCode": 1
+  },
+  "aa88f858-6a7c-4e50-85df-16dbaa991162@f9941": {
+    "url": "db://assets/ui/Group 1907.png@f9941",
+    "value": {
+      "depends": [
+        "aa88f858-6a7c-4e50-85df-16dbaa991162@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "d6217e8d-5f70-4ca2-9a5f-80b9beaca208": {
+    "url": "db://assets/scripts/solitaire/Text.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "c31cef33-1266-4a99-bfe8-8400f560bbe8": {
+    "url": "db://assets/resources/animations/pulseWord.anim",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "45241b55-6213-4772-ac40-edea0cbf6e54": {
+    "url": "db://assets/scripts/solitaire/ResultScreen.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "29a8c3d6-9db7-4064-8000-7cfe17b880ca": {
+    "url": "db://assets/ui/win/EXELLENT!.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "29a8c3d6-9db7-4064-8000-7cfe17b880ca@6c48a": {
+    "url": "db://assets/ui/win/EXELLENT!.png@6c48a",
+    "value": {
+      "depends": [
+        "29a8c3d6-9db7-4064-8000-7cfe17b880ca"
+      ]
+    },
+    "versionCode": 1
+  },
+  "d5fc1acd-3841-4205-86a4-cc9d4f150b67": {
+    "url": "db://assets/ui/win/GREAT!.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "d5fc1acd-3841-4205-86a4-cc9d4f150b67@6c48a": {
+    "url": "db://assets/ui/win/GREAT!.png@6c48a",
+    "value": {
+      "depends": [
+        "d5fc1acd-3841-4205-86a4-cc9d4f150b67"
+      ]
+    },
+    "versionCode": 1
+  },
+  "3822d17d-6024-4998-aaf9-448ba294e7d8": {
+    "url": "db://assets/ui/win/GOOD!.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "3822d17d-6024-4998-aaf9-448ba294e7d8@6c48a": {
+    "url": "db://assets/ui/win/GOOD!.png@6c48a",
+    "value": {
+      "depends": [
+        "3822d17d-6024-4998-aaf9-448ba294e7d8"
+      ]
+    },
+    "versionCode": 1
+  },
+  "230118d9-c05a-4d39-aeec-45ede3987558": {
+    "url": "db://assets/ui/win/UNBELIVABLE!.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "230118d9-c05a-4d39-aeec-45ede3987558@6c48a": {
+    "url": "db://assets/ui/win/UNBELIVABLE!.png@6c48a",
+    "value": {
+      "depends": [
+        "230118d9-c05a-4d39-aeec-45ede3987558"
+      ]
+    },
+    "versionCode": 1
+  },
+  "4d7666f6-f37f-4eb8-bf14-5b12c8a59f6e": {
+    "url": "db://assets/ui/win/EPIC!.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "4d7666f6-f37f-4eb8-bf14-5b12c8a59f6e@6c48a": {
+    "url": "db://assets/ui/win/EPIC!.png@6c48a",
+    "value": {
+      "depends": [
+        "4d7666f6-f37f-4eb8-bf14-5b12c8a59f6e"
+      ]
+    },
+    "versionCode": 1
+  },
+  "4d7666f6-f37f-4eb8-bf14-5b12c8a59f6e@f9941": {
+    "url": "db://assets/ui/win/EPIC!.png@f9941",
+    "value": {
+      "depends": [
+        "4d7666f6-f37f-4eb8-bf14-5b12c8a59f6e@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "29a8c3d6-9db7-4064-8000-7cfe17b880ca@f9941": {
+    "url": "db://assets/ui/win/EXELLENT!.png@f9941",
+    "value": {
+      "depends": [
+        "29a8c3d6-9db7-4064-8000-7cfe17b880ca@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "3822d17d-6024-4998-aaf9-448ba294e7d8@f9941": {
+    "url": "db://assets/ui/win/GOOD!.png@f9941",
+    "value": {
+      "depends": [
+        "3822d17d-6024-4998-aaf9-448ba294e7d8@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "d5fc1acd-3841-4205-86a4-cc9d4f150b67@f9941": {
+    "url": "db://assets/ui/win/GREAT!.png@f9941",
+    "value": {
+      "depends": [
+        "d5fc1acd-3841-4205-86a4-cc9d4f150b67@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "fa114eb9-257e-4719-9319-0981825ce5e8": {
+    "url": "db://assets/ui/win",
+    "value": {},
+    "versionCode": 1
+  },
+  "230118d9-c05a-4d39-aeec-45ede3987558@f9941": {
+    "url": "db://assets/ui/win/UNBELIVABLE!.png@f9941",
+    "value": {
+      "depends": [
+        "230118d9-c05a-4d39-aeec-45ede3987558@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "f4f2ed51-ac26-4cbb-be12-e236315222b3": {
+    "url": "db://assets/resources/animations/win.anim",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  }
+}

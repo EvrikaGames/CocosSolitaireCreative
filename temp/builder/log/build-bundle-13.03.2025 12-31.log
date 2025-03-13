@@ -1,0 +1,217 @@
+13.03.2025 12:31:45 - debug: =================================== build bundle db://assets/resources Task (web-mobile) Start ================================
+13.03.2025 12:31:45 - debug: Start build task, options:{"name":"WordLineCreative","server":"","platform":"web-mobile","buildPath":"project://build","debug":false,"md5Cache":false,"skipCompressTexture":false,"sourceMaps":false,"polyfills":{"asyncFunctions":true},"experimentalEraseModules":false,"startSceneAssetBundle":false,"bundleConfigs":[{"root":"db://assets/resources","output":true}],"useBuiltinServer":false,"mainBundleIsRemote":false,"mainBundleCompressionType":"merge_dep","useSplashScreen":false,"bundleCommonChunk":false,"packAutoAtlas":true,"startScene":"9b17edbf-e587-442d-bdb7-307a07347fc8","outputName":"web-mobile","taskName":"build bundle db://assets/resources","scenes":[{"url":"db://assets/scenes/quiz.scene","uuid":"9b17edbf-e587-442d-bdb7-307a07347fc8"}],"packages":{"adsense-h5g-plugin":{"enableAdsense":false,"enableTestAd":false,"__version__":"1.0.1","AFPHostPropertyCode":"ca-host-pub-5396158963872751","AFPHostDomain":"douyougame.com","otherAFPHostPropertyCode":"","otherAFPDomain":""},"web-mobile":{"orientation":"auto","embedWebDebugger":false,"cullEngineAsmJsModule":false,"__version__":"1.0.1"},"cocos-service":{"configID":"a250cd","services":[]}},"__version__":"1.3.7","buildMode":"normal","logDest":"project://temp/builder/log/build-bundle-13.03.2025 12-31.log","overwriteProjectSettings":{"includeModules":{"physics":"inherit-project-setting","physics-2d":"inherit-project-setting","gfx-webgl2":"inherit-project-setting"},"macroConfig":{"cleanupImageCache":"inherit-project-setting"}},"dest":"D:\\Cocos\\CocosSolitaireCreative\\build\\build-bundle\\web-mobile","buildBundleOnly":true,"id":"buildBundle"}
+13.03.2025 12:31:45 - debug: Build with Cocos Creator 3.8.5
+13.03.2025 12:31:45 - debug: // ---- build task adsense-h5g-plugin：onBeforeBundleInit ----
+13.03.2025 12:31:45 - debug: [adsense-h5g-plugin] remove script success
+13.03.2025 12:31:45 - debug: // ---- build task adsense-h5g-plugin：onBeforeBundleInit ---- (8ms)
+13.03.2025 12:31:45 - debug: // ---- build task web-mobile：onAfterBundleInit ----
+13.03.2025 12:31:45 - debug: // ---- build task web-mobile：onAfterBundleInit ---- (20ms)
+13.03.2025 12:31:45 - debug:   Number of all scenes: 1
+13.03.2025 12:31:45 - debug:   Number of all scripts: 46
+13.03.2025 12:31:45 - debug:   Number of other assets: 372
+13.03.2025 12:31:45 - debug: reload all scripts.
+13.03.2025 12:31:45 - debug: [[Executor]] reload before lock
+13.03.2025 12:31:45 - debug: Set detail map pack:///resolution-detail-map.json: {}
+13.03.2025 12:31:45 - groupCollapsed: Invalidate all modules
+13.03.2025 12:31:45 - debug: Unregister BuiltinPipelineSettings
+13.03.2025 12:31:45 - debug: Unregister BuiltinPipelinePassBuilder
+13.03.2025 12:31:45 - debug: Unregister BuiltinDepthOfFieldPass
+13.03.2025 12:31:45 - debug: Unregister DebugViewRuntimeControl
+13.03.2025 12:31:45 - debug: Unregister CrosswordLetterComponent
+13.03.2025 12:31:45 - debug: Unregister SoundController
+13.03.2025 12:31:45 - debug: Unregister CrosswordController
+13.03.2025 12:31:45 - debug: Unregister ConnectorLetterComponent
+13.03.2025 12:31:45 - debug: Unregister LineGraphics
+13.03.2025 12:31:45 - debug: Unregister LettersLabelComponent
+13.03.2025 12:31:45 - debug: Unregister LettersConnectorController
+13.03.2025 12:31:45 - debug: Unregister HintController
+13.03.2025 12:31:45 - debug: Unregister HintComponent
+13.03.2025 12:31:45 - debug: Unregister QuizDescription
+13.03.2025 12:31:45 - debug: Unregister QuizVariant
+13.03.2025 12:31:45 - debug: Unregister CorrectLabelComponent
+13.03.2025 12:31:45 - debug: Unregister ResultScreen
+13.03.2025 12:31:45 - debug: Unregister QuizController
+13.03.2025 12:31:45 - debug: Unregister QuizScaler
+13.03.2025 12:31:45 - debug: Unregister StoreController
+13.03.2025 12:31:45 - debug: Unregister StoreButtonComponent
+13.03.2025 12:31:45 - debug: Unregister Blocker
+13.03.2025 12:31:45 - debug: Unregister Word
+13.03.2025 12:31:45 - debug: Unregister Letter
+13.03.2025 12:31:45 - debug: Unregister ResultScreen
+13.03.2025 12:31:45 - debug: Unregister GameController
+13.03.2025 12:31:45 - debug: Unregister Card
+13.03.2025 12:31:45 - debug: Unregister Text
+13.03.2025 12:31:45 - debug: Unregister TutorialHandMover
+13.03.2025 12:31:45 - debug: Unregister ScreenScaler
+13.03.2025 12:31:45 - debug: Unregister WordConnectScreenScaler
+13.03.2025 12:31:45 - debug: Unregister DescriptionView
+13.03.2025 12:31:45 - debug: Unregister SpellingLetter
+13.03.2025 12:31:45 - debug: Unregister SpellingVariant
+13.03.2025 12:31:45 - debug: Unregister SpellingView
+13.03.2025 12:31:45 - debug: Unregister SpellingController
+13.03.2025 12:31:45 - debug: Invalidating 'pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js'
+13.03.2025 12:31:45 - debug: Invalidating 'pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js'
+13.03.2025 12:31:45 - debug: Invalidating 'pack:///chunks/58/58736b97e6eaa1d43b32ca964d67346769e8222e.js'
+13.03.2025 12:31:45 - debug: Invalidating 'pack:///chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js'
+13.03.2025 12:31:45 - debug: Invalidating 'pack:///chunks/b0/b0a2b616b355a47dcda11f2bba43a2d91debd27c.js'
+13.03.2025 12:31:45 - debug: Invalidating 'pack:///chunks/c8/c8027bab33604d0d04930552aaf3aff3408cfddb.js'
+13.03.2025 12:31:45 - debug: Invalidating 'pack:///chunks/f3/f3f54528bfcd10077eb00a2121ed5d1424412e76.js'
+13.03.2025 12:31:45 - debug: Invalidating 'pack:///chunks/57/5746e8c30047ffa32e3d4c41a4cd3e6251a29171.js'
+13.03.2025 12:31:45 - debug: Invalidating 'pack:///chunks/9c/9c012447265e6d10c1112a3c5718a72269253753.js'
+13.03.2025 12:31:45 - debug: Invalidating 'pack:///chunks/5d/5d2b08a081faf211a8ccfec49fadab6b00894002.js'
+13.03.2025 12:31:45 - debug: Invalidating 'pack:///chunks/be/beec7922931f821931f375d0de974af6ba358e50.js'
+13.03.2025 12:31:45 - debug: Invalidating 'pack:///chunks/78/78724ca8e43b0889009e387193d790ad481723b1.js'
+13.03.2025 12:31:45 - debug: Invalidating 'pack:///chunks/75/7569176fb5923df0608915a571e708c804b72faa.js'
+13.03.2025 12:31:45 - debug: Invalidating 'pack:///chunks/96/969e5242f2f17cfff804d098c4802b908ce205c6.js'
+13.03.2025 12:31:45 - debug: Invalidating 'pack:///chunks/0d/0d3d406a8b444b6e61387ca72f2153cc6633660e.js'
+13.03.2025 12:31:45 - debug: Invalidating 'pack:///chunks/55/55ae15cb3b4928645d3b39083a19c69269ec76bc.js'
+13.03.2025 12:31:45 - debug: Invalidating 'pack:///chunks/7b/7bd02252e0a802e884ad11e06923946fe4dec574.js'
+13.03.2025 12:31:45 - debug: Invalidating 'pack:///chunks/47/472d2a102d8be3f4a41bbc072039a70849ef8010.js'
+13.03.2025 12:31:45 - debug: Invalidating 'pack:///chunks/c5/c5facc7338c04f6f39fe39e94d2abaf6487a370c.js'
+13.03.2025 12:31:45 - debug: Invalidating 'pack:///chunks/8a/8a9905f7b19a7beb7e1d76f34dbdd4aae89e23f5.js'
+13.03.2025 12:31:45 - debug: Invalidating 'pack:///chunks/f7/f783d27f068e8302716de83d135b1ae048153ac9.js'
+13.03.2025 12:31:45 - debug: Invalidating 'pack:///chunks/af/affd8d19674c73a16984343a560430f7a0ded53c.js'
+13.03.2025 12:31:45 - debug: Invalidating 'pack:///chunks/54/54ee4c831e1c02eff145c8742216449fde0f0c68.js'
+13.03.2025 12:31:45 - debug: Invalidating 'pack:///chunks/f9/f9da09be67a3b06207e149c58925e622f8e3113b.js'
+13.03.2025 12:31:45 - debug: Invalidating 'pack:///chunks/c8/c8ca29c3ed65ac74579e07c4599e9c89fffe812a.js'
+13.03.2025 12:31:45 - debug: Invalidating 'pack:///chunks/e8/e8111bd36fd556c919776bb4b52e82f80a0643fe.js'
+13.03.2025 12:31:45 - debug: Invalidating 'pack:///chunks/62/628b04275aa006bf3dfa5b7666456b623f5757a1.js'
+13.03.2025 12:31:45 - debug: Invalidating 'pack:///chunks/80/80903fd31d435cadc59f85c278f75c03ae9cd1e8.js'
+13.03.2025 12:31:45 - debug: Invalidating 'pack:///chunks/6e/6e5ae474e75d665f754513925dd1c1a319ac489d.js'
+13.03.2025 12:31:45 - debug: Invalidating 'pack:///chunks/18/1821425637f57840388076b99b0c512b2eadd6f9.js'
+13.03.2025 12:31:45 - debug: Invalidating 'pack:///chunks/25/253bddd3f6a6bc37de9b9ed5536bf0c99a276b8a.js'
+13.03.2025 12:31:45 - debug: Invalidating 'pack:///chunks/d3/d32ea3187863a0dcc15411b3f08fd71708babea4.js'
+13.03.2025 12:31:45 - debug: Invalidating 'pack:///chunks/b7/b7a9b2f841346544d03a5a97269e3a5b06a4157e.js'
+13.03.2025 12:31:45 - debug: Invalidating 'pack:///chunks/b1/b15a02df431da4962ba55ec94fc8098aef677fb3.js'
+13.03.2025 12:31:45 - debug: Invalidating 'pack:///chunks/31/31063b28698e9097c5df3560a690ddc42fa05e37.js'
+13.03.2025 12:31:45 - debug: Invalidating 'pack:///chunks/c2/c2e09ae39f3d653ac833f14c483f66418d18077d.js'
+13.03.2025 12:31:45 - debug: Invalidating 'pack:///chunks/de/de4f2174039dd930e4707fac2ea0f3f19ba49391.js'
+13.03.2025 12:31:45 - debug: Invalidating 'pack:///chunks/2f/2f37fbd515ce894f08b273e8e16c51685abd5cd0.js'
+13.03.2025 12:31:45 - debug: Invalidating 'pack:///chunks/cb/cb9d5b99b1b5e00e9f6649c846a9b49f48289c5c.js'
+13.03.2025 12:31:45 - debug: Invalidating 'pack:///chunks/d1/d11e3be991020ea276e470c191a7c304d4cebaca.js'
+13.03.2025 12:31:45 - debug: Invalidating 'pack:///chunks/2a/2a7f240e0daf58a069af1b17212de765d26ac2bf.js'
+13.03.2025 12:31:45 - debug: Invalidating 'pack:///chunks/d4/d4afb478772f0f9d91688cd4f7efe57a799ef474.js'
+13.03.2025 12:31:45 - debug: Invalidating 'pack:///chunks/06/069079016c038494da4863ecb603fe214b944101.js'
+13.03.2025 12:31:45 - debug: Invalidating 'pack:///chunks/c1/c18c1082cb15bbc0159d7a95d2689fce549e7506.js'
+13.03.2025 12:31:45 - debug: Invalidating 'pack:///chunks/07/07b92929958931b1a83d29c8664fc85f39f28f56.js'
+13.03.2025 12:31:45 - debug: Invalidating 'pack:///chunks/ff/ff9194f3c1edb26762edc16dec4517b5d3662fd3.js'
+13.03.2025 12:31:45 - debug: Invalidating 'pack:///chunks/b6/b6dd932a56a1bbdbad03c64198ee3c5645089da5.js'
+13.03.2025 12:31:45 - debug: Invalidating 'pack:///chunks/50/502a23cc8f6e348480473668c1c2d4bd1d55dac9.js'
+13.03.2025 12:31:45 - debug: Invalidating 'pack:///chunks/b7/b704bb7ddd17a40f31ebc44d6b76c165a98c3a09.js'
+13.03.2025 12:31:45 - groupEnd: Invalidate all modules
+13.03.2025 12:31:45 - groupCollapsed: Imports all modules
+13.03.2025 12:31:45 - debug: [[Executor]] Module "pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js" loaded.
+13.03.2025 12:31:45 - debug: D:\Cocos\CocosSolitaireCreative\temp\programming\packer-driver\targets\editor\chunks\6d\6d8fd2b0177941b032ddc0733af48a561fb60657.js resolved to D:\Cocos\CocosSolitaireCreative\temp\programming\packer-driver\targets\editor\chunks\6d\6d8fd2b0177941b032ddc0733af48a561fb60657.js is not in module cache!
+13.03.2025 12:31:45 - debug: [[Executor]] Module "pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js" loaded.
+13.03.2025 12:31:45 - debug: [[Executor]] Module "pack:///chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js" loaded.
+13.03.2025 12:31:45 - debug: [[Executor]] Module "pack:///chunks/57/5746e8c30047ffa32e3d4c41a4cd3e6251a29171.js" loaded.
+13.03.2025 12:31:45 - debug: [[Executor]] Register BuiltinPipelineSettings
+13.03.2025 12:31:45 - debug: [[Executor]] Module "pack:///chunks/b0/b0a2b616b355a47dcda11f2bba43a2d91debd27c.js" loaded.
+13.03.2025 12:31:45 - debug: [[Executor]] Register BuiltinPipelinePassBuilder
+13.03.2025 12:31:45 - debug: [[Executor]] Module "pack:///chunks/c8/c8027bab33604d0d04930552aaf3aff3408cfddb.js" loaded.
+13.03.2025 12:31:45 - debug: [[Executor]] Module "pack:///chunks/f3/f3f54528bfcd10077eb00a2121ed5d1424412e76.js" loaded.
+13.03.2025 12:31:45 - debug: [[Executor]] Register BuiltinDepthOfFieldPass
+13.03.2025 12:31:45 - debug: [[Executor]] Module "pack:///chunks/58/58736b97e6eaa1d43b32ca964d67346769e8222e.js" loaded.
+13.03.2025 12:31:45 - debug: [[Executor]] Register DebugViewRuntimeControl
+13.03.2025 12:31:45 - debug: [[Executor]] Module "pack:///chunks/9c/9c012447265e6d10c1112a3c5718a72269253753.js" loaded.
+13.03.2025 12:31:45 - debug: [[Executor]] Register CrosswordLetterComponent
+13.03.2025 12:31:45 - debug: [[Executor]] Module "pack:///chunks/55/55ae15cb3b4928645d3b39083a19c69269ec76bc.js" loaded.
+13.03.2025 12:31:45 - debug: [[Executor]] Module "pack:///chunks/c5/c5facc7338c04f6f39fe39e94d2abaf6487a370c.js" loaded.
+13.03.2025 12:31:45 - debug: [[Executor]] Module "pack:///chunks/8a/8a9905f7b19a7beb7e1d76f34dbdd4aae89e23f5.js" loaded.
+13.03.2025 12:31:45 - debug: [[Executor]] Module "pack:///chunks/7b/7bd02252e0a802e884ad11e06923946fe4dec574.js" loaded.
+13.03.2025 12:31:45 - debug: [[Executor]] Module "pack:///chunks/47/472d2a102d8be3f4a41bbc072039a70849ef8010.js" loaded.
+13.03.2025 12:31:45 - debug: [[Executor]] Register SoundController
+13.03.2025 12:31:45 - debug: [[Executor]] Module "pack:///chunks/0d/0d3d406a8b444b6e61387ca72f2153cc6633660e.js" loaded.
+13.03.2025 12:31:45 - debug: [[Executor]] Register CrosswordController
+13.03.2025 12:31:45 - debug: [[Executor]] Module "pack:///chunks/be/beec7922931f821931f375d0de974af6ba358e50.js" loaded.
+13.03.2025 12:31:45 - debug: [[Executor]] Register ConnectorLetterComponent
+13.03.2025 12:31:45 - debug: [[Executor]] Module "pack:///chunks/78/78724ca8e43b0889009e387193d790ad481723b1.js" loaded.
+13.03.2025 12:31:45 - debug: [[Executor]] Register LineGraphics
+13.03.2025 12:31:45 - debug: [[Executor]] Module "pack:///chunks/75/7569176fb5923df0608915a571e708c804b72faa.js" loaded.
+13.03.2025 12:31:45 - debug: [[Executor]] Register LettersLabelComponent
+13.03.2025 12:31:45 - debug: [[Executor]] Module "pack:///chunks/96/969e5242f2f17cfff804d098c4802b908ce205c6.js" loaded.
+13.03.2025 12:31:45 - debug: [[Executor]] Register LettersConnectorController
+13.03.2025 12:31:45 - debug: [[Executor]] Module "pack:///chunks/5d/5d2b08a081faf211a8ccfec49fadab6b00894002.js" loaded.
+13.03.2025 12:31:45 - debug: [[Executor]] Register HintController
+13.03.2025 12:31:45 - debug: [[Executor]] Module "pack:///chunks/f7/f783d27f068e8302716de83d135b1ae048153ac9.js" loaded.
+13.03.2025 12:31:45 - debug: [[Executor]] Register HintComponent
+13.03.2025 12:31:45 - debug: [[Executor]] Module "pack:///chunks/af/affd8d19674c73a16984343a560430f7a0ded53c.js" loaded.
+13.03.2025 12:31:45 - debug: [[Executor]] Register QuizDescription
+13.03.2025 12:31:45 - debug: [[Executor]] Module "pack:///chunks/f9/f9da09be67a3b06207e149c58925e622f8e3113b.js" loaded.
+13.03.2025 12:31:45 - debug: [[Executor]] Register QuizVariant
+13.03.2025 12:31:45 - debug: [[Executor]] Module "pack:///chunks/c8/c8ca29c3ed65ac74579e07c4599e9c89fffe812a.js" loaded.
+13.03.2025 12:31:45 - debug: [[Executor]] Module "pack:///chunks/62/628b04275aa006bf3dfa5b7666456b623f5757a1.js" loaded.
+13.03.2025 12:31:45 - debug: [[Executor]] Register CorrectLabelComponent
+13.03.2025 12:31:45 - debug: [[Executor]] Module "pack:///chunks/e8/e8111bd36fd556c919776bb4b52e82f80a0643fe.js" loaded.
+13.03.2025 12:31:45 - debug: [[Executor]] Register ResultScreen
+13.03.2025 12:31:45 - debug: [[Executor]] Module "pack:///chunks/80/80903fd31d435cadc59f85c278f75c03ae9cd1e8.js" loaded.
+13.03.2025 12:31:45 - debug: [[Executor]] Register QuizController
+13.03.2025 12:31:45 - debug: [[Executor]] Module "pack:///chunks/54/54ee4c831e1c02eff145c8742216449fde0f0c68.js" loaded.
+13.03.2025 12:31:45 - debug: [[Executor]] Register QuizScaler
+13.03.2025 12:31:45 - debug: [[Executor]] Module "pack:///chunks/6e/6e5ae474e75d665f754513925dd1c1a319ac489d.js" loaded.
+13.03.2025 12:31:45 - debug: [[Executor]] Register StoreController
+13.03.2025 12:31:45 - debug: [[Executor]] Module "pack:///chunks/18/1821425637f57840388076b99b0c512b2eadd6f9.js" loaded.
+13.03.2025 12:31:45 - debug: [[Executor]] Register StoreButtonComponent
+13.03.2025 12:31:45 - debug: [[Executor]] Module "pack:///chunks/d3/d32ea3187863a0dcc15411b3f08fd71708babea4.js" loaded.
+13.03.2025 12:31:45 - debug: [[Executor]] Register Blocker
+13.03.2025 12:31:45 - debug: [[Executor]] Module "pack:///chunks/25/253bddd3f6a6bc37de9b9ed5536bf0c99a276b8a.js" loaded.
+13.03.2025 12:31:45 - debug: D:\Cocos\CocosSolitaireCreative\temp\programming\packer-driver\targets\editor\chunks\b1\b15a02df431da4962ba55ec94fc8098aef677fb3.js resolved to D:\Cocos\CocosSolitaireCreative\temp\programming\packer-driver\targets\editor\chunks\b1\b15a02df431da4962ba55ec94fc8098aef677fb3.js is not in module cache!
+13.03.2025 12:31:45 - debug: [[Executor]] Register Word
+13.03.2025 12:31:45 - debug: [[Executor]] Module "pack:///chunks/31/31063b28698e9097c5df3560a690ddc42fa05e37.js" loaded.
+13.03.2025 12:31:45 - debug: [[Executor]] Register Letter
+13.03.2025 12:31:45 - debug: [[Executor]] Module "pack:///chunks/c2/c2e09ae39f3d653ac833f14c483f66418d18077d.js" loaded.
+13.03.2025 12:31:45 - debug: [[Executor]] Register ResultScreen
+13.03.2025 12:31:45 - debug: [[Executor]] Module "pack:///chunks/de/de4f2174039dd930e4707fac2ea0f3f19ba49391.js" loaded.
+13.03.2025 12:31:45 - debug: [[Executor]] Register GameController
+13.03.2025 12:31:45 - debug: [[Executor]] Module "pack:///chunks/b1/b15a02df431da4962ba55ec94fc8098aef677fb3.js" loaded.
+13.03.2025 12:31:45 - debug: [[Executor]] Register Card
+13.03.2025 12:31:45 - debug: [[Executor]] Module "pack:///chunks/b7/b7a9b2f841346544d03a5a97269e3a5b06a4157e.js" loaded.
+13.03.2025 12:31:45 - debug: [[Executor]] Module "pack:///chunks/2f/2f37fbd515ce894f08b273e8e16c51685abd5cd0.js" loaded.
+13.03.2025 12:31:45 - debug: [[Executor]] Module "pack:///chunks/cb/cb9d5b99b1b5e00e9f6649c846a9b49f48289c5c.js" loaded.
+13.03.2025 12:31:45 - debug: [[Executor]] Register Text
+13.03.2025 12:31:45 - debug: [[Executor]] Module "pack:///chunks/d1/d11e3be991020ea276e470c191a7c304d4cebaca.js" loaded.
+13.03.2025 12:31:45 - debug: [[Executor]] Register TutorialHandMover
+13.03.2025 12:31:45 - debug: [[Executor]] Module "pack:///chunks/2a/2a7f240e0daf58a069af1b17212de765d26ac2bf.js" loaded.
+13.03.2025 12:31:45 - debug: [[Executor]] Register ScreenScaler
+13.03.2025 12:31:45 - debug: [[Executor]] Module "pack:///chunks/d4/d4afb478772f0f9d91688cd4f7efe57a799ef474.js" loaded.
+13.03.2025 12:31:45 - debug: [[Executor]] Register WordConnectScreenScaler
+13.03.2025 12:31:45 - debug: [[Executor]] Module "pack:///chunks/06/069079016c038494da4863ecb603fe214b944101.js" loaded.
+13.03.2025 12:31:45 - debug: [[Executor]] Register DescriptionView
+13.03.2025 12:31:45 - debug: [[Executor]] Module "pack:///chunks/c1/c18c1082cb15bbc0159d7a95d2689fce549e7506.js" loaded.
+13.03.2025 12:31:45 - debug: [[Executor]] Register SpellingLetter
+13.03.2025 12:31:45 - debug: [[Executor]] Module "pack:///chunks/b7/b704bb7ddd17a40f31ebc44d6b76c165a98c3a09.js" loaded.
+13.03.2025 12:31:45 - debug: [[Executor]] Register SpellingVariant
+13.03.2025 12:31:45 - debug: [[Executor]] Module "pack:///chunks/50/502a23cc8f6e348480473668c1c2d4bd1d55dac9.js" loaded.
+13.03.2025 12:31:45 - debug: [[Executor]] Register SpellingView
+13.03.2025 12:31:45 - debug: [[Executor]] Module "pack:///chunks/ff/ff9194f3c1edb26762edc16dec4517b5d3662fd3.js" loaded.
+13.03.2025 12:31:45 - debug: [[Executor]] Module "pack:///chunks/b6/b6dd932a56a1bbdbad03c64198ee3c5645089da5.js" loaded.
+13.03.2025 12:31:45 - debug: [[Executor]] Register SpellingController
+13.03.2025 12:31:45 - debug: [[Executor]] Module "pack:///chunks/07/07b92929958931b1a83d29c8664fc85f39f28f56.js" loaded.
+13.03.2025 12:31:45 - debug: [[Executor]] Module "pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js" loaded.
+13.03.2025 12:31:45 - groupEnd: Imports all modules
+13.03.2025 12:31:45 - debug: [[Executor]] after unlock
+13.03.2025 12:31:45 - debug: Incremental keys: 
+13.03.2025 12:31:45 - debug: handle json group in bundle resources
+13.03.2025 12:31:45 - debug: handle json group in bundle resources success
+13.03.2025 12:31:45 - debug: init image compress task 0 in bundle resources
+13.03.2025 12:31:45 - log: Run build task(build-script) in child, see: chrome://inspect/#devices
+13.03.2025 12:31:45 - log: [build-script]enter sub process 20932, C:\ProgramData\cocos\editors\Creator\3.8.5\CocosCreator.exe,C:\ProgramData\cocos\editors\Creator\3.8.5\resources\app.asar\builtin\builder\static\sub-process-index
+13.03.2025 12:31:47 - debug: excute-script over with build-script 2675ms
+13.03.2025 12:31:47 - debug: Copy externalScripts success!
+13.03.2025 12:31:47 - debug: builder:pack-auto-atlas-image (25ms)
+13.03.2025 12:31:47 - group: Compress image...
+13.03.2025 12:31:47 - debug: sort compress task {}
+13.03.2025 12:31:47 - debug: Num of all image compress task 0, really: 0, configTasks: 0
+13.03.2025 12:31:47 - debug: No image need to compress
+13.03.2025 12:31:47 - groupEnd: Compress image...
+13.03.2025 12:31:47 - debug: Handle all json groups in bundle resources
+13.03.2025 12:31:47 - debug: handle json group
+13.03.2025 12:31:47 - debug: handle single json
+13.03.2025 12:31:48 - debug: compress config of bundle resources...
+13.03.2025 12:31:48 - debug: compress config of bundle resources success
+13.03.2025 12:31:48 - debug: output config of bundle resources
+13.03.2025 12:31:48 - debug: output config of bundle resources success
+13.03.2025 12:31:48 - debug: [Build Memory track]: builder:build-bundle-total start:191.34MB, end 193.28MB, increase: 1.94MB
+13.03.2025 12:31:48 - log: build bundle db://assets/resources (web-mobile) in {link(D:\Cocos\CocosSolitaireCreative\build\build-bundle\web-mobile)} success!
+13.03.2025 12:31:48 - debug: 13.03.2025 12:31:48Build Bundle success in 2 s!
+13.03.2025 12:31:48 - debug: ================================ build bundle db://assets/resources Task (build bundle db://assets/resources) Finished in (2 s)ms ================================

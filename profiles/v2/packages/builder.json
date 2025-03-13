@@ -1,0 +1,94 @@
+{
+  "__version__": "1.3.9",
+  "log": {
+    "level": 1
+  },
+  "common": {
+    "polyfills": {
+      "asyncFunctions": true
+    },
+    "scenes": [
+      {
+        "url": "db://assets/scenes/quiz.scene",
+        "uuid": "9b17edbf-e587-442d-bdb7-307a07347fc8"
+      }
+    ],
+    "outputName": "web-mobile",
+    "buildPath": "project://build",
+    "mainBundleCompressionType": "merge_dep",
+    "platform": "web-mobile",
+    "useSplashScreen": false,
+    "startScene": "9b17edbf-e587-442d-bdb7-307a07347fc8",
+    "name": "SolitaireCreative"
+  },
+  "BuildTaskManager": {
+    "taskMap": {
+      "1741862215349": {
+        "type": "build",
+        "id": "1741862215349",
+        "progress": 1,
+        "state": "success",
+        "stage": "build",
+        "message": "13.03.2025 13:37:40 build success in 45 s!",
+        "detailMessage": "// ---- build task cocos-service：onAfterBuild ----\r",
+        "options": {
+          "name": "SolitaireCreative",
+          "server": "",
+          "platform": "web-mobile",
+          "buildPath": "project://build",
+          "debug": false,
+          "buildMode": "normal",
+          "mangleProperties": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "overwriteProjectSettings": {
+            "includeModules": {
+              "gfx-webgl2": "on",
+              "physics": "inherit-project-setting",
+              "physics-2d": "inherit-project-setting"
+            },
+            "macroConfig": {
+              "cleanupImageCache": "inherit-project-setting"
+            }
+          },
+          "nativeCodeBundleMode": "both",
+          "polyfills": {
+            "asyncFunctions": true
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "inlineEnum": true,
+          "useBuiltinServer": false,
+          "md5CacheOptions": {
+            "excludes": [],
+            "includes": [],
+            "replaceOnly": [],
+            "handleTemplateMd5Link": true
+          },
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": false,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "dc2dda4d-4285-4c9b-a5be-643ce0534e83",
+          "outputName": "web-mobile",
+          "taskName": "web-mobile",
+          "scenes": [
+            {
+              "url": "db://assets/scenes/main.scene",
+              "uuid": "dc2dda4d-4285-4c9b-a5be-643ce0534e83"
+            }
+          ],
+          "wasmCompressionMode": false,
+          "packages": {},
+          "__version__": "1.3.9",
+          "logDest": "project://temp/builder/log/web-mobile13.03.2025 13-36.log"
+        },
+        "time": "13.03.2025 13:36:55",
+        "dirty": false
+      }
+    }
+  }
+}

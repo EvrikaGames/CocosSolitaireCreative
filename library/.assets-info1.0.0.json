@@ -1,0 +1,1413 @@
+{
+  "version": "1.0.0",
+  "map": {
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\resources": {
+      "time": 1741589620734.0347,
+      "uuid": "07fd8267-3679-443b-bea4-e451ed506db8"
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scenes": {
+      "time": 1741603272840.2603,
+      "uuid": "0b0bd46e-01e9-438a-947f-3c7b07a50907"
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts": {
+      "time": 1741599321714.8926,
+      "uuid": "14b4ab56-c428-4eda-819b-c6755a201ea9"
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\animations": {
+      "time": 1741599321456.3442,
+      "uuid": "936f1fec-91b3-4ca1-a8b4-6793e3500a3c"
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\configs": {
+      "time": 1741603272834.2744,
+      "uuid": "54f8857e-a9a3-46be-975c-dfe55cafda52"
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\sounds": {
+      "time": 1741589620734.0347,
+      "uuid": "22669288-daef-4cb4-86dc-9b5fc560e6ab"
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\ui": {
+      "time": 1741603272839.2625,
+      "uuid": "7e7bcede-fe98-4060-9ec9-b3800d819b11"
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\connector": {
+      "time": 1741603272659.3855,
+      "uuid": "107207b5-5d60-4891-8403-9372389f0334"
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\crossword": {
+      "time": 1741603272660.3823,
+      "uuid": "0100bc23-e47e-4d04-b4ba-e60d6fc6fb91"
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\hint": {
+      "time": 1741603272660.3823,
+      "uuid": "36b16163-a572-4f30-9b74-dd386ef8574c"
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\services": {
+      "time": 1741603272662.3752,
+      "uuid": "c9e65202-8d72-4a96-a77e-a4ed3c5b535f"
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\sound": {
+      "time": 1741603272662.3752,
+      "uuid": "a291b764-d818-446f-82ba-114ed30835cc"
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\ui": {
+      "time": 1741603272673.6921,
+      "uuid": "2230398b-3343-4045-a36f-91d9f55d9654"
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\connector\\LettersConnectorController.ts": {
+      "time": 1741589620745.699,
+      "uuid": "3575749c-f500-4a48-a009-7e61460ed7e4"
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\crossword\\Crossword.ts": {
+      "time": 1741589620746.724,
+      "uuid": "caf0475f-9db4-47ff-a7d6-f37182ace59c"
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\crossword\\CrosswordCell.ts": {
+      "time": 1741589620746.724,
+      "uuid": "4b9eedc2-c42e-4742-ac8f-2cf281322290"
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\crossword\\CrosswordController.ts": {
+      "time": 1741589620747.723,
+      "uuid": "e53d9e9e-f294-4409-99d7-82a7fd4a1c77"
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\crossword\\CrosswordWord.ts": {
+      "time": 1741589620747.723,
+      "uuid": "bfff1c11-902d-42ce-9c0c-bd2c3009c1e0"
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\hint\\HintController.ts": {
+      "time": 1741589620748.7202,
+      "uuid": "6171f9cb-fc6c-4a5f-bb64-250b24ee5f72"
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\services\\StoreController.ts": {
+      "time": 1741599321706.914,
+      "uuid": "f7b169e0-84a2-42cc-a7b6-a6734d197cb9"
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\services\\super_html_playable.ts": {
+      "time": 1741589620749.7183,
+      "uuid": "daad551e-acc6-424a-bdd6-98af528b5574"
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\sound\\SoundController.ts": {
+      "time": 1741589620749.7183,
+      "uuid": "6532c9eb-1747-47e1-a466-993b0fb81d1a"
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\ui\\ConnectorLetterComponent.ts": {
+      "time": 1741589620750.7148,
+      "uuid": "b1de0192-d5bf-4a06-8932-d1feb03b9f60"
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\ui\\CrosswordLetterComponent.ts": {
+      "time": 1741589620751.7126,
+      "uuid": "dae467cb-2b7d-4013-bd37-80296a8c9688"
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\ui\\LettersLabelComponent.ts": {
+      "time": 1741589620751.7126,
+      "uuid": "44c33bdd-16bb-4323-81b9-72d6d029f7a0"
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\ui\\LineGraphics.ts": {
+      "time": 1741589620751.7126,
+      "uuid": "dff2bab5-505e-44d3-843a-05078fbe8772"
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\ui\\ScreenScaler.ts": {
+      "time": 1741589620752.7107,
+      "uuid": "72ff507e-ca37-4005-aa92-7553d37b6c42"
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\ui\\StoreButtonComponent.ts": {
+      "time": 1741599321714.8926,
+      "uuid": "f10c185d-c7de-4982-a8dc-eb26b693425f"
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\resources.meta": {
+      "time": 1741589620724.0156
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scenes.meta": {
+      "time": 1741589620742.7063
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts.meta": {
+      "time": 1741589620744.7007
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\animations.meta": {
+      "time": 1741589620725.0159
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\configs.meta": {
+      "time": 1741589620727.049
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\sounds.meta": {
+      "time": 1741589620730.0435
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\ui.meta": {
+      "time": 1741589620734.0347
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\connector.meta": {
+      "time": 1741589620744.7007
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\crossword.meta": {
+      "time": 1741589620745.699
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\hint.meta": {
+      "time": 1741589620747.723
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\services.meta": {
+      "time": 1741599321706.914
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\sound.meta": {
+      "time": 1741589620749.7183
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\ui.meta": {
+      "time": 1741589620750.7148
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\connector\\LettersConnectorController.ts.meta": {
+      "time": 1741603276167.1917
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\crossword\\Crossword.ts.meta": {
+      "time": 1741603276169.1873
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\crossword\\CrosswordCell.ts.meta": {
+      "time": 1741603276171.1824
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\crossword\\CrosswordController.ts.meta": {
+      "time": 1741603276176.1665
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\crossword\\CrosswordWord.ts.meta": {
+      "time": 1741603276178.1626
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\hint\\HintController.ts.meta": {
+      "time": 1741603276179.1594
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\services\\StoreController.ts.meta": {
+      "time": 1741603276212.0723
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\services\\super_html_playable.ts.meta": {
+      "time": 1741603276217.0579
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\sound\\SoundController.ts.meta": {
+      "time": 1741603276221.048
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\ui\\ConnectorLetterComponent.ts.meta": {
+      "time": 1741603276225.0366
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\ui\\CrosswordLetterComponent.ts.meta": {
+      "time": 1741603276229.0256
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\ui\\LettersLabelComponent.ts.meta": {
+      "time": 1741603276232.017
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\ui\\LineGraphics.ts.meta": {
+      "time": 1741603276234.0127
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\ui\\ScreenScaler.ts.meta": {
+      "time": 1741603276238.0024
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\ui\\StoreButtonComponent.ts.meta": {
+      "time": 1741603276238.9988
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\animations\\pulse.anim": {
+      "time": 1741589620725.0159,
+      "uuid": "633af8ef-fad3-49ad-ba54-d7aaef2ccca2"
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\configs\\letters-en.txt": {
+      "time": 1741589620729.0454,
+      "uuid": "8d1bf530-1752-4786-a990-353c27106089"
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\configs\\letters.txt": {
+      "time": 1741589620730.0435,
+      "uuid": "3ba33739-9c2f-4ee3-b0a4-eee3330c8141"
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\sounds\\correct.mp3": {
+      "time": 1741589620731.0408,
+      "uuid": "605f6ffc-50a5-470a-8754-816175437d5e"
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\sounds\\hint.mp3": {
+      "time": 1741589620731.0408,
+      "uuid": "9b9dd169-1bd7-4dfe-819c-579067af921f"
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\sounds\\letter1.mp3": {
+      "time": 1741589620732.04,
+      "uuid": "d984b6ab-fb65-41a0-ace8-a9d60558b701"
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\sounds\\letter2.mp3": {
+      "time": 1741589620732.04,
+      "uuid": "41960aea-3280-48fb-a5f4-618c891d0ecd"
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\sounds\\letter3.mp3": {
+      "time": 1741589620733.0374,
+      "uuid": "ad110b58-6261-4e8f-8c26-17193c0025e4"
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\sounds\\shuffle.mp3": {
+      "time": 1741589620733.0374,
+      "uuid": "4d4a57bf-3083-46c9-9284-3d98cd7e676a"
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\sounds\\wrong.mp3": {
+      "time": 1741589620733.0374,
+      "uuid": "45f7e90a-a9d4-42ff-abdd-a7148b534a4e"
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\configs\\crossword-en-v2.txt.meta": {
+      "time": 1741599566910.469
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\configs\\crossword-en.txt.meta": {
+      "time": 1741599566910.469
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\configs\\crossword-v2.txt.meta": {
+      "time": 1741599566910.469
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\animations\\pulse.anim.meta": {
+      "time": 1741589620726.0127
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scenes\\main.scene.meta": {
+      "time": 1741589620744.7007
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\configs\\letters-en-v2.txt.meta": {
+      "time": 1741599566910.469
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\configs\\crossword.txt.meta": {
+      "time": 1741599566910.469
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\configs\\letters-en.txt.meta": {
+      "time": 1741599566910.469
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\configs\\letters-v2.txt.meta": {
+      "time": 1741599566911.4663
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\configs\\letters.txt.meta": {
+      "time": 1741599566911.4663
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\animations\\shake.anim.meta": {
+      "time": 1741589620726.3381
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\sounds\\letter1.mp3.meta": {
+      "time": 1741589620732.04
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\sounds\\letter2.mp3.meta": {
+      "time": 1741589620732.04
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\sounds\\hint.mp3.meta": {
+      "time": 1741589620731.0408
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\sounds\\letter3.mp3.meta": {
+      "time": 1741589620733.0374
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\sounds\\correct.mp3.meta": {
+      "time": 1741589620731.0408
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\sounds\\wrong.mp3.meta": {
+      "time": 1741589620734.0347
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\sounds\\shuffle.mp3.meta": {
+      "time": 1741589620733.0374
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\ui\\download_icon.png.meta": {
+      "time": 1741603276151.234
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\ui\\hint_icon.png.meta": {
+      "time": 1741603276166.1938
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\ui\\rect_big.png.meta": {
+      "time": 1741603276246.9778
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\ui\\rect_small.png.meta": {
+      "time": 1741603276284.8767
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\ui\\circle.png.meta": {
+      "time": 1741603276164.1995
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\ui\\background.jpg.meta": {
+      "time": 1741594355489.5227
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\prefabs": {
+      "time": 1741603272832.3071,
+      "uuid": "8333d836-1de7-4ad6-a1f3-79d94b6570fc"
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\ui": {
+      "time": 1741603272864.862,
+      "uuid": "187d7a2e-ad71-449a-9fa9-b00c2c269fab"
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\quiz": {
+      "time": 1741603272841.2583,
+      "uuid": "43d32974-38f0-4945-ae21-f9eeba685533"
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\wordConnect": {
+      "time": 1741603272841.2583,
+      "uuid": "fc26ff6b-1124-4f53-bd08-1bf2a9bfd401"
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\wordConnect\\description": {
+      "time": 1741603272674.6873,
+      "uuid": "6b9a9914-feeb-4e4b-982d-8cd58133cc48"
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\wordConnect\\spelling": {
+      "time": 1741603272676.683,
+      "uuid": "1bc4ced6-5a39-4a5f-a947-946a4f30d900"
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\quiz\\HintComponent.ts": {
+      "time": 1741599321695.9434,
+      "uuid": "a5bb49b8-e17f-4ac6-869b-d1c00a2ed84f"
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\quiz\\QuizController.ts": {
+      "time": 1741603272840.2603,
+      "uuid": "eb31ba34-a383-4a4a-9a37-728685b2afbd"
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\quiz\\QuizData.ts": {
+      "time": 1741599321697.9382,
+      "uuid": "bfb85ab6-fc2d-4016-a559-ca8000ddc622"
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\quiz\\QuizDescription.ts": {
+      "time": 1741603272841.2583,
+      "uuid": "1130057d-b8a0-4ff2-8730-945981d4ac09"
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\quiz\\QuizScaler.ts": {
+      "time": 1741599321698.936,
+      "uuid": "9ccbbf2e-ab15-45ff-a5a6-3226443d4c4b"
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\quiz\\QuizVariant.ts": {
+      "time": 1741599321698.936,
+      "uuid": "51ef1643-7124-4884-b731-bf6d7a8580d2"
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\quiz\\ResultScreen.ts": {
+      "time": 1741599321705.9165,
+      "uuid": "ba26f07a-5677-4158-b26e-2b865b3c191a"
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\quiz\\TutorialHandMover.ts": {
+      "time": 1741599321706.914,
+      "uuid": "7ee2306f-260f-4232-ac42-b31941231a9b"
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\wordConnect\\CorrectLabelComponent.ts": {
+      "time": 1741603272841.2583,
+      "uuid": "f18989da-3586-45e2-9868-c1f1dd2df0c4"
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\wordConnect\\WordConnectScreenScaler.ts": {
+      "time": 1741599321716.8875,
+      "uuid": "49374a8d-236a-473b-b468-4c6b73c70b64"
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\wordConnect\\description\\DescriptionView.ts": {
+      "time": 1741599321716.8875,
+      "uuid": "5fd1b96c-c62d-411f-a745-24d97c329a9d"
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\wordConnect\\spelling\\SpellingController.ts": {
+      "time": 1741599321717.885,
+      "uuid": "1200ca8c-c3ce-457c-b2ee-b38fc2af9727"
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\wordConnect\\spelling\\SpellingData.ts": {
+      "time": 1741599321718.8838,
+      "uuid": "eec17175-0acb-418e-ac35-5548f35c04e1"
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\wordConnect\\spelling\\SpellingLetter.ts": {
+      "time": 1741599321718.8838,
+      "uuid": "e558fa6d-63f5-417b-b566-bb9aefa87497"
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\wordConnect\\spelling\\SpellingVariant.ts": {
+      "time": 1741599321719.8801,
+      "uuid": "5c2fa998-1286-49ce-b49f-52cac74010a1"
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\wordConnect\\spelling\\SpellingView.ts": {
+      "time": 1741599321719.8801,
+      "uuid": "ec9c6627-34d7-47f8-b6cb-a3a3ff13dbf2"
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\prefabs.meta": {
+      "time": 1741599321220.1362
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\ui.meta": {
+      "time": 1741603272842.254
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\quiz.meta": {
+      "time": 1741599321685.9722
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\wordConnect.meta": {
+      "time": 1741599321714.8926
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\animations\\quiz.meta": {
+      "time": 1741599321451.341
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\wordConnect\\description.meta": {
+      "time": 1741599321716.8875
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\wordConnect\\spelling.meta": {
+      "time": 1741599321717.885
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\quiz\\HintComponent.ts.meta": {
+      "time": 1741603276180.156
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\quiz\\QuizController.ts.meta": {
+      "time": 1741603276182.151
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\quiz\\QuizData.ts.meta": {
+      "time": 1741603276184.1455
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\quiz\\QuizDescription.ts.meta": {
+      "time": 1741603276185.1428
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\quiz\\QuizScaler.ts.meta": {
+      "time": 1741603276199.106
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\quiz\\QuizVariant.ts.meta": {
+      "time": 1741603276201.1006
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\quiz\\ResultScreen.ts.meta": {
+      "time": 1741603276202.0981
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\quiz\\TutorialHandMover.ts.meta": {
+      "time": 1741603276211.0747
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\wordConnect\\CorrectLabelComponent.ts.meta": {
+      "time": 1741603276250.9668
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\wordConnect\\WordConnectScreenScaler.ts.meta": {
+      "time": 1741603276277.8948
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\wordConnect\\description\\DescriptionView.ts.meta": {
+      "time": 1741603276278.892
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\wordConnect\\spelling\\SpellingController.ts.meta": {
+      "time": 1741603276280.8875
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\wordConnect\\spelling\\SpellingData.ts.meta": {
+      "time": 1741603276283.8794
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\wordConnect\\spelling\\SpellingLetter.ts.meta": {
+      "time": 1741603276288.866
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\wordConnect\\spelling\\SpellingVariant.ts.meta": {
+      "time": 1741603276288.866
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scripts\\wordConnect\\spelling\\SpellingView.ts.meta": {
+      "time": 1741603276292.8552
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\prefabs\\Letter.prefab.meta": {
+      "time": 1741599321401.474
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scenes\\quiz.scene.meta": {
+      "time": 1741599321683.976
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\scenes\\wordConnect.scene.meta": {
+      "time": 1741599321684.9841
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\prefabs\\QuizVariant.prefab.meta": {
+      "time": 1741599321403.4695
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\prefabs\\SpellingVariant.prefab.meta": {
+      "time": 1741599321403.4695
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\animations\\changeLevel.anim.meta": {
+      "time": 1741599321404.4668
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\animations\\fadeInSpellingVariant.anim.meta": {
+      "time": 1741599321451.341
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\animations\\showCorrect.anim.meta": {
+      "time": 1741599321456.3442
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\ui\\rounded-in-photoretrica.png.meta": {
+      "time": 1741603276113.3354
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\configs\\quizConfig.txt.meta": {
+      "time": 1741599566911.4663
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\configs\\wordConnectConfig.txt.meta": {
+      "time": 1741599566911.4663
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\ui\\hand.png.meta": {
+      "time": 1741603276156.2205
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\ui\\background.jpg.meta": {
+      "time": 1741603276285.8745
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\animations\\quiz\\quizShake.anim.meta": {
+      "time": 1741599321452.3396
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\animations\\quiz\\showCorrect.anim.meta": {
+      "time": 1741599321454.333
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\animations\\quiz\\showResult.anim.meta": {
+      "time": 1741599321455.3394
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\ui\\Onion_450_240.png.meta": {
+      "time": 1741603276036.54
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\ui\\Potato_450_240.png.meta": {
+      "time": 1741603276043.5222
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\ui\\Tomato_450_240.png.meta": {
+      "time": 1741603276037.5376
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\ui\\unnamed (2)-round-corners.png.meta": {
+      "time": 1741603276035.5435
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\configs\\quizConfigEN.txt.meta": {
+      "time": 1741603276007.6177
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\ui\\golden_gate.png.meta": {
+      "time": 1741603276046.514
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\ui\\grand_canyon.png.meta": {
+      "time": 1741603276092.3916
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\ui\\sweden.png.meta": {
+      "time": 1741603276097.3804
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\ui\\taj_mahal.png.meta": {
+      "time": 1741603276095.3833
+    },
+    "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\configs\\quizConfigEN.txt": {
+      "time": 1741603272833.277,
+      "uuid": "42ca3f57-a654-4d75-a7ff-424b10ddbb1a"
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\prefabs": {
+      "time": 1741692841918.268,
+      "uuid": "8333d836-1de7-4ad6-a1f3-79d94b6570fc"
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\resources": {
+      "time": 1741861752939.5034,
+      "uuid": "07fd8267-3679-443b-bea4-e451ed506db8"
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\scenes": {
+      "time": 1741721494498.9202,
+      "uuid": "0b0bd46e-01e9-438a-947f-3c7b07a50907"
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts": {
+      "time": 1741861795982.853,
+      "uuid": "14b4ab56-c428-4eda-819b-c6755a201ea9"
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\ui": {
+      "time": 1741853475906.4312,
+      "uuid": "187d7a2e-ad71-449a-9fa9-b00c2c269fab"
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\resources\\animations": {
+      "time": 1741854000658.5786,
+      "uuid": "936f1fec-91b3-4ca1-a8b4-6793e3500a3c"
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\resources\\configs": {
+      "time": 1741859900539.561,
+      "uuid": "54f8857e-a9a3-46be-975c-dfe55cafda52"
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\resources\\sounds": {
+      "time": 1741861739837.2134,
+      "uuid": "22669288-daef-4cb4-86dc-9b5fc560e6ab"
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\services": {
+      "time": 1741603350889.11,
+      "uuid": "c9e65202-8d72-4a96-a77e-a4ed3c5b535f"
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\sound": {
+      "time": 1741603350950.5393,
+      "uuid": "a291b764-d818-446f-82ba-114ed30835cc"
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\ui": {
+      "time": 1741861963279.4653,
+      "uuid": "2230398b-3343-4045-a36f-91d9f55d9654"
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\services\\StoreController.ts": {
+      "time": 1741599321706.914,
+      "uuid": "f7b169e0-84a2-42cc-a7b6-a6734d197cb9"
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\services\\super_html_playable.ts": {
+      "time": 1741762412846.6587,
+      "uuid": "daad551e-acc6-424a-bdd6-98af528b5574"
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\sound\\SoundController.ts": {
+      "time": 1741589620749.7183,
+      "uuid": "6532c9eb-1747-47e1-a466-993b0fb81d1a"
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\ui\\StoreButtonComponent.ts": {
+      "time": 1741804149698.1665,
+      "uuid": "f10c185d-c7de-4982-a8dc-eb26b693425f"
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\prefabs.meta": {
+      "time": 1741599321220.1362
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\resources.meta": {
+      "time": 1741589620724.0156
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\scenes.meta": {
+      "time": 1741589620742.7063
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts.meta": {
+      "time": 1741589620744.7007
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\ui.meta": {
+      "time": 1741603272842.254
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\resources\\animations.meta": {
+      "time": 1741589620725.0159
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\resources\\configs.meta": {
+      "time": 1741589620727.049
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\resources\\sounds.meta": {
+      "time": 1741589620730.0435
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\services.meta": {
+      "time": 1741599321706.914
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\sound.meta": {
+      "time": 1741589620749.7183
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\ui.meta": {
+      "time": 1741589620750.7148
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\services\\StoreController.ts.meta": {
+      "time": 1741603276212.0723
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\services\\super_html_playable.ts.meta": {
+      "time": 1741603276217.0579
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\sound\\SoundController.ts.meta": {
+      "time": 1741603276221.048
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\ui\\StoreButtonComponent.ts.meta": {
+      "time": 1741603276238.9988
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\resources\\animations\\pulse.anim": {
+      "time": 1741804053026.5518,
+      "uuid": "633af8ef-fad3-49ad-ba54-d7aaef2ccca2"
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\resources\\sounds\\correct.mp3": {
+      "time": 1741589620731.0408,
+      "uuid": "605f6ffc-50a5-470a-8754-816175437d5e"
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\resources\\sounds\\hint.mp3": {
+      "time": 1741589620731.0408,
+      "uuid": "9b9dd169-1bd7-4dfe-819c-579067af921f"
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\resources\\sounds\\wrong.mp3": {
+      "time": 1741589620733.0374,
+      "uuid": "45f7e90a-a9d4-42ff-abdd-a7148b534a4e"
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\resources\\animations\\pulse.anim.meta": {
+      "time": 1741589620726.0127
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\resources\\sounds\\correct.mp3.meta": {
+      "time": 1741589620731.0408
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\resources\\sounds\\hint.mp3.meta": {
+      "time": 1741589620731.0408
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\resources\\sounds\\wrong.mp3.meta": {
+      "time": 1741589620734.0347
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\scenes\\main.scene.meta": {
+      "time": 1741603721468.121
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\scenes\\main.scene": {
+      "time": 1741862011902.055,
+      "uuid": "dc2dda4d-4285-4c9b-a5be-643ce0534e83"
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\ui\\background.png.meta": {
+      "time": 1741603802097.4204
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\ui\\background.png": {
+      "time": 1741603666733.1648,
+      "uuid": "acbbee80-fda1-4695-9de1-f307a7b4907e"
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\ui\\Component 2.png.meta": {
+      "time": 1741604077732.5166
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\ui\\Component 2.png": {
+      "time": 1741604056131.7854,
+      "uuid": "fb4f930a-5251-42e3-8e74-3c6832d9ddfe"
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\ui\\Property 1=Variant2.png.meta": {
+      "time": 1741604232827.2434
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\ui\\Property 1=Default.png.meta": {
+      "time": 1741604228557.2388
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\ui\\Property 1=Variant2.png": {
+      "time": 1741604211040.7844,
+      "uuid": "22a509cd-7164-4e0d-934a-33162f27e622"
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\ui\\Property 1=Default.png": {
+      "time": 1741604202620.455,
+      "uuid": "f15eae12-5007-44d5-893b-d7ee6b208441"
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\ui\\Rectangle 5.png.meta": {
+      "time": 1741678382082.234
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\ui\\Rectangle 5.png": {
+      "time": 1741678366476.1272,
+      "uuid": "26070fdd-87ea-4f33-b4b5-039186c01fe7"
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\ui\\Buttons.png.meta": {
+      "time": 1741678781962.7056
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\ui\\Buttons.png": {
+      "time": 1741678769222.4255,
+      "uuid": "c7fdad19-7aa5-4fe3-a781-4c3868ccd1a4"
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\ui\\Rectangle 4.png.meta": {
+      "time": 1741678897456.3152
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\ui\\Rectangle 4.png": {
+      "time": 1741678885045.403,
+      "uuid": "e65b4630-c4d4-4a6c-9d7d-11197bf9b9af"
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\solitaire.meta": {
+      "time": 1741680537187.4456
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\solitaire": {
+      "time": 1741852974134.3428,
+      "uuid": "fca30587-5035-4adc-85fa-a619adf615e0"
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\solitaire\\ICardData.ts.meta": {
+      "time": 1741680550325.0852
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\solitaire\\ICardData.ts": {
+      "time": 1741680601670.6301,
+      "uuid": "b054b0f9-d551-4efa-83d8-1abf8b70403b"
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\solitaire\\Card.ts.meta": {
+      "time": 1741681066419.5342
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\solitaire\\Card.ts": {
+      "time": 1741806256845.465,
+      "uuid": "afa4c943-531c-4c23-9494-a7877b577fb2"
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\ui\\CardBack.png.meta": {
+      "time": 1741682205018.364
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\ui\\CardBack.png": {
+      "time": 1741682162011.1775,
+      "uuid": "e231b14e-adfa-4f5e-aeeb-769161fb5653"
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\ui\\Cards.png.meta": {
+      "time": 1741682218697.9607
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\ui\\Cards.png": {
+      "time": 1741682167206.6958,
+      "uuid": "17baa3e8-8c49-42d7-b116-681adfea90b3"
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\prefabs\\Card.prefab.meta": {
+      "time": 1741682922075.2002
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\prefabs\\Card.prefab": {
+      "time": 1741791817124.0146,
+      "uuid": "6fc246e6-e86a-4758-864c-da5cd3b93ba0"
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\solitaire\\IWordData.ts.meta": {
+      "time": 1741683804707.4724
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\solitaire\\IWordData.ts": {
+      "time": 1741683853390.818,
+      "uuid": "10a63032-1612-4848-9eaf-7b582f6e0bde"
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\solitaire\\Letter.ts.meta": {
+      "time": 1741685205201.8706
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\solitaire\\Letter.ts": {
+      "time": 1741804797036.4556,
+      "uuid": "ce94b6d9-4210-4766-82bb-c0503f491690"
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\prefabs\\Word.prefab.meta": {
+      "time": 1741688737272.4963
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\prefabs\\Word.prefab": {
+      "time": 1741803600565.0637,
+      "uuid": "41812075-5872-4d22-ae09-db5a8a128bed"
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\solitaire\\Word.ts.meta": {
+      "time": 1741688808951.7925
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\solitaire\\Word.ts": {
+      "time": 1741795272428.6655,
+      "uuid": "5dc38a51-536d-4696-928e-80720967e982"
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\prefabs\\LetterSlot.prefab.meta": {
+      "time": 1741692841921.262
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\prefabs\\LetterSlot.prefab": {
+      "time": 1741769155549.118,
+      "uuid": "189313e1-5a22-4e45-9d3b-3874c655d63e"
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\solitaire\\GameController.ts.meta": {
+      "time": 1741680668125.063
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\solitaire\\GameController.ts": {
+      "time": 1741861587567.271,
+      "uuid": "475131d6-1190-4d2a-957c-aa53438384ec"
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\solitaire\\TutorialHandMover.ts.meta": {
+      "time": 1741603276211.0747
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\solitaire\\TutorialHandMover.ts": {
+      "time": 1741806219453.786,
+      "uuid": "7ee2306f-260f-4232-ac42-b31941231a9b"
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\resources\\animations\\pulseCard.anim.meta": {
+      "time": 1741765449571.5842
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\resources\\animations\\pulseCard.anim": {
+      "time": 1741765636433.7888,
+      "uuid": "922bdd02-54c7-4a71-a2af-707ae734bf76"
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\solitaire\\Blocker.ts.meta": {
+      "time": 1741775041515.6145
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\solitaire\\Blocker.ts": {
+      "time": 1741803062602.098,
+      "uuid": "a7e6eceb-a918-41b7-ba48-1f4d352e926f"
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\ui\\Group 1907.png.meta": {
+      "time": 1741779027903.1343
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\ui\\Group 1907.png": {
+      "time": 1741778979211.9849,
+      "uuid": "aa88f858-6a7c-4e50-85df-16dbaa991162"
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\solitaire\\Text.ts.meta": {
+      "time": 1741795208212.1682
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\solitaire\\Text.ts": {
+      "time": 1741795208203.19,
+      "uuid": "d6217e8d-5f70-4ca2-9a5f-80b9beaca208"
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\resources\\animations\\pulseWord.anim.meta": {
+      "time": 1741803395559.0793
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\resources\\animations\\pulseWord.anim": {
+      "time": 1741803877792.9238,
+      "uuid": "c31cef33-1266-4a99-bfe8-8400f560bbe8"
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\solitaire\\ResultScreen.ts.meta": {
+      "time": 1741852974140.3284
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\solitaire\\ResultScreen.ts": {
+      "time": 1741854294590.0378,
+      "uuid": "45241b55-6213-4772-ac40-edea0cbf6e54"
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\ui\\win.meta": {
+      "time": 1741853463089.212
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\ui\\win": {
+      "time": 1741853475906.4312,
+      "uuid": "fa114eb9-257e-4719-9319-0981825ce5e8"
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\ui\\win\\GOOD!.png.meta": {
+      "time": 1741853452447.083
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\ui\\win\\GOOD!.png": {
+      "time": 1741852760406.458,
+      "uuid": "3822d17d-6024-4998-aaf9-448ba294e7d8"
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\ui\\win\\EXELLENT!.png.meta": {
+      "time": 1741853441568.5212
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\ui\\win\\EXELLENT!.png": {
+      "time": 1741852767678.927,
+      "uuid": "29a8c3d6-9db7-4064-8000-7cfe17b880ca"
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\ui\\win\\GREAT!.png.meta": {
+      "time": 1741853456383.4219
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\ui\\win\\GREAT!.png": {
+      "time": 1741852764908.5989,
+      "uuid": "d5fc1acd-3841-4205-86a4-cc9d4f150b67"
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\ui\\win\\EPIC!.png.meta": {
+      "time": 1741853436784.6353
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\ui\\win\\EPIC!.png": {
+      "time": 1741852770255.4878,
+      "uuid": "4d7666f6-f37f-4eb8-bf14-5b12c8a59f6e"
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\ui\\win\\UNBELIVABLE!.png.meta": {
+      "time": 1741853473288.9717
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\ui\\win\\UNBELIVABLE!.png": {
+      "time": 1741852773173.6045,
+      "uuid": "230118d9-c05a-4d39-aeec-45ede3987558"
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\resources\\animations\\win.anim.meta": {
+      "time": 1741854000668.5518
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\resources\\animations\\win.anim": {
+      "time": 1741854257934.8718,
+      "uuid": "f4f2ed51-ac26-4cbb-be12-e236315222b3"
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\resources\\configs\\sentences.txt.meta": {
+      "time": 1741856914315.6467
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\resources\\configs\\sentences.txt": {
+      "time": 1741856888488.2717,
+      "uuid": "8d1bf530-1752-4786-a990-353c27106089"
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\resources\\configs\\words.txt.meta": {
+      "time": 1741603512655.1462
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\resources\\configs\\words.txt": {
+      "time": 1741858148644.6978,
+      "uuid": "3ba33739-9c2f-4ee3-b0a4-eee3330c8141"
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\resources\\configs\\cards.txt.meta": {
+      "time": 1741856914316.6567
+    },
+    "D:\\Cocos\\CocosSolitaireCreative\\assets\\resources\\configs\\cards.txt": {
+      "time": 1741860116197.6772,
+      "uuid": "42ca3f57-a654-4d75-a7ff-424b10ddbb1a"
+    }
+  },
+  "missing": {
+    "153a8445-a27b-448f-b858-e7da5c1dd69c": {
+      "path": "D:\\Cocos\\CocosWordLineCreative\\assets\\ui\\Onion_450_240.png",
+      "time": 1741603272843.253,
+      "removeTime": 1741677928673
+    },
+    "9943c496-0ca2-48d3-8844-419490aec84b": {
+      "path": "D:\\Cocos\\CocosWordLineCreative\\assets\\ui\\Potato_450_240.png",
+      "time": 1741603272853.807,
+      "removeTime": 1741677928674
+    },
+    "cec0d49c-12f6-474e-ac80-0747e5a4cbb9": {
+      "path": "D:\\Cocos\\CocosWordLineCreative\\assets\\ui\\Tomato_450_240.png",
+      "time": 1741603272854.806,
+      "removeTime": 1741677928673
+    },
+    "9ea06a64-3e41-4460-b876-21007b108191": {
+      "path": "D:\\Cocos\\CocosWordLineCreative\\assets\\ui\\unnamed (2)-round-corners.png",
+      "time": 1741603272864.862,
+      "removeTime": 1741677928673
+    },
+    "42ca3f57-a654-4d75-a7ff-424b10ddbb1a": {
+      "path": "D:\\Cocos\\CocosSolitaireCreative\\assets\\resources\\configs\\letters-en.txt",
+      "time": 1741856910672.5398,
+      "removeTime": 1741859900540
+    },
+    "bd7eb744-952e-4fbf-a188-d194610a53cc": {
+      "path": "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\ui\\golden_gate.png",
+      "time": 1741603272835.272,
+      "removeTime": 1741761859999
+    },
+    "e0605290-246f-4afe-9805-6c592eecf07f": {
+      "path": "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\ui\\grand_canyon.png",
+      "time": 1741603272837.2676,
+      "removeTime": 1741761860000
+    },
+    "a3f9d99f-3799-4dc2-a174-5780db727d36": {
+      "path": "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\ui\\sweden.png",
+      "time": 1741603272838.2651,
+      "removeTime": 1741761860020
+    },
+    "48e834c9-0768-4a9d-9173-79219774c48a": {
+      "path": "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\ui\\taj_mahal.png",
+      "time": 1741603272839.2625,
+      "removeTime": 1741761860019
+    },
+    "f4131f95-ceb2-490c-9fc3-a88665645b4d": {
+      "path": "D:\\Cocos\\CocosWordLineCreative\\assets\\scenes\\main.scene",
+      "time": 1741589620744.7007,
+      "removeTime": 1741677928627
+    },
+    "124d1228-8ae0-4f97-9bb5-7ee72addcf04": {
+      "path": "D:\\Cocos\\CocosWordLineCreative\\assets\\ui\\background.jpg",
+      "time": 1741599321918.5137,
+      "removeTime": 1741677928672
+    },
+    "82f145af-57e5-4c7f-8f44-c6525452fe7e": {
+      "path": "D:\\Cocos\\CocosWordLineCreative\\assets\\ui\\rounded-in-photoretrica.png",
+      "time": 1741599321946.4387,
+      "removeTime": 1741677928673
+    },
+    "acbbee80-fda1-4695-9de1-f307a7b4907e": {
+      "path": "D:\\Cocos\\CocosSolitaireCreative\\assets\\ui\\scars_dawa_illustration_of_a_realistic_a_beautiful_soft_chair_a_c859dcb5-06f5-46f1-b062-d1330f4c8c23.png",
+      "time": 1741603666733.1648,
+      "removeTime": 1741603773998
+    },
+    "b054b0f9-d551-4efa-83d8-1abf8b70403b": {
+      "path": "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\solitaire\\CardData.ts",
+      "time": 1741680601670.6301,
+      "removeTime": 1741680610064
+    },
+    "e231b14e-adfa-4f5e-aeeb-769161fb5653": {
+      "path": "D:\\Cocos\\CocosSolitaireCreative\\assets\\ui\\Cards.png",
+      "time": 1741682162011.1775,
+      "removeTime": 1741682200192
+    },
+    "17baa3e8-8c49-42d7-b116-681adfea90b3": {
+      "path": "D:\\Cocos\\CocosSolitaireCreative\\assets\\ui\\Cards (1).png",
+      "time": 1741682167206.6958,
+      "removeTime": 1741682211614
+    },
+    "d48fdb37-1db4-40ed-8200-03289c8f06ba": {
+      "path": "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\solitaire\\WordLine.ts",
+      "time": 1741685046276.809,
+      "removeTime": 1741685196665
+    },
+    "08f13206-de3f-4aed-b036-bf4403287765": {
+      "path": "D:\\Cocos\\CocosWordLineCreative\\assets\\prefabs\\Letter.prefab",
+      "time": 1741599321401.474,
+      "removeTime": 1741696833200
+    },
+    "67c4946b-896f-4b52-af80-59d808bd3f81": {
+      "path": "D:\\Cocos\\CocosSolitaireCreative\\assets\\prefabs\\Label.prefab",
+      "time": 1741689640082.7034,
+      "removeTime": 1741692817504
+    },
+    "736da22a-e976-4b1e-b71d-1c0c074979e6": {
+      "path": "D:\\Cocos\\CocosWordLineCreative\\assets\\prefabs\\QuizVariant.prefab",
+      "time": 1741603272833.277,
+      "removeTime": 1741696833200
+    },
+    "5d4759e1-b135-4a84-a0d4-24b9ace353b7": {
+      "path": "D:\\Cocos\\CocosWordLineCreative\\assets\\prefabs\\SpellingVariant.prefab",
+      "time": 1741599321403.4695,
+      "removeTime": 1741696833200
+    },
+    "189313e1-5a22-4e45-9d3b-3874c655d63e": {
+      "path": "D:\\Cocos\\CocosSolitaireCreative\\assets\\prefabs\\LetterContainer.prefab",
+      "time": 1741692660865.5793,
+      "removeTime": 1741692841919
+    },
+    "475131d6-1190-4d2a-957c-aa53438384ec": {
+      "path": "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\solitaire\\Game.ts",
+      "time": 1741701457370.415,
+      "removeTime": 1741701544001
+    },
+    "f241e4a0-0fd5-40f1-bd88-44e2fc1e0569": {
+      "path": "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\ui\\circle.png",
+      "time": 1741589620740.3098,
+      "removeTime": 1741761859938
+    },
+    "e6ea058f-ab0b-45af-bdf4-c24e108d1fd6": {
+      "path": "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\ui\\download_icon.png",
+      "time": 1741589620741.7075,
+      "removeTime": 1741761859941
+    },
+    "7656127f-343d-4044-a6f8-988c47a91c36": {
+      "path": "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\ui\\hand.png",
+      "time": 1741599321664.0286,
+      "removeTime": 1741761859966
+    },
+    "ff7a67be-dd64-4a9c-a75f-d2a4ae4fca83": {
+      "path": "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\ui\\hint_icon.png",
+      "time": 1741589620741.7075,
+      "removeTime": 1741761859956
+    },
+    "8f7863ea-9248-4cb1-84e8-a6253168f4cd": {
+      "path": "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\ui\\rect_big.png",
+      "time": 1741589620742.7063,
+      "removeTime": 1741761859958
+    },
+    "f045afb4-d00e-44c7-aa2c-0d49eae75e66": {
+      "path": "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\ui\\rect_small.png",
+      "time": 1741589620742.7063,
+      "removeTime": 1741761859958
+    },
+    "9b17edbf-e587-442d-bdb7-307a07347fc8": {
+      "path": "D:\\Cocos\\CocosWordLineCreative\\assets\\scenes\\quiz.scene",
+      "time": 1741603272840.2603,
+      "removeTime": 1741761859959
+    },
+    "e9844cbf-51a7-416c-9f72-94bc2337acc1": {
+      "path": "D:\\Cocos\\CocosWordLineCreative\\assets\\scenes\\wordConnect.scene",
+      "time": 1741599321684.9841,
+      "removeTime": 1741761859959
+    },
+    "7ee2306f-260f-4232-ac42-b31941231a9b": {
+      "path": "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\quiz\\TutorialHandMover.ts",
+      "time": 1741599321706.914,
+      "removeTime": 1741763110500
+    },
+    "af31fa9f-41bd-480a-9369-5ebb76359ada": {
+      "path": "D:\\Cocos\\CocosSolitaireCreative\\assets\\resources\\animations\\rotateCard.anim",
+      "time": 1740079962116.278,
+      "removeTime": 1741769763816
+    },
+    "4e447ff5-4080-4c2e-8d70-543e36cb248a": {
+      "path": "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\animations\\quiz\\quizShake.anim",
+      "time": 1741599321452.3396,
+      "removeTime": 1741852357695
+    },
+    "7835944e-00cb-4f36-9cf3-593563529b69": {
+      "path": "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\animations\\quiz",
+      "time": 1741603272833.277,
+      "removeTime": 1741852357694
+    },
+    "efc6e5aa-579a-4509-bf14-0b22cc78e403": {
+      "path": "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\animations\\quiz\\showCorrect.anim",
+      "time": 1741599321454.333,
+      "removeTime": 1741852357695
+    },
+    "50289882-6fab-43d4-b78a-aad9c0fe9dab": {
+      "path": "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\animations\\quiz\\showResult.anim",
+      "time": 1741603272833.277,
+      "removeTime": 1741852357695
+    },
+    "6d06e7a2-1c7e-443d-8aec-c53cbfde4b61": {
+      "path": "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\animations\\changeLevel.anim",
+      "time": 1741599321404.4668,
+      "removeTime": 1741852357694
+    },
+    "df8a92d8-03f5-4f52-ae6e-c6dd8768cf46": {
+      "path": "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\animations\\fadeInSpellingVariant.anim",
+      "time": 1741599321451.341,
+      "removeTime": 1741852357694
+    },
+    "26785220-dbef-485e-bb04-10390211d33d": {
+      "path": "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\animations\\showCorrect.anim",
+      "time": 1741599321455.3394,
+      "removeTime": 1741852357694
+    },
+    "fd53aa59-b106-427f-b8d4-8b1a5d9f1b50": {
+      "path": "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\animations\\shake.anim",
+      "time": 1741589620726.3381,
+      "removeTime": 1741852357693
+    },
+    "d5fc1acd-3841-4205-86a4-cc9d4f150b67": {
+      "path": "D:\\Cocos\\CocosSolitaireCreative\\assets\\ui\\GREAT!.png",
+      "time": 1741852764908.5989,
+      "removeTime": 1741853468146
+    },
+    "29a8c3d6-9db7-4064-8000-7cfe17b880ca": {
+      "path": "D:\\Cocos\\CocosSolitaireCreative\\assets\\ui\\EXELLENT!.png",
+      "time": 1741852767678.927,
+      "removeTime": 1741853468146
+    },
+    "4d7666f6-f37f-4eb8-bf14-5b12c8a59f6e": {
+      "path": "D:\\Cocos\\CocosSolitaireCreative\\assets\\ui\\EPIC!.png",
+      "time": 1741852770255.4878,
+      "removeTime": 1741853468147
+    },
+    "230118d9-c05a-4d39-aeec-45ede3987558": {
+      "path": "D:\\Cocos\\CocosSolitaireCreative\\assets\\ui\\UNBELIVABLE!.png",
+      "time": 1741852773173.6045,
+      "removeTime": 1741853475907
+    },
+    "3822d17d-6024-4998-aaf9-448ba294e7d8": {
+      "path": "D:\\Cocos\\CocosSolitaireCreative\\assets\\ui\\GOOD!.png",
+      "time": 1741852760406.458,
+      "removeTime": 1741853468045
+    },
+    "7be71878-d8fd-4d0d-b800-2a16b6870d40": {
+      "path": "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\configs\\letters-en-v2.txt",
+      "time": 1741589620728.0686,
+      "removeTime": 1741859645022
+    },
+    "8d1bf530-1752-4786-a990-353c27106089": {
+      "path": "D:\\Cocos\\CocosSolitaireCreative\\assets\\resources\\configs\\letters-en.txt",
+      "time": 1741589620729.0454,
+      "removeTime": 1741854632964
+    },
+    "81fddd95-9c1d-4aaa-b53a-ee26e9626403": {
+      "path": "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\configs\\crossword.txt",
+      "time": 1741589620728.0686,
+      "removeTime": 1741859645022
+    },
+    "1cbb9f0b-d9fa-4717-9377-267409d49290": {
+      "path": "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\configs\\crossword-en-v2.txt",
+      "time": 1741589620727.049,
+      "removeTime": 1741859645021
+    },
+    "b960b4c9-0223-47ee-ae75-3318e349c7e4": {
+      "path": "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\configs\\crossword-v2.txt",
+      "time": 1741589620728.0686,
+      "removeTime": 1741859645022
+    },
+    "5ce84e39-1fbf-442d-bb2f-0eabe3c11f98": {
+      "path": "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\configs\\crossword-en.txt",
+      "time": 1741589620727.049,
+      "removeTime": 1741859645022
+    },
+    "277b8188-42ec-422f-a632-8c59ea00a429": {
+      "path": "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\configs\\letters-v2.txt",
+      "time": 1741589620729.0454,
+      "removeTime": 1741859645022
+    },
+    "568aa5eb-5e12-42d2-967b-60ec09e7a747": {
+      "path": "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\configs\\quizConfig.txt",
+      "time": 1741603272833.277,
+      "removeTime": 1741859645022
+    },
+    "c621bcaa-06ea-49a4-a119-f7e7080965b0": {
+      "path": "D:\\Cocos\\CocosWordLineCreative\\assets\\resources\\configs\\wordConnectConfig.txt",
+      "time": 1741599321458.3225,
+      "removeTime": 1741859645022
+    },
+    "3ba33739-9c2f-4ee3-b0a4-eee3330c8141": {
+      "path": "D:\\Cocos\\CocosSolitaireCreative\\assets\\resources\\configs\\letters.txt",
+      "time": 1741858148644.6978,
+      "removeTime": 1741859691424
+    },
+    "fc26ff6b-1124-4f53-bd08-1bf2a9bfd401": {
+      "path": "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\wordConnect",
+      "time": 1741603351249.1155,
+      "removeTime": 1741861264363
+    },
+    "6b9a9914-feeb-4e4b-982d-8cd58133cc48": {
+      "path": "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\wordConnect\\description",
+      "time": 1741603351235.108,
+      "removeTime": 1741861264363
+    },
+    "1bc4ced6-5a39-4a5f-a947-946a4f30d900": {
+      "path": "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\wordConnect\\spelling",
+      "time": 1741603351279.5667,
+      "removeTime": 1741861264363
+    },
+    "f18989da-3586-45e2-9868-c1f1dd2df0c4": {
+      "path": "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\wordConnect\\CorrectLabelComponent.ts",
+      "time": 1741603272841.2583,
+      "removeTime": 1741861264363
+    },
+    "49374a8d-236a-473b-b468-4c6b73c70b64": {
+      "path": "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\wordConnect\\WordConnectScreenScaler.ts",
+      "time": 1741599321716.8875,
+      "removeTime": 1741861264363
+    },
+    "5fd1b96c-c62d-411f-a745-24d97c329a9d": {
+      "path": "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\wordConnect\\description\\DescriptionView.ts",
+      "time": 1741599321716.8875,
+      "removeTime": 1741861264363
+    },
+    "1200ca8c-c3ce-457c-b2ee-b38fc2af9727": {
+      "path": "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\wordConnect\\spelling\\SpellingController.ts",
+      "time": 1741599321717.885,
+      "removeTime": 1741861264363
+    },
+    "eec17175-0acb-418e-ac35-5548f35c04e1": {
+      "path": "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\wordConnect\\spelling\\SpellingData.ts",
+      "time": 1741599321718.8838,
+      "removeTime": 1741861264364
+    },
+    "e558fa6d-63f5-417b-b566-bb9aefa87497": {
+      "path": "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\wordConnect\\spelling\\SpellingLetter.ts",
+      "time": 1741599321718.8838,
+      "removeTime": 1741861264364
+    },
+    "5c2fa998-1286-49ce-b49f-52cac74010a1": {
+      "path": "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\wordConnect\\spelling\\SpellingVariant.ts",
+      "time": 1741599321719.8801,
+      "removeTime": 1741861264364
+    },
+    "ec9c6627-34d7-47f8-b6cb-a3a3ff13dbf2": {
+      "path": "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\wordConnect\\spelling\\SpellingView.ts",
+      "time": 1741599321719.8801,
+      "removeTime": 1741861264364
+    },
+    "4d4a57bf-3083-46c9-9284-3d98cd7e676a": {
+      "path": "D:\\Cocos\\CocosSolitaireCreative\\assets\\resources\\sounds\\shuffle.mp3",
+      "time": 1741589620733.0374,
+      "removeTime": 1741861739670
+    },
+    "ad110b58-6261-4e8f-8c26-17193c0025e4": {
+      "path": "D:\\Cocos\\CocosSolitaireCreative\\assets\\resources\\sounds\\letter3.mp3",
+      "time": 1741589620733.0374,
+      "removeTime": 1741861739757
+    },
+    "d984b6ab-fb65-41a0-ace8-a9d60558b701": {
+      "path": "D:\\Cocos\\CocosSolitaireCreative\\assets\\resources\\sounds\\letter1.mp3",
+      "time": 1741589620732.04,
+      "removeTime": 1741861739836
+    },
+    "41960aea-3280-48fb-a5f4-618c891d0ecd": {
+      "path": "D:\\Cocos\\CocosSolitaireCreative\\assets\\resources\\sounds\\letter2.mp3",
+      "time": 1741589620732.04,
+      "removeTime": 1741861739837
+    },
+    "7e7bcede-fe98-4060-9ec9-b3800d819b11": {
+      "path": "D:\\Cocos\\CocosSolitaireCreative\\assets\\resources\\ui",
+      "time": 1741721490545.7473,
+      "removeTime": 1741861752939
+    },
+    "3575749c-f500-4a48-a009-7e61460ed7e4": {
+      "path": "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\connector\\LettersConnectorController.ts",
+      "time": 1741589620745.699,
+      "removeTime": 1741861764180
+    },
+    "107207b5-5d60-4891-8403-9372389f0334": {
+      "path": "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\connector",
+      "time": 1741861764181.4346,
+      "removeTime": 1741861774890
+    },
+    "0100bc23-e47e-4d04-b4ba-e60d6fc6fb91": {
+      "path": "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\crossword",
+      "time": 1741603350729.1072,
+      "removeTime": 1741861774891
+    },
+    "caf0475f-9db4-47ff-a7d6-f37182ace59c": {
+      "path": "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\crossword\\Crossword.ts",
+      "time": 1741589620746.724,
+      "removeTime": 1741861774891
+    },
+    "4b9eedc2-c42e-4742-ac8f-2cf281322290": {
+      "path": "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\crossword\\CrosswordCell.ts",
+      "time": 1741589620746.724,
+      "removeTime": 1741861774891
+    },
+    "e53d9e9e-f294-4409-99d7-82a7fd4a1c77": {
+      "path": "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\crossword\\CrosswordController.ts",
+      "time": 1741589620747.723,
+      "removeTime": 1741861774891
+    },
+    "bfff1c11-902d-42ce-9c0c-bd2c3009c1e0": {
+      "path": "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\crossword\\CrosswordWord.ts",
+      "time": 1741589620747.723,
+      "removeTime": 1741861774891
+    },
+    "43d32974-38f0-4945-ae21-f9eeba685533": {
+      "path": "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\quiz",
+      "time": 1741763110500.1074,
+      "removeTime": 1741861795542
+    },
+    "a5bb49b8-e17f-4ac6-869b-d1c00a2ed84f": {
+      "path": "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\quiz\\HintComponent.ts",
+      "time": 1741599321695.9434,
+      "removeTime": 1741861795542
+    },
+    "eb31ba34-a383-4a4a-9a37-728685b2afbd": {
+      "path": "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\quiz\\QuizController.ts",
+      "time": 1741603272840.2603,
+      "removeTime": 1741861795542
+    },
+    "bfb85ab6-fc2d-4016-a559-ca8000ddc622": {
+      "path": "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\quiz\\QuizData.ts",
+      "time": 1741599321697.9382,
+      "removeTime": 1741861795542
+    },
+    "1130057d-b8a0-4ff2-8730-945981d4ac09": {
+      "path": "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\quiz\\QuizDescription.ts",
+      "time": 1741603272841.2583,
+      "removeTime": 1741861795542
+    },
+    "9ccbbf2e-ab15-45ff-a5a6-3226443d4c4b": {
+      "path": "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\quiz\\QuizScaler.ts",
+      "time": 1741599321698.936,
+      "removeTime": 1741861795542
+    },
+    "51ef1643-7124-4884-b731-bf6d7a8580d2": {
+      "path": "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\quiz\\QuizVariant.ts",
+      "time": 1741599321698.936,
+      "removeTime": 1741861795542
+    },
+    "ba26f07a-5677-4158-b26e-2b865b3c191a": {
+      "path": "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\quiz\\ResultScreen.ts",
+      "time": 1741599321705.9165,
+      "removeTime": 1741861795542
+    },
+    "36b16163-a572-4f30-9b74-dd386ef8574c": {
+      "path": "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\hint",
+      "time": 1741603350735.0913,
+      "removeTime": 1741861795983
+    },
+    "6171f9cb-fc6c-4a5f-bb64-250b24ee5f72": {
+      "path": "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\hint\\HintController.ts",
+      "time": 1741589620748.7202,
+      "removeTime": 1741861795983
+    },
+    "b1de0192-d5bf-4a06-8932-d1feb03b9f60": {
+      "path": "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\ui\\ConnectorLetterComponent.ts",
+      "time": 1741589620750.7148,
+      "removeTime": 1741861891839
+    },
+    "dae467cb-2b7d-4013-bd37-80296a8c9688": {
+      "path": "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\ui\\CrosswordLetterComponent.ts",
+      "time": 1741589620751.7126,
+      "removeTime": 1741861891970
+    },
+    "44c33bdd-16bb-4323-81b9-72d6d029f7a0": {
+      "path": "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\ui\\LettersLabelComponent.ts",
+      "time": 1741589620751.7126,
+      "removeTime": 1741861904924
+    },
+    "72ff507e-ca37-4005-aa92-7553d37b6c42": {
+      "path": "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\ui\\ScreenScaler.ts",
+      "time": 1741589620752.7107,
+      "removeTime": 1741861948643
+    },
+    "dff2bab5-505e-44d3-843a-05078fbe8772": {
+      "path": "D:\\Cocos\\CocosSolitaireCreative\\assets\\scripts\\ui\\LineGraphics.ts",
+      "time": 1741589620751.7126,
+      "removeTime": 1741861963279
+    }
+  }
+}
