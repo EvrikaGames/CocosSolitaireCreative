@@ -12,7 +12,7 @@
     ],
     "paths": {
       "db://internal/*": [
-        "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.5\\resources\\resources\\3d\\engine\\editor\\assets\\*"
+        "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine\\editor\\assets\\*"
       ],
       "db://assets/*": [
         "D:\\Cocos\\CocosSolitaireCreative\\assets\\*"

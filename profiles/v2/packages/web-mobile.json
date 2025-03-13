@@ -17,7 +17,15 @@
         }
       ],
       "startScene": "9b17edbf-e587-442d-bdb7-307a07347fc8",
-      "name": "SolitaireCreative"
+      "name": "SolitaireCreative",
+      "mainBundleIsRemote": false,
+      "md5Cache": false,
+      "overwriteProjectSettings": {
+        "includeModules": {
+          "gfx-webgl2": "inherit-project-setting"
+        }
+      },
+      "useBuiltinServer": false
     },
     "taskOptionsMap": {
       "1716562539018": {
@@ -31,8 +39,99 @@
         "orientation": "auto",
         "embedWebDebugger": false,
         "__version__": "1.0.1"
+      },
+      "1741866004368": {
+        "useWebGPU": false,
+        "orientation": "auto",
+        "embedWebDebugger": false,
+        "__version__": "1.0.1"
+      },
+      "1741866070032": {
+        "useWebGPU": false,
+        "orientation": "auto",
+        "embedWebDebugger": false,
+        "__version__": "1.0.1"
+      },
+      "1741866727795": {
+        "useWebGPU": false,
+        "orientation": "auto",
+        "embedWebDebugger": false,
+        "__version__": "1.0.1"
+      },
+      "1741866775222": {
+        "useWebGPU": false,
+        "orientation": "auto",
+        "embedWebDebugger": false,
+        "__version__": "1.0.1"
+      },
+      "1741866963436": {
+        "useWebGPU": false,
+        "orientation": "auto",
+        "embedWebDebugger": false,
+        "__version__": "1.0.1"
+      },
+      "1741869299740": {
+        "useWebGPU": false,
+        "orientation": "landscape",
+        "embedWebDebugger": false,
+        "__version__": "1.0.1"
+      },
+      "1741870436320": {
+        "useWebGPU": false,
+        "orientation": "landscape",
+        "embedWebDebugger": false,
+        "__version__": "1.0.1"
+      },
+      "1741871237513": {
+        "useWebGPU": false,
+        "orientation": "landscape",
+        "embedWebDebugger": false,
+        "__version__": "1.0.1"
+      },
+      "1741871292252": {
+        "useWebGPU": false,
+        "orientation": "landscape",
+        "embedWebDebugger": false,
+        "__version__": "1.0.1"
+      },
+      "1741875452005": {
+        "orientation": "landscape",
+        "embedWebDebugger": false,
+        "cullEngineAsmJsModule": false,
+        "useWebGPU": false,
+        "__version__": "1.0.1"
+      },
+      "1741875602449": {
+        "orientation": "landscape",
+        "embedWebDebugger": false,
+        "cullEngineAsmJsModule": false,
+        "useWebGPU": false,
+        "__version__": "1.0.1"
+      },
+      "1741875971117": {
+        "orientation": "landscape",
+        "embedWebDebugger": false,
+        "cullEngineAsmJsModule": false,
+        "useWebGPU": false,
+        "__version__": "1.0.1"
+      },
+      "1741876617343": {
+        "orientation": "landscape",
+        "embedWebDebugger": false,
+        "cullEngineAsmJsModule": false,
+        "useWebGPU": false,
+        "__version__": "1.0.1"
       }
     },
-    "__version__": "1.3.9"
+    "__version__": "1.3.7",
+    "options": {
+      "web-mobile": {
+        "orientation": "landscape",
+        "embedWebDebugger": false,
+        "cullEngineAsmJsModule": false,
+        "useWebGPU": false,
+        "__version__": "1.0.1"
+      }
+    }
   }
 }

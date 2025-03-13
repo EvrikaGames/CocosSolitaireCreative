@@ -1,5 +1,5 @@
 {
-  "__version__": "3.0.8",
+  "__version__": "3.0.7",
   "builder": {
     "options": {
       "web-desktop": {
@@ -24,13 +24,83 @@
         "configID": "a250cd",
         "services": [],
         "__version__": "3.0.8"
+      },
+      "1741866004368": {
+        "configID": "a250cd",
+        "services": [],
+        "__version__": "3.0.8"
+      },
+      "1741866070032": {
+        "configID": "a250cd",
+        "services": [],
+        "__version__": "3.0.8"
+      },
+      "1741866727795": {
+        "configID": "a250cd",
+        "services": [],
+        "__version__": "3.0.8"
+      },
+      "1741866775222": {
+        "configID": "a250cd",
+        "services": [],
+        "__version__": "3.0.8"
+      },
+      "1741866963436": {
+        "configID": "a250cd",
+        "services": [],
+        "__version__": "3.0.8"
+      },
+      "1741869299740": {
+        "configID": "a250cd",
+        "services": [],
+        "__version__": "3.0.8"
+      },
+      "1741870436320": {
+        "configID": "a250cd",
+        "services": [],
+        "__version__": "3.0.8"
+      },
+      "1741871237513": {
+        "configID": "a250cd",
+        "services": [],
+        "__version__": "3.0.8"
+      },
+      "1741871292252": {
+        "configID": "a250cd",
+        "services": [],
+        "__version__": "3.0.8"
+      },
+      "1741871292252}": {
+        "configID": "a250cd",
+        "services": [],
+        "__version__": "3.0.8"
+      },
+      "1741875452005": {
+        "configID": "a250cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1741875602449": {
+        "configID": "a250cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1741875971117": {
+        "configID": "a250cd",
+        "services": [],
+        "__version__": "3.0.7"
+      },
+      "1741876617343": {
+        "configID": "a250cd",
+        "services": [],
+        "__version__": "3.0.7"
       }
     },
-    "__version__": "1.3.9"
+    "__version__": "1.3.7"
   },
   "builder-options": {
     "configID": "a250cd",
     "services": [],
-    "__version__": "3.0.8"
+    "__version__": "3.0.7"
   }
 }

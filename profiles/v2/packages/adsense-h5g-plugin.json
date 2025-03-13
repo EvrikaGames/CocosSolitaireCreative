@@ -48,8 +48,125 @@
         "AFPHostDomain": "douyougame.com",
         "otherAFPHostPropertyCode": "",
         "otherAFPDomain": ""
+      },
+      "1741866004368": {
+        "enableAdsense": false,
+        "enableTestAd": false,
+        "__version__": "1.0.1",
+        "AFPHostPropertyCode": "ca-host-pub-5396158963872751",
+        "AFPHostDomain": "douyougame.com",
+        "otherAFPHostPropertyCode": "",
+        "otherAFPDomain": ""
+      },
+      "1741866070032": {
+        "enableAdsense": false,
+        "enableTestAd": false,
+        "__version__": "1.0.1",
+        "AFPHostPropertyCode": "ca-host-pub-5396158963872751",
+        "AFPHostDomain": "douyougame.com",
+        "otherAFPHostPropertyCode": "",
+        "otherAFPDomain": ""
+      },
+      "1741866727795": {
+        "enableAdsense": false,
+        "enableTestAd": false,
+        "__version__": "1.0.1",
+        "AFPHostPropertyCode": "ca-host-pub-5396158963872751",
+        "AFPHostDomain": "douyougame.com",
+        "otherAFPHostPropertyCode": "",
+        "otherAFPDomain": ""
+      },
+      "1741866775222": {
+        "enableAdsense": false,
+        "enableTestAd": false,
+        "__version__": "1.0.1",
+        "AFPHostPropertyCode": "ca-host-pub-5396158963872751",
+        "AFPHostDomain": "douyougame.com",
+        "otherAFPHostPropertyCode": "",
+        "otherAFPDomain": ""
+      },
+      "1741866963436": {
+        "enableAdsense": false,
+        "enableTestAd": false,
+        "__version__": "1.0.1",
+        "AFPHostPropertyCode": "ca-host-pub-5396158963872751",
+        "AFPHostDomain": "douyougame.com",
+        "otherAFPHostPropertyCode": "",
+        "otherAFPDomain": ""
+      },
+      "1741869299740": {
+        "enableAdsense": false,
+        "enableTestAd": false,
+        "__version__": "1.0.1",
+        "AFPHostPropertyCode": "ca-host-pub-5396158963872751",
+        "AFPHostDomain": "douyougame.com",
+        "otherAFPHostPropertyCode": "",
+        "otherAFPDomain": ""
+      },
+      "1741870436320": {
+        "enableAdsense": false,
+        "enableTestAd": false,
+        "__version__": "1.0.1",
+        "AFPHostPropertyCode": "ca-host-pub-5396158963872751",
+        "AFPHostDomain": "douyougame.com",
+        "otherAFPHostPropertyCode": "",
+        "otherAFPDomain": ""
+      },
+      "1741871237513": {
+        "enableAdsense": false,
+        "enableTestAd": false,
+        "__version__": "1.0.1",
+        "AFPHostPropertyCode": "ca-host-pub-5396158963872751",
+        "AFPHostDomain": "douyougame.com",
+        "otherAFPHostPropertyCode": "",
+        "otherAFPDomain": ""
+      },
+      "1741871292252": {
+        "enableAdsense": false,
+        "enableTestAd": false,
+        "__version__": "1.0.1",
+        "AFPHostPropertyCode": "ca-host-pub-5396158963872751",
+        "AFPHostDomain": "douyougame.com",
+        "otherAFPHostPropertyCode": "",
+        "otherAFPDomain": ""
+      },
+      "1741875452005": {
+        "enableAdsense": false,
+        "enableTestAd": false,
+        "__version__": "1.0.1",
+        "AFPHostPropertyCode": "ca-host-pub-5396158963872751",
+        "AFPHostDomain": "douyougame.com",
+        "otherAFPHostPropertyCode": "",
+        "otherAFPDomain": ""
+      },
+      "1741875602449": {
+        "enableAdsense": false,
+        "enableTestAd": false,
+        "__version__": "1.0.1",
+        "AFPHostPropertyCode": "ca-host-pub-5396158963872751",
+        "AFPHostDomain": "douyougame.com",
+        "otherAFPHostPropertyCode": "",
+        "otherAFPDomain": ""
+      },
+      "1741875971117": {
+        "enableAdsense": false,
+        "enableTestAd": false,
+        "__version__": "1.0.1",
+        "AFPHostPropertyCode": "ca-host-pub-5396158963872751",
+        "AFPHostDomain": "douyougame.com",
+        "otherAFPHostPropertyCode": "",
+        "otherAFPDomain": ""
+      },
+      "1741876617343": {
+        "enableAdsense": false,
+        "enableTestAd": false,
+        "__version__": "1.0.1",
+        "AFPHostPropertyCode": "ca-host-pub-5396158963872751",
+        "AFPHostDomain": "douyougame.com",
+        "otherAFPHostPropertyCode": "",
+        "otherAFPDomain": ""
       }
     },
-    "__version__": "1.3.9"
+    "__version__": "1.3.7"
   }
 }

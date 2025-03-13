@@ -1,5 +1,5 @@
 {
-  "__version__": "1.3.9",
+  "__version__": "1.3.7",
   "log": {
     "level": 1
   },
@@ -19,54 +19,41 @@
     "platform": "web-mobile",
     "useSplashScreen": false,
     "startScene": "9b17edbf-e587-442d-bdb7-307a07347fc8",
-    "name": "SolitaireCreative"
+    "name": "SolitaireCreative",
+    "mainBundleIsRemote": false,
+    "md5Cache": false,
+    "overwriteProjectSettings": {
+      "includeModules": {
+        "gfx-webgl2": "inherit-project-setting"
+      }
+    },
+    "useBuiltinServer": false
   },
   "BuildTaskManager": {
     "taskMap": {
-      "1741862215349": {
+      "1741876617343": {
         "type": "build",
-        "id": "1741862215349",
+        "id": "1741876617343",
         "progress": 1,
         "state": "success",
         "stage": "build",
-        "message": "13.03.2025 13:37:40 build success in 45 s!",
-        "detailMessage": "// ---- build task cocos-service：onAfterBuild ----\r",
+        "message": "13.03.2025 17:37:12 build success in 15 s!",
         "options": {
           "name": "SolitaireCreative",
           "server": "",
           "platform": "web-mobile",
           "buildPath": "project://build",
           "debug": false,
-          "buildMode": "normal",
-          "mangleProperties": false,
           "md5Cache": false,
           "skipCompressTexture": false,
           "sourceMaps": false,
-          "overwriteProjectSettings": {
-            "includeModules": {
-              "gfx-webgl2": "on",
-              "physics": "inherit-project-setting",
-              "physics-2d": "inherit-project-setting"
-            },
-            "macroConfig": {
-              "cleanupImageCache": "inherit-project-setting"
-            }
-          },
-          "nativeCodeBundleMode": "both",
           "polyfills": {
             "asyncFunctions": true
           },
           "experimentalEraseModules": false,
           "startSceneAssetBundle": false,
           "bundleConfigs": [],
-          "inlineEnum": true,
           "useBuiltinServer": false,
-          "md5CacheOptions": {
-            "excludes": [],
-            "includes": [],
-            "replaceOnly": [],
-            "handleTemplateMd5Link": true
-          },
           "mainBundleIsRemote": false,
           "mainBundleCompressionType": "merge_dep",
           "useSplashScreen": false,
@@ -81,12 +68,17 @@
               "uuid": "dc2dda4d-4285-4c9b-a5be-643ce0534e83"
             }
           ],
-          "wasmCompressionMode": false,
+          "overwriteProjectSettings": {
+            "includeModules": {
+              "gfx-webgl2": "inherit-project-setting"
+            }
+          },
           "packages": {},
-          "__version__": "1.3.9",
-          "logDest": "project://temp/builder/log/web-mobile13.03.2025 13-36.log"
+          "__version__": "1.3.7",
+          "buildMode": "normal",
+          "logDest": "project://temp/builder/log/web-mobile13.03.2025 17-36.log"
         },
-        "time": "13.03.2025 13:36:55",
+        "time": "13.03.2025 17:36:57",
         "dirty": false
       }
     }

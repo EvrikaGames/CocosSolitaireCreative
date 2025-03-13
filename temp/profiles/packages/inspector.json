@@ -153,5 +153,16 @@
     "texture": {
       "mipfilter": "none"
     }
+  },
+  "af8c187e-e198-45af-b2d0-7fd9fea61a39@6c48a": {
+    "texture": {
+      "mipfilter": "none",
+      "wrapMode": "Repeat"
+    }
+  },
+  "797b35fb-1af5-4524-8683-1b7589b7d443@6c48a": {
+    "texture": {
+      "mipfilter": "none"
+    }
   }
 }

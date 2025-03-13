@@ -115,11 +115,6 @@ declare module 'cc/env'{
 	export const LINKSURE: boolean;
 
 	/**
-	 * Running in the migu's quick game.
-	 */
-	export const MIGU: boolean;
-
-	/**
 	 * Running in the editor.
 	 */
 	export const EDITOR: boolean;
