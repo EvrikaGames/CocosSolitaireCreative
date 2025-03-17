@@ -1,4 +1,4 @@
-import { _decorator, Component, find, Label, Node, Vec3, Event, EventTouch, Canvas, tween, UITransform, Quat } from 'cc';
+import { _decorator, Component, find, Label, Node, Vec3, Event, EventTouch, Canvas, tween, UITransform, Quat, Sprite, Prefab, instantiate } from 'cc';
 import { ICardData } from './ICardData';
 import GameController from './GameController';
 const { ccclass, property } = _decorator;
@@ -14,6 +14,9 @@ export default class Card extends Component {
     @property(Node)
     backYellow: Node = null;
 
+    @property(Prefab)
+    circle: Prefab = null;
+
     num: number;
 
     private cardData: ICardData;
@@ -23,6 +26,8 @@ export default class Card extends Component {
 
     @property
     rotationAngle: number = 360;
+
+    private canTouch: boolean = true;
 
 
     init(cardData: ICardData) {
@@ -68,15 +73,24 @@ export default class Card extends Component {
         this.node.setPosition(this.node.position.add(delta.toVec3()));
     }*/
 
-    onTouchEnd(event) {
-        if(this.isRevealed){
-            const index = event.index;
-            this.node.emit(GameController.VARIANTS_UPDATED, {index: index});
-            //this.node.emit(GameController.VARIANT_SELECTED, {index: index});
-            const game = find('Canvas').getComponentInChildren('GameController') as  GameController;
-            const closestSlot = game.moveCardToWord(this.node.getComponent(Card));
+        onTouchEnd(event) {
+            if (!this.canTouch) {
+                return;
+            }
+        
+            if (this.isRevealed) {
+                this.canTouch = false; 
+        
+                const index = event.index;
+                this.node.emit(GameController.VARIANTS_UPDATED, { index: index });
+                const game = find('Canvas').getComponentInChildren('GameController') as GameController;
+                const closestSlot = game.moveCardToWord(this.node.getComponent(Card));
+        
+                setTimeout(() => {
+                    this.canTouch = true;
+                }, 700); 
+            }
         }
-    }
     moveTo(targetWorldPos: Vec3){
         const parentUI = this.node.parent.getComponent(UITransform);
         if (!parentUI) {
@@ -97,14 +111,48 @@ export default class Card extends Component {
         const localPos = this.node.parent.getComponent(UITransform).convertToNodeSpaceAR(worldPos);
 
         tween(this.node)
-            .to(1, { position: localPos })
-            .to(1, { scale: Vec3.ZERO })
+        .to(0.3, { position: localPos }) // Перемещение карты
+        .call(() => {
+            this.unschedule(this.createCircle); // Останавливаем создание кругов после перемещения
+        })
+        .to(0.3, { scale: Vec3.ZERO }) // Уменьшение карты до нуля
+        .call(() => {
+            this.removeCard(); // Удаление карты
+        })
+        .start();
+    
+    // Запускаем создание кругов одновременно с твином
+        this.schedule(this.createCircle.bind(this), 0.005, Math.ceil(0.5 / 0.005));
+    }
+    
+    createCircle() {
+        const newCircle = instantiate(this.circle); // Создаем новый круг
+        newCircle.parent = this.node.parent; // Устанавливаем родителя круга
+    
+        // Устанавливаем позицию круга в той же точке, где находится карта
+        const worldPos = this.node.getWorldPosition();
+        const localPos = this.node.parent!.getComponent(UITransform)!.convertToNodeSpaceAR(worldPos);
+        newCircle.setPosition(localPos);
+    
+        // Устанавливаем круг выше текущего объекта в иерархии
+        newCircle.setSiblingIndex(this.node.getSiblingIndex());
+    
+        // Устанавливаем размер круга, равный текущему размеру карты
+        newCircle.setScale(this.node.getScale().clone()); // Копируем текущий масштаб карты
+    
+        // Анимация уменьшения круга и его удаление
+        tween(newCircle)
+            .to(0.3, { scale: new Vec3(0, 0, 0) }) // Уменьшение размера до нуля за 0.3 секунды
             .call(() => {
-                this.removeCard();
+                newCircle.destroy(); // Удаление круга после завершения
             })
             .start();
-
     }
+    
+    
+    
+        
+
 
     removeCard(){this.node.destroy();}
     returnCardToPosition(){

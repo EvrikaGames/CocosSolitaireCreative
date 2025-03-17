@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 8453.893899999559,
+      "mTimestamp": 26180.690200030804,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -640,7 +640,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 10019.664200000465,
+      "mTimestamp": 44143.516000032425,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -840,7 +840,7 @@
           }
         },
         {
-          "value": "file:///D:/Cocos/CocosSolitaireCreative/assets/scripts/ui/StoreButtonComponent.ts",
+          "value": "file:///D:/Cocos/CocosSolitaireCreative/assets/scripts/ui/ScreenScaler.ts",
           "resolved": "__unresolved_14",
           "loc": {
             "start": {
@@ -849,7 +849,21 @@
             },
             "end": {
               "line": 5,
-              "column": 1513
+              "column": 1505
+            }
+          }
+        },
+        {
+          "value": "file:///D:/Cocos/CocosSolitaireCreative/assets/scripts/ui/StoreButtonComponent.ts",
+          "resolved": "__unresolved_15",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1521
+            },
+            "end": {
+              "line": 5,
+              "column": 1604
             }
           }
         }
@@ -951,6 +965,13 @@
           "resolved": {
             "type": "module",
             "url": "file:///D:/Cocos/CocosSolitaireCreative/assets/scripts/sound/SoundController.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/CocosSolitaireCreative/assets/scripts/ui/ScreenScaler.ts"
           },
           "messages": []
         },
@@ -2620,7 +2641,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1741876489526,
+      "mTimestamp": 1742225821832,
       "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
       "imports": [],
       "type": "esm",
@@ -4815,7 +4836,7 @@
     },
     "file:///D:/Cocos/CocosSolitaireCreative/assets/scripts/services/StoreController.ts": {
       "mTimestamp": {
-        "mtime": 1741599321706.914,
+        "mtime": 1741949648933.5586,
         "uuid": "f7b169e0-84a2-42cc-a7b6-a6734d197cb9"
       },
       "chunkId": "1821425637f57840388076b99b0c512b2eadd6f9",
@@ -5181,8 +5202,8 @@
     },
     "file:///D:/Cocos/CocosSolitaireCreative/assets/scripts/ui/ScreenScaler.ts": {
       "mTimestamp": {
-        "mtime": 1741589620752.7107,
-        "uuid": "72ff507e-ca37-4005-aa92-7553d37b6c42"
+        "mtime": 1742159151158.18,
+        "uuid": "9c4a9a4a-edcb-4d58-9d6d-6b5ce152d804"
       },
       "chunkId": "d4afb478772f0f9d91688cd4f7efe57a799ef474",
       "imports": [
@@ -5197,11 +5218,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 96
+              "column": 104
             },
             "end": {
               "line": 1,
-              "column": 100
+              "column": 108
             }
           }
         }
@@ -6057,7 +6078,7 @@
     },
     "file:///D:/Cocos/CocosSolitaireCreative/assets/scripts/solitaire/Card.ts": {
       "mTimestamp": {
-        "mtime": 1741806256845.465,
+        "mtime": 1742160930112.6936,
         "uuid": "afa4c943-531c-4c23-9494-a7877b577fb2"
       },
       "chunkId": "b7a9b2f841346544d03a5a97269e3a5b06a4157e",
@@ -6077,11 +6098,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 116
+              "column": 145
             },
             "end": {
               "line": 1,
-              "column": 120
+              "column": 149
             }
           }
         },
@@ -6245,7 +6266,7 @@
     },
     "file:///D:/Cocos/CocosSolitaireCreative/assets/scripts/solitaire/Letter.ts": {
       "mTimestamp": {
-        "mtime": 1741804797036.4556,
+        "mtime": 1741957192818.791,
         "uuid": "ce94b6d9-4210-4766-82bb-c0503f491690"
       },
       "chunkId": "c2e09ae39f3d653ac833f14c483f66418d18077d",
@@ -6360,7 +6381,7 @@
     },
     "file:///D:/Cocos/CocosSolitaireCreative/assets/scripts/solitaire/GameController.ts": {
       "mTimestamp": {
-        "mtime": 1741861587567.271,
+        "mtime": 1742160146946.0842,
         "uuid": "475131d6-1190-4d2a-957c-aa53438384ec"
       },
       "chunkId": "b15a02df431da4962ba55ec94fc8098aef677fb3",
@@ -7259,6 +7280,58 @@
       ],
       "type": "esm",
       "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/Cocos/CocosSolitaireCreative/assets/scripts/ui/ScreenScalert.ts": {
+      "mTimestamp": {
+        "mtime": 1741939534565.8867,
+        "uuid": "ba64f5e9-2b18-41a9-ba3a-e53b77334b2a"
+      },
+      "chunkId": "19d40a26626b1db7d99b2858b519659f0359c17a",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
         {
           "resolved": {
             "type": "module",

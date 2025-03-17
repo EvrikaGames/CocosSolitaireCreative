@@ -345,27 +345,27 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
               setTimeout(() => {
                 if (this.isWordRight()) {
                   this.letterSlots.forEach(slot => {
-                    slot.repeatWordAnimation();
+                    slot.repeatWordEndAnimation();
                   });
                   blockerComponent.showBlocker();
                   this.resultScreen.show(true);
                   this.sound.play(this.sound.correct);
+                  this.completedWords[this.currentWordIndex].setString(this.predefinedWordStrings[this.currentWordIndex]);
+                  this.completedWords[this.currentWordIndex].selectWord();
+                  this.currentWordIndex++;
+                  this.moveCardsToCompleteWord();
                   setTimeout(() => {
-                    this.completedWords[this.currentWordIndex].setString(this.predefinedWordStrings[this.currentWordIndex]);
-                    this.completedWords[this.currentWordIndex].selectWord();
-                    this.currentWordIndex++;
-                    this.moveCardsToCompleteWord();
                     this.deleteSlots();
                     this.letterSlots = [];
                     this.createSlots();
                     this.currentLetterIndex = 0;
                     this.changeSentence();
                     blockerComponent.hideBlocker();
-                  }, 1500);
+                  }, this.letterSlots.length * 50);
                 } else {
                   this.letterSlots.forEach(slot => {
                     slot.toWrongColor();
-                    slot.repeatWordAnimation();
+                    slot.repeatWordEndAnimation();
                   });
                   this.sound.play(this.sound.wrong);
                   blockerComponent.showBlocker();
@@ -394,9 +394,10 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
                       console.warn("StoreButtonComponent not found on the provided node!");
                     }
                   }
-                }, 1500);
-              }, 1500);
+                }, this.letterSlots.length * 50);
+              }, this.letterSlots.length * 50);
             } else {
+              this.letterSlots[this.currentLetterIndex - 1].repeatWordAnimation();
               card.isSelected = true;
             }
           } else {
@@ -463,26 +464,39 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
         changeSentence() {
           var uiOpacity = this.sentenceLabel.getComponent(UIOpacity) || this.sentenceLabel.addComponent(UIOpacity);
           uiOpacity.opacity = 255;
-          tween(this.sentenceLabel.node).parallel(tween().to(1, {
+          var vec = new Vec3(30, 0, 0);
+          var vec1 = new Vec3(-30, 0, 0); // Анимация позиции узла
+
+          tween(this.sentenceLabel.node).to(0.3, {
+            position: vec1
+          }).to(0.5, {
             position: this.endPosition.position
-          }), tween(uiOpacity).to(1, {
-            opacity: 0
-          })).call(() => {
+          }).call(() => {
             this.sentenceLabel.string = this.predefinedSentences[this.currentWordIndex];
             this.sentenceLabel.node.position = new Vec3(this.startPosition.position);
-            tween(this.sentenceLabel.node).parallel(tween().to(1, {
+            tween(this.sentenceLabel.node).to(0.8, {
+              position: vec
+            }).to(0.2, {
               position: new Vec3(0, 0, 0)
-            }), tween(uiOpacity).to(1, {
+            }).start();
+          }).start(); // Анимация прозрачности
+
+          tween(uiOpacity).to(0.5, {
+            opacity: 0
+          }).delay(0.6).call(() => {
+            tween(uiOpacity).to(1, {
               opacity: 255
-            })).start();
+            }).start();
           }).start();
         }
 
         moveCardsToCompleteWord() {
           var targetNode = this.completedWords[this.currentWordIndex - 1].node;
           var worldPos = targetNode.getWorldPosition();
-          this.letterSlots.forEach(slot => {
-            slot.getCard().moveToCompleteWord(worldPos);
+          this.letterSlots.forEach((slot, index) => {
+            setTimeout(() => {
+              slot.getCard().moveToCompleteWord(worldPos);
+            }, 50 * index);
           });
         }
 

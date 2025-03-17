@@ -33,8 +33,8 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
       _export("StoreController", StoreController = (_dec = ccclass('StoreController'), _dec(_class = class StoreController extends Component {
         start() {
-          var googlePlay = 'https://play.google.com/store/apps/details?id=com.trivia.knowledgeispower';
-          var appstore = 'https://apps.apple.com/us/app/power-of-knowledge-trivia/id6453888129';
+          var googlePlay = 'https://play.google.com/store/apps/details?id=com.evrika.word.solitaire.card.puzzle&pli=1';
+          var appstore = 'https://apps.apple.com/us/app/word-solitaire-journey/id6739961990';
           (_crd && super_html_playable === void 0 ? (_reportPossibleCrUseOfsuper_html_playable({
             error: Error()
           }), super_html_playable) : super_html_playable).set_google_play_url(googlePlay);

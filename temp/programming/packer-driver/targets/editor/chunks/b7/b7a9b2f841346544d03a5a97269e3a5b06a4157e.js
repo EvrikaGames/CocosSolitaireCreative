@@ -1,7 +1,7 @@
 System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, find, Label, Node, Vec3, tween, UITransform, Quat, GameController, _dec, _dec2, _dec3, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _crd, ccclass, property, Card;
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, find, Label, Node, Vec3, tween, UITransform, Quat, Prefab, instantiate, GameController, _dec, _dec2, _dec3, _dec4, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _crd, ccclass, property, Card;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -33,6 +33,8 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
       tween = _cc.tween;
       UITransform = _cc.UITransform;
       Quat = _cc.Quat;
+      Prefab = _cc.Prefab;
+      instantiate = _cc.instantiate;
     }, function (_unresolved_2) {
       GameController = _unresolved_2.default;
     }],
@@ -41,14 +43,14 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
       _cclegacy._RF.push({}, "afa4clDUxxMI5SUp4d7V3+y", "Card", undefined);
 
-      __checkObsolete__(['_decorator', 'Component', 'find', 'Label', 'Node', 'Vec3', 'Event', 'EventTouch', 'Canvas', 'tween', 'UITransform', 'Quat']);
+      __checkObsolete__(['_decorator', 'Component', 'find', 'Label', 'Node', 'Vec3', 'Event', 'EventTouch', 'Canvas', 'tween', 'UITransform', 'Quat', 'Sprite', 'Prefab', 'instantiate']);
 
       ({
         ccclass,
         property
       } = _decorator);
 
-      _export("default", Card = (_dec = property(Label), _dec2 = property(Node), _dec3 = property(Node), ccclass(_class = (_class2 = class Card extends Component {
+      _export("default", Card = (_dec = property(Label), _dec2 = property(Node), _dec3 = property(Node), _dec4 = property(Prefab), ccclass(_class = (_class2 = class Card extends Component {
         constructor(...args) {
           super(...args);
 
@@ -58,13 +60,17 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
           _initializerDefineProperty(this, "backYellow", _descriptor3, this);
 
+          _initializerDefineProperty(this, "circle", _descriptor4, this);
+
           this.num = void 0;
           this.cardData = void 0;
           this.initialPosition = void 0;
           this.isSelected = false;
           this.isRevealed = false;
 
-          _initializerDefineProperty(this, "rotationAngle", _descriptor4, this);
+          _initializerDefineProperty(this, "rotationAngle", _descriptor5, this);
+
+          this.canTouch = true;
         }
 
         init(cardData) {
@@ -108,16 +114,23 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
 
         onTouchEnd(event) {
+          if (!this.canTouch) {
+            return;
+          }
+
           if (this.isRevealed) {
+            this.canTouch = false;
             const index = event.index;
             this.node.emit((_crd && GameController === void 0 ? (_reportPossibleCrUseOfGameController({
               error: Error()
             }), GameController) : GameController).VARIANTS_UPDATED, {
               index: index
-            }); //this.node.emit(GameController.VARIANT_SELECTED, {index: index});
-
+            });
             const game = find('Canvas').getComponentInChildren('GameController');
             const closestSlot = game.moveCardToWord(this.node.getComponent(Card));
+            setTimeout(() => {
+              this.canTouch = true;
+            }, 700);
           }
         }
 
@@ -139,12 +152,41 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
         moveToCompleteWord(worldPos) {
           const localPos = this.node.parent.getComponent(UITransform).convertToNodeSpaceAR(worldPos);
-          tween(this.node).to(1, {
+          tween(this.node).to(0.3, {
             position: localPos
-          }).to(1, {
+          }) // Перемещение карты
+          .call(() => {
+            this.unschedule(this.createCircle); // Останавливаем создание кругов после перемещения
+          }).to(0.3, {
             scale: Vec3.ZERO
-          }).call(() => {
-            this.removeCard();
+          }) // Уменьшение карты до нуля
+          .call(() => {
+            this.removeCard(); // Удаление карты
+          }).start(); // Запускаем создание кругов одновременно с твином
+
+          this.schedule(this.createCircle.bind(this), 0.005, Math.ceil(0.5 / 0.005));
+        }
+
+        createCircle() {
+          const newCircle = instantiate(this.circle); // Создаем новый круг
+
+          newCircle.parent = this.node.parent; // Устанавливаем родителя круга
+          // Устанавливаем позицию круга в той же точке, где находится карта
+
+          const worldPos = this.node.getWorldPosition();
+          const localPos = this.node.parent.getComponent(UITransform).convertToNodeSpaceAR(worldPos);
+          newCircle.setPosition(localPos); // Устанавливаем круг выше текущего объекта в иерархии
+
+          newCircle.setSiblingIndex(this.node.getSiblingIndex()); // Устанавливаем размер круга, равный текущему размеру карты
+
+          newCircle.setScale(this.node.getScale().clone()); // Копируем текущий масштаб карты
+          // Анимация уменьшения круга и его удаление
+
+          tween(newCircle).to(0.3, {
+            scale: new Vec3(0, 0, 0)
+          }) // Уменьшение размера до нуля за 0.3 секунды
+          .call(() => {
+            newCircle.destroy(); // Удаление круга после завершения
           }).start();
         }
 
@@ -193,7 +235,14 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
         initializer: function () {
           return null;
         }
-      }), _descriptor4 = _applyDecoratedDescriptor(_class2.prototype, "rotationAngle", [property], {
+      }), _descriptor4 = _applyDecoratedDescriptor(_class2.prototype, "circle", [_dec4], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function () {
+          return null;
+        }
+      }), _descriptor5 = _applyDecoratedDescriptor(_class2.prototype, "rotationAngle", [property], {
         configurable: true,
         enumerable: true,
         writable: true,

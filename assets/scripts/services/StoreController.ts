@@ -6,8 +6,8 @@ const { ccclass, property } = _decorator;
 export class StoreController extends Component {
 
     start() {
-        const googlePlay = 'https://play.google.com/store/apps/details?id=com.trivia.knowledgeispower';
-        const appstore = 'https://apps.apple.com/us/app/power-of-knowledge-trivia/id6453888129';
+        const googlePlay = 'https://play.google.com/store/apps/details?id=com.evrika.word.solitaire.card.puzzle&pli=1';
+        const appstore = 'https://apps.apple.com/us/app/word-solitaire-journey/id6739961990';
 
         super_html_playable.set_google_play_url(googlePlay);
         super_html_playable.set_app_store_url(appstore);

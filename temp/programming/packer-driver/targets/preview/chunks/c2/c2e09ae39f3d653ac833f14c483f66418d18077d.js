@@ -69,8 +69,6 @@ System.register(["__unresolved_0", "cc"], function (_export, _context) {
             this.isRight = false;
             this.targetColor = this.uncorrectColor;
           }
-
-          this.repeatWordAnimation();
         }
 
         init(letter) {
@@ -101,7 +99,19 @@ System.register(["__unresolved_0", "cc"], function (_export, _context) {
             this.checkSprite.color = this.targetColor;
           }).to(0.1, {
             scale: new Vec3(this.node.scale.x + 0.2, this.node.scale.y + 0.2, 0)
-          }).delay(1).to(0.1, {
+          }).delay(0.3).to(0.1, {
+            scale: new Vec3(1, 1, 0)
+          }).call(() => {
+            this.checkSprite.color = this.defaultColor;
+          }).start();
+        }
+
+        repeatWordEndAnimation() {
+          tween(this.node).call(() => {
+            this.checkSprite.color = this.targetColor;
+          }).to(0.1, {
+            scale: new Vec3(this.node.scale.x + 0.2, this.node.scale.y + 0.2, 0)
+          }).delay(0.3).to(0.1, {
             scale: new Vec3(1, 1, 0)
           }).call(() => {
             this.checkSprite.color = this.defaultColor;

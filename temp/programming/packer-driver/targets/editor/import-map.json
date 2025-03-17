@@ -16,6 +16,7 @@
     "file:///D:/Cocos/CocosSolitaireCreative/assets/scripts/solitaire/TutorialHandMover.ts": "./chunks/2a/2a7f240e0daf58a069af1b17212de765d26ac2bf.js",
     "file:///D:/Cocos/CocosSolitaireCreative/assets/scripts/solitaire/Word.ts": "./chunks/31/31063b28698e9097c5df3560a690ddc42fa05e37.js",
     "file:///D:/Cocos/CocosSolitaireCreative/assets/scripts/sound/SoundController.ts": "./chunks/0d/0d3d406a8b444b6e61387ca72f2153cc6633660e.js",
+    "file:///D:/Cocos/CocosSolitaireCreative/assets/scripts/ui/ScreenScaler.ts": "./chunks/d4/d4afb478772f0f9d91688cd4f7efe57a799ef474.js",
     "file:///D:/Cocos/CocosSolitaireCreative/assets/scripts/ui/StoreButtonComponent.ts": "./chunks/d3/d32ea3187863a0dcc15411b3f08fd71708babea4.js"
   },
   "scopes": {
@@ -58,7 +59,8 @@
       "__unresolved_11": "./chunks/2a/2a7f240e0daf58a069af1b17212de765d26ac2bf.js",
       "__unresolved_12": "./chunks/31/31063b28698e9097c5df3560a690ddc42fa05e37.js",
       "__unresolved_13": "./chunks/0d/0d3d406a8b444b6e61387ca72f2153cc6633660e.js",
-      "__unresolved_14": "./chunks/d3/d32ea3187863a0dcc15411b3f08fd71708babea4.js",
+      "__unresolved_14": "./chunks/d4/d4afb478772f0f9d91688cd4f7efe57a799ef474.js",
+      "__unresolved_15": "./chunks/d3/d32ea3187863a0dcc15411b3f08fd71708babea4.js",
       "__unresolved_2": "./chunks/47/472d2a102d8be3f4a41bbc072039a70849ef8010.js",
       "__unresolved_3": "./chunks/25/253bddd3f6a6bc37de9b9ed5536bf0c99a276b8a.js",
       "__unresolved_4": "./chunks/b7/b7a9b2f841346544d03a5a97269e3a5b06a4157e.js",
@@ -114,6 +116,9 @@
     "./chunks/b7/b7a9b2f841346544d03a5a97269e3a5b06a4157e.js": {
       "__unresolved_0": "./chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js",
       "__unresolved_1": "./chunks/b1/b15a02df431da4962ba55ec94fc8098aef677fb3.js",
+      "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
+    },
+    "./chunks/d4/d4afb478772f0f9d91688cd4f7efe57a799ef474.js": {
       "cc": "./chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js"
     },
     "./chunks/2a/2a7f240e0daf58a069af1b17212de765d26ac2bf.js": {

@@ -10,7 +10,7 @@
       166,
       255
     ],
-    "transformToolName": "position",
+    "transformToolName": "rect",
     "pivot": "pivot",
     "coordinate": "local",
     "toolsVisibility3d": true
@@ -50,31 +50,6 @@
     }
   },
   "camera-infos": {
-    "eb01bd14-6e76-47a9-9ed1-9d6b3e1ce941": {
-      "position": {
-        "x": 658.3706896551723,
-        "y": 371.07916666666665,
-        "z": 5000
-      },
-      "rotation": {
-        "x": 0,
-        "y": 0,
-        "z": 0,
-        "w": 1
-      },
-      "viewCenter": {
-        "x": 0,
-        "y": 0,
-        "z": 0
-      },
-      "contentRect": {
-        "x": 0.1945812807882216,
-        "y": 0,
-        "width": 902,
-        "height": 507
-      },
-      "scale": 0.7
-    },
     "7cb6dbb0-5ab9-4a30-aa73-5fbbfcc8e332": {
       "position": {
         "x": 819.1137931034482,
@@ -1250,10 +1225,10 @@
       },
       "scale": 0.7
     },
-    "dc2dda4d-4285-4c9b-a5be-643ce0534e83": {
+    "6fc246e6-e86a-4758-864c-da5cd3b93ba0": {
       "position": {
-        "x": 713.6045108730201,
-        "y": 437.6451760059056,
+        "x": -382.4685849540232,
+        "y": 92.47588728872432,
         "z": 5000
       },
       "rotation": {
@@ -1268,17 +1243,17 @@
         "z": 0
       },
       "contentRect": {
-        "x": -763.2151235244462,
-        "y": -483.55529386906784,
-        "width": 900.9685314685315,
-        "height": 562
+        "x": -777.1877931833774,
+        "y": -154.27754124372441,
+        "width": 86,
+        "height": 111
       },
-      "scale": 0.30503675279077713
+      "scale": 1.138788634756691
     },
     "c77ecaa8-c936-46c4-a5b0-98692673ed87": {
       "position": {
-        "x": 960,
-        "y": 540.4444444444447,
+        "x": 508.96583333333336,
+        "y": 698.9041666666667,
         "z": 5000
       },
       "rotation": {
@@ -1293,16 +1268,40 @@
         "z": 0
       },
       "contentRect": {
-        "x": -0.37499999999994316,
+        "x": 313.21875,
         "y": 0,
-        "width": 825.2526315789473,
-        "height": 465
+        "width": 897.1637426900585,
+        "height": 503
       },
-      "scale": 0.9789473684210527
+      "scale": 0.9805068226120858
+    },
+    "dc2dda4d-4285-4c9b-a5be-643ce0534e83": {
+      "position": {
+        "x": 457.5,
+        "y": 286,
+        "z": 5000
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "viewCenter": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "contentRect": {
+        "x": 0,
+        "y": 0,
+        "width": 899.0034965034965,
+        "height": 562
+      },
+      "scale": 0.9825174825174825
     }
   },
   "camera-uuids": [
-    "eb01bd14-6e76-47a9-9ed1-9d6b3e1ce941",
     "7cb6dbb0-5ab9-4a30-aa73-5fbbfcc8e332",
     "b639f9f1-851d-428e-931f-2226b4697668",
     "e9be2a8d-e47c-4edc-b9f3-0967a12cf069",
@@ -1350,8 +1349,9 @@
     "a8a56ae9-bf57-43a1-88a2-0de67cb42d77",
     "1e4d9b1e-611a-4f68-803f-a59f0fc6a866",
     "618c15bb-7300-4d27-aa32-07c3665b1dcc",
-    "dc2dda4d-4285-4c9b-a5be-643ce0534e83",
-    "c77ecaa8-c936-46c4-a5b0-98692673ed87"
+    "6fc246e6-e86a-4758-864c-da5cd3b93ba0",
+    "c77ecaa8-c936-46c4-a5b0-98692673ed87",
+    "dc2dda4d-4285-4c9b-a5be-643ce0534e83"
   ],
   "camera": {
     "color": [
@@ -1379,15 +1379,15 @@
     "output_device": "__default_design__"
   },
   "game-view": {
-    "scaleValue": 44,
-    "sliderValue": 19,
-    "fullScreen": false,
+    "scaleValue": 27,
+    "sliderValue": 9,
+    "fullScreen": true,
     "devicesInfo": {
       "name": "i18n:scene.game_view.design_resolution",
       "type": "design",
-      "width": 1280,
-      "height": 720
+      "width": 1080,
+      "height": 1920
     },
-    "rotate": false
+    "rotate": true
   }
 }

@@ -688,6 +688,10 @@
     "backYellow": {
       "__id__": 2
     },
+    "circle": {
+      "__uuid__": "0dc47658-64c5-44d1-9d15-69ffe8f91c61",
+      "__expectedType__": "cc.Prefab"
+    },
     "rotationAngle": 360,
     "_id": ""
   },

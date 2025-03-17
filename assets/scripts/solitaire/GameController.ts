@@ -242,34 +242,35 @@ export default class GameController extends Component {
                 this.cards[card.getNumber() - 1].reveal();
             }
             this.currentLetterIndex++;
-
             const blockerComponent = this.blocker.getComponent(Blocker);
             if(this.currentLetterIndex >= this.letterSlots.length){
                 blockerComponent.showBlocker();
                 setTimeout(() => {
                     if(this.isWordRight()){
                         this.letterSlots.forEach(slot => {
-                            slot.repeatWordAnimation();
+                            slot.repeatWordEndAnimation();
                         });
                         blockerComponent.showBlocker();
                         this.resultScreen.show(true);
                         this.sound.play(this.sound.correct);
+
+                        this.completedWords[this.currentWordIndex].setString(this.predefinedWordStrings[this.currentWordIndex]);
+                        this.completedWords[this.currentWordIndex].selectWord();
+                        this.currentWordIndex++;
+                        this.moveCardsToCompleteWord();
                         setTimeout(() => {
-                            this.completedWords[this.currentWordIndex].setString(this.predefinedWordStrings[this.currentWordIndex]);
-                            this.completedWords[this.currentWordIndex].selectWord();
-                            this.currentWordIndex++;
-                            this.moveCardsToCompleteWord();
                             this.deleteSlots();
                             this.letterSlots = [];
                             this.createSlots();
                             this.currentLetterIndex = 0;
                             this.changeSentence();
                             blockerComponent.hideBlocker();
-                        }, 1500);
+                        }, this.letterSlots.length * 50);
+
                     } else {
                         this.letterSlots.forEach(slot => {
                             slot.toWrongColor();
-                            slot.repeatWordAnimation();
+                            slot.repeatWordEndAnimation();
                         });
                         this.sound.play(this.sound.wrong);
                         blockerComponent.showBlocker();
@@ -292,12 +293,13 @@ export default class GameController extends Component {
                                 console.warn("StoreButtonComponent not found on the provided node!");
                             }
                         }
-                    }, 1500);
+                    }, this.letterSlots.length * 50);
                     
-                }, 1500);
+                }, this.letterSlots.length * 50);
             } else {
-                   card.isSelected = true;
-            }   
+                this.letterSlots[this.currentLetterIndex - 1].repeatWordAnimation();
+                card.isSelected = true;
+            }
    
         }else{
             for(let i = this.currentLetterIndex - 1; i >= 0; i--){
@@ -356,35 +358,49 @@ export default class GameController extends Component {
 
 
     changeSentence(){
-        const uiOpacity = this.sentenceLabel.getComponent(UIOpacity) || this.sentenceLabel.addComponent(UIOpacity);
-        uiOpacity.opacity = 255;
-        tween(this.sentenceLabel.node)
-            .parallel(
-            tween().to(1, { position: this.endPosition.position }),
-            tween(uiOpacity).to(1, { opacity: 0 })
-        )
-        
+    const uiOpacity = this.sentenceLabel.getComponent(UIOpacity) || this.sentenceLabel.addComponent(UIOpacity);
+    uiOpacity.opacity = 255;
+
+    let vec = new Vec3(30, 0, 0);
+    let vec1 = new Vec3(-30, 0, 0);
+
+    // Анимация позиции узла
+    tween(this.sentenceLabel.node)
+        .to(0.3, { position: vec1 })
+        .to(0.5, { position: this.endPosition.position })
         .call(() => {
             this.sentenceLabel.string = this.predefinedSentences[this.currentWordIndex];
             this.sentenceLabel.node.position = new Vec3(this.startPosition.position);
 
             tween(this.sentenceLabel.node)
-                .parallel(
-                    tween().to(1, { position: new Vec3(0, 0, 0) }),
-                    tween(uiOpacity).to(1, { opacity: 255 })
-                )
+                .to(0.8, { position: vec })
+                .to(0.2, {position: new Vec3(0, 0, 0)})
+                .start();
+        })
+        .start();
+
+    // Анимация прозрачности
+    tween(uiOpacity)
+        .to(0.5, { opacity: 0 })
+        .delay(0.6)
+        .call(() => {
+            tween(uiOpacity)
+                .to(1, { opacity: 255 })
                 .start();
         })
         .start();
     }
+
 
     moveCardsToCompleteWord(){
         let targetNode = this.completedWords[this.currentWordIndex - 1].node;
 
         let worldPos: Vec3 = targetNode.getWorldPosition();
 
-        this.letterSlots.forEach(slot => {
+        this.letterSlots.forEach((slot, index) => {
+            setTimeout(() => {
             slot.getCard().moveToCompleteWord(worldPos);
+            }, 50 * index);
         });
     }
 

@@ -1,28 +1,174 @@
-13.03.2025 17:34:48 - log: Load engine in C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine
-13.03.2025 17:34:49 - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,custom-pipeline,gfx-webgl,gfx-webgl2,particle-2d,profiler,tween,ui,video,webview)
-13.03.2025 17:34:49 - log: Register native engine in C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\native
-13.03.2025 17:34:59 - info: [PreviewInEditor] preview process is ready
-13.03.2025 17:34:59 - log: [Scene] meshopt wasm decoder initialized
-13.03.2025 17:34:59 - log: [Scene] [box2d]:box2d wasm lib loaded.
-13.03.2025 17:34:59 - log: [Scene] [bullet]:bullet wasm lib loaded.
-13.03.2025 17:35:00 - log: [Scene] [PHYSICS]: using builtin.
-13.03.2025 17:35:00 - log: [Scene] Cocos Creator v3.8.2
-13.03.2025 17:35:00 - info: [Scene] Forward render pipeline initialized.
-13.03.2025 17:35:00 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to builtin.
-13.03.2025 17:36:51 - info: [Window] Download the Vue Devtools extension for a better development experience:
-https://github.com/vuejs/vue-devtools
-13.03.2025 17:36:51 - info: [Window] You are running Vue in development mode.
-Make sure to turn on production mode when deploying for production.
-See more tips at https://vuejs.org/guide/deployment.html
-13.03.2025 17:37:05 - warn: [Assets] [build-script][[Build.Script.Rollup]] Circular dependency: file:///D:/Cocos/CocosSolitaireCreative/assets/scripts/solitaire/Card.ts -> file:///D:/Cocos/CocosSolitaireCreative/assets/scripts/solitaire/GameController.ts -> file:///D:/Cocos/CocosSolitaireCreative/assets/scripts/solitaire/Card.ts
-[Assets] [build-script][[Build.Script.Rollup]] Circular dependency: file:///D:/Cocos/CocosSolitaireCreative/assets/scripts/solitaire/Card.ts -> file:///D:/Cocos/CocosSolitaireCreative/assets/scripts/solitaire/GameController.ts -> file:///D:/Cocos/CocosSolitaireCreative/assets/scripts/solitaire/Card.ts
-  
-at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:1:1260)  
-at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1530)  
-at NewConsole.warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\builder\dist\worker\console.ccc:1:2267)  
-at Socket.<anonymous> (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\builder\dist\worker\worker-pools\sub-process-manager.ccc:1:3499)  
-at Socket.emit (events.js:315:20)  
-at addChunk (internal/streams/readable.js:309:12)  
-at readableAddChunk (internal/streams/readable.js:284:9)  
-at Socket.Readable.push (internal/streams/readable.js:223:10)  
-at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+17.03.2025 18:37:00 - log: Load engine in C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine
+17.03.2025 18:37:01 - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,custom-pipeline,gfx-webgl,gfx-webgl2,particle-2d,profiler,tween,ui,video,webview)
+17.03.2025 18:37:01 - log: Register native engine in C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\native
+17.03.2025 18:37:25 - info: [PreviewInEditor] preview process is ready
+17.03.2025 18:37:34 - log: [Scene] meshopt wasm decoder initialized
+17.03.2025 18:37:34 - log: [Scene] [box2d]:box2d wasm lib loaded.
+17.03.2025 18:37:34 - log: [Scene] [bullet]:bullet wasm lib loaded.
+17.03.2025 18:37:35 - log: [Scene] [PHYSICS]: using builtin.
+17.03.2025 18:37:46 - log: [Scene] Cocos Creator v3.8.2
+17.03.2025 18:37:46 - info: [Scene] Forward render pipeline initialized.
+17.03.2025 18:37:47 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to builtin.
+17.03.2025 18:43:50 - log: [PreviewInEditor] meshopt wasm decoder initialized
+17.03.2025 18:43:50 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+17.03.2025 18:43:50 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+17.03.2025 18:43:51 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+17.03.2025 18:43:51 - log: [PreviewInEditor] Cocos Creator v3.8.2
+17.03.2025 18:43:51 - info: [PreviewInEditor] Forward render pipeline initialized.
+17.03.2025 18:43:51 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to builtin.
+17.03.2025 18:43:53 - log: [PreviewInEditor] Screen resized: width=1080, height=1920, scale=1.7777777777777777
+17.03.2025 18:43:53 - log: [PreviewInEditor] [
+  [
+    { letter: 'S', position: 1, revealed: false },
+    { letter: 'A', position: 1, revealed: false },
+    { letter: 'W', position: 1, revealed: false },
+    { letter: 'I', position: 1, revealed: false },
+    { letter: 'B', position: 1, revealed: false },
+    { letter: 'S', position: 1, revealed: true }
+  ],
+  [
+    { letter: 'E', position: 2, revealed: false },
+    { letter: 'R', position: 2, revealed: false },
+    { letter: 'S', position: 2, revealed: false },
+    { letter: 'N', position: 2, revealed: false },
+    { letter: 'A', position: 2, revealed: false },
+    { letter: 'U', position: 2, revealed: true }
+  ],
+  [
+    { letter: 'A', position: 3, revealed: false },
+    { letter: 'M', position: 3, revealed: false },
+    { letter: 'A', position: 3, revealed: false },
+    { letter: 'G', position: 3, revealed: false },
+    { letter: 'E', position: 3, revealed: false },
+    { letter: 'N', position: 3, revealed: true }
+  ],
+  [
+    { letter: 'E', position: 4, revealed: false },
+    { letter: 'T', position: 4, revealed: false },
+    { letter: 'N', position: 4, revealed: false },
+    { letter: 'H', position: 4, revealed: false },
+    { letter: 'C', position: 4, revealed: false },
+    { letter: 'N', position: 4, revealed: true }
+  ],
+  [
+    { letter: 'E', position: 5, revealed: false },
+    { letter: 'R', position: 5, revealed: false },
+    { letter: 'D', position: 5, revealed: false },
+    { letter: 'T', position: 5, revealed: false },
+    { letter: 'H', position: 5, revealed: false },
+    { letter: 'Y', position: 5, revealed: true }
+  ]
+]
+17.03.2025 18:43:53 - log: [PreviewInEditor] [
+  { letters: [ 'S', 'U', 'N', 'N', 'Y' ], completed: false },
+  { letters: [ 'B', 'E', 'A', 'C', 'H' ], completed: false },
+  { letters: [ 'N', 'I', 'G', 'H', 'T' ], completed: false },
+  { letters: [ 'S', 'A', 'N', 'D' ], completed: false },
+  { letters: [ 'W', 'A', 'R', 'M' ], completed: false },
+  { letters: [ 'T', 'R', 'E', 'A' ], completed: false },
+  { letters: [ 'T', 'R', 'E', 'A' ], completed: false },
+  { letters: [ 'T', 'R', 'E', 'A' ], completed: false }
+]
+17.03.2025 18:43:53 - log: [PreviewInEditor] [
+  "IF IT'S NOT CLOUDY, IT'S __",
+  "IF IT'S NOT OCEAN, IT'S __",
+  "IF IT'S NOT DAY, IT'S __",
+  "IF IT'S NOT STONE, IT'S __",
+  "IF IT'S NOT COLD, IT'S __",
+  "IF IT'S NOT BUSH, IT'S __"
+]
+17.03.2025 18:43:53 - log: [PreviewInEditor] [
+  "IF IT'S NOT CLOUDY, IT'S __",
+  "IF IT'S NOT OCEAN, IT'S __",
+  "IF IT'S NOT DAY, IT'S __",
+  "IF IT'S NOT STONE, IT'S __",
+  "IF IT'S NOT COLD, IT'S __",
+  "IF IT'S NOT BUSH, IT'S __"
+]
+17.03.2025 18:43:53 - log: [PreviewInEditor] IF IT'S NOT CLOUDY, IT'S __
+17.03.2025 18:43:53 - log: [PreviewInEditor] Screen resized: width=1080, height=1920, scale=1.7777777777777777
+17.03.2025 18:44:03 - log: [PreviewInEditor] Screen resized: width=1080.5581395348836, height=1919.9999999999998, scale=1.7777777777777775
+17.03.2025 18:44:04 - log: [PreviewInEditor] Screen resized: width=1080, height=1920, scale=1.7777777777777777
+17.03.2025 18:44:08 - log: [PreviewInEditor] Screen resized: width=1080.5581395348836, height=1919.9999999999998, scale=1.7777777777777775
+17.03.2025 18:44:08 - log: [PreviewInEditor] Screen resized: width=1080, height=1920, scale=1.7777777777777777
+17.03.2025 18:44:12 - log: [PreviewInEditor] Screen resized: width=1080.5581395348836, height=1919.9999999999998, scale=1.7777777777777775
+17.03.2025 18:44:15 - log: [PreviewInEditor] Screen resized: width=1080, height=1920, scale=1.7777777777777777
+17.03.2025 18:44:18 - info: [PreviewInEditor] preview process is ready
+17.03.2025 18:44:24 - log: [PreviewInEditor] meshopt wasm decoder initialized
+17.03.2025 18:44:24 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+17.03.2025 18:44:24 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+17.03.2025 18:44:24 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+17.03.2025 18:44:25 - log: [PreviewInEditor] Cocos Creator v3.8.2
+17.03.2025 18:44:25 - info: [PreviewInEditor] Forward render pipeline initialized.
+17.03.2025 18:44:25 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to builtin.
+17.03.2025 18:44:26 - log: [PreviewInEditor] Screen resized: width=1080, height=1920, scale=1.7777777777777777
+17.03.2025 18:44:26 - log: [PreviewInEditor] [
+  "IF IT'S NOT CLOUDY, IT'S __",
+  "IF IT'S NOT OCEAN, IT'S __",
+  "IF IT'S NOT DAY, IT'S __",
+  "IF IT'S NOT STONE, IT'S __",
+  "IF IT'S NOT COLD, IT'S __",
+  "IF IT'S NOT BUSH, IT'S __"
+]
+17.03.2025 18:44:26 - log: [PreviewInEditor] [
+  { letters: [ 'S', 'U', 'N', 'N', 'Y' ], completed: false },
+  { letters: [ 'B', 'E', 'A', 'C', 'H' ], completed: false },
+  { letters: [ 'N', 'I', 'G', 'H', 'T' ], completed: false },
+  { letters: [ 'S', 'A', 'N', 'D' ], completed: false },
+  { letters: [ 'W', 'A', 'R', 'M' ], completed: false },
+  { letters: [ 'T', 'R', 'E', 'A' ], completed: false },
+  { letters: [ 'T', 'R', 'E', 'A' ], completed: false },
+  { letters: [ 'T', 'R', 'E', 'A' ], completed: false }
+]
+17.03.2025 18:44:26 - log: [PreviewInEditor] [
+  [
+    { letter: 'S', position: 1, revealed: false },
+    { letter: 'A', position: 1, revealed: false },
+    { letter: 'W', position: 1, revealed: false },
+    { letter: 'I', position: 1, revealed: false },
+    { letter: 'B', position: 1, revealed: false },
+    { letter: 'S', position: 1, revealed: true }
+  ],
+  [
+    { letter: 'E', position: 2, revealed: false },
+    { letter: 'R', position: 2, revealed: false },
+    { letter: 'S', position: 2, revealed: false },
+    { letter: 'N', position: 2, revealed: false },
+    { letter: 'A', position: 2, revealed: false },
+    { letter: 'U', position: 2, revealed: true }
+  ],
+  [
+    { letter: 'A', position: 3, revealed: false },
+    { letter: 'M', position: 3, revealed: false },
+    { letter: 'A', position: 3, revealed: false },
+    { letter: 'G', position: 3, revealed: false },
+    { letter: 'E', position: 3, revealed: false },
+    { letter: 'N', position: 3, revealed: true }
+  ],
+  [
+    { letter: 'E', position: 4, revealed: false },
+    { letter: 'T', position: 4, revealed: false },
+    { letter: 'N', position: 4, revealed: false },
+    { letter: 'H', position: 4, revealed: false },
+    { letter: 'C', position: 4, revealed: false },
+    { letter: 'N', position: 4, revealed: true }
+  ],
+  [
+    { letter: 'E', position: 5, revealed: false },
+    { letter: 'R', position: 5, revealed: false },
+    { letter: 'D', position: 5, revealed: false },
+    { letter: 'T', position: 5, revealed: false },
+    { letter: 'H', position: 5, revealed: false },
+    { letter: 'Y', position: 5, revealed: true }
+  ]
+]
+17.03.2025 18:44:26 - log: [PreviewInEditor] [
+  "IF IT'S NOT CLOUDY, IT'S __",
+  "IF IT'S NOT OCEAN, IT'S __",
+  "IF IT'S NOT DAY, IT'S __",
+  "IF IT'S NOT STONE, IT'S __",
+  "IF IT'S NOT COLD, IT'S __",
+  "IF IT'S NOT BUSH, IT'S __"
+]
+17.03.2025 18:44:26 - log: [PreviewInEditor] IF IT'S NOT CLOUDY, IT'S __
+17.03.2025 18:44:37 - info: [PreviewInEditor] preview process is ready

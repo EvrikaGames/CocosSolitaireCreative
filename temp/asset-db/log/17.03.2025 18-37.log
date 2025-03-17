@@ -1,0 +1,171 @@
+17.03.2025 18:37:07-log: Cannot access game frame or container.
+17.03.2025 18:37:08-debug: asset-db:require-engine-code (1546ms)
+17.03.2025 18:37:08-log: meshopt wasm decoder initialized
+17.03.2025 18:37:09-log: [box2d]:box2d wasm lib loaded.
+17.03.2025 18:37:09-log: [bullet]:bullet wasm lib loaded.
+17.03.2025 18:37:19-log: Cocos Creator v3.8.2
+17.03.2025 18:37:19-debug: [Assets Memory track]: asset-db:worker-init: initEngine start:22.62MB, end 107.24MB, increase: 84.62MB
+17.03.2025 18:37:22-debug: [Assets Memory track]: asset-db-plugin-enable: builder start:104.65MB, end 199.19MB, increase: 94.54MB
+17.03.2025 18:37:22-debug: [Assets Memory track]: asset-db-plugin-enable: project start:104.30MB, end 196.02MB, increase: 91.72MB
+17.03.2025 18:37:22-debug: [Assets Memory track]: asset-db-plugin-register: engine-extends start:104.13MB, end 196.01MB, increase: 91.88MB
+17.03.2025 18:37:22-debug: [Assets Memory track]: asset-db:worker-init: initPlugin start:107.25MB, end 196.20MB, increase: 88.95MB
+17.03.2025 18:37:22-debug: run package(super-html) handler(enable) start
+17.03.2025 18:37:22-debug: run package(placeholder) handler(enable) start
+17.03.2025 18:37:22-debug: run package(super-html) handler(enable) success!
+17.03.2025 18:37:22-debug: run package(placeholder) handler(enable) success!
+17.03.2025 18:37:22-debug: asset-db:worker-init: initPlugin (2728ms)
+17.03.2025 18:37:22-debug: [Assets Memory track]: asset-db:worker-init start:22.62MB, end 196.30MB, increase: 173.69MB
+17.03.2025 18:37:22-debug: Run asset db hook programming:beforePreStart ...
+17.03.2025 18:37:22-debug: Run asset db hook engine-extends:beforePreStart ...
+17.03.2025 18:37:22-debug: Run asset db hook engine-extends:beforePreStart success!
+17.03.2025 18:37:22-debug: Run asset db hook programming:beforePreStart success!
+17.03.2025 18:37:25-debug: asset-db:worker-init (19013ms)
+17.03.2025 18:37:25-debug: asset-db-hook-programming-beforePreStart (3387ms)
+17.03.2025 18:37:25-debug: asset-db-hook-engine-extends-beforePreStart (3387ms)
+17.03.2025 18:37:27-debug: Preimport db internal success
+17.03.2025 18:37:27-debug: Preimport db assets success
+17.03.2025 18:37:27-debug: Run asset db hook programming:afterPreStart ...
+17.03.2025 18:37:27-debug: starting packer-driver...
+17.03.2025 18:37:28-debug: initialize scripting environment...
+17.03.2025 18:37:28-debug: Set detail map pack:///resolution-detail-map.json: {}
+17.03.2025 18:37:28-debug: Run asset db hook engine-extends:afterPreStart success!
+17.03.2025 18:37:28-debug: [Assets Memory track]: asset-db:worker-init: preStart start:196.31MB, end 208.51MB, increase: 12.20MB
+17.03.2025 18:37:28-debug: Run asset db hook programming:afterPreStart success!
+17.03.2025 18:37:28-debug: Run asset db hook engine-extends:afterPreStart ...
+17.03.2025 18:37:28-debug: Start up the 'internal' database...
+17.03.2025 18:37:29-debug: asset-db-hook-programming-afterPreStart (1997ms)
+17.03.2025 18:37:29-debug: asset-db:worker-effect-data-processing (1128ms)
+17.03.2025 18:37:29-debug: asset-db-hook-engine-extends-afterPreStart (1129ms)
+17.03.2025 18:37:31-debug: Start up the 'assets' database...
+17.03.2025 18:37:32-debug: asset-db:worker-startup-database[internal] (9289ms)
+17.03.2025 18:37:33-debug: asset-db:worker-startup-database[assets] (5933ms)
+17.03.2025 18:37:33-debug: asset-db:ready (30116ms)
+17.03.2025 18:37:33-debug: asset-db:start-database (10813ms)
+17.03.2025 18:37:33-debug: init worker message success
+17.03.2025 18:37:45-debug: [Build Memory track]: builder:worker-init start:182.58MB, end 210.73MB, increase: 28.16MB
+17.03.2025 18:37:45-debug: programming:execute-script (18ms)
+17.03.2025 18:37:45-debug: builder:worker-init (12682ms)
+17.03.2025 18:37:46-debug: programming:execute-script (11ms)
+17.03.2025 18:38:14-debug: refresh db internal success
+17.03.2025 18:38:15-debug: refresh db assets success
+17.03.2025 18:38:15-debug: Run asset db hook engine-extends:afterRefresh ...
+17.03.2025 18:38:15-debug: Run asset db hook engine-extends:afterRefresh success!
+17.03.2025 18:38:15-debug: asset-db:refresh-all-database (120ms)
+17.03.2025 18:38:15-debug: asset-db:worker-effect-data-processing (1ms)
+17.03.2025 18:38:15-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+17.03.2025 18:38:34-debug: refresh db internal success
+17.03.2025 18:38:34-debug: refresh db assets success
+17.03.2025 18:38:34-debug: Run asset db hook engine-extends:afterRefresh ...
+17.03.2025 18:38:34-debug: Run asset db hook engine-extends:afterRefresh success!
+17.03.2025 18:38:34-debug: asset-db:refresh-all-database (117ms)
+17.03.2025 18:38:34-debug: asset-db:worker-effect-data-processing (1ms)
+17.03.2025 18:38:34-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+17.03.2025 18:38:38-debug: refresh db internal success
+17.03.2025 18:38:38-debug: refresh db assets success
+17.03.2025 18:38:38-debug: Run asset db hook engine-extends:afterRefresh ...
+17.03.2025 18:38:38-debug: Run asset db hook engine-extends:afterRefresh success!
+17.03.2025 18:38:38-debug: asset-db:refresh-all-database (131ms)
+17.03.2025 18:38:38-debug: asset-db:worker-effect-data-processing (1ms)
+17.03.2025 18:38:38-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+17.03.2025 18:38:49-debug: refresh db internal success
+17.03.2025 18:38:49-debug: Run asset db hook engine-extends:afterRefresh ...
+17.03.2025 18:38:49-debug: Run asset db hook engine-extends:afterRefresh success!
+17.03.2025 18:38:49-debug: refresh db assets success
+17.03.2025 18:38:49-debug: asset-db:refresh-all-database (170ms)
+17.03.2025 18:38:49-debug: asset-db:worker-effect-data-processing (2ms)
+17.03.2025 18:38:49-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+17.03.2025 18:38:58-debug: refresh db internal success
+17.03.2025 18:38:58-debug: refresh db assets success
+17.03.2025 18:38:58-debug: Run asset db hook engine-extends:afterRefresh ...
+17.03.2025 18:38:58-debug: Run asset db hook engine-extends:afterRefresh success!
+17.03.2025 18:38:58-debug: asset-db:refresh-all-database (113ms)
+17.03.2025 18:38:58-debug: asset-db:worker-effect-data-processing (1ms)
+17.03.2025 18:38:58-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+17.03.2025 18:39:58-debug: refresh db internal success
+17.03.2025 18:39:58-debug: refresh db assets success
+17.03.2025 18:39:58-debug: Run asset db hook engine-extends:afterRefresh ...
+17.03.2025 18:39:58-debug: Run asset db hook engine-extends:afterRefresh success!
+17.03.2025 18:39:58-debug: asset-db:refresh-all-database (102ms)
+17.03.2025 18:40:00-debug: refresh db internal success
+17.03.2025 18:40:00-debug: refresh db assets success
+17.03.2025 18:40:00-debug: Run asset db hook engine-extends:afterRefresh ...
+17.03.2025 18:40:00-debug: Run asset db hook engine-extends:afterRefresh success!
+17.03.2025 18:40:00-debug: asset-db:refresh-all-database (85ms)
+17.03.2025 18:41:28-debug: refresh db internal success
+17.03.2025 18:41:28-debug: refresh db assets success
+17.03.2025 18:41:28-debug: Run asset db hook engine-extends:afterRefresh ...
+17.03.2025 18:41:28-debug: Run asset db hook engine-extends:afterRefresh success!
+17.03.2025 18:41:28-debug: asset-db:refresh-all-database (84ms)
+17.03.2025 18:41:28-debug: asset-db:worker-effect-data-processing (1ms)
+17.03.2025 18:41:28-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+17.03.2025 18:43:19-debug: refresh db internal success
+17.03.2025 18:43:19-debug: refresh db assets success
+17.03.2025 18:43:19-debug: Run asset db hook engine-extends:afterRefresh ...
+17.03.2025 18:43:19-debug: Run asset db hook engine-extends:afterRefresh success!
+17.03.2025 18:43:19-debug: asset-db:refresh-all-database (87ms)
+17.03.2025 18:43:19-debug: asset-db:worker-effect-data-processing (1ms)
+17.03.2025 18:43:19-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+17.03.2025 18:43:48-debug: start refresh asset from D:\Cocos\CocosSolitaireCreative\assets\scenes\main.scene...
+17.03.2025 18:43:48-debug: %cImport%c: D:\Cocos\CocosSolitaireCreative\assets\scenes\main.scenebackground: #aaff85; color: #000;color: #000;
+17.03.2025 18:43:48-debug: refresh asset D:\Cocos\CocosSolitaireCreative\assets\scenes success
+17.03.2025 18:43:51-debug: programming:execute-script (13ms)
+17.03.2025 18:43:52-debug: Query all assets info in project
+17.03.2025 18:43:52-debug: init custom config: keepNodeUuid: false, useCache: true
+17.03.2025 18:43:53-debug:   Number of all scripts: 16
+17.03.2025 18:43:53-debug:   Number of other assets: 383
+17.03.2025 18:43:53-debug:   Number of all scenes: 1
+17.03.2025 18:43:53-debug: Query asset bundle start, progress: 0%
+17.03.2025 18:43:53-debug: // ---- build task Query asset bundle ----
+17.03.2025 18:43:53-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,15049ccd-4dd7-451e-a8ae-af66735c929e,521c5f6e-1a26-42e2-8108-4400c912d9bf,4c3ce6de-e6d1-47f7-aa36-36b9b58f72d3,4361db28-3f24-44cc-8e51-32ee5fd651ac,cafd95c9-c558-46f9-9812-1224b65c09ee,28d6d6b8-3f66-4a73-9795-17a0852ba2d4,2df0a40b-26c2-47ce-be0d-4d3cd4164737,dace6a58-1705-48c7-a275-70afc9534e88,ec8106fe-05bf-4e94-943c-e0d3b7bb5e45,39f74202-ead5-4a45-b966-273d526adbf1,8f6ac413-2f1e-4b88-b26f-54556b5dd510,45e7c0c8-2699-4912-b45f-d42bb8384189,84ac6f69-3086-455a-86a4-561da8ee710b,5c601d96-e4c7-4698-991b-7ee674b11079,bf0a6d94-58f0-4ad2-bdf2-c4a31c7dd856,871c3b6c-7379-419d-bda3-794b239ab90d
+17.03.2025 18:43:53-debug: // ---- build task Query asset bundle ---- (7ms)
+17.03.2025 18:43:53-debug: run build task Query asset bundle success in 7 ms√, progress: 5%
+17.03.2025 18:43:53-debug: [Build Memory track]: Query asset bundle start:214.60MB, end 215.37MB, increase: 785.30KB
+17.03.2025 18:43:53-debug: // ---- build task Query asset bundle ----
+17.03.2025 18:43:53-debug: Query asset bundle start, progress: 5%
+17.03.2025 18:43:53-debug: // ---- build task Query asset bundle ---- (-3ms)
+17.03.2025 18:43:53-debug: run build task Query asset bundle success in -1 h -1 min -1 s√, progress: 10%
+17.03.2025 18:43:53-debug: [Build Memory track]: Query asset bundle start:215.38MB, end 215.40MB, increase: 15.64KB
+17.03.2025 18:43:53-debug: // ---- build task Sort some build options to settings.json ----
+17.03.2025 18:43:53-debug: Sort some build options to settings.json start, progress: 10%
+17.03.2025 18:43:53-debug: // ---- build task Sort some build options to settings.json ---- (-2ms)
+17.03.2025 18:43:53-debug: run build task Sort some build options to settings.json success in -1 h -1 min -1 s√, progress: 12%
+17.03.2025 18:43:53-debug: [Build Memory track]: Sort some build options to settings.json start:215.41MB, end 215.43MB, increase: 16.75KB
+17.03.2025 18:43:53-debug: Fill script data to settings start, progress: 12%
+17.03.2025 18:43:53-debug: // ---- build task Fill script data to settings ----
+17.03.2025 18:43:53-debug: // ---- build task Fill script data to settings ---- (-2ms)
+17.03.2025 18:43:53-debug: [Build Memory track]: Fill script data to settings start:215.44MB, end 215.46MB, increase: 18.46KB
+17.03.2025 18:43:53-debug: run build task Fill script data to settings success in -1 h -1 min -1 s√, progress: 13%
+17.03.2025 18:43:53-debug: Sort some build options to settings.json start, progress: 13%
+17.03.2025 18:43:53-debug: // ---- build task Sort some build options to settings.json ----
+17.03.2025 18:43:53-debug: // ---- build task Sort some build options to settings.json ---- (2ms)
+17.03.2025 18:43:53-debug: run build task Sort some build options to settings.json success in 2 ms√, progress: 15%
+17.03.2025 18:43:53-debug: [Build Memory track]: Sort some build options to settings.json start:215.47MB, end 215.60MB, increase: 126.38KB
+17.03.2025 18:44:25-debug: programming:execute-script (6ms)
+17.03.2025 18:44:26-debug: Query all assets info in project
+17.03.2025 18:44:26-debug: init custom config: keepNodeUuid: false, useCache: true
+17.03.2025 18:44:26-debug:   Number of all scenes: 1
+17.03.2025 18:44:26-debug:   Number of other assets: 383
+17.03.2025 18:44:26-debug:   Number of all scripts: 16
+17.03.2025 18:44:26-debug: Query asset bundle start, progress: 0%
+17.03.2025 18:44:26-debug: // ---- build task Query asset bundle ----
+17.03.2025 18:44:26-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,15049ccd-4dd7-451e-a8ae-af66735c929e,521c5f6e-1a26-42e2-8108-4400c912d9bf,4c3ce6de-e6d1-47f7-aa36-36b9b58f72d3,4361db28-3f24-44cc-8e51-32ee5fd651ac,cafd95c9-c558-46f9-9812-1224b65c09ee,28d6d6b8-3f66-4a73-9795-17a0852ba2d4,2df0a40b-26c2-47ce-be0d-4d3cd4164737,dace6a58-1705-48c7-a275-70afc9534e88,ec8106fe-05bf-4e94-943c-e0d3b7bb5e45,39f74202-ead5-4a45-b966-273d526adbf1,8f6ac413-2f1e-4b88-b26f-54556b5dd510,45e7c0c8-2699-4912-b45f-d42bb8384189,84ac6f69-3086-455a-86a4-561da8ee710b,5c601d96-e4c7-4698-991b-7ee674b11079,bf0a6d94-58f0-4ad2-bdf2-c4a31c7dd856,871c3b6c-7379-419d-bda3-794b239ab90d
+17.03.2025 18:44:26-debug: // ---- build task Query asset bundle ---- (7ms)
+17.03.2025 18:44:26-debug: run build task Query asset bundle success in 7 ms√, progress: 5%
+17.03.2025 18:44:26-debug: [Build Memory track]: Query asset bundle start:217.23MB, end 217.72MB, increase: 509.15KB
+17.03.2025 18:44:26-debug: // ---- build task Query asset bundle ----
+17.03.2025 18:44:26-debug: Query asset bundle start, progress: 5%
+17.03.2025 18:44:26-debug: run build task Query asset bundle success in √, progress: 10%
+17.03.2025 18:44:26-debug: [Build Memory track]: Query asset bundle start:217.74MB, end 217.75MB, increase: 11.28KB
+17.03.2025 18:44:26-debug: // ---- build task Sort some build options to settings.json ----
+17.03.2025 18:44:26-debug: Sort some build options to settings.json start, progress: 10%
+17.03.2025 18:44:26-debug: run build task Sort some build options to settings.json success in √, progress: 12%
+17.03.2025 18:44:26-debug: [Build Memory track]: Sort some build options to settings.json start:217.76MB, end 217.78MB, increase: 12.43KB
+17.03.2025 18:44:26-debug: // ---- build task Fill script data to settings ----
+17.03.2025 18:44:26-debug: Fill script data to settings start, progress: 12%
+17.03.2025 18:44:26-debug: run build task Fill script data to settings success in √, progress: 13%
+17.03.2025 18:44:26-debug: [Build Memory track]: Fill script data to settings start:217.79MB, end 217.80MB, increase: 13.76KB
+17.03.2025 18:44:26-debug: Sort some build options to settings.json start, progress: 13%
+17.03.2025 18:44:26-debug: // ---- build task Sort some build options to settings.json ----
+17.03.2025 18:44:26-debug: // ---- build task Sort some build options to settings.json ---- (3ms)
+17.03.2025 18:44:26-debug: run build task Sort some build options to settings.json success in 3 ms√, progress: 15%
+17.03.2025 18:44:26-debug: [Build Memory track]: Sort some build options to settings.json start:217.82MB, end 217.95MB, increase: 131.21KB
