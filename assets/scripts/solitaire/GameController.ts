@@ -1,6 +1,6 @@
 import { _decorator, Color, Component, instantiate, Label, Node, Prefab, resources, TextAsset, tween, UIOpacity, UITransform, Vec2, Vec3 } from 'cc';
 const { ccclass, property } = _decorator;
-import Card from './Card'; // Импортируйте ваш класс Card
+import Card from './Card';
 import { ICardData } from './ICardData';
 import { IWordData } from './IWordData';
 import { Word } from './Word';
@@ -245,6 +245,7 @@ export default class GameController extends Component {
             const blockerComponent = this.blocker.getComponent(Blocker);
             if(this.currentLetterIndex >= this.letterSlots.length){
                 blockerComponent.showBlocker();
+                let timeLetterSlots: number = 0;
                 setTimeout(() => {
                     if(this.isWordRight()){
                         this.letterSlots.forEach(slot => {
@@ -253,11 +254,12 @@ export default class GameController extends Component {
                         blockerComponent.showBlocker();
                         this.resultScreen.show(true);
                         this.sound.play(this.sound.correct);
-
+                        setTimeout(() => {
                         this.completedWords[this.currentWordIndex].setString(this.predefinedWordStrings[this.currentWordIndex]);
                         this.completedWords[this.currentWordIndex].selectWord();
                         this.currentWordIndex++;
                         this.moveCardsToCompleteWord();
+                        timeLetterSlots = this.letterSlots.length * 50;
                         setTimeout(() => {
                             this.deleteSlots();
                             this.letterSlots = [];
@@ -265,7 +267,8 @@ export default class GameController extends Component {
                             this.currentLetterIndex = 0;
                             this.changeSentence();
                             blockerComponent.hideBlocker();
-                        }, this.letterSlots.length * 50);
+                        }, timeLetterSlots);
+                    }, 500);
 
                     } else {
                         this.letterSlots.forEach(slot => {
@@ -283,8 +286,10 @@ export default class GameController extends Component {
                         }, 1500);
                     }
                     setTimeout(() => {
+                        console.log(this.currentWordIndex);
                         if(this.currentWordIndex > 4){
                             blockerComponent.showBlocker();
+                            console.log("BLocker");
                             this.blocker.getComponent(Blocker).activateButtonStore();
                             const storeButtonComponent = this.storeButtonNode.getComponent(StoreButtonComponent);
                             if (storeButtonComponent) {
@@ -293,7 +298,7 @@ export default class GameController extends Component {
                                 console.warn("StoreButtonComponent not found on the provided node!");
                             }
                         }
-                    }, this.letterSlots.length * 50);
+                    }, 750 + timeLetterSlots);
                     
                 }, this.letterSlots.length * 50);
             } else {

@@ -1,0 +1,396 @@
+18.03.2025 10:58:07-log: Cannot access game frame or container.
+18.03.2025 10:58:08-debug: asset-db:require-engine-code (1053ms)
+18.03.2025 10:58:08-log: meshopt wasm decoder initialized
+18.03.2025 10:58:08-log: [box2d]:box2d wasm lib loaded.
+18.03.2025 10:58:08-log: [bullet]:bullet wasm lib loaded.
+18.03.2025 10:58:08-log: Cocos Creator v3.8.2
+18.03.2025 10:58:08-debug: [Assets Memory track]: asset-db:worker-init: initEngine start:19.53MB, end 100.68MB, increase: 81.14MB
+18.03.2025 10:58:09-debug: [Assets Memory track]: asset-db-plugin-register: programming start:101.28MB, end 104.93MB, increase: 3.65MB
+18.03.2025 10:58:21-debug: [Assets Memory track]: asset-db-plugin-register: engine-extends start:104.98MB, end 230.72MB, increase: 125.74MB
+18.03.2025 10:58:21-debug: [Assets Memory track]: asset-db-plugin-enable: builder start:105.52MB, end 228.92MB, increase: 123.41MB
+18.03.2025 10:58:21-debug: [Assets Memory track]: asset-db:worker-init: initPlugin start:100.68MB, end 230.73MB, increase: 130.04MB
+18.03.2025 10:58:21-debug: [Assets Memory track]: asset-db-plugin-enable: project start:105.15MB, end 230.72MB, increase: 125.58MB
+18.03.2025 10:58:21-debug: run package(package-asset) handler(enable) start
+18.03.2025 10:58:21-debug: run package(node-library) handler(enable) success!
+18.03.2025 10:58:21-debug: run package(node-library) handler(enable) start
+18.03.2025 10:58:21-debug: run package(package-asset) handler(enable) success!
+18.03.2025 10:58:21-debug: run package(process) handler(enable) start
+18.03.2025 10:58:21-debug: run package(reference-image) handler(enable) start
+18.03.2025 10:58:21-debug: run package(reflection-probe) handler(enable) start
+18.03.2025 10:58:21-debug: run package(process) handler(enable) success!
+18.03.2025 10:58:21-debug: run package(reference-image) handler(enable) success!
+18.03.2025 10:58:21-debug: run package(reflection-probe) handler(enable) success!
+18.03.2025 10:58:21-debug: run package(engine-extends) handler(enable) success!
+18.03.2025 10:58:21-debug: run package(adsense-h5g-plugin) handler(enable) start
+18.03.2025 10:58:21-debug: run package(adsense-h5g-plugin) handler(enable) success!
+18.03.2025 10:58:21-debug: run package(engine-extends) handler(enable) start
+18.03.2025 10:58:21-debug: run package(alipay-mini-game) handler(enable) success!
+18.03.2025 10:58:21-debug: run package(android) handler(enable) start
+18.03.2025 10:58:21-debug: run package(android) handler(enable) success!
+18.03.2025 10:58:21-debug: run package(bytedance-mini-game) handler(enable) start
+18.03.2025 10:58:21-debug: run package(bytedance-mini-game) handler(enable) success!
+18.03.2025 10:58:21-debug: run package(certificate) handler(enable) start
+18.03.2025 10:58:21-debug: run package(alipay-mini-game) handler(enable) start
+18.03.2025 10:58:21-debug: run package(channel-upload-tools) handler(enable) start
+18.03.2025 10:58:21-debug: run package(fb-instant-games) handler(enable) start
+18.03.2025 10:58:21-debug: run package(huawei-quick-game) handler(enable) start
+18.03.2025 10:58:21-debug: run package(huawei-agc) handler(enable) start
+18.03.2025 10:58:21-debug: run package(huawei-quick-game) handler(enable) success!
+18.03.2025 10:58:21-debug: run package(huawei-agc) handler(enable) success!
+18.03.2025 10:58:21-debug: run package(fb-instant-games) handler(enable) success!
+18.03.2025 10:58:21-debug: run package(ios) handler(enable) start
+18.03.2025 10:58:21-debug: run package(channel-upload-tools) handler(enable) success!
+18.03.2025 10:58:21-debug: run package(ios) handler(enable) success!
+18.03.2025 10:58:21-debug: run package(certificate) handler(enable) success!
+18.03.2025 10:58:21-debug: run package(mac) handler(enable) start
+18.03.2025 10:58:21-debug: run package(mac) handler(enable) success!
+18.03.2025 10:58:21-debug: run package(native) handler(enable) start
+18.03.2025 10:58:21-debug: run package(native) handler(enable) success!
+18.03.2025 10:58:21-debug: run package(ohos) handler(enable) start
+18.03.2025 10:58:21-debug: run package(ohos) handler(enable) success!
+18.03.2025 10:58:21-debug: run package(openharmony) handler(enable) start
+18.03.2025 10:58:21-debug: run package(openharmony) handler(enable) success!
+18.03.2025 10:58:21-debug: run package(oppo-mini-game) handler(enable) start
+18.03.2025 10:58:21-debug: run package(oppo-mini-game) handler(enable) success!
+18.03.2025 10:58:21-debug: run package(runtime-dev-tools) handler(enable) start
+18.03.2025 10:58:21-debug: run package(linux) handler(enable) start
+18.03.2025 10:58:21-debug: run package(linux) handler(enable) success!
+18.03.2025 10:58:21-debug: run package(runtime-dev-tools) handler(enable) success!
+18.03.2025 10:58:21-debug: run package(taobao-mini-game) handler(enable) start
+18.03.2025 10:58:21-debug: run package(taobao-mini-game) handler(enable) success!
+18.03.2025 10:58:21-debug: run package(vivo-mini-game) handler(enable) success!
+18.03.2025 10:58:21-debug: run package(taobao-creative-app) handler(enable) start
+18.03.2025 10:58:21-debug: run package(vivo-mini-game) handler(enable) start
+18.03.2025 10:58:21-debug: run package(taobao-creative-app) handler(enable) success!
+18.03.2025 10:58:21-debug: run package(web-desktop) handler(enable) success!
+18.03.2025 10:58:21-debug: run package(web-mobile) handler(enable) start
+18.03.2025 10:58:21-debug: run package(web-mobile) handler(enable) success!
+18.03.2025 10:58:21-debug: run package(wechatgame) handler(enable) start
+18.03.2025 10:58:21-debug: run package(wechatgame) handler(enable) success!
+18.03.2025 10:58:21-debug: run package(wechatprogram) handler(enable) success!
+18.03.2025 10:58:21-debug: run package(wechatprogram) handler(enable) start
+18.03.2025 10:58:21-debug: run package(web-desktop) handler(enable) start
+18.03.2025 10:58:21-debug: run package(xiaomi-quick-game) handler(enable) start
+18.03.2025 10:58:21-debug: run package(windows) handler(enable) success!
+18.03.2025 10:58:21-debug: run package(xiaomi-quick-game) handler(enable) success!
+18.03.2025 10:58:21-debug: run package(cocos-service) handler(enable) success!
+18.03.2025 10:58:21-debug: run package(cocos-service) handler(enable) start
+18.03.2025 10:58:21-debug: run package(windows) handler(enable) start
+18.03.2025 10:58:21-debug: run package(im-plugin) handler(enable) start
+18.03.2025 10:58:21-debug: run package(fix-device) handler(enable) start
+18.03.2025 10:58:21-debug: run package(fix-device) handler(enable) success!
+18.03.2025 10:58:21-debug: run package(im-plugin) handler(enable) success!
+18.03.2025 10:58:21-debug: run package(super-html) handler(enable) start
+18.03.2025 10:58:21-debug: run package(super-html) handler(enable) success!
+18.03.2025 10:58:21-debug: asset-db:worker-init: initPlugin (12600ms)
+18.03.2025 10:58:21-debug: run package(placeholder) handler(enable) start
+18.03.2025 10:58:21-debug: run package(placeholder) handler(enable) success!
+18.03.2025 10:58:21-debug: [Assets Memory track]: asset-db:worker-init start:19.53MB, end 171.59MB, increase: 152.06MB
+18.03.2025 10:58:21-debug: Run asset db hook programming:beforePreStart ...
+18.03.2025 10:58:21-debug: Run asset db hook programming:beforePreStart success!
+18.03.2025 10:58:21-debug: Run asset db hook engine-extends:beforePreStart success!
+18.03.2025 10:58:21-debug: Run asset db hook engine-extends:beforePreStart ...
+18.03.2025 10:58:24-debug: asset-db:worker-init (17895ms)
+18.03.2025 10:58:24-debug: asset-db-hook-programming-beforePreStart (3252ms)
+18.03.2025 10:58:24-debug: asset-db-hook-engine-extends-beforePreStart (3252ms)
+18.03.2025 10:58:24-debug: Preimport db internal success
+18.03.2025 10:58:25-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\prefabsbackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:25-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\scenesbackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:25-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\scriptsbackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:25-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\resourcesbackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:25-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\resources\animationsbackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:25-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\resources\soundsbackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:25-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\resources\configsbackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:25-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\scripts\solitairebackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:25-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\uibackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:25-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\scripts\servicesbackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:25-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\scripts\soundbackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:25-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\scripts\uibackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:25-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\scripts\services\StoreController.tsbackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:25-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\scripts\services\super_html_playable.tsbackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:25-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\scripts\solitaire\Blocker.tsbackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:25-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\winbackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:25-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\scripts\solitaire\GameController.tsbackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:25-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\scripts\solitaire\Card.tsbackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:25-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\scripts\solitaire\ICardData.tsbackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:25-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\scripts\solitaire\ResultScreen.tsbackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:25-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\scripts\solitaire\Text.tsbackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:25-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\scripts\solitaire\IWordData.tsbackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:25-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\scripts\solitaire\Letter.tsbackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:25-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\scripts\solitaire\TutorialHandMover.tsbackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:25-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\scripts\solitaire\Word.tsbackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:25-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\scripts\sound\SoundController.tsbackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:25-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\scripts\ui\StoreButtonComponent.tsbackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:25-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\scripts\ui\ScreenScaler.tsbackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:25-debug: Preimport db assets success
+18.03.2025 10:58:25-debug: Run asset db hook programming:afterPreStart ...
+18.03.2025 10:58:25-debug: starting packer-driver...
+18.03.2025 10:58:27-debug: initialize scripting environment...
+18.03.2025 10:58:27-debug: Set detail map pack:///resolution-detail-map.json: {}
+18.03.2025 10:58:27-debug: Run asset db hook engine-extends:afterPreStart success!
+18.03.2025 10:58:27-debug: [Assets Memory track]: asset-db:worker-init: preStart start:171.60MB, end 185.12MB, increase: 13.52MB
+18.03.2025 10:58:27-debug: Start up the 'internal' database...
+18.03.2025 10:58:27-debug: Run asset db hook programming:afterPreStart success!
+18.03.2025 10:58:27-debug: Run asset db hook engine-extends:afterPreStart ...
+18.03.2025 10:58:28-debug: asset-db-hook-programming-afterPreStart (3251ms)
+18.03.2025 10:58:28-debug: asset-db-hook-engine-extends-afterPreStart (732ms)
+18.03.2025 10:58:28-debug: asset-db:worker-effect-data-processing (732ms)
+18.03.2025 10:58:28-debug: [Assets Memory track]: asset-db:worker-startup-database[internal] start:184.17MB, end 189.47MB, increase: 5.30MB
+18.03.2025 10:58:28-debug: Start up the 'assets' database...
+18.03.2025 10:58:28-debug: asset-db:worker-startup-database[internal] (5919ms)
+18.03.2025 10:58:28-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\prefabs\Card.prefabbackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:28-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\prefabs\circle.prefabbackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:28-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\prefabs\Word.prefabbackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:28-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\prefabs\LetterSlot.prefabbackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:28-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\scenes\main.scenebackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:28-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\background.pngbackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:28-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\Buttons.pngbackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:28-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\CardBack.pngbackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:28-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\Cards.pngbackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:28-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\Buttons.png@6c48abackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:28-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\CardBack.png@6c48abackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:28-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\Buttons.png@f9941background: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:28-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\CardBack.png@f9941background: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:28-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\Component 2.pngbackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:28-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\Group 1907.pngbackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:28-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\Property 1=Default.pngbackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:28-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\Cards.png@6c48abackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:28-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\Cards.png@f9941background: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:28-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\Group 1907.png@6c48abackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:28-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\Group 1907.png@f9941background: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:28-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\Property 1=Variant2.pngbackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:28-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\background.png@6c48abackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:28-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\background.png@f9941background: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:28-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\Rectangle 4.pngbackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:28-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\Component 2.png@6c48abackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:28-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\Component 2.png@f9941background: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:28-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\Rectangle 5.pngbackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:28-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\Property 1=Default.png@6c48abackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:28-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\Property 1=Default.png@f9941background: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:28-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\Rectangle 4.png@6c48abackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:28-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\resources\animations\pulse.animbackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:28-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\resources\animations\pulseCard.animbackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:28-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\Rectangle 4.png@f9941background: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:28-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\Rectangle 5.png@6c48abackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:28-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\Rectangle 5.png@f9941background: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:28-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\resources\animations\pulseWord.animbackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:29-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\resources\animations\win.animbackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:29-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\Property 1=Variant2.png@6c48abackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:29-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\resources\configs\cards.txtbackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:29-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\Property 1=Variant2.png@f9941background: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:29-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\resources\configs\sentences.txtbackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:29-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\resources\configs\words.txtbackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:29-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\resources\sounds\correct.mp3background: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:29-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\resources\sounds\hint.mp3background: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:29-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\resources\sounds\wrong.mp3background: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:29-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\win\EPIC!.pngbackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:29-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\win\EXELLENT!.pngbackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:29-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\win\GOOD!.pngbackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:29-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\win\GREAT!.pngbackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:29-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\win\UNBELIVABLE!.pngbackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:29-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\win\EPIC!.png@6c48abackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:29-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\win\EXELLENT!.png@6c48abackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:29-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\win\EPIC!.png@f9941background: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:29-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\win\EXELLENT!.png@f9941background: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:29-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\win\GOOD!.png@6c48abackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:29-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\win\GREAT!.png@6c48abackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:29-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\win\GOOD!.png@f9941background: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:29-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\win\GREAT!.png@f9941background: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:29-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\win\UNBELIVABLE!.png@6c48abackground: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:29-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\win\UNBELIVABLE!.png@f9941background: #aaff85; color: #000;color: #000;
+18.03.2025 10:58:29-debug: asset-db:worker-startup-database[assets] (4279ms)
+18.03.2025 10:58:29-debug: asset-db:start-database (7558ms)
+18.03.2025 10:58:29-debug: asset-db:ready (25525ms)
+18.03.2025 10:58:29-debug: init worker message success
+18.03.2025 10:58:38-debug: [Build Memory track]: builder:worker-init start:188.08MB, end 212.28MB, increase: 24.20MB
+18.03.2025 10:58:38-debug: programming:execute-script (1ms)
+18.03.2025 10:58:38-debug: builder:worker-init (9480ms)
+18.03.2025 10:58:39-debug: programming:execute-script (4ms)
+18.03.2025 11:03:38-debug: refresh db internal success
+18.03.2025 11:03:38-debug: refresh db assets success
+18.03.2025 11:03:38-debug: Run asset db hook engine-extends:afterRefresh ...
+18.03.2025 11:03:38-debug: Run asset db hook engine-extends:afterRefresh success!
+18.03.2025 11:03:38-debug: asset-db:refresh-all-database (426ms)
+18.03.2025 11:03:38-debug: asset-db:worker-effect-data-processing (1ms)
+18.03.2025 11:03:38-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+18.03.2025 11:04:02-debug: refresh db internal success
+18.03.2025 11:04:02-debug: refresh db assets success
+18.03.2025 11:04:02-debug: Run asset db hook engine-extends:afterRefresh ...
+18.03.2025 11:04:02-debug: Run asset db hook engine-extends:afterRefresh success!
+18.03.2025 11:04:02-debug: asset-db:refresh-all-database (87ms)
+18.03.2025 11:04:02-debug: asset-db:worker-effect-data-processing (1ms)
+18.03.2025 11:04:02-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+18.03.2025 11:04:08-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\win\GOOD! (5).pngbackground: #aaff85; color: #000;color: #000;
+18.03.2025 11:04:08-debug: start refresh asset from D:\Cocos\work\CocosSolitaireCreative\assets\ui\win\GOOD! (5).png...
+18.03.2025 11:04:08-debug: start refresh asset from D:\Cocos\work\CocosSolitaireCreative\assets\ui\win\GOOD! (6).png...
+18.03.2025 11:04:08-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\win\GOOD! (5).png@6c48abackground: #aaff85; color: #000;color: #000;
+18.03.2025 11:04:08-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\win\GOOD! (6).pngbackground: #aaff85; color: #000;color: #000;
+18.03.2025 11:04:08-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\win\GOOD! (6).png@6c48abackground: #aaff85; color: #000;color: #000;
+18.03.2025 11:04:08-debug: refresh asset D:\Cocos\work\CocosSolitaireCreative\assets\ui\win success
+18.03.2025 11:04:08-debug: refresh asset D:\Cocos\work\CocosSolitaireCreative\assets\ui\win success
+18.03.2025 11:04:08-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\winbackground: #aaff85; color: #000;color: #000;
+18.03.2025 11:04:16-debug: programming:execute-script (1ms)
+18.03.2025 11:04:17-debug: start remove asset D:\Cocos\work\CocosSolitaireCreative\assets\ui\win\EXELLENT!.png...
+18.03.2025 11:04:17-debug: start refresh asset from D:\Cocos\work\CocosSolitaireCreative\assets\ui\win\EXELLENT!.png...
+18.03.2025 11:04:17-debug: %cDestroy%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\win\EXELLENT!.png@6c48abackground: #ffb8b8; color: #000;color: #000;
+18.03.2025 11:04:17-debug: %cDestroy%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\win\EXELLENT!.png@f9941background: #ffb8b8; color: #000;color: #000;
+18.03.2025 11:04:17-debug: %cDestroy%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\win\EXELLENT!.pngbackground: #ffb8b8; color: #000;color: #000;
+18.03.2025 11:04:17-debug: refresh asset D:\Cocos\work\CocosSolitaireCreative\assets\ui\win success
+18.03.2025 11:04:17-debug: remove asset D:\Cocos\work\CocosSolitaireCreative\assets\ui\win\EXELLENT!.png success
+18.03.2025 11:04:17-debug: refresh db internal success
+18.03.2025 11:04:17-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\winbackground: #aaff85; color: #000;color: #000;
+18.03.2025 11:04:17-debug: refresh db assets success
+18.03.2025 11:04:17-debug: Run asset db hook engine-extends:afterRefresh ...
+18.03.2025 11:04:17-debug: Run asset db hook engine-extends:afterRefresh success!
+18.03.2025 11:04:17-debug: asset-db:refresh-all-database (99ms)
+18.03.2025 11:04:17-debug: asset-db:worker-effect-data-processing (1ms)
+18.03.2025 11:04:17-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+18.03.2025 11:04:21-debug: programming:execute-script (1ms)
+18.03.2025 11:04:21-debug: start remove asset D:\Cocos\work\CocosSolitaireCreative\assets\ui\win\UNBELIVABLE!.png...
+18.03.2025 11:04:21-debug: start refresh asset from D:\Cocos\work\CocosSolitaireCreative\assets\ui\win\UNBELIVABLE!.png...
+18.03.2025 11:04:21-debug: %cDestroy%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\win\UNBELIVABLE!.png@6c48abackground: #ffb8b8; color: #000;color: #000;
+18.03.2025 11:04:21-debug: %cDestroy%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\win\UNBELIVABLE!.png@f9941background: #ffb8b8; color: #000;color: #000;
+18.03.2025 11:04:21-debug: %cDestroy%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\win\UNBELIVABLE!.pngbackground: #ffb8b8; color: #000;color: #000;
+18.03.2025 11:04:21-debug: refresh asset D:\Cocos\work\CocosSolitaireCreative\assets\ui\win success
+18.03.2025 11:04:21-debug: remove asset D:\Cocos\work\CocosSolitaireCreative\assets\ui\win\UNBELIVABLE!.png success
+18.03.2025 11:04:22-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\winbackground: #aaff85; color: #000;color: #000;
+18.03.2025 11:04:22-debug: refresh db internal success
+18.03.2025 11:04:22-debug: refresh db assets success
+18.03.2025 11:04:22-debug: Run asset db hook engine-extends:afterRefresh ...
+18.03.2025 11:04:22-debug: Run asset db hook engine-extends:afterRefresh success!
+18.03.2025 11:04:22-debug: asset-db:refresh-all-database (84ms)
+18.03.2025 11:04:22-debug: asset-db:worker-effect-data-processing (1ms)
+18.03.2025 11:04:22-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+18.03.2025 11:04:36-debug: start move asset from D:\Cocos\work\CocosSolitaireCreative\assets\ui\win\GOOD! (5).png -> D:\Cocos\work\CocosSolitaireCreative\assets\ui\win\EXCELLENT.png...
+18.03.2025 11:04:36-debug: start refresh asset from D:\Cocos\work\CocosSolitaireCreative\assets\ui\win\EXCELLENT.png...
+18.03.2025 11:04:36-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\win\EXCELLENT.pngbackground: #aaff85; color: #000;color: #000;
+18.03.2025 11:04:36-debug: %cReImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\win\EXCELLENT.png@6c48abackground: #aaff85; color: #000;color: #000;
+18.03.2025 11:04:36-debug: refresh asset D:\Cocos\work\CocosSolitaireCreative\assets\ui\win success
+18.03.2025 11:04:36-debug: start refresh asset from D:\Cocos\work\CocosSolitaireCreative\assets\ui\win...
+18.03.2025 11:04:36-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\winbackground: #aaff85; color: #000;color: #000;
+18.03.2025 11:04:36-debug: move asset from D:\Cocos\work\CocosSolitaireCreative\assets\ui\win\GOOD! (5).png -> D:\Cocos\work\CocosSolitaireCreative\assets\ui\win\EXCELLENT.png success
+18.03.2025 11:04:36-debug: refresh asset D:\Cocos\work\CocosSolitaireCreative\assets\ui success
+18.03.2025 11:04:52-debug: start move asset from D:\Cocos\work\CocosSolitaireCreative\assets\ui\win\GOOD! (6).png -> D:\Cocos\work\CocosSolitaireCreative\assets\ui\win\UNBELIEVABLE.png...
+18.03.2025 11:04:52-debug: start refresh asset from D:\Cocos\work\CocosSolitaireCreative\assets\ui\win\UNBELIEVABLE.png...
+18.03.2025 11:04:52-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\win\UNBELIEVABLE.pngbackground: #aaff85; color: #000;color: #000;
+18.03.2025 11:04:52-debug: %cReImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\win\UNBELIEVABLE.png@6c48abackground: #aaff85; color: #000;color: #000;
+18.03.2025 11:04:52-debug: refresh asset D:\Cocos\work\CocosSolitaireCreative\assets\ui\win success
+18.03.2025 11:04:52-debug: start refresh asset from D:\Cocos\work\CocosSolitaireCreative\assets\ui\win...
+18.03.2025 11:04:52-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\winbackground: #aaff85; color: #000;color: #000;
+18.03.2025 11:04:52-debug: move asset from D:\Cocos\work\CocosSolitaireCreative\assets\ui\win\GOOD! (6).png -> D:\Cocos\work\CocosSolitaireCreative\assets\ui\win\UNBELIEVABLE.png success
+18.03.2025 11:04:52-debug: refresh asset D:\Cocos\work\CocosSolitaireCreative\assets\ui success
+18.03.2025 11:04:58-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\win\UNBELIEVABLE.pngbackground: #aaff85; color: #000;color: #000;
+18.03.2025 11:04:58-debug: %cReImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\win\UNBELIEVABLE.png@6c48abackground: #aaff85; color: #000;color: #000;
+18.03.2025 11:04:58-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\win\UNBELIEVABLE.png@f9941background: #aaff85; color: #000;color: #000;
+18.03.2025 11:04:58-debug: asset-db:reimport-asset68e3e1fc-95be-44b1-96c8-567355e78c04 (19ms)
+18.03.2025 11:05:16-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\win\EXCELLENT.pngbackground: #aaff85; color: #000;color: #000;
+18.03.2025 11:05:16-debug: %cReImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\win\EXCELLENT.png@6c48abackground: #aaff85; color: #000;color: #000;
+18.03.2025 11:05:16-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\win\EXCELLENT.png@f9941background: #aaff85; color: #000;color: #000;
+18.03.2025 11:05:16-debug: asset-db:reimport-asset982f5662-f59c-4f28-97dc-188273f7a9d6 (17ms)
+18.03.2025 11:05:16-debug: refresh db internal success
+18.03.2025 11:05:16-debug: refresh db assets success
+18.03.2025 11:05:16-debug: Run asset db hook engine-extends:afterRefresh ...
+18.03.2025 11:05:16-debug: Run asset db hook engine-extends:afterRefresh success!
+18.03.2025 11:05:16-debug: asset-db:refresh-all-database (83ms)
+18.03.2025 11:05:16-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+18.03.2025 11:05:36-debug: start refresh asset from D:\Cocos\work\CocosSolitaireCreative\assets\scenes\main.scene...
+18.03.2025 11:05:36-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\scenes\main.scenebackground: #aaff85; color: #000;color: #000;
+18.03.2025 11:05:36-debug: refresh asset D:\Cocos\work\CocosSolitaireCreative\assets\scenes success
+18.03.2025 11:05:42-debug: refresh db internal success
+18.03.2025 11:05:42-debug: refresh db assets success
+18.03.2025 11:05:42-debug: Run asset db hook engine-extends:afterRefresh ...
+18.03.2025 11:05:42-debug: Run asset db hook engine-extends:afterRefresh success!
+18.03.2025 11:05:42-debug: asset-db:refresh-all-database (83ms)
+18.03.2025 11:05:42-debug: asset-db:worker-effect-data-processing (1ms)
+18.03.2025 11:05:42-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+18.03.2025 11:08:22-debug: refresh db internal success
+18.03.2025 11:08:22-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\scripts\solitaire\Card.tsbackground: #aaff85; color: #000;color: #000;
+18.03.2025 11:08:22-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\scripts\solitaire\GameController.tsbackground: #aaff85; color: #000;color: #000;
+18.03.2025 11:08:22-debug: refresh db assets success
+18.03.2025 11:08:22-debug: Run asset db hook engine-extends:afterRefresh ...
+18.03.2025 11:08:22-debug: Run asset db hook engine-extends:afterRefresh success!
+18.03.2025 11:08:22-debug: asset-db:refresh-all-database (86ms)
+18.03.2025 11:08:22-debug: asset-db:worker-effect-data-processing (1ms)
+18.03.2025 11:08:22-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+18.03.2025 11:08:25-debug: programming:execute-script (6ms)
+18.03.2025 11:08:25-debug: Query all assets info in project
+18.03.2025 11:08:25-debug: init custom config: keepNodeUuid: false, useCache: true
+18.03.2025 11:08:25-debug:   Number of all scenes: 1
+18.03.2025 11:08:25-debug:   Number of all scripts: 16
+18.03.2025 11:08:25-debug:   Number of other assets: 383
+18.03.2025 11:08:26-debug: Query asset bundle start, progress: 0%
+18.03.2025 11:08:26-debug: // ---- build task Query asset bundle ----
+18.03.2025 11:08:26-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,15049ccd-4dd7-451e-a8ae-af66735c929e,521c5f6e-1a26-42e2-8108-4400c912d9bf,4c3ce6de-e6d1-47f7-aa36-36b9b58f72d3,4361db28-3f24-44cc-8e51-32ee5fd651ac,cafd95c9-c558-46f9-9812-1224b65c09ee,28d6d6b8-3f66-4a73-9795-17a0852ba2d4,2df0a40b-26c2-47ce-be0d-4d3cd4164737,dace6a58-1705-48c7-a275-70afc9534e88,ec8106fe-05bf-4e94-943c-e0d3b7bb5e45,39f74202-ead5-4a45-b966-273d526adbf1,8f6ac413-2f1e-4b88-b26f-54556b5dd510,45e7c0c8-2699-4912-b45f-d42bb8384189,84ac6f69-3086-455a-86a4-561da8ee710b,5c601d96-e4c7-4698-991b-7ee674b11079,bf0a6d94-58f0-4ad2-bdf2-c4a31c7dd856,871c3b6c-7379-419d-bda3-794b239ab90d
+18.03.2025 11:08:26-debug: run build task Query asset bundle success in 9 ms√, progress: 5%
+18.03.2025 11:08:26-debug: Query asset bundle start, progress: 5%
+18.03.2025 11:08:26-debug: // ---- build task Query asset bundle ----
+18.03.2025 11:08:26-debug: [Build Memory track]: Query asset bundle start:217.47MB, end 216.31MB, increase: -1192.76KB
+18.03.2025 11:08:26-debug: // ---- build task Query asset bundle ---- (9ms)
+18.03.2025 11:08:26-debug: // ---- build task Query asset bundle ---- (1ms)
+18.03.2025 11:08:26-debug: run build task Query asset bundle success in 1 ms√, progress: 10%
+18.03.2025 11:08:26-debug: // ---- build task Sort some build options to settings.json ----
+18.03.2025 11:08:26-debug: [Build Memory track]: Query asset bundle start:216.32MB, end 216.34MB, increase: 15.61KB
+18.03.2025 11:08:26-debug: Sort some build options to settings.json start, progress: 10%
+18.03.2025 11:08:26-debug: // ---- build task Sort some build options to settings.json ---- (1ms)
+18.03.2025 11:08:26-debug: run build task Sort some build options to settings.json success in 1 ms√, progress: 12%
+18.03.2025 11:08:26-debug: [Build Memory track]: Sort some build options to settings.json start:216.35MB, end 216.37MB, increase: 18.41KB
+18.03.2025 11:08:26-debug: Fill script data to settings start, progress: 12%
+18.03.2025 11:08:26-debug: // ---- build task Fill script data to settings ----
+18.03.2025 11:08:26-debug: // ---- build task Fill script data to settings ---- (1ms)
+18.03.2025 11:08:26-debug: run build task Fill script data to settings success in 1 ms√, progress: 13%
+18.03.2025 11:08:26-debug: [Build Memory track]: Fill script data to settings start:216.38MB, end 216.40MB, increase: 18.39KB
+18.03.2025 11:08:26-debug: // ---- build task Sort some build options to settings.json ----
+18.03.2025 11:08:26-debug: Sort some build options to settings.json start, progress: 13%
+18.03.2025 11:08:26-debug: // ---- build task Sort some build options to settings.json ---- (5ms)
+18.03.2025 11:08:26-debug: run build task Sort some build options to settings.json success in 5 ms√, progress: 15%
+18.03.2025 11:08:26-debug: [Build Memory track]: Sort some build options to settings.json start:216.42MB, end 216.55MB, increase: 132.82KB
+18.03.2025 11:09:14-debug: refresh db internal success
+18.03.2025 11:09:14-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\scripts\solitaire\GameController.tsbackground: #aaff85; color: #000;color: #000;
+18.03.2025 11:09:14-debug: refresh db assets success
+18.03.2025 11:09:14-debug: Run asset db hook engine-extends:afterRefresh ...
+18.03.2025 11:09:14-debug: Run asset db hook engine-extends:afterRefresh success!
+18.03.2025 11:09:14-debug: asset-db:refresh-all-database (82ms)
+18.03.2025 11:09:14-debug: asset-db:worker-effect-data-processing (2ms)
+18.03.2025 11:09:14-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+18.03.2025 11:09:17-debug: refresh db internal success
+18.03.2025 11:09:17-debug: refresh db assets success
+18.03.2025 11:09:17-debug: Run asset db hook engine-extends:afterRefresh ...
+18.03.2025 11:09:17-debug: Run asset db hook engine-extends:afterRefresh success!
+18.03.2025 11:09:17-debug: asset-db:refresh-all-database (74ms)
+18.03.2025 11:09:17-debug: asset-db:worker-effect-data-processing (1ms)
+18.03.2025 11:09:17-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+18.03.2025 11:09:20-debug: programming:execute-script (5ms)
+18.03.2025 11:09:21-debug: Query all assets info in project
+18.03.2025 11:09:21-debug: init custom config: keepNodeUuid: false, useCache: true
+18.03.2025 11:09:21-debug:   Number of all scenes: 1
+18.03.2025 11:09:21-debug:   Number of all scripts: 16
+18.03.2025 11:09:21-debug:   Number of other assets: 383
+18.03.2025 11:09:21-debug: Query asset bundle start, progress: 0%
+18.03.2025 11:09:21-debug: // ---- build task Query asset bundle ----
+18.03.2025 11:09:21-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,15049ccd-4dd7-451e-a8ae-af66735c929e,521c5f6e-1a26-42e2-8108-4400c912d9bf,4c3ce6de-e6d1-47f7-aa36-36b9b58f72d3,4361db28-3f24-44cc-8e51-32ee5fd651ac,cafd95c9-c558-46f9-9812-1224b65c09ee,28d6d6b8-3f66-4a73-9795-17a0852ba2d4,2df0a40b-26c2-47ce-be0d-4d3cd4164737,dace6a58-1705-48c7-a275-70afc9534e88,ec8106fe-05bf-4e94-943c-e0d3b7bb5e45,39f74202-ead5-4a45-b966-273d526adbf1,8f6ac413-2f1e-4b88-b26f-54556b5dd510,45e7c0c8-2699-4912-b45f-d42bb8384189,84ac6f69-3086-455a-86a4-561da8ee710b,5c601d96-e4c7-4698-991b-7ee674b11079,bf0a6d94-58f0-4ad2-bdf2-c4a31c7dd856,871c3b6c-7379-419d-bda3-794b239ab90d
+18.03.2025 11:09:21-debug: // ---- build task Query asset bundle ---- (6ms)
+18.03.2025 11:09:21-debug: run build task Query asset bundle success in 6 ms√, progress: 5%
+18.03.2025 11:09:21-debug: [Build Memory track]: Query asset bundle start:218.69MB, end 220.71MB, increase: 2.02MB
+18.03.2025 11:09:21-debug: Query asset bundle start, progress: 5%
+18.03.2025 11:09:21-debug: // ---- build task Query asset bundle ----
+18.03.2025 11:09:21-debug: // ---- build task Query asset bundle ---- (1ms)
+18.03.2025 11:09:21-debug: run build task Query asset bundle success in 1 ms√, progress: 10%
+18.03.2025 11:09:21-debug: // ---- build task Sort some build options to settings.json ----
+18.03.2025 11:09:21-debug: [Build Memory track]: Query asset bundle start:220.72MB, end 220.74MB, increase: 15.39KB
+18.03.2025 11:09:21-debug: Sort some build options to settings.json start, progress: 10%
+18.03.2025 11:09:21-debug: // ---- build task Sort some build options to settings.json ---- (1ms)
+18.03.2025 11:09:21-debug: run build task Sort some build options to settings.json success in 1 ms√, progress: 12%
+18.03.2025 11:09:21-debug: [Build Memory track]: Sort some build options to settings.json start:220.75MB, end 220.77MB, increase: 18.39KB
+18.03.2025 11:09:21-debug: // ---- build task Fill script data to settings ----
+18.03.2025 11:09:21-debug: Fill script data to settings start, progress: 12%
+18.03.2025 11:09:21-debug: // ---- build task Fill script data to settings ---- (1ms)
+18.03.2025 11:09:21-debug: run build task Fill script data to settings success in 1 ms√, progress: 13%
+18.03.2025 11:09:21-debug: // ---- build task Sort some build options to settings.json ----
+18.03.2025 11:09:21-debug: [Build Memory track]: Fill script data to settings start:220.78MB, end 220.80MB, increase: 18.36KB
+18.03.2025 11:09:21-debug: Sort some build options to settings.json start, progress: 13%
+18.03.2025 11:09:21-debug: // ---- build task Sort some build options to settings.json ---- (2ms)
+18.03.2025 11:09:21-debug: run build task Sort some build options to settings.json success in 2 ms√, progress: 15%
+18.03.2025 11:09:21-debug: [Build Memory track]: Sort some build options to settings.json start:220.82MB, end 220.93MB, increase: 120.64KB
+18.03.2025 11:10:00-debug: start refresh asset from D:\Cocos\work\CocosSolitaireCreative\assets\scenes\main.scene...
+18.03.2025 11:10:00-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\scenes\main.scenebackground: #aaff85; color: #000;color: #000;
+18.03.2025 11:10:00-debug: refresh asset D:\Cocos\work\CocosSolitaireCreative\assets\scenes success

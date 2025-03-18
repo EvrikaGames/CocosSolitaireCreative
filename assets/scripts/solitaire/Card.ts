@@ -111,40 +111,37 @@ export default class Card extends Component {
         const localPos = this.node.parent.getComponent(UITransform).convertToNodeSpaceAR(worldPos);
 
         tween(this.node)
-        .to(0.3, { position: localPos }) // Перемещение карты
+        .to(0.5, { position: localPos })
         .call(() => {
-            this.unschedule(this.createCircle); // Останавливаем создание кругов после перемещения
+            this.unschedule(this.createCircle);
         })
-        .to(0.3, { scale: Vec3.ZERO }) // Уменьшение карты до нуля
+        .to(0.5, { scale: Vec3.ZERO }) 
         .call(() => {
-            this.removeCard(); // Удаление карты
+            this.removeCard();
         })
         .start();
     
-    // Запускаем создание кругов одновременно с твином
         this.schedule(this.createCircle.bind(this), 0.005, Math.ceil(0.5 / 0.005));
     }
     
-    createCircle() {
-        const newCircle = instantiate(this.circle); // Создаем новый круг
-        newCircle.parent = this.node.parent; // Устанавливаем родителя круга
     
-        // Устанавливаем позицию круга в той же точке, где находится карта
+    createCircle() {
+        const newCircle = instantiate(this.circle);
+        newCircle.parent = this.node.parent;
+    
         const worldPos = this.node.getWorldPosition();
         const localPos = this.node.parent!.getComponent(UITransform)!.convertToNodeSpaceAR(worldPos);
         newCircle.setPosition(localPos);
     
-        // Устанавливаем круг выше текущего объекта в иерархии
         newCircle.setSiblingIndex(this.node.getSiblingIndex());
     
-        // Устанавливаем размер круга, равный текущему размеру карты
-        newCircle.setScale(this.node.getScale().clone()); // Копируем текущий масштаб карты
+        newCircle.setScale(this.node.getScale().clone());
     
-        // Анимация уменьшения круга и его удаление
+
         tween(newCircle)
-            .to(0.3, { scale: new Vec3(0, 0, 0) }) // Уменьшение размера до нуля за 0.3 секунды
+            .to(0.3, { scale: new Vec3(0, 0, 0) }) 
             .call(() => {
-                newCircle.destroy(); // Удаление круга после завершения
+                newCircle.destroy();
             })
             .start();
     }

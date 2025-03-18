@@ -10,7 +10,7 @@
       166,
       255
     ],
-    "transformToolName": "rect",
+    "transformToolName": "position",
     "pivot": "pivot",
     "coordinate": "local",
     "toolsVisibility3d": true
@@ -1252,8 +1252,8 @@
     },
     "c77ecaa8-c936-46c4-a5b0-98692673ed87": {
       "position": {
-        "x": 508.96583333333336,
-        "y": 698.9041666666667,
+        "x": 500.61583333333334,
+        "y": 628.6541666666667,
         "z": 5000
       },
       "rotation": {

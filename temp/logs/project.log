@@ -1,23 +1,35 @@
-17.03.2025 18:37:00 - log: Load engine in C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine
-17.03.2025 18:37:01 - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,custom-pipeline,gfx-webgl,gfx-webgl2,particle-2d,profiler,tween,ui,video,webview)
-17.03.2025 18:37:01 - log: Register native engine in C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\native
-17.03.2025 18:37:25 - info: [PreviewInEditor] preview process is ready
-17.03.2025 18:37:34 - log: [Scene] meshopt wasm decoder initialized
-17.03.2025 18:37:34 - log: [Scene] [box2d]:box2d wasm lib loaded.
-17.03.2025 18:37:34 - log: [Scene] [bullet]:bullet wasm lib loaded.
-17.03.2025 18:37:35 - log: [Scene] [PHYSICS]: using builtin.
-17.03.2025 18:37:46 - log: [Scene] Cocos Creator v3.8.2
-17.03.2025 18:37:46 - info: [Scene] Forward render pipeline initialized.
-17.03.2025 18:37:47 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to builtin.
-17.03.2025 18:43:50 - log: [PreviewInEditor] meshopt wasm decoder initialized
-17.03.2025 18:43:50 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
-17.03.2025 18:43:50 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
-17.03.2025 18:43:51 - log: [PreviewInEditor] [PHYSICS]: using builtin.
-17.03.2025 18:43:51 - log: [PreviewInEditor] Cocos Creator v3.8.2
-17.03.2025 18:43:51 - info: [PreviewInEditor] Forward render pipeline initialized.
-17.03.2025 18:43:51 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to builtin.
-17.03.2025 18:43:53 - log: [PreviewInEditor] Screen resized: width=1080, height=1920, scale=1.7777777777777777
-17.03.2025 18:43:53 - log: [PreviewInEditor] [
+18.03.2025 10:58:01 - log: Load engine in C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine
+18.03.2025 10:58:02 - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,custom-pipeline,gfx-webgl,gfx-webgl2,particle-2d,profiler,tween,ui,video,webview)
+18.03.2025 10:58:02 - log: Register native engine in C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\native
+18.03.2025 10:58:27 - info: [PreviewInEditor] preview process is ready
+18.03.2025 10:58:30 - log: [Scene] meshopt wasm decoder initialized
+18.03.2025 10:58:30 - log: [Scene] [box2d]:box2d wasm lib loaded.
+18.03.2025 10:58:30 - log: [Scene] [bullet]:bullet wasm lib loaded.
+18.03.2025 10:58:30 - log: [Scene] [PHYSICS]: using builtin.
+18.03.2025 10:58:38 - log: [Scene] Cocos Creator v3.8.2
+18.03.2025 10:58:38 - info: [Scene] Forward render pipeline initialized.
+18.03.2025 10:58:39 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to builtin.
+18.03.2025 11:05:29 - error: [Scene] asset can't be load:230118d9-c05a-4d39-aeec-45ede3987558@f9941Error: [Scene] asset can't be load:230118d9-c05a-4d39-aeec-45ede3987558@f9941
+    at C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\export\dump\types\asset-dump.ccc:1:800
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:112320:9)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:153359:9)
+18.03.2025 11:08:23 - log: [PreviewInEditor] meshopt wasm decoder initialized
+18.03.2025 11:08:23 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+18.03.2025 11:08:24 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+18.03.2025 11:08:24 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+18.03.2025 11:08:24 - log: [PreviewInEditor] Cocos Creator v3.8.2
+18.03.2025 11:08:24 - info: [PreviewInEditor] Forward render pipeline initialized.
+18.03.2025 11:08:25 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to builtin.
+18.03.2025 11:08:26 - log: [PreviewInEditor] Screen resized: width=1080, height=1920, scale=1.7777777777777777
+18.03.2025 11:08:26 - log: [PreviewInEditor] [
+  "IF IT'S NOT CLOUDY, IT'S __",
+  "IF IT'S NOT OCEAN, IT'S __",
+  "IF IT'S NOT DAY, IT'S __",
+  "IF IT'S NOT STONE, IT'S __",
+  "IF IT'S NOT COLD, IT'S __",
+  "IF IT'S NOT BUSH, IT'S __"
+]
+18.03.2025 11:08:26 - log: [PreviewInEditor] [
   [
     { letter: 'S', position: 1, revealed: false },
     { letter: 'A', position: 1, revealed: false },
@@ -59,7 +71,7 @@
     { letter: 'Y', position: 5, revealed: true }
   ]
 ]
-17.03.2025 18:43:53 - log: [PreviewInEditor] [
+18.03.2025 11:08:26 - log: [PreviewInEditor] [
   { letters: [ 'S', 'U', 'N', 'N', 'Y' ], completed: false },
   { letters: [ 'B', 'E', 'A', 'C', 'H' ], completed: false },
   { letters: [ 'N', 'I', 'G', 'H', 'T' ], completed: false },
@@ -69,7 +81,7 @@
   { letters: [ 'T', 'R', 'E', 'A' ], completed: false },
   { letters: [ 'T', 'R', 'E', 'A' ], completed: false }
 ]
-17.03.2025 18:43:53 - log: [PreviewInEditor] [
+18.03.2025 11:08:26 - log: [PreviewInEditor] [
   "IF IT'S NOT CLOUDY, IT'S __",
   "IF IT'S NOT OCEAN, IT'S __",
   "IF IT'S NOT DAY, IT'S __",
@@ -77,7 +89,46 @@
   "IF IT'S NOT COLD, IT'S __",
   "IF IT'S NOT BUSH, IT'S __"
 ]
-17.03.2025 18:43:53 - log: [PreviewInEditor] [
+18.03.2025 11:08:26 - log: [PreviewInEditor] IF IT'S NOT CLOUDY, IT'S __
+18.03.2025 11:08:26 - log: [PreviewInEditor] Screen resized: width=1080, height=1920, scale=1.7777777777777777
+18.03.2025 11:08:31 - log: [PreviewInEditor] 1
+18.03.2025 11:08:35 - log: [PreviewInEditor] 2
+18.03.2025 11:08:39 - log: [PreviewInEditor] 3
+18.03.2025 11:08:41 - log: [PreviewInEditor] 4
+18.03.2025 11:08:44 - log: [PreviewInEditor] 5
+18.03.2025 11:08:44 - log: [PreviewInEditor] BLocker
+18.03.2025 11:08:44 - log: [PreviewInEditor] game end
+18.03.2025 11:08:44 - log: [PreviewInEditor] download
+18.03.2025 11:08:44 - log: [PreviewInEditor] game end
+18.03.2025 11:08:44 - log: [PreviewInEditor] download
+18.03.2025 11:08:45 - log: [PreviewInEditor] game end
+18.03.2025 11:08:45 - log: [PreviewInEditor] download
+18.03.2025 11:08:45 - log: [PreviewInEditor] game end
+18.03.2025 11:08:45 - log: [PreviewInEditor] download
+18.03.2025 11:08:45 - log: [PreviewInEditor] game end
+18.03.2025 11:08:45 - log: [PreviewInEditor] download
+18.03.2025 11:08:45 - log: [PreviewInEditor] game end
+18.03.2025 11:08:45 - log: [PreviewInEditor] download
+18.03.2025 11:08:45 - log: [PreviewInEditor] game end
+18.03.2025 11:08:45 - log: [PreviewInEditor] download
+18.03.2025 11:08:46 - log: [PreviewInEditor] game end
+18.03.2025 11:08:46 - log: [PreviewInEditor] download
+18.03.2025 11:08:46 - log: [PreviewInEditor] game end
+18.03.2025 11:08:46 - log: [PreviewInEditor] download
+18.03.2025 11:08:46 - log: [PreviewInEditor] game end
+18.03.2025 11:08:46 - log: [PreviewInEditor] download
+18.03.2025 11:08:46 - log: [PreviewInEditor] game end
+18.03.2025 11:08:46 - log: [PreviewInEditor] download
+18.03.2025 11:08:49 - info: [PreviewInEditor] preview process is ready
+18.03.2025 11:09:19 - log: [PreviewInEditor] meshopt wasm decoder initialized
+18.03.2025 11:09:19 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+18.03.2025 11:09:19 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+18.03.2025 11:09:19 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+18.03.2025 11:09:20 - log: [PreviewInEditor] Cocos Creator v3.8.2
+18.03.2025 11:09:20 - info: [PreviewInEditor] Forward render pipeline initialized.
+18.03.2025 11:09:20 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to builtin.
+18.03.2025 11:09:21 - log: [PreviewInEditor] Screen resized: width=1080, height=1920, scale=1.7777777777777777
+18.03.2025 11:09:21 - log: [PreviewInEditor] [
   "IF IT'S NOT CLOUDY, IT'S __",
   "IF IT'S NOT OCEAN, IT'S __",
   "IF IT'S NOT DAY, IT'S __",
@@ -85,42 +136,7 @@
   "IF IT'S NOT COLD, IT'S __",
   "IF IT'S NOT BUSH, IT'S __"
 ]
-17.03.2025 18:43:53 - log: [PreviewInEditor] IF IT'S NOT CLOUDY, IT'S __
-17.03.2025 18:43:53 - log: [PreviewInEditor] Screen resized: width=1080, height=1920, scale=1.7777777777777777
-17.03.2025 18:44:03 - log: [PreviewInEditor] Screen resized: width=1080.5581395348836, height=1919.9999999999998, scale=1.7777777777777775
-17.03.2025 18:44:04 - log: [PreviewInEditor] Screen resized: width=1080, height=1920, scale=1.7777777777777777
-17.03.2025 18:44:08 - log: [PreviewInEditor] Screen resized: width=1080.5581395348836, height=1919.9999999999998, scale=1.7777777777777775
-17.03.2025 18:44:08 - log: [PreviewInEditor] Screen resized: width=1080, height=1920, scale=1.7777777777777777
-17.03.2025 18:44:12 - log: [PreviewInEditor] Screen resized: width=1080.5581395348836, height=1919.9999999999998, scale=1.7777777777777775
-17.03.2025 18:44:15 - log: [PreviewInEditor] Screen resized: width=1080, height=1920, scale=1.7777777777777777
-17.03.2025 18:44:18 - info: [PreviewInEditor] preview process is ready
-17.03.2025 18:44:24 - log: [PreviewInEditor] meshopt wasm decoder initialized
-17.03.2025 18:44:24 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
-17.03.2025 18:44:24 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
-17.03.2025 18:44:24 - log: [PreviewInEditor] [PHYSICS]: using builtin.
-17.03.2025 18:44:25 - log: [PreviewInEditor] Cocos Creator v3.8.2
-17.03.2025 18:44:25 - info: [PreviewInEditor] Forward render pipeline initialized.
-17.03.2025 18:44:25 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to builtin.
-17.03.2025 18:44:26 - log: [PreviewInEditor] Screen resized: width=1080, height=1920, scale=1.7777777777777777
-17.03.2025 18:44:26 - log: [PreviewInEditor] [
-  "IF IT'S NOT CLOUDY, IT'S __",
-  "IF IT'S NOT OCEAN, IT'S __",
-  "IF IT'S NOT DAY, IT'S __",
-  "IF IT'S NOT STONE, IT'S __",
-  "IF IT'S NOT COLD, IT'S __",
-  "IF IT'S NOT BUSH, IT'S __"
-]
-17.03.2025 18:44:26 - log: [PreviewInEditor] [
-  { letters: [ 'S', 'U', 'N', 'N', 'Y' ], completed: false },
-  { letters: [ 'B', 'E', 'A', 'C', 'H' ], completed: false },
-  { letters: [ 'N', 'I', 'G', 'H', 'T' ], completed: false },
-  { letters: [ 'S', 'A', 'N', 'D' ], completed: false },
-  { letters: [ 'W', 'A', 'R', 'M' ], completed: false },
-  { letters: [ 'T', 'R', 'E', 'A' ], completed: false },
-  { letters: [ 'T', 'R', 'E', 'A' ], completed: false },
-  { letters: [ 'T', 'R', 'E', 'A' ], completed: false }
-]
-17.03.2025 18:44:26 - log: [PreviewInEditor] [
+18.03.2025 11:09:21 - log: [PreviewInEditor] [
   [
     { letter: 'S', position: 1, revealed: false },
     { letter: 'A', position: 1, revealed: false },
@@ -162,7 +178,17 @@
     { letter: 'Y', position: 5, revealed: true }
   ]
 ]
-17.03.2025 18:44:26 - log: [PreviewInEditor] [
+18.03.2025 11:09:21 - log: [PreviewInEditor] [
+  { letters: [ 'S', 'U', 'N', 'N', 'Y' ], completed: false },
+  { letters: [ 'B', 'E', 'A', 'C', 'H' ], completed: false },
+  { letters: [ 'N', 'I', 'G', 'H', 'T' ], completed: false },
+  { letters: [ 'S', 'A', 'N', 'D' ], completed: false },
+  { letters: [ 'W', 'A', 'R', 'M' ], completed: false },
+  { letters: [ 'T', 'R', 'E', 'A' ], completed: false },
+  { letters: [ 'T', 'R', 'E', 'A' ], completed: false },
+  { letters: [ 'T', 'R', 'E', 'A' ], completed: false }
+]
+18.03.2025 11:09:21 - log: [PreviewInEditor] [
   "IF IT'S NOT CLOUDY, IT'S __",
   "IF IT'S NOT OCEAN, IT'S __",
   "IF IT'S NOT DAY, IT'S __",
@@ -170,5 +196,41 @@
   "IF IT'S NOT COLD, IT'S __",
   "IF IT'S NOT BUSH, IT'S __"
 ]
-17.03.2025 18:44:26 - log: [PreviewInEditor] IF IT'S NOT CLOUDY, IT'S __
-17.03.2025 18:44:37 - info: [PreviewInEditor] preview process is ready
+18.03.2025 11:09:21 - log: [PreviewInEditor] IF IT'S NOT CLOUDY, IT'S __
+18.03.2025 11:09:24 - log: [PreviewInEditor] 1
+18.03.2025 11:09:26 - log: [PreviewInEditor] 2
+18.03.2025 11:09:29 - log: [PreviewInEditor] 3
+18.03.2025 11:09:31 - log: [PreviewInEditor] 4
+18.03.2025 11:09:33 - log: [PreviewInEditor] 5
+18.03.2025 11:09:33 - log: [PreviewInEditor] BLocker
+18.03.2025 11:09:33 - log: [PreviewInEditor] game end
+18.03.2025 11:09:33 - log: [PreviewInEditor] download
+18.03.2025 11:09:34 - log: [PreviewInEditor] game end
+18.03.2025 11:09:34 - log: [PreviewInEditor] download
+18.03.2025 11:09:34 - log: [PreviewInEditor] game end
+18.03.2025 11:09:34 - log: [PreviewInEditor] download
+18.03.2025 11:09:34 - log: [PreviewInEditor] game end
+18.03.2025 11:09:34 - log: [PreviewInEditor] download
+18.03.2025 11:09:34 - log: [PreviewInEditor] game end
+18.03.2025 11:09:34 - log: [PreviewInEditor] download
+18.03.2025 11:09:34 - log: [PreviewInEditor] game end
+18.03.2025 11:09:34 - log: [PreviewInEditor] download
+18.03.2025 11:09:34 - log: [PreviewInEditor] game end
+18.03.2025 11:09:34 - log: [PreviewInEditor] download
+18.03.2025 11:09:35 - log: [PreviewInEditor] game end
+18.03.2025 11:09:35 - log: [PreviewInEditor] download
+18.03.2025 11:09:35 - log: [PreviewInEditor] game end
+18.03.2025 11:09:35 - log: [PreviewInEditor] download
+18.03.2025 11:09:57 - log: [PreviewInEditor] game end
+18.03.2025 11:09:57 - log: [PreviewInEditor] download
+18.03.2025 11:09:57 - log: [PreviewInEditor] game end
+18.03.2025 11:09:57 - log: [PreviewInEditor] download
+18.03.2025 11:09:58 - log: [PreviewInEditor] game end
+18.03.2025 11:09:58 - log: [PreviewInEditor] download
+18.03.2025 11:09:58 - log: [PreviewInEditor] game end
+18.03.2025 11:09:58 - log: [PreviewInEditor] download
+18.03.2025 11:09:58 - log: [PreviewInEditor] game end
+18.03.2025 11:09:58 - log: [PreviewInEditor] download
+18.03.2025 11:09:58 - log: [PreviewInEditor] game end
+18.03.2025 11:09:58 - log: [PreviewInEditor] download
+18.03.2025 11:10:01 - info: [PreviewInEditor] preview process is ready
