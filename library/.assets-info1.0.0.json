@@ -864,11 +864,11 @@
       "uuid": "a7e6eceb-a918-41b7-ba48-1f4d352e926f"
     },
     "D:\\Cocos\\work\\CocosSolitaireCreative\\assets\\scripts\\solitaire\\Card.ts": {
-      "time": 1742285297147.9243,
+      "time": 1742299695561.8792,
       "uuid": "afa4c943-531c-4c23-9494-a7877b577fb2"
     },
     "D:\\Cocos\\work\\CocosSolitaireCreative\\assets\\scripts\\solitaire\\GameController.ts": {
-      "time": 1742285352815.8992,
+      "time": 1742299710022.4775,
       "uuid": "475131d6-1190-4d2a-957c-aa53438384ec"
     },
     "D:\\Cocos\\work\\CocosSolitaireCreative\\assets\\scripts\\solitaire\\ICardData.ts": {
@@ -896,7 +896,7 @@
       "uuid": "7ee2306f-260f-4232-ac42-b31941231a9b"
     },
     "D:\\Cocos\\work\\CocosSolitaireCreative\\assets\\scripts\\solitaire\\Word.ts": {
-      "time": 1742226891744.1223,
+      "time": 1742299729342.6018,
       "uuid": "5dc38a51-536d-4696-928e-80720967e982"
     },
     "D:\\Cocos\\work\\CocosSolitaireCreative\\assets\\scripts\\sound\\SoundController.ts": {
@@ -904,7 +904,7 @@
       "uuid": "6532c9eb-1747-47e1-a466-993b0fb81d1a"
     },
     "D:\\Cocos\\work\\CocosSolitaireCreative\\assets\\scripts\\ui\\ScreenScaler.ts": {
-      "time": 1742226891744.1223,
+      "time": 1742299676211.3384,
       "uuid": "9c4a9a4a-edcb-4d58-9d6d-6b5ce152d804"
     },
     "D:\\Cocos\\work\\CocosSolitaireCreative\\assets\\scripts\\ui\\StoreButtonComponent.ts": {
@@ -1012,7 +1012,7 @@
       "uuid": "41812075-5872-4d22-ae09-db5a8a128bed"
     },
     "D:\\Cocos\\work\\CocosSolitaireCreative\\assets\\scenes\\main.scene": {
-      "time": 1742285400529.246,
+      "time": 1742299749407.2314,
       "uuid": "dc2dda4d-4285-4c9b-a5be-643ce0534e83"
     },
     "D:\\Cocos\\work\\CocosSolitaireCreative\\assets\\ui\\background.png": {

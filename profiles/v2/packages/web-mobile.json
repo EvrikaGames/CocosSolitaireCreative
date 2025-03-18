@@ -191,6 +191,13 @@
         "cullEngineAsmJsModule": false,
         "useWebGPU": false,
         "__version__": "1.0.1"
+      },
+      "1742299778352": {
+        "orientation": "landscape",
+        "embedWebDebugger": false,
+        "cullEngineAsmJsModule": false,
+        "useWebGPU": false,
+        "__version__": "1.0.1"
       }
     },
     "__version__": "1.3.7",

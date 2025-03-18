@@ -472,8 +472,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
           var uiOpacity = this.sentenceLabel.getComponent(UIOpacity) || this.sentenceLabel.addComponent(UIOpacity);
           uiOpacity.opacity = 255;
           var vec = new Vec3(30, 0, 0);
-          var vec1 = new Vec3(-30, 0, 0); // Анимация позиции узла
-
+          var vec1 = new Vec3(-30, 0, 0);
           tween(this.sentenceLabel.node).to(0.3, {
             position: vec1
           }).to(0.5, {
@@ -486,8 +485,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
             }).to(0.2, {
               position: new Vec3(0, 0, 0)
             }).start();
-          }).start(); // Анимация прозрачности
-
+          }).start();
           tween(uiOpacity).to(0.5, {
             opacity: 0
           }).delay(0.6).call(() => {

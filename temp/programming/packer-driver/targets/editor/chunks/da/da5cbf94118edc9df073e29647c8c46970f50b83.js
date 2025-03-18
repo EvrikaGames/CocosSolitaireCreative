@@ -107,11 +107,6 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
         }
 
         onTouchStart(event) {}
-        /*onTouchMove(event: EventTouch) {
-            const delta = event.getDelta();
-            this.node.setPosition(this.node.position.add(delta.toVec3()));
-        }*/
-
 
         onTouchEnd(event) {
           if (!this.canTouch) {

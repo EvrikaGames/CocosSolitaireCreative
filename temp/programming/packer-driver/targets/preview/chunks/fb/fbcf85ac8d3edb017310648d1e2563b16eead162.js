@@ -1,7 +1,7 @@
 System.register(["cc"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Node, screen, Vec2, view, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _dec8, _dec9, _dec10, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _descriptor8, _descriptor9, _crd, ccclass, property, ScreenScaler;
+  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Node, screen, view, ResolutionPolicy, Widget, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _dec8, _dec9, _dec10, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _descriptor8, _descriptor9, _crd, ccclass, property, ScreenScaler;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -18,8 +18,9 @@ System.register(["cc"], function (_export, _context) {
       Component = _cc.Component;
       Node = _cc.Node;
       screen = _cc.screen;
-      Vec2 = _cc.Vec2;
       view = _cc.view;
+      ResolutionPolicy = _cc.ResolutionPolicy;
+      Widget = _cc.Widget;
     }],
     execute: function () {
       _crd = true;
@@ -75,41 +76,22 @@ System.register(["cc"], function (_export, _context) {
 
           this.originalWidth = 1920;
           this.originalHeigth = 1080;
-          this.lettersVerticalOffset = 110;
-          this.cardsVerticalOffset = 100;
-          this.wordsVerticalOffset = 100;
-          this.playHorizontalOffset = new Vec2(50, 50);
-          this.playVerticalOffset = new Vec2(240, -120);
-          this.iconHorizontalOffset = new Vec2(50, 50);
-          this.iconVerticalOffset = new Vec2(240, -120);
           this.originalRatio = this.originalHeigth / this.originalWidth;
           this.horizontalState = true;
           this.originalLetterContainerPosition = void 0;
           this.originalCardContainerPosition = void 0;
           this.originalCompletedWordsContainerPosition = void 0;
-          this.originalPlayWidgetPosition = void 0;
-          this.originalWinPosition = void 0;
+          this.originalPlayWidgetRight = void 0;
           this.originalLetterContainerScale = void 0;
-          this.originalCardContainerScale = void 0;
-          this.originalCompletedWordsContainerScale = void 0;
-          this.originalBackgroundScale = void 0;
-          this.originalPlayWidgetScale = void 0;
-          this.originalWinScale = void 0;
         }
 
         start() {
           this.originalLetterContainerPosition = this.letterContainer.getPosition();
           this.originalCardContainerPosition = this.cardContainer.getPosition();
           this.originalCompletedWordsContainerPosition = this.completedWordsContainer.getPosition();
-          this.originalPlayWidgetPosition = this.playWidget.getPosition();
-          this.originalWinPosition = this.win.getPosition();
           this.originalLetterContainerScale = this.letterContainer.getScale().clone();
-          this.originalCardContainerScale = this.cardContainer.getScale().clone();
-          this.originalCompletedWordsContainerScale = this.completedWordsContainer.getScale().clone();
-          this.originalBackgroundScale = this.background.getScale().clone();
-          this.originalPlayWidgetScale = this.playWidget.getScale().clone();
-          this.originalWinScale = this.win.getScale().clone();
-          this.onWindowResize();
+          this.originalPlayWidgetRight = this.playWidget.getComponent(Widget).right;
+          this.onWindowResize(screen.windowSize.width, screen.windowSize.height);
         }
 
         onLoad() {
@@ -120,35 +102,44 @@ System.register(["cc"], function (_export, _context) {
           screen.off('window-resize', this.onWindowResize, this);
         }
 
-        onWindowResize() {
-          var visibleSize = view.getVisibleSize();
-          var width = visibleSize.width;
-          var height = visibleSize.height;
-          var heightRatio = height / this.originalHeigth;
-          var widthRatio = width / this.originalWidth;
-          var scale = Math.max(heightRatio, widthRatio);
-          this.letterContainer.setScale(this.originalLetterContainerScale.x * scale, this.originalLetterContainerScale.y * scale);
-          this.cardContainer.setScale(this.originalCardContainerScale.x * scale, this.originalCardContainerScale.y * scale);
-          this.completedWordsContainer.setScale(this.originalCompletedWordsContainerScale.x * scale, this.originalCompletedWordsContainerScale.y * scale);
-          this.background.setScale(this.originalBackgroundScale.x * scale, this.originalBackgroundScale.y * scale);
-          this.background.setPosition(this.background.position.x, this.background.position.y);
-          this.playWidget.setScale(this.originalPlayWidgetScale.x * scale / 1.5, this.originalPlayWidgetScale.y * scale / 1.5);
-          this.win.setScale(this.originalWinScale.x * scale, this.originalWinScale.y * scale);
+        onWindowResize(width, height) {
           var currentHorizontalState = width >= height;
+          var ratio = currentHorizontalState ? height / width : width / height;
+          var scale = ratio / this.originalRatio;
+          if (scale > 1) scale = 1;
 
-          if (currentHorizontalState !== this.horizontalState) {
+          if (currentHorizontalState != this.horizontalState) {
             this.horizontalState = currentHorizontalState;
 
             if (currentHorizontalState) {
-              this.playWidget.setPosition(this.originalPlayWidgetPosition.x * width / height, this.originalPlayWidgetPosition.y);
-              this.win.setPosition(this.originalWinPosition.x * width / height, this.originalWinPosition.y);
+              view.setDesignResolutionSize(this.originalWidth, this.originalHeigth, ResolutionPolicy.FIXED_WIDTH);
+              this.letterContainer.setPosition(this.originalLetterContainerPosition.x * scale, this.originalLetterContainerPosition.y * scale);
+              this.cardContainer.setPosition(this.originalCardContainerPosition.x * scale, this.originalCardContainerPosition.y * scale);
+              this.completedWordsContainer.setPosition(this.originalCompletedWordsContainerPosition.x * scale, this.originalCompletedWordsContainerPosition.y * scale);
+              this.playWidget.getComponent(Widget).right = this.originalPlayWidgetRight;
             } else {
-              this.letterContainer.setPosition(this.originalLetterContainerPosition.x * scale, (this.originalLetterContainerPosition.y + this.lettersVerticalOffset) * scale);
-              this.cardContainer.setPosition(this.originalCardContainerPosition.x * scale, (this.originalCardContainerPosition.y + this.cardsVerticalOffset) * scale);
-              this.completedWordsContainer.setPosition(this.originalCompletedWordsContainerPosition.x * scale, (this.originalCompletedWordsContainerPosition.y + this.wordsVerticalOffset) * scale);
-              this.playWidget.setPosition(this.originalPlayWidgetPosition.x, this.originalPlayWidgetPosition.y);
-              this.win.setPosition(this.originalWinPosition.x, this.originalWinPosition.y);
+              view.setDesignResolutionSize(this.originalHeigth, this.originalWidth, ResolutionPolicy.FIXED_HEIGHT);
+              this.letterContainer.setPosition(this.originalLetterContainerPosition.x * scale * 1.4, this.originalLetterContainerPosition.y * scale * 1.4);
+              this.cardContainer.setPosition(this.originalCardContainerPosition.x * scale * 1.5, this.originalCardContainerPosition.y * scale * 1);
+              this.completedWordsContainer.setPosition(this.originalCompletedWordsContainerPosition.x * scale * 2, this.originalCompletedWordsContainerPosition.y * scale * 2.2);
             }
+          }
+
+          this.letterContainer.setScale(this.originalLetterContainerScale.x * scale, this.originalLetterContainerScale.y * scale);
+          this.cardContainer.setScale(scale, scale);
+          this.completedWordsContainer.setScale(scale, scale);
+          this.playWidget.setScale(scale, scale);
+          this.win.setScale(scale, scale);
+          this.constName.setScale(scale, scale);
+          this.sentences.setScale(scale, scale);
+          this.background.setScale(scale, scale);
+
+          if (!currentHorizontalState) {
+            this.background.setScale(scale * 2, scale * 2);
+            this.letterContainer.setScale(this.originalLetterContainerScale.x * 1.5 * scale, this.originalLetterContainerScale.y * 1.5 * scale);
+            this.cardContainer.setScale(scale * 1.5, scale * 1.5);
+            this.completedWordsContainer.setScale(scale * 2, scale * 2);
+            this.sentences.setScale(scale * 1.3, scale * 1.3);
           }
 
           console.log("Screen resized: width=" + width + ", height=" + height + ", scale=" + scale);

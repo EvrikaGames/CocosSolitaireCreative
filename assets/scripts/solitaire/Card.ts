@@ -68,10 +68,7 @@ export default class Card extends Component {
         
     }
 
-    /*onTouchMove(event: EventTouch) {
-        const delta = event.getDelta();
-        this.node.setPosition(this.node.position.add(delta.toVec3()));
-    }*/
+
 
         onTouchEnd(event) {
             if (!this.canTouch) {

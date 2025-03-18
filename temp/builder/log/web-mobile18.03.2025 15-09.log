@@ -1,0 +1,608 @@
+18.03.2025 15:09:38 - debug: =================================== build Task (web-mobile) Start ================================
+18.03.2025 15:09:38 - debug: Start build task, options:{"name":"SolitaireCreative","server":"","platform":"web-mobile","buildPath":"project://build","debug":false,"md5Cache":false,"skipCompressTexture":false,"sourceMaps":false,"polyfills":{"asyncFunctions":true},"experimentalEraseModules":false,"startSceneAssetBundle":false,"bundleConfigs":[],"useBuiltinServer":false,"mainBundleIsRemote":false,"mainBundleCompressionType":"merge_dep","useSplashScreen":false,"bundleCommonChunk":false,"packAutoAtlas":true,"startScene":"dc2dda4d-4285-4c9b-a5be-643ce0534e83","outputName":"web-mobile","taskName":"web-mobile","scenes":[{"url":"db://assets/scenes/main.scene","uuid":"dc2dda4d-4285-4c9b-a5be-643ce0534e83"}],"overwriteProjectSettings":{"includeModules":{"gfx-webgl2":"inherit-project-setting"}},"packages":{"engine":{"cleanupImageCache":"inheritProjectSetting","__version__":"1.0.8"},"adsense-h5g-plugin":{"enableAdsense":false,"enableTestAd":false,"__version__":"1.0.1","AFPHostPropertyCode":"ca-host-pub-5396158963872751","AFPHostDomain":"douyougame.com","otherAFPHostPropertyCode":"","otherAFPDomain":""},"cocos-service":{"configID":"a250cd","services":[],"__version__":"3.0.7"},"web-mobile":{"orientation":"landscape","embedWebDebugger":false,"cullEngineAsmJsModule":false,"useWebGPU":false,"__version__":"1.0.1"}},"__version__":"1.3.7","buildMode":"normal","logDest":"project://temp/builder/log/web-mobile18.03.2025 15-09.log"}
+18.03.2025 15:09:38 - debug: Build with Cocos Creator 3.8.2
+18.03.2025 15:09:38 - debug: cocos-service:(onBeforeBuild) start..., progress: 0%
+18.03.2025 15:09:38 - debug: // ---- build task cocos-service：onBeforeBuild ----
+18.03.2025 15:09:39 - debug: // ---- build task cocos-service：onBeforeBuild ---- (777ms)
+18.03.2025 15:09:39 - debug: cocos-service:(onBeforeBuild) in 777 ms ✓, progress: 2%
+18.03.2025 15:09:39 - debug: scene:(onBeforeBuild) start..., progress: 2%
+18.03.2025 15:09:39 - debug: // ---- build task scene：onBeforeBuild ----
+18.03.2025 15:09:39 - debug: // ---- build task scene：onBeforeBuild ---- (32ms)
+18.03.2025 15:09:39 - debug: scene:(onBeforeBuild) in 32 ms ✓, progress: 4%
+18.03.2025 15:09:39 - debug: Start lock asset db..., progress: 4%
+18.03.2025 15:09:39 - log: Asset DB is paused with build!
+18.03.2025 15:09:39 - debug: Query all assets info in project
+18.03.2025 15:09:39 - debug: init custom config: keepNodeUuid: false, useCache: true
+18.03.2025 15:09:39 - debug:   Number of all scenes: 1
+18.03.2025 15:09:39 - debug:   Number of all scripts: 16
+18.03.2025 15:09:39 - debug:   Number of other assets: 383
+18.03.2025 15:09:39 - debug: web-mobile:(onAfterInit) start..., progress: 4%
+18.03.2025 15:09:39 - debug: // ---- build task web-mobile：onAfterInit ----
+18.03.2025 15:09:39 - debug: // ---- build task web-mobile：onAfterInit ---- (13ms)
+18.03.2025 15:09:39 - debug: web-mobile:(onAfterInit) in 13 ms ✓, progress: 7%
+18.03.2025 15:09:39 - debug: cocos-service:(onAfterInit) start..., progress: 7%
+18.03.2025 15:09:39 - debug: // ---- build task cocos-service：onAfterInit ----
+18.03.2025 15:09:39 - debug: // ---- build task cocos-service：onAfterInit ---- (518ms)
+18.03.2025 15:09:39 - debug: cocos-service:(onAfterInit) in 518 ms ✓, progress: 9%
+18.03.2025 15:09:39 - debug: engine:(onAfterInit) start..., progress: 9%
+18.03.2025 15:09:39 - debug: // ---- build task engine：onAfterInit ----
+18.03.2025 15:09:39 - debug: // ---- build task engine：onAfterInit ---- (34ms)
+18.03.2025 15:09:39 - debug: engine:(onAfterInit) in 34 ms ✓, progress: 11%
+18.03.2025 15:09:39 - debug: adsense-h5g-plugin:(onBeforeBundleInit) start..., progress: 11%
+18.03.2025 15:09:39 - debug: // ---- build task adsense-h5g-plugin：onBeforeBundleInit ----
+18.03.2025 15:09:39 - debug: [adsense-h5g-plugin] remove script success
+18.03.2025 15:09:39 - debug: // ---- build task adsense-h5g-plugin：onBeforeBundleInit ---- (35ms)
+18.03.2025 15:09:39 - debug: adsense-h5g-plugin:(onBeforeBundleInit) in 35 ms ✓, progress: 11%
+18.03.2025 15:09:39 - debug: Init all bundles start..., progress: 11%
+18.03.2025 15:09:39 - debug: Num of bundles: 3..., progress: 11%
+18.03.2025 15:09:39 - debug: reload all scripts.
+18.03.2025 15:09:39 - debug: Set detail map pack:///resolution-detail-map.json: {}
+18.03.2025 15:09:39 - groupCollapsed: Invalidate all modules
+18.03.2025 15:09:39 - debug: D:\Cocos\work\CocosSolitaireCreative\temp\programming\packer-driver\targets\editor\chunks\93\93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js resolved to D:\Cocos\work\CocosSolitaireCreative\temp\programming\packer-driver\targets\editor\chunks\93\93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js is not in module cache!
+18.03.2025 15:09:39 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/base" loaded.
+18.03.2025 15:09:39 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl" loaded.
+18.03.2025 15:09:39 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl2" loaded.
+18.03.2025 15:09:39 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-empty" loaded.
+18.03.2025 15:09:39 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/3d" loaded.
+18.03.2025 15:09:39 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/animation" loaded.
+18.03.2025 15:09:39 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/skeletal-animation" loaded.
+18.03.2025 15:09:39 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/2d" loaded.
+18.03.2025 15:09:39 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/sorting" loaded.
+18.03.2025 15:09:39 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/ui" loaded.
+18.03.2025 15:09:39 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle" loaded.
+18.03.2025 15:09:39 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle-2d" loaded.
+18.03.2025 15:09:39 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-framework" loaded.
+18.03.2025 15:09:39 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-framework" loaded.
+18.03.2025 15:09:39 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-box2d-wasm" loaded.
+18.03.2025 15:09:39 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/intersection-2d" loaded.
+18.03.2025 15:09:39 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/primitive" loaded.
+18.03.2025 15:09:39 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/profiler" loaded.
+18.03.2025 15:09:39 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/geometry-renderer" loaded.
+18.03.2025 15:09:39 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/audio" loaded.
+18.03.2025 15:09:39 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/video" loaded.
+18.03.2025 15:09:39 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/xr" loaded.
+18.03.2025 15:09:39 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/light-probe" loaded.
+18.03.2025 15:09:39 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/terrain" loaded.
+18.03.2025 15:09:39 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/webview" loaded.
+18.03.2025 15:09:39 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/tween" loaded.
+18.03.2025 15:09:39 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/tiled-map" loaded.
+18.03.2025 15:09:39 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/spine" loaded.
+18.03.2025 15:09:39 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/dragon-bones" loaded.
+18.03.2025 15:09:39 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/custom-pipeline" loaded.
+18.03.2025 15:09:39 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/base" loaded.
+18.03.2025 15:09:39 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl" loaded.
+18.03.2025 15:09:39 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl2" loaded.
+18.03.2025 15:09:39 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-empty" loaded.
+18.03.2025 15:09:39 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/3d" loaded.
+18.03.2025 15:09:39 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/animation" loaded.
+18.03.2025 15:09:39 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/skeletal-animation" loaded.
+18.03.2025 15:09:39 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/2d" loaded.
+18.03.2025 15:09:39 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/sorting" loaded.
+18.03.2025 15:09:39 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/ui" loaded.
+18.03.2025 15:09:39 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle" loaded.
+18.03.2025 15:09:39 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle-2d" loaded.
+18.03.2025 15:09:39 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-framework" loaded.
+18.03.2025 15:09:39 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-framework" loaded.
+18.03.2025 15:09:39 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-box2d-wasm" loaded.
+18.03.2025 15:09:39 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/intersection-2d" loaded.
+18.03.2025 15:09:39 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/primitive" loaded.
+18.03.2025 15:09:39 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/profiler" loaded.
+18.03.2025 15:09:39 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/geometry-renderer" loaded.
+18.03.2025 15:09:39 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/audio" loaded.
+18.03.2025 15:09:39 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/video" loaded.
+18.03.2025 15:09:39 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/xr" loaded.
+18.03.2025 15:09:39 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/light-probe" loaded.
+18.03.2025 15:09:39 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/terrain" loaded.
+18.03.2025 15:09:39 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/webview" loaded.
+18.03.2025 15:09:39 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/tween" loaded.
+18.03.2025 15:09:39 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/tiled-map" loaded.
+18.03.2025 15:09:39 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/spine" loaded.
+18.03.2025 15:09:39 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/dragon-bones" loaded.
+18.03.2025 15:09:39 - debug: [[Executor]] Module "cce:/internal/x/cc-fu/custom-pipeline" loaded.
+18.03.2025 15:09:39 - debug: [[Executor]] Module "pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js" loaded.
+18.03.2025 15:09:39 - debug: Invalidating 'pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js'
+18.03.2025 15:09:39 - groupEnd: Invalidate all modules
+18.03.2025 15:09:39 - groupCollapsed: Imports all modules
+18.03.2025 15:09:39 - debug: [[Executor]] Module "pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js" loaded.
+18.03.2025 15:09:39 - debug: D:\Cocos\work\CocosSolitaireCreative\temp\programming\packer-driver\targets\editor\chunks\6d\6d8fd2b0177941b032ddc0733af48a561fb60657.js resolved to D:\Cocos\work\CocosSolitaireCreative\temp\programming\packer-driver\targets\editor\chunks\6d\6d8fd2b0177941b032ddc0733af48a561fb60657.js is not in module cache!
+18.03.2025 15:09:39 - debug: [[Executor]] Module "pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js" loaded.
+18.03.2025 15:09:39 - debug: D:\Cocos\work\CocosSolitaireCreative\temp\programming\packer-driver\targets\editor\chunks\dd\dd8ffe4b66ab421921fe26a7524871e3101b074e.js resolved to D:\Cocos\work\CocosSolitaireCreative\temp\programming\packer-driver\targets\editor\chunks\dd\dd8ffe4b66ab421921fe26a7524871e3101b074e.js is not in module cache!
+18.03.2025 15:09:40 - debug: [[Executor]] Register DebugViewRuntimeControl
+18.03.2025 15:09:40 - debug: [[Executor]] Module "pack:///chunks/dd/dd8ffe4b66ab421921fe26a7524871e3101b074e.js" loaded.
+18.03.2025 15:09:40 - debug: D:\Cocos\work\CocosSolitaireCreative\temp\programming\packer-driver\targets\editor\chunks\93\93c3779d5fadd5c8745b7de819307631d10787cd.js resolved to D:\Cocos\work\CocosSolitaireCreative\temp\programming\packer-driver\targets\editor\chunks\93\93c3779d5fadd5c8745b7de819307631d10787cd.js is not in module cache!
+18.03.2025 15:09:40 - debug: D:\Cocos\work\CocosSolitaireCreative\temp\programming\packer-driver\targets\editor\chunks\6a\6a5019a719a9014c047e67aa1cf34453ab8392ce.js resolved to D:\Cocos\work\CocosSolitaireCreative\temp\programming\packer-driver\targets\editor\chunks\6a\6a5019a719a9014c047e67aa1cf34453ab8392ce.js is not in module cache!
+18.03.2025 15:09:40 - debug: D:\Cocos\work\CocosSolitaireCreative\temp\programming\packer-driver\targets\editor\chunks\77\77906dee3d98492894b50c7de99f48faee2dd461.js resolved to D:\Cocos\work\CocosSolitaireCreative\temp\programming\packer-driver\targets\editor\chunks\77\77906dee3d98492894b50c7de99f48faee2dd461.js is not in module cache!
+18.03.2025 15:09:40 - debug: [[Executor]] Module "pack:///chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js" loaded.
+18.03.2025 15:09:40 - debug: [[Executor]] Module "pack:///chunks/77/77906dee3d98492894b50c7de99f48faee2dd461.js" loaded.
+18.03.2025 15:09:40 - debug: [[Executor]] Register StoreController
+18.03.2025 15:09:40 - debug: [[Executor]] Module "pack:///chunks/93/93c3779d5fadd5c8745b7de819307631d10787cd.js" loaded.
+18.03.2025 15:09:40 - debug: D:\Cocos\work\CocosSolitaireCreative\temp\programming\packer-driver\targets\editor\chunks\0e\0e55dff55ab1bf34b7b940a388d8e903e00b4778.js resolved to D:\Cocos\work\CocosSolitaireCreative\temp\programming\packer-driver\targets\editor\chunks\0e\0e55dff55ab1bf34b7b940a388d8e903e00b4778.js is not in module cache!
+18.03.2025 15:09:40 - debug: D:\Cocos\work\CocosSolitaireCreative\temp\programming\packer-driver\targets\editor\chunks\09\09ddf93620a28a2c5a78fd722d8b27f0b00d56aa.js resolved to D:\Cocos\work\CocosSolitaireCreative\temp\programming\packer-driver\targets\editor\chunks\09\09ddf93620a28a2c5a78fd722d8b27f0b00d56aa.js is not in module cache!
+18.03.2025 15:09:40 - debug: [[Executor]] Register StoreButtonComponent
+18.03.2025 15:09:40 - debug: [[Executor]] Module "pack:///chunks/09/09ddf93620a28a2c5a78fd722d8b27f0b00d56aa.js" loaded.
+18.03.2025 15:09:40 - debug: [[Executor]] Register Blocker
+18.03.2025 15:09:40 - debug: [[Executor]] Module "pack:///chunks/0e/0e55dff55ab1bf34b7b940a388d8e903e00b4778.js" loaded.
+18.03.2025 15:09:40 - debug: D:\Cocos\work\CocosSolitaireCreative\temp\programming\packer-driver\targets\editor\chunks\da\da5cbf94118edc9df073e29647c8c46970f50b83.js resolved to D:\Cocos\work\CocosSolitaireCreative\temp\programming\packer-driver\targets\editor\chunks\da\da5cbf94118edc9df073e29647c8c46970f50b83.js is not in module cache!
+18.03.2025 15:09:40 - debug: D:\Cocos\work\CocosSolitaireCreative\temp\programming\packer-driver\targets\editor\chunks\eb\eb9aec31b330f42ea4099cb191f8ddf22f2550e8.js resolved to D:\Cocos\work\CocosSolitaireCreative\temp\programming\packer-driver\targets\editor\chunks\eb\eb9aec31b330f42ea4099cb191f8ddf22f2550e8.js is not in module cache!
+18.03.2025 15:09:40 - debug: D:\Cocos\work\CocosSolitaireCreative\temp\programming\packer-driver\targets\editor\chunks\e9\e9d35cea5ace03bf3cecefe01e4103dac37b0302.js resolved to D:\Cocos\work\CocosSolitaireCreative\temp\programming\packer-driver\targets\editor\chunks\e9\e9d35cea5ace03bf3cecefe01e4103dac37b0302.js is not in module cache!
+18.03.2025 15:09:40 - debug: D:\Cocos\work\CocosSolitaireCreative\temp\programming\packer-driver\targets\editor\chunks\5d\5d7a8a3ab690e77ab3534d15f891866ecc8fa3fa.js resolved to D:\Cocos\work\CocosSolitaireCreative\temp\programming\packer-driver\targets\editor\chunks\5d\5d7a8a3ab690e77ab3534d15f891866ecc8fa3fa.js is not in module cache!
+18.03.2025 15:09:40 - debug: D:\Cocos\work\CocosSolitaireCreative\temp\programming\packer-driver\targets\editor\chunks\89\89899f2f538bc689a2ae40ce4802b86cb59343d4.js resolved to D:\Cocos\work\CocosSolitaireCreative\temp\programming\packer-driver\targets\editor\chunks\89\89899f2f538bc689a2ae40ce4802b86cb59343d4.js is not in module cache!
+18.03.2025 15:09:40 - debug: D:\Cocos\work\CocosSolitaireCreative\temp\programming\packer-driver\targets\editor\chunks\73\731eb87eb1694620359ab9fadf0d7b4591aa646c.js resolved to D:\Cocos\work\CocosSolitaireCreative\temp\programming\packer-driver\targets\editor\chunks\73\731eb87eb1694620359ab9fadf0d7b4591aa646c.js is not in module cache!
+18.03.2025 15:09:40 - debug: [[Executor]] Register Word
+18.03.2025 15:09:40 - debug: [[Executor]] Module "pack:///chunks/e9/e9d35cea5ace03bf3cecefe01e4103dac37b0302.js" loaded.
+18.03.2025 15:09:40 - debug: [[Executor]] Register Letter
+18.03.2025 15:09:40 - debug: [[Executor]] Module "pack:///chunks/73/731eb87eb1694620359ab9fadf0d7b4591aa646c.js" loaded.
+18.03.2025 15:09:40 - debug: [[Executor]] Register ResultScreen
+18.03.2025 15:09:40 - debug: [[Executor]] Module "pack:///chunks/5d/5d7a8a3ab690e77ab3534d15f891866ecc8fa3fa.js" loaded.
+18.03.2025 15:09:40 - debug: [[Executor]] Register SoundController
+18.03.2025 15:09:40 - debug: [[Executor]] Module "pack:///chunks/89/89899f2f538bc689a2ae40ce4802b86cb59343d4.js" loaded.
+18.03.2025 15:09:40 - debug: [[Executor]] Register GameController
+18.03.2025 15:09:40 - debug: [[Executor]] Module "pack:///chunks/eb/eb9aec31b330f42ea4099cb191f8ddf22f2550e8.js" loaded.
+18.03.2025 15:09:40 - debug: [[Executor]] Register Card
+18.03.2025 15:09:40 - debug: [[Executor]] Module "pack:///chunks/da/da5cbf94118edc9df073e29647c8c46970f50b83.js" loaded.
+18.03.2025 15:09:40 - debug: D:\Cocos\work\CocosSolitaireCreative\temp\programming\packer-driver\targets\editor\chunks\9e\9eda43c462c230fb58a6184f9dbd7710690bd3c5.js resolved to D:\Cocos\work\CocosSolitaireCreative\temp\programming\packer-driver\targets\editor\chunks\9e\9eda43c462c230fb58a6184f9dbd7710690bd3c5.js is not in module cache!
+18.03.2025 15:09:40 - debug: [[Executor]] Module "pack:///chunks/9e/9eda43c462c230fb58a6184f9dbd7710690bd3c5.js" loaded.
+18.03.2025 15:09:40 - debug: D:\Cocos\work\CocosSolitaireCreative\temp\programming\packer-driver\targets\editor\chunks\80\80694765410dacc24fa6fe495b29084a893044ee.js resolved to D:\Cocos\work\CocosSolitaireCreative\temp\programming\packer-driver\targets\editor\chunks\80\80694765410dacc24fa6fe495b29084a893044ee.js is not in module cache!
+18.03.2025 15:09:40 - debug: [[Executor]] Module "pack:///chunks/80/80694765410dacc24fa6fe495b29084a893044ee.js" loaded.
+18.03.2025 15:09:40 - debug: D:\Cocos\work\CocosSolitaireCreative\temp\programming\packer-driver\targets\editor\chunks\51\51d11f5898811b12faad3f121aaa4cc4e0ae4ac8.js resolved to D:\Cocos\work\CocosSolitaireCreative\temp\programming\packer-driver\targets\editor\chunks\51\51d11f5898811b12faad3f121aaa4cc4e0ae4ac8.js is not in module cache!
+18.03.2025 15:09:40 - debug: [[Executor]] Register Text
+18.03.2025 15:09:40 - debug: [[Executor]] Module "pack:///chunks/51/51d11f5898811b12faad3f121aaa4cc4e0ae4ac8.js" loaded.
+18.03.2025 15:09:40 - debug: D:\Cocos\work\CocosSolitaireCreative\temp\programming\packer-driver\targets\editor\chunks\a7\a70709c2ebe87f7c9113eea729a541c2dcb4642c.js resolved to D:\Cocos\work\CocosSolitaireCreative\temp\programming\packer-driver\targets\editor\chunks\a7\a70709c2ebe87f7c9113eea729a541c2dcb4642c.js is not in module cache!
+18.03.2025 15:09:40 - debug: [[Executor]] Register TutorialHandMover
+18.03.2025 15:09:40 - debug: [[Executor]] Module "pack:///chunks/a7/a70709c2ebe87f7c9113eea729a541c2dcb4642c.js" loaded.
+18.03.2025 15:09:40 - debug: D:\Cocos\work\CocosSolitaireCreative\temp\programming\packer-driver\targets\editor\chunks\fb\fbcf85ac8d3edb017310648d1e2563b16eead162.js resolved to D:\Cocos\work\CocosSolitaireCreative\temp\programming\packer-driver\targets\editor\chunks\fb\fbcf85ac8d3edb017310648d1e2563b16eead162.js is not in module cache!
+18.03.2025 15:09:40 - debug: [[Executor]] Register ScreenScaler
+18.03.2025 15:09:40 - debug: [[Executor]] Module "pack:///chunks/fb/fbcf85ac8d3edb017310648d1e2563b16eead162.js" loaded.
+18.03.2025 15:09:40 - debug: [[Executor]] Module "pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js" loaded.
+18.03.2025 15:09:40 - groupEnd: Imports all modules
+18.03.2025 15:09:40 - debug: Incremental keys: 
+18.03.2025 15:09:40 - debug: web-mobile:(onAfterBundleInit) start..., progress: 11%
+18.03.2025 15:09:40 - debug: // ---- build task web-mobile：onAfterBundleInit ----
+18.03.2025 15:09:40 - debug: // ---- build task web-mobile：onAfterBundleInit ---- (13ms)
+18.03.2025 15:09:40 - debug: web-mobile:(onAfterBundleInit) in 13 ms ✓, progress: 11%
+18.03.2025 15:09:40 - debug: Query asset bundle start, progress: 11%
+18.03.2025 15:09:40 - debug: // ---- build task Query asset bundle ----
+18.03.2025 15:09:40 - debug: Init bundle root assets start..., progress: 11%
+18.03.2025 15:09:40 - debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,15049ccd-4dd7-451e-a8ae-af66735c929e,521c5f6e-1a26-42e2-8108-4400c912d9bf,4c3ce6de-e6d1-47f7-aa36-36b9b58f72d3,4361db28-3f24-44cc-8e51-32ee5fd651ac,cafd95c9-c558-46f9-9812-1224b65c09ee,28d6d6b8-3f66-4a73-9795-17a0852ba2d4,2df0a40b-26c2-47ce-be0d-4d3cd4164737,dace6a58-1705-48c7-a275-70afc9534e88,ec8106fe-05bf-4e94-943c-e0d3b7bb5e45,39f74202-ead5-4a45-b966-273d526adbf1,8f6ac413-2f1e-4b88-b26f-54556b5dd510,45e7c0c8-2699-4912-b45f-d42bb8384189,84ac6f69-3086-455a-86a4-561da8ee710b,5c601d96-e4c7-4698-991b-7ee674b11079,bf0a6d94-58f0-4ad2-bdf2-c4a31c7dd856,871c3b6c-7379-419d-bda3-794b239ab90d
+18.03.2025 15:09:40 - debug: Init bundle root assets success..., progress: 11%
+18.03.2025 15:09:40 - debug: Init bundle share assets start..., progress: 11%
+18.03.2025 15:09:40 - debug: Init bundle share assets success..., progress: 11%
+18.03.2025 15:09:40 - debug: handle json group in bundle internal
+18.03.2025 15:09:40 - debug: handle json group in bundle internal success
+18.03.2025 15:09:40 - debug: handle json group in bundle resources
+18.03.2025 15:09:40 - debug: handle json group in bundle main
+18.03.2025 15:09:40 - debug: init image compress task 0 in bundle internal
+18.03.2025 15:09:40 - debug: handle json group in bundle resources success
+18.03.2025 15:09:40 - debug: init image compress task 0 in bundle resources
+18.03.2025 15:09:40 - debug: handle json group in bundle main success
+18.03.2025 15:09:40 - debug: init image compress task 13 in bundle main
+18.03.2025 15:09:40 - debug: // ---- build task Query asset bundle ---- (145ms)
+18.03.2025 15:09:40 - debug: run build task Query asset bundle success in 145 ms√, progress: 16%
+18.03.2025 15:09:40 - debug: [Build Memory track]: Query asset bundle start:206.31MB, end 207.02MB, increase: 724.43KB
+18.03.2025 15:09:40 - debug: Query asset bundle start, progress: 16%
+18.03.2025 15:09:40 - debug: // ---- build task Query asset bundle ----
+18.03.2025 15:09:40 - debug: // ---- build task Query asset bundle ---- (30ms)
+18.03.2025 15:09:40 - debug: run build task Query asset bundle success in 30 ms√, progress: 21%
+18.03.2025 15:09:40 - debug: [Build Memory track]: Query asset bundle start:207.04MB, end 207.10MB, increase: 66.56KB
+18.03.2025 15:09:40 - debug: web-mobile:(onAfterBundleDataTask) start..., progress: 21%
+18.03.2025 15:09:40 - debug: // ---- build task web-mobile：onAfterBundleDataTask ----
+18.03.2025 15:09:40 - debug: // ---- build task web-mobile：onAfterBundleDataTask ---- (34ms)
+18.03.2025 15:09:40 - debug: web-mobile:(onAfterBundleDataTask) in 34 ms ✓, progress: 21%
+18.03.2025 15:09:40 - debug: Build script start, progress: 21%
+18.03.2025 15:09:40 - debug: // ---- build task Build script ----
+18.03.2025 15:09:42 - debug: Generate systemJs..., progress: 21%
+18.03.2025 15:09:44 - debug: Build project script start..., progress: 21%
+18.03.2025 15:09:44 - debug: Build script in bundle start, progress: 21%
+18.03.2025 15:09:44 - log: Run build task(build-script) in child, see: chrome://inspect/#devices
+18.03.2025 15:09:45 - log: [build-script]enter sub process 22264, C:\ProgramData\cocos\editors\Creator\3.8.2\CocosCreator.exe,C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\builder\static\sub-process-index
+18.03.2025 15:09:47 - warn: [build-script][[Build.Script.Rollup]] Circular dependency: file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Card.ts -> file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/GameController.ts -> file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Card.ts
+18.03.2025 15:09:48 - debug: excute-script over with build-script 3987ms
+18.03.2025 15:09:48 - debug: Copy externalScripts success!
+18.03.2025 15:09:48 - debug: Build script in bundle success, progress: 21%
+18.03.2025 15:09:48 - debug: Build project script in (4074 ms) √, progress: 21%
+18.03.2025 15:09:48 - debug: Build engine start..., progress: 21%
+18.03.2025 15:09:48 - debug: Use cache engine: {link(C:\Users\sasha\AppData\Local\Temp\CocosCreator\3.8.2\builder\engine\2aa992e55a92258e4cb8847a32e4b4a6)}
+18.03.2025 15:09:48 - debug: {"debug":false,"sourceMaps":false,"includeModules":["2d","animation","audio","base","custom-pipeline","gfx-webgl","gfx-webgl2","particle-2d","profiler","tween","ui","video","webview"],"engineVersion":"3.8.2","md5Map":[],"engineName":"cocos-js","platform":"HTML5","useCache":true,"isNative":false,"split":false,"ammoJsWasm":"fallback","assetURLFormat":"runtime-resolved","output":"D:\\Cocos\\work\\CocosSolitaireCreative\\build\\web-mobile\\cocos-js","flags":{"DEBUG":false,"WASM_FALLBACK":true,"CULL_ASM_JS_MODULE":false,"WEBGPU":false,"CULL_MESHOPT":true},"entry":"C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine"}
+18.03.2025 15:09:48 - debug: Build engine in (110 ms) √, progress: 21%
+18.03.2025 15:09:48 - debug: Copy plugin script ..., progress: 21%
+18.03.2025 15:09:48 - debug: Generate import-map..., progress: 21%
+18.03.2025 15:09:48 - debug: // ---- build task Build script ---- (8461ms)
+18.03.2025 15:09:48 - debug: run build task Build script success in 8 s√, progress: 26%
+18.03.2025 15:09:48 - debug: [Build Memory track]: Build script start:207.30MB, end 262.78MB, increase: 55.48MB
+18.03.2025 15:09:48 - debug: Build Assets start, progress: 26%
+18.03.2025 15:09:48 - debug: // ---- build task Build Assets ----
+18.03.2025 15:09:48 - debug: Build bundles..., progress: 26%
+18.03.2025 15:09:48 - debug: Pack Images start, progress: 26%
+18.03.2025 15:09:48 - debug: builder:pack-auto-atlas-image (63ms)
+18.03.2025 15:09:48 - debug: Pack Images success, progress: 26%
+18.03.2025 15:09:48 - debug: Compress image start..., progress: 26%
+18.03.2025 15:09:48 - group: Compress image...
+18.03.2025 15:09:48 - debug: sort compress task {"astc":13,"etc":13,"pvr":13,"png":13}
+18.03.2025 15:09:48 - debug: Num of all image compress task 13, really: 13, configTasks: 52
+18.03.2025 15:09:48 - debug: start compress task 0 / 52, progress: 26%
+18.03.2025 15:09:48 - debug: execute compress task 0/52, 1 in progress}, progress: 26%
+18.03.2025 15:09:48 - debug: execute compress task 0/52, 2 in progress}, progress: 26%
+18.03.2025 15:09:48 - debug: execute compress task 0/52, 3 in progress}, progress: 26%
+18.03.2025 15:09:48 - debug: execute compress task 0/52, 4 in progress}, progress: 26%
+18.03.2025 15:09:48 - debug: execute compress task 0/52, 5 in progress}, progress: 26%
+18.03.2025 15:09:48 - debug: execute compress task 0/52, 6 in progress}, progress: 26%
+18.03.2025 15:09:48 - debug: execute compress task 0/52, 7 in progress}, progress: 26%
+18.03.2025 15:09:48 - debug: execute compress task 0/52, 8 in progress}, progress: 26%
+18.03.2025 15:09:48 - debug: execute compress task 0/52, 9 in progress}, progress: 26%
+18.03.2025 15:09:48 - debug: execute compress task 0/52, 10 in progress}, progress: 26%
+18.03.2025 15:09:48 - debug: execute compress task 0/52, 11 in progress}, progress: 26%
+18.03.2025 15:09:48 - debug: execute compress task 0/52, 12 in progress}, progress: 26%
+18.03.2025 15:09:48 - debug: execute compress task 0/52, 13 in progress}, progress: 26%
+18.03.2025 15:09:48 - debug: start compress astcD:\Cocos\work\CocosSolitaireCreative\library\17\17baa3e8-8c49-42d7-b116-681adfea90b3.pngD:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\17\17baa3e8-8c49-42d7-b116-681adfea90b3.astcastc_8x8
+18.03.2025 15:09:48 - debug: astc compressed command: astcenc.exe -cl D:\Cocos\work\CocosSolitaireCreative\library\17\17baa3e8-8c49-42d7-b116-681adfea90b3.png D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\17\17baa3e8-8c49-42d7-b116-681adfea90b3.astc 8x8 -medium
+18.03.2025 15:09:48 - debug: start compress etcD:\Cocos\work\CocosSolitaireCreative\library\22\22a509cd-7164-4e0d-934a-33162f27e622.pngD:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\22\22a509cd-7164-4e0d-934a-33162f27e622.pkmetc1_rgb
+18.03.2025 15:09:48 - debug: etc compress command :  .\etcpack.exe D:\Cocos\work\CocosSolitaireCreative\library\22\22a509cd-7164-4e0d-934a-33162f27e622.png D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\22 -c etc1 -s fast
+18.03.2025 15:09:49 - debug: start compress pvr{"format":"pvrtc_4bits_rgb","src":"D:\\Cocos\\work\\CocosSolitaireCreative\\library\\26\\26070fdd-87ea-4f33-b4b5-039186c01fe7.png","dest":"D:\\Cocos\\work\\CocosSolitaireCreative\\temp\\builder\\CompressTexture\\26\\26070fdd-87ea-4f33-b4b5-039186c01fe7.pvr","compressOptions":{"quality":"fast"},"uuid":"26070fdd-87ea-4f33-b4b5-039186c01fe7","mipmapFiles":[],"suffix":".pvr@85","formatType":"pvr"}
+18.03.2025 15:09:49 - debug: pvrtc compress command :  C:\ProgramData\cocos\editors\Creator\3.8.2\resources\tools\PVRTexTool_win32\PVRTexToolCLI.exe -i D:\Cocos\work\CocosSolitaireCreative\library\26\26070fdd-87ea-4f33-b4b5-039186c01fe7.png -o D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\26\26070fdd-87ea-4f33-b4b5-039186c01fe7.pvr -squarecanvas + -potcanvas + -q pvrtcfast -f PVRTC1_4_RGB,UBN,lRGB
+18.03.2025 15:09:49 - debug: start compress pvr{"format":"pvrtc_4bits_rgb","src":"D:\\Cocos\\work\\CocosSolitaireCreative\\library\\4d\\4d7666f6-f37f-4eb8-bf14-5b12c8a59f6e.png","dest":"D:\\Cocos\\work\\CocosSolitaireCreative\\temp\\builder\\CompressTexture\\4d\\4d7666f6-f37f-4eb8-bf14-5b12c8a59f6e.pvr","compressOptions":{"quality":"fast"},"uuid":"4d7666f6-f37f-4eb8-bf14-5b12c8a59f6e","mipmapFiles":[],"suffix":".pvr@85","formatType":"pvr"}
+18.03.2025 15:09:49 - debug: pvrtc compress command :  C:\ProgramData\cocos\editors\Creator\3.8.2\resources\tools\PVRTexTool_win32\PVRTexToolCLI.exe -i D:\Cocos\work\CocosSolitaireCreative\library\4d\4d7666f6-f37f-4eb8-bf14-5b12c8a59f6e.png -o D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\4d\4d7666f6-f37f-4eb8-bf14-5b12c8a59f6e.pvr -squarecanvas + -potcanvas + -q pvrtcfast -f PVRTC1_4_RGB,UBN,lRGB
+18.03.2025 15:09:49 - debug: start compress pvr{"format":"pvrtc_4bits_rgb","src":"D:\\Cocos\\work\\CocosSolitaireCreative\\library\\38\\3822d17d-6024-4998-aaf9-448ba294e7d8.png","dest":"D:\\Cocos\\work\\CocosSolitaireCreative\\temp\\builder\\CompressTexture\\38\\3822d17d-6024-4998-aaf9-448ba294e7d8.pvr","compressOptions":{"quality":"fast"},"uuid":"3822d17d-6024-4998-aaf9-448ba294e7d8","mipmapFiles":[],"suffix":".pvr@85","formatType":"pvr"}
+18.03.2025 15:09:49 - debug: pvrtc compress command :  C:\ProgramData\cocos\editors\Creator\3.8.2\resources\tools\PVRTexTool_win32\PVRTexToolCLI.exe -i D:\Cocos\work\CocosSolitaireCreative\library\38\3822d17d-6024-4998-aaf9-448ba294e7d8.png -o D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\38\3822d17d-6024-4998-aaf9-448ba294e7d8.pvr -squarecanvas + -potcanvas + -q pvrtcfast -f PVRTC1_4_RGB,UBN,lRGB
+18.03.2025 15:09:49 - debug: start compress pvr{"format":"pvrtc_4bits_rgb","src":"D:\\Cocos\\work\\CocosSolitaireCreative\\library\\79\\797b35fb-1af5-4524-8683-1b7589b7d443.png","dest":"D:\\Cocos\\work\\CocosSolitaireCreative\\temp\\builder\\CompressTexture\\79\\797b35fb-1af5-4524-8683-1b7589b7d443.pvr","compressOptions":{"quality":"fast"},"uuid":"797b35fb-1af5-4524-8683-1b7589b7d443","mipmapFiles":[],"suffix":".pvr@85","formatType":"pvr"}
+18.03.2025 15:09:49 - debug: pvrtc compress command :  C:\ProgramData\cocos\editors\Creator\3.8.2\resources\tools\PVRTexTool_win32\PVRTexToolCLI.exe -i D:\Cocos\work\CocosSolitaireCreative\library\79\797b35fb-1af5-4524-8683-1b7589b7d443.png -o D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\79\797b35fb-1af5-4524-8683-1b7589b7d443.pvr -squarecanvas + -potcanvas + -q pvrtcfast -f PVRTC1_4_RGB,UBN,lRGB
+18.03.2025 15:09:49 - debug: start compress pvr{"format":"pvrtc_4bits_rgb","src":"D:\\Cocos\\work\\CocosSolitaireCreative\\library\\aa\\aa88f858-6a7c-4e50-85df-16dbaa991162.png","dest":"D:\\Cocos\\work\\CocosSolitaireCreative\\temp\\builder\\CompressTexture\\aa\\aa88f858-6a7c-4e50-85df-16dbaa991162.pvr","compressOptions":{"quality":"fast"},"uuid":"aa88f858-6a7c-4e50-85df-16dbaa991162","mipmapFiles":[],"suffix":".pvr@85","formatType":"pvr"}
+18.03.2025 15:09:49 - debug: pvrtc compress command :  C:\ProgramData\cocos\editors\Creator\3.8.2\resources\tools\PVRTexTool_win32\PVRTexToolCLI.exe -i D:\Cocos\work\CocosSolitaireCreative\library\aa\aa88f858-6a7c-4e50-85df-16dbaa991162.png -o D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\aa\aa88f858-6a7c-4e50-85df-16dbaa991162.pvr -squarecanvas + -potcanvas + -q pvrtcfast -f PVRTC1_4_RGB,UBN,lRGB
+18.03.2025 15:09:49 - debug: start compress pvr{"format":"pvrtc_4bits_rgb","src":"D:\\Cocos\\work\\CocosSolitaireCreative\\library\\c7\\c7fdad19-7aa5-4fe3-a781-4c3868ccd1a4.png","dest":"D:\\Cocos\\work\\CocosSolitaireCreative\\temp\\builder\\CompressTexture\\c7\\c7fdad19-7aa5-4fe3-a781-4c3868ccd1a4.pvr","compressOptions":{"quality":"fast"},"uuid":"c7fdad19-7aa5-4fe3-a781-4c3868ccd1a4","mipmapFiles":[],"suffix":".pvr@85","formatType":"pvr"}
+18.03.2025 15:09:49 - debug: pvrtc compress command :  C:\ProgramData\cocos\editors\Creator\3.8.2\resources\tools\PVRTexTool_win32\PVRTexToolCLI.exe -i D:\Cocos\work\CocosSolitaireCreative\library\c7\c7fdad19-7aa5-4fe3-a781-4c3868ccd1a4.png -o D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\c7\c7fdad19-7aa5-4fe3-a781-4c3868ccd1a4.pvr -squarecanvas + -potcanvas + -q pvrtcfast -f PVRTC1_4_RGB,UBN,lRGB
+18.03.2025 15:09:49 - debug: start compress pvr{"format":"pvrtc_4bits_rgb","src":"D:\\Cocos\\work\\CocosSolitaireCreative\\library\\d5\\d5fc1acd-3841-4205-86a4-cc9d4f150b67.png","dest":"D:\\Cocos\\work\\CocosSolitaireCreative\\temp\\builder\\CompressTexture\\d5\\d5fc1acd-3841-4205-86a4-cc9d4f150b67.pvr","compressOptions":{"quality":"fast"},"uuid":"d5fc1acd-3841-4205-86a4-cc9d4f150b67","mipmapFiles":[],"suffix":".pvr@85","formatType":"pvr"}
+18.03.2025 15:09:49 - debug: pvrtc compress command :  C:\ProgramData\cocos\editors\Creator\3.8.2\resources\tools\PVRTexTool_win32\PVRTexToolCLI.exe -i D:\Cocos\work\CocosSolitaireCreative\library\d5\d5fc1acd-3841-4205-86a4-cc9d4f150b67.png -o D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\d5\d5fc1acd-3841-4205-86a4-cc9d4f150b67.pvr -squarecanvas + -potcanvas + -q pvrtcfast -f PVRTC1_4_RGB,UBN,lRGB
+18.03.2025 15:09:49 - debug: start compress pvr{"format":"pvrtc_4bits_rgb","src":"D:\\Cocos\\work\\CocosSolitaireCreative\\library\\e2\\e231b14e-adfa-4f5e-aeeb-769161fb5653.png","dest":"D:\\Cocos\\work\\CocosSolitaireCreative\\temp\\builder\\CompressTexture\\e2\\e231b14e-adfa-4f5e-aeeb-769161fb5653.pvr","compressOptions":{"quality":"fast"},"uuid":"e231b14e-adfa-4f5e-aeeb-769161fb5653","mipmapFiles":[],"suffix":".pvr@85","formatType":"pvr"}
+18.03.2025 15:09:49 - debug: pvrtc compress command :  C:\ProgramData\cocos\editors\Creator\3.8.2\resources\tools\PVRTexTool_win32\PVRTexToolCLI.exe -i D:\Cocos\work\CocosSolitaireCreative\library\e2\e231b14e-adfa-4f5e-aeeb-769161fb5653.png -o D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\e2\e231b14e-adfa-4f5e-aeeb-769161fb5653.pvr -squarecanvas + -potcanvas + -q pvrtcfast -f PVRTC1_4_RGB,UBN,lRGB
+18.03.2025 15:09:49 - debug: start compress pvr{"format":"pvrtc_4bits_rgb","src":"D:\\Cocos\\work\\CocosSolitaireCreative\\library\\e6\\e65b4630-c4d4-4a6c-9d7d-11197bf9b9af.png","dest":"D:\\Cocos\\work\\CocosSolitaireCreative\\temp\\builder\\CompressTexture\\e6\\e65b4630-c4d4-4a6c-9d7d-11197bf9b9af.pvr","compressOptions":{"quality":"fast"},"uuid":"e65b4630-c4d4-4a6c-9d7d-11197bf9b9af","mipmapFiles":[],"suffix":".pvr@85","formatType":"pvr"}
+18.03.2025 15:09:49 - debug: pvrtc compress command :  C:\ProgramData\cocos\editors\Creator\3.8.2\resources\tools\PVRTexTool_win32\PVRTexToolCLI.exe -i D:\Cocos\work\CocosSolitaireCreative\library\e6\e65b4630-c4d4-4a6c-9d7d-11197bf9b9af.png -o D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\e6\e65b4630-c4d4-4a6c-9d7d-11197bf9b9af.pvr -squarecanvas + -potcanvas + -q pvrtcfast -f PVRTC1_4_RGB,UBN,lRGB
+18.03.2025 15:09:49 - debug: start compress pvr{"format":"pvrtc_4bits_rgb","src":"D:\\Cocos\\work\\CocosSolitaireCreative\\library\\f1\\f15eae12-5007-44d5-893b-d7ee6b208441.png","dest":"D:\\Cocos\\work\\CocosSolitaireCreative\\temp\\builder\\CompressTexture\\f1\\f15eae12-5007-44d5-893b-d7ee6b208441.pvr","compressOptions":{"quality":"fast"},"uuid":"f15eae12-5007-44d5-893b-d7ee6b208441","mipmapFiles":[],"suffix":".pvr@85","formatType":"pvr"}
+18.03.2025 15:09:49 - debug: pvrtc compress command :  C:\ProgramData\cocos\editors\Creator\3.8.2\resources\tools\PVRTexTool_win32\PVRTexToolCLI.exe -i D:\Cocos\work\CocosSolitaireCreative\library\f1\f15eae12-5007-44d5-893b-d7ee6b208441.png -o D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\f1\f15eae12-5007-44d5-893b-d7ee6b208441.pvr -squarecanvas + -potcanvas + -q pvrtcfast -f PVRTC1_4_RGB,UBN,lRGB
+18.03.2025 15:09:49 - debug: start compress pvr{"format":"pvrtc_4bits_rgb","src":"D:\\Cocos\\work\\CocosSolitaireCreative\\library\\fb\\fb4f930a-5251-42e3-8e74-3c6832d9ddfe.png","dest":"D:\\Cocos\\work\\CocosSolitaireCreative\\temp\\builder\\CompressTexture\\fb\\fb4f930a-5251-42e3-8e74-3c6832d9ddfe.pvr","compressOptions":{"quality":"fast"},"uuid":"fb4f930a-5251-42e3-8e74-3c6832d9ddfe","mipmapFiles":[],"suffix":".pvr@85","formatType":"pvr"}
+18.03.2025 15:09:49 - debug: pvrtc compress command :  C:\ProgramData\cocos\editors\Creator\3.8.2\resources\tools\PVRTexTool_win32\PVRTexToolCLI.exe -i D:\Cocos\work\CocosSolitaireCreative\library\fb\fb4f930a-5251-42e3-8e74-3c6832d9ddfe.png -o D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\fb\fb4f930a-5251-42e3-8e74-3c6832d9ddfe.pvr -squarecanvas + -potcanvas + -q pvrtcfast -f PVRTC1_4_RGB,UBN,lRGB
+18.03.2025 15:09:49 - log: [compress astc]Source image============    Source:                     D:\Cocos\work\CocosSolitaireCreative\library\17\17baa3e8-8c49-42d7-b116-681adfea90b3.png    Color profile:              LDR    Dimensions:                 2D, 136x176    Components:                 4Compressor settings===================    Color profile:              LDR linear    Block size:                 8x8    Bitrate:                    2.00 bpp    RGB alpha scale weight:     0    R component weight:         1    G component weight:         1    B component weight:         1    A component weight:         1    Partition cutoff:           3 partitions    2 partition index cutoff:   34 partition ids    3 partition index cutoff:   28 partition ids    4 partition index cutoff:   16 partition ids    PSNR cutoff:                35.6826 dB    3 partition cutoff:         1.1    4 partition cutoff:         1.05    2 plane correlation cutoff: 0.9    Block mode centile cutoff:  77%    Candidate cutoff:           3 candidates    Refinement cutoff:          3 iterations    Compressor thread count:    12Performance metrics===================    Total time:                  0.0100 s    Coding time:                 0.0039 s    Coding rate:                 6.1187 MT/s
+18.03.2025 15:09:49 - debug: [compress astc]Child process exit width code 0
+18.03.2025 15:09:49 - log: Compress astc success {link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\17\17baa3e8-8c49-42d7-b116-681adfea90b3.astc)}
+18.03.2025 15:09:49 - debug: execute compress task 1/52, 13 in progress}, progress: 26%
+18.03.2025 15:09:49 - log: [compress etc][malitc-1]Compressing. Output file: D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\22\22a509cd-7164-4e0d-934a-33162f27e622.pkm
+18.03.2025 15:09:49 - debug: [compress astc]Child process exit width code 0
+18.03.2025 15:09:49 - debug: start compress pvr{"format":"pvrtc_4bits_rgb","src":"D:\\Cocos\\work\\CocosSolitaireCreative\\library\\17\\17baa3e8-8c49-42d7-b116-681adfea90b3.png","dest":"D:\\Cocos\\work\\CocosSolitaireCreative\\temp\\builder\\CompressTexture\\17\\17baa3e8-8c49-42d7-b116-681adfea90b3.pvr","compressOptions":{"quality":"fast"},"uuid":"17baa3e8-8c49-42d7-b116-681adfea90b3","mipmapFiles":[],"suffix":".pvr@85","formatType":"pvr"}
+18.03.2025 15:09:49 - debug: pvrtc compress command :  C:\ProgramData\cocos\editors\Creator\3.8.2\resources\tools\PVRTexTool_win32\PVRTexToolCLI.exe -i D:\Cocos\work\CocosSolitaireCreative\library\17\17baa3e8-8c49-42d7-b116-681adfea90b3.png -o D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\17\17baa3e8-8c49-42d7-b116-681adfea90b3.pvr -squarecanvas + -potcanvas + -q pvrtcfast -f PVRTC1_4_RGB,UBN,lRGB
+18.03.2025 15:09:49 - log: [compress pvrtc]Compressing...Saved texture to D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\aa\aa88f858-6a7c-4e50-85df-16dbaa991162.pvr
+18.03.2025 15:09:49 - log: [compress pvrtc]Compressing...Saved texture to D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\e2\e231b14e-adfa-4f5e-aeeb-769161fb5653.pvr
+18.03.2025 15:09:49 - debug(2): [compress pvrtc]Child process exit width code 0
+18.03.2025 15:09:49 - log: compress pvrtc success {link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\e2\e231b14e-adfa-4f5e-aeeb-769161fb5653.pvr)}
+18.03.2025 15:09:49 - debug: execute compress task 2/52, 13 in progress}, progress: 26%
+18.03.2025 15:09:49 - debug(2): [compress pvrtc]Child process exit width code 0
+18.03.2025 15:09:49 - log: compress pvrtc success {link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\aa\aa88f858-6a7c-4e50-85df-16dbaa991162.pvr)}
+18.03.2025 15:09:49 - debug: execute compress task 3/52, 13 in progress}, progress: 26%
+18.03.2025 15:09:49 - debug: start compress astcD:\Cocos\work\CocosSolitaireCreative\library\e2\e231b14e-adfa-4f5e-aeeb-769161fb5653.pngD:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\e2\e231b14e-adfa-4f5e-aeeb-769161fb5653.astcastc_8x8
+18.03.2025 15:09:49 - debug: astc compressed command: astcenc.exe -cl D:\Cocos\work\CocosSolitaireCreative\library\e2\e231b14e-adfa-4f5e-aeeb-769161fb5653.png D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\e2\e231b14e-adfa-4f5e-aeeb-769161fb5653.astc 8x8 -medium
+18.03.2025 15:09:49 - log: [compress astc]Source image============    Source:                     D:\Cocos\work\CocosSolitaireCreative\library\e2\e231b14e-adfa-4f5e-aeeb-769161fb5653.png    Color profile:              LDR    Dimensions:                 2D, 136x176    Components:                 4Compressor settings===================    Color profile:              LDR linear    Block size:                 8x8    Bitrate:                    2.00 bpp    RGB alpha scale weight:     0    R component weight:         1    G component weight:         1    B component weight:         1    A component weight:         1    Partition cutoff:           3 partitions    2 partition index cutoff:   34 partition ids    3 partition index cutoff:   28 partition ids    4 partition index cutoff:   16 partition ids    PSNR cutoff:                35.6826 dB    3 partition cutoff:         1.1    4 partition cutoff:         1.05    2 plane correlation cutoff: 0.9    Block mode centile cutoff:  77%    Candidate cutoff:           3 candidates    Refinement cutoff:          3 iterations    Compressor thread count:    12Performance metrics===================    Total time:                  0.0101 s    Coding time:                 0.0057 s    Coding rate:                 4.2225 MT/s
+18.03.2025 15:09:49 - debug(2): [compress astc]Child process exit width code 0
+18.03.2025 15:09:49 - log: Compress astc success {link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\e2\e231b14e-adfa-4f5e-aeeb-769161fb5653.astc)}
+18.03.2025 15:09:49 - debug: execute compress task 5/52, 12 in progress}, progress: 26%
+18.03.2025 15:09:49 - debug: start compress astcD:\Cocos\work\CocosSolitaireCreative\library\aa\aa88f858-6a7c-4e50-85df-16dbaa991162.pngD:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\aa\aa88f858-6a7c-4e50-85df-16dbaa991162.astcastc_8x8
+18.03.2025 15:09:49 - debug: astc compressed command: astcenc.exe -cl D:\Cocos\work\CocosSolitaireCreative\library\aa\aa88f858-6a7c-4e50-85df-16dbaa991162.png D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\aa\aa88f858-6a7c-4e50-85df-16dbaa991162.astc 8x8 -medium
+18.03.2025 15:09:49 - log: [compress pvrtc]Compressing...Saved texture to D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\f1\f15eae12-5007-44d5-893b-d7ee6b208441.pvr
+18.03.2025 15:09:49 - debug(2): [compress pvrtc]Child process exit width code 0
+18.03.2025 15:09:49 - log: compress pvrtc success {link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\f1\f15eae12-5007-44d5-893b-d7ee6b208441.pvr)}
+18.03.2025 15:09:49 - debug: execute compress task 6/52, 12 in progress}, progress: 26%
+18.03.2025 15:09:49 - debug: execute compress task 7/52, 12 in progress}, progress: 26%
+18.03.2025 15:09:49 - log: [compress astc]Source image============    Source:                     D:\Cocos\work\CocosSolitaireCreative\library\aa\aa88f858-6a7c-4e50-85df-16dbaa991162.png    Color profile:              LDR    Dimensions:                 2D, 206x197    Components:                 4Compressor settings===================    Color profile:              LDR linear    Block size:                 8x8    Bitrate:                    2.00 bpp    RGB alpha scale weight:     0    R component weight:         1    G component weight:         1    B component weight:         1    A component weight:         1    Partition cutoff:           3 partitions    2 partition index cutoff:   34 partition ids    3 partition index cutoff:   28 partition ids    4 partition index cutoff:   16 partition ids    PSNR cutoff:                35.6826 dB    3 partition cutoff:         1.1    4 partition cutoff:         1.05    2 plane correlation cutoff: 0.9    Block mode centile cutoff:  77%    Candidate cutoff:           3 candidates    Refinement cutoff:          3 iterations    Compressor thread count:    12Performance metrics===================    Total time:                  0.0296 s    Coding time:                 0.0245 s    Coding rate:                 1.6541 MT/s
+18.03.2025 15:09:49 - debug(2): [compress astc]Child process exit width code 0
+18.03.2025 15:09:49 - log: Compress astc success {link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\aa\aa88f858-6a7c-4e50-85df-16dbaa991162.astc)}
+18.03.2025 15:09:49 - debug: execute compress task 9/52, 11 in progress}, progress: 26%
+18.03.2025 15:09:49 - debug: start compress astcD:\Cocos\work\CocosSolitaireCreative\library\f1\f15eae12-5007-44d5-893b-d7ee6b208441.pngD:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\f1\f15eae12-5007-44d5-893b-d7ee6b208441.astcastc_8x8
+18.03.2025 15:09:49 - debug: astc compressed command: astcenc.exe -cl D:\Cocos\work\CocosSolitaireCreative\library\f1\f15eae12-5007-44d5-893b-d7ee6b208441.png D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\f1\f15eae12-5007-44d5-893b-d7ee6b208441.astc 8x8 -medium
+18.03.2025 15:09:49 - log: [compress pvrtc]Compressing...Saved texture to D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\17\17baa3e8-8c49-42d7-b116-681adfea90b3.pvr
+18.03.2025 15:09:49 - debug(2): [compress pvrtc]Child process exit width code 0
+18.03.2025 15:09:49 - log: compress pvrtc success {link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\17\17baa3e8-8c49-42d7-b116-681adfea90b3.pvr)}
+18.03.2025 15:09:49 - debug: execute compress task 10/52, 11 in progress}, progress: 26%
+18.03.2025 15:09:49 - log: [compress astc]Source image============    Source:                     D:\Cocos\work\CocosSolitaireCreative\library\f1\f15eae12-5007-44d5-893b-d7ee6b208441.png    Color profile:              LDR    Dimensions:                 2D, 224x63    Components:                 4Compressor settings===================    Color profile:              LDR linear    Block size:                 8x8    Bitrate:                    2.00 bpp    RGB alpha scale weight:     0    R component weight:         1    G component weight:         1    B component weight:         1    A component weight:         1    Partition cutoff:           3 partitions    2 partition index cutoff:   34 partition ids    3 partition index cutoff:   28 partition ids    4 partition index cutoff:   16 partition ids    PSNR cutoff:                35.6826 dB    3 partition cutoff:         1.1    4 partition cutoff:         1.05    2 plane correlation cutoff: 0.9    Block mode centile cutoff:  77%    Candidate cutoff:           3 candidates    Refinement cutoff:          3 iterations    Compressor thread count:    12Performance metrics===================    Total time:                  0.0286 s    Coding time:                 0.0247 s    Coding rate:                 0.5702 MT/s
+18.03.2025 15:09:49 - debug(2): [compress astc]Child process exit width code 0
+18.03.2025 15:09:49 - log: Compress astc success {link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\f1\f15eae12-5007-44d5-893b-d7ee6b208441.astc)}
+18.03.2025 15:09:49 - log: [compress pvrtc]Compressing...Saved texture to D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\4d\4d7666f6-f37f-4eb8-bf14-5b12c8a59f6e.pvr
+18.03.2025 15:09:49 - debug(2): [compress pvrtc]Child process exit width code 0
+18.03.2025 15:09:49 - log: compress pvrtc success {link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\4d\4d7666f6-f37f-4eb8-bf14-5b12c8a59f6e.pvr)}
+18.03.2025 15:09:49 - debug: execute compress task 13/52, 9 in progress}, progress: 26%
+18.03.2025 15:09:49 - debug: start compress astcD:\Cocos\work\CocosSolitaireCreative\library\4d\4d7666f6-f37f-4eb8-bf14-5b12c8a59f6e.pngD:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\4d\4d7666f6-f37f-4eb8-bf14-5b12c8a59f6e.astcastc_8x8
+18.03.2025 15:09:49 - debug: astc compressed command: astcenc.exe -cl D:\Cocos\work\CocosSolitaireCreative\library\4d\4d7666f6-f37f-4eb8-bf14-5b12c8a59f6e.png D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\4d\4d7666f6-f37f-4eb8-bf14-5b12c8a59f6e.astc 8x8 -medium
+18.03.2025 15:09:49 - log: [compress pvrtc]Compressing...Saved texture to D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\38\3822d17d-6024-4998-aaf9-448ba294e7d8.pvr
+18.03.2025 15:09:49 - debug(2): [compress pvrtc]Child process exit width code 0
+18.03.2025 15:09:49 - log: compress pvrtc success {link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\38\3822d17d-6024-4998-aaf9-448ba294e7d8.pvr)}
+18.03.2025 15:09:49 - debug: execute compress task 14/52, 9 in progress}, progress: 26%
+18.03.2025 15:09:49 - log: [compress astc]Source image============    Source:                     D:\Cocos\work\CocosSolitaireCreative\library\4d\4d7666f6-f37f-4eb8-bf14-5b12c8a59f6e.png    Color profile:              LDR    Dimensions:                 2D, 391x231    Components:                 4Compressor settings===================    Color profile:              LDR linear    Block size:                 8x8    Bitrate:                    2.00 bpp    RGB alpha scale weight:     0    R component weight:         1    G component weight:         1    B component weight:         1    A component weight:         1    Partition cutoff:           3 partitions    2 partition index cutoff:   34 partition ids    3 partition index cutoff:   28 partition ids    4 partition index cutoff:   16 partition ids    PSNR cutoff:                35.6826 dB    3 partition cutoff:         1.1    4 partition cutoff:         1.05    2 plane correlation cutoff: 0.9    Block mode centile cutoff:  77%    Candidate cutoff:           3 candidates    Refinement cutoff:          3 iterations    Compressor thread count:    12Performance metrics===================    Total time:                  0.0324 s    Coding time:                 0.0269 s    Coding rate:                 3.3611 MT/s
+18.03.2025 15:09:49 - debug(2): [compress astc]Child process exit width code 0
+18.03.2025 15:09:49 - log: Compress astc success {link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\4d\4d7666f6-f37f-4eb8-bf14-5b12c8a59f6e.astc)}
+18.03.2025 15:09:49 - debug: execute compress task 15/52, 9 in progress}, progress: 26%
+18.03.2025 15:09:49 - debug: execute compress task 16/52, 9 in progress}, progress: 26%
+18.03.2025 15:09:49 - debug: start compress astcD:\Cocos\work\CocosSolitaireCreative\library\38\3822d17d-6024-4998-aaf9-448ba294e7d8.pngD:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\38\3822d17d-6024-4998-aaf9-448ba294e7d8.astcastc_8x8
+18.03.2025 15:09:49 - debug: astc compressed command: astcenc.exe -cl D:\Cocos\work\CocosSolitaireCreative\library\38\3822d17d-6024-4998-aaf9-448ba294e7d8.png D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\38\3822d17d-6024-4998-aaf9-448ba294e7d8.astc 8x8 -medium
+18.03.2025 15:09:49 - log: [compress astc]Source image============    Source:                     D:\Cocos\work\CocosSolitaireCreative\library\38\3822d17d-6024-4998-aaf9-448ba294e7d8.png    Color profile:              LDR    Dimensions:                 2D, 495x231    Components:                 4Compressor settings===================    Color profile:              LDR linear    Block size:                 8x8    Bitrate:                    2.00 bpp    RGB alpha scale weight:     0    R component weight:         1    G component weight:         1    B component weight:         1    A component weight:         1    Partition cutoff:           3 partitions    2 partition index cutoff:   34 partition ids    3 partition index cutoff:   28 partition ids    4 partition index cutoff:   16 partition ids    PSNR cutoff:                35.6826 dB    3 partition cutoff:         1.1    4 partition cutoff:         1.05    2 plane correlation cutoff: 0.9    Block mode centile cutoff:  77%    Candidate cutoff:           3 candidates    Refinement cutoff:          3 iterations    Compressor thread count:    12Performance metrics===================    Total time:                  0.0344 s    Coding time:                 0.0284 s    Coding rate:                 4.0227 MT/s
+18.03.2025 15:09:49 - debug(2): [compress astc]Child process exit width code 0
+18.03.2025 15:09:49 - log: Compress astc success {link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\38\3822d17d-6024-4998-aaf9-448ba294e7d8.astc)}
+18.03.2025 15:09:50 - log: [compress etc][malitc-4]Compression time: 4 ms
+18.03.2025 15:09:50 - log: [compress etc][malitc-5]RMSE: 16.588[malitc-6]PSNR: 28.5062[malitc-7]Perceptually weighted RMSE: 13.8599[malitc-8]Perceptual PSNR: 30.0668
+18.03.2025 15:09:50 - debug(2): [compress etc]Child process exit width code 0
+18.03.2025 15:09:50 - log: compress etc success {link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\22\22a509cd-7164-4e0d-934a-33162f27e622.pkm)}
+18.03.2025 15:09:50 - debug: execute compress task 19/52, 7 in progress}, progress: 26%
+18.03.2025 15:09:50 - debug: start compress etcD:\Cocos\work\CocosSolitaireCreative\library\17\17baa3e8-8c49-42d7-b116-681adfea90b3.pngD:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\17\17baa3e8-8c49-42d7-b116-681adfea90b3.pkmetc1_rgb
+18.03.2025 15:09:50 - debug: etc compress command :  .\etcpack.exe D:\Cocos\work\CocosSolitaireCreative\library\17\17baa3e8-8c49-42d7-b116-681adfea90b3.png D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\17 -c etc1 -s fast
+18.03.2025 15:09:50 - log: [compress pvrtc]Compressing...Saved texture to D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\26\26070fdd-87ea-4f33-b4b5-039186c01fe7.pvr
+18.03.2025 15:09:50 - debug(2): [compress pvrtc]Child process exit width code 0
+18.03.2025 15:09:50 - log: compress pvrtc success {link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\26\26070fdd-87ea-4f33-b4b5-039186c01fe7.pvr)}
+18.03.2025 15:09:50 - debug: execute compress task 20/52, 7 in progress}, progress: 26%
+18.03.2025 15:09:50 - debug: start compress astcD:\Cocos\work\CocosSolitaireCreative\library\22\22a509cd-7164-4e0d-934a-33162f27e622.pngD:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\22\22a509cd-7164-4e0d-934a-33162f27e622.astcastc_8x8
+18.03.2025 15:09:50 - debug: astc compressed command: astcenc.exe -cl D:\Cocos\work\CocosSolitaireCreative\library\22\22a509cd-7164-4e0d-934a-33162f27e622.png D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\22\22a509cd-7164-4e0d-934a-33162f27e622.astc 8x8 -medium
+18.03.2025 15:09:50 - log: [compress etc][malitc-1]Compressing. Output file: D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\17\17baa3e8-8c49-42d7-b116-681adfea90b3.pkm
+18.03.2025 15:09:50 - log: [compress astc]Source image============    Source:                     D:\Cocos\work\CocosSolitaireCreative\library\22\22a509cd-7164-4e0d-934a-33162f27e622.png    Color profile:              LDR    Dimensions:                 2D, 236x75    Components:                 4Compressor settings===================    Color profile:              LDR linear    Block size:                 8x8    Bitrate:                    2.00 bpp    RGB alpha scale weight:     0    R component weight:         1    G component weight:         1    B component weight:         1    A component weight:         1    Partition cutoff:           3 partitions    2 partition index cutoff:   34 partition ids    3 partition index cutoff:   28 partition ids    4 partition index cutoff:   16 partition ids    PSNR cutoff:                35.6826 dB    3 partition cutoff:         1.1    4 partition cutoff:         1.05    2 plane correlation cutoff: 0.9    Block mode centile cutoff:  77%    Candidate cutoff:           3 candidates    Refinement cutoff:          3 iterations    Compressor thread count:    12Performance metrics===================    Total time:                  0.0120 s    Coding time:                 0.0047 s    Coding rate:                 3.7662 MT/s
+18.03.2025 15:09:50 - debug(2): [compress astc]Child process exit width code 0
+18.03.2025 15:09:50 - log: Compress astc success {link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\22\22a509cd-7164-4e0d-934a-33162f27e622.astc)}
+18.03.2025 15:09:50 - debug: execute compress task 21/52, 7 in progress}, progress: 26%
+18.03.2025 15:09:50 - debug: start compress pvr{"format":"pvrtc_4bits_rgb","src":"D:\\Cocos\\work\\CocosSolitaireCreative\\library\\22\\22a509cd-7164-4e0d-934a-33162f27e622.png","dest":"D:\\Cocos\\work\\CocosSolitaireCreative\\temp\\builder\\CompressTexture\\22\\22a509cd-7164-4e0d-934a-33162f27e622.pvr","compressOptions":{"quality":"fast"},"uuid":"22a509cd-7164-4e0d-934a-33162f27e622","mipmapFiles":[],"suffix":".pvr@85","formatType":"pvr"}
+18.03.2025 15:09:50 - debug: pvrtc compress command :  C:\ProgramData\cocos\editors\Creator\3.8.2\resources\tools\PVRTexTool_win32\PVRTexToolCLI.exe -i D:\Cocos\work\CocosSolitaireCreative\library\22\22a509cd-7164-4e0d-934a-33162f27e622.png -o D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\22\22a509cd-7164-4e0d-934a-33162f27e622.pvr -squarecanvas + -potcanvas + -q pvrtcfast -f PVRTC1_4_RGB,UBN,lRGB
+18.03.2025 15:09:50 - log: [compress pvrtc]Compressing...Saved texture to D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\d5\d5fc1acd-3841-4205-86a4-cc9d4f150b67.pvr
+18.03.2025 15:09:50 - debug(2): [compress pvrtc]Child process exit width code 0
+18.03.2025 15:09:50 - log: compress pvrtc success {link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\d5\d5fc1acd-3841-4205-86a4-cc9d4f150b67.pvr)}
+18.03.2025 15:09:50 - debug: execute compress task 22/52, 7 in progress}, progress: 26%
+18.03.2025 15:09:50 - debug: start compress astcD:\Cocos\work\CocosSolitaireCreative\library\26\26070fdd-87ea-4f33-b4b5-039186c01fe7.pngD:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\26\26070fdd-87ea-4f33-b4b5-039186c01fe7.astcastc_8x8
+18.03.2025 15:09:50 - debug: astc compressed command: astcenc.exe -cl D:\Cocos\work\CocosSolitaireCreative\library\26\26070fdd-87ea-4f33-b4b5-039186c01fe7.png D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\26\26070fdd-87ea-4f33-b4b5-039186c01fe7.astc 8x8 -medium
+18.03.2025 15:09:50 - log: [compress pvrtc]Compressing...Saved texture to D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\79\797b35fb-1af5-4524-8683-1b7589b7d443.pvr
+18.03.2025 15:09:50 - debug(2): [compress pvrtc]Child process exit width code 0
+18.03.2025 15:09:50 - log: compress pvrtc success {link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\79\797b35fb-1af5-4524-8683-1b7589b7d443.pvr)}
+18.03.2025 15:09:50 - debug: execute compress task 23/52, 7 in progress}, progress: 26%
+18.03.2025 15:09:50 - log: [compress pvrtc]Compressing...Saved texture to D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\c7\c7fdad19-7aa5-4fe3-a781-4c3868ccd1a4.pvr
+18.03.2025 15:09:50 - debug(2): [compress pvrtc]Child process exit width code 0
+18.03.2025 15:09:50 - log: compress pvrtc success {link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\c7\c7fdad19-7aa5-4fe3-a781-4c3868ccd1a4.pvr)}
+18.03.2025 15:09:50 - debug: execute compress task 24/52, 7 in progress}, progress: 26%
+18.03.2025 15:09:50 - log: [compress astc]Source image============    Source:                     D:\Cocos\work\CocosSolitaireCreative\library\26\26070fdd-87ea-4f33-b4b5-039186c01fe7.png    Color profile:              LDR    Dimensions:                 2D, 695x105    Components:                 4Compressor settings===================    Color profile:              LDR linear    Block size:                 8x8    Bitrate:                    2.00 bpp    RGB alpha scale weight:     0    R component weight:         1    G component weight:         1    B component weight:         1    A component weight:         1    Partition cutoff:           3 partitions    2 partition index cutoff:   34 partition ids    3 partition index cutoff:   28 partition ids    4 partition index cutoff:   16 partition ids    PSNR cutoff:                35.6826 dB    3 partition cutoff:         1.1    4 partition cutoff:         1.05    2 plane correlation cutoff: 0.9    Block mode centile cutoff:  77%    Candidate cutoff:           3 candidates    Refinement cutoff:          3 iterations    Compressor thread count:    12Performance metrics===================    Total time:                  0.0114 s    Coding time:                 0.0060 s    Coding rate:                12.1268 MT/s
+18.03.2025 15:09:50 - debug(2): [compress astc]Child process exit width code 0
+18.03.2025 15:09:50 - log: Compress astc success {link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\26\26070fdd-87ea-4f33-b4b5-039186c01fe7.astc)}
+18.03.2025 15:09:50 - debug: execute compress task 25/52, 7 in progress}, progress: 26%
+18.03.2025 15:09:50 - debug: execute compress task 26/52, 7 in progress}, progress: 26%
+18.03.2025 15:09:50 - debug: start compress astcD:\Cocos\work\CocosSolitaireCreative\library\d5\d5fc1acd-3841-4205-86a4-cc9d4f150b67.pngD:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\d5\d5fc1acd-3841-4205-86a4-cc9d4f150b67.astcastc_8x8
+18.03.2025 15:09:50 - debug: astc compressed command: astcenc.exe -cl D:\Cocos\work\CocosSolitaireCreative\library\d5\d5fc1acd-3841-4205-86a4-cc9d4f150b67.png D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\d5\d5fc1acd-3841-4205-86a4-cc9d4f150b67.astc 8x8 -medium
+18.03.2025 15:09:50 - log: [compress pvrtc]Compressing...Saved texture to D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\fb\fb4f930a-5251-42e3-8e74-3c6832d9ddfe.pvr
+18.03.2025 15:09:50 - debug(2): [compress pvrtc]Child process exit width code 0
+18.03.2025 15:09:50 - log: compress pvrtc success {link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\fb\fb4f930a-5251-42e3-8e74-3c6832d9ddfe.pvr)}
+18.03.2025 15:09:50 - debug: execute compress task 28/52, 6 in progress}, progress: 26%
+18.03.2025 15:09:50 - log: [compress etc][malitc-4]Compression time: 53 ms
+18.03.2025 15:09:50 - log: [compress etc][malitc-5]RMSE: 4.17599[malitc-6]PSNR: 40.4868[malitc-7]Perceptually weighted RMSE: 3.93526[malitc-8]Perceptual PSNR: 41.0026
+18.03.2025 15:09:50 - debug(2): [compress etc]Child process exit width code 0
+18.03.2025 15:09:50 - log: compress etc success {link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\17\17baa3e8-8c49-42d7-b116-681adfea90b3.pkm)}
+18.03.2025 15:09:50 - debug: execute compress task 29/52, 6 in progress}, progress: 26%
+18.03.2025 15:09:50 - debug: start compress etcD:\Cocos\work\CocosSolitaireCreative\library\26\26070fdd-87ea-4f33-b4b5-039186c01fe7.pngD:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\26\26070fdd-87ea-4f33-b4b5-039186c01fe7.pkmetc1_rgb
+18.03.2025 15:09:50 - debug: etc compress command :  .\etcpack.exe D:\Cocos\work\CocosSolitaireCreative\library\26\26070fdd-87ea-4f33-b4b5-039186c01fe7.png D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\26 -c etc1 -s fast
+18.03.2025 15:09:50 - log: [compress astc]Source image============    Source:                     D:\Cocos\work\CocosSolitaireCreative\library\d5\d5fc1acd-3841-4205-86a4-cc9d4f150b67.png    Color profile:              LDR    Dimensions:                 2D, 517x231    Components:                 4Compressor settings===================    Color profile:              LDR linear    Block size:                 8x8    Bitrate:                    2.00 bpp    RGB alpha scale weight:     0    R component weight:         1    G component weight:         1    B component weight:         1    A component weight:         1    Partition cutoff:           3 partitions    2 partition index cutoff:   34 partition ids    3 partition index cutoff:   28 partition ids    4 partition index cutoff:   16 partition ids    PSNR cutoff:                35.6826 dB    3 partition cutoff:         1.1    4 partition cutoff:         1.05    2 plane correlation cutoff: 0.9    Block mode centile cutoff:  77%    Candidate cutoff:           3 candidates    Refinement cutoff:          3 iterations    Compressor thread count:    12Performance metrics===================    Total time:                  0.0387 s    Coding time:                 0.0328 s    Coding rate:                 3.6370 MT/s
+18.03.2025 15:09:50 - debug: [compress astc]Child process exit width code 0
+18.03.2025 15:09:50 - log: Compress astc success {link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\d5\d5fc1acd-3841-4205-86a4-cc9d4f150b67.astc)}
+18.03.2025 15:09:50 - debug: execute compress task 30/52, 6 in progress}, progress: 26%
+18.03.2025 15:09:50 - debug: [compress astc]Child process exit width code 0
+18.03.2025 15:09:50 - debug: start compress astcD:\Cocos\work\CocosSolitaireCreative\library\c7\c7fdad19-7aa5-4fe3-a781-4c3868ccd1a4.pngD:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\c7\c7fdad19-7aa5-4fe3-a781-4c3868ccd1a4.astcastc_8x8
+18.03.2025 15:09:50 - debug: astc compressed command: astcenc.exe -cl D:\Cocos\work\CocosSolitaireCreative\library\c7\c7fdad19-7aa5-4fe3-a781-4c3868ccd1a4.png D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\c7\c7fdad19-7aa5-4fe3-a781-4c3868ccd1a4.astc 8x8 -medium
+18.03.2025 15:09:50 - log: [compress pvrtc]Compressing...Saved texture to D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\22\22a509cd-7164-4e0d-934a-33162f27e622.pvr
+18.03.2025 15:09:50 - debug: [compress pvrtc]Child process exit width code 0
+18.03.2025 15:09:50 - log: compress pvrtc success {link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\22\22a509cd-7164-4e0d-934a-33162f27e622.pvr)}
+18.03.2025 15:09:50 - debug: execute compress task 31/52, 6 in progress}, progress: 26%
+18.03.2025 15:09:50 - debug: [compress pvrtc]Child process exit width code 0
+18.03.2025 15:09:50 - debug: execute compress task 32/52, 6 in progress}, progress: 26%
+18.03.2025 15:09:50 - log: [compress etc][malitc-1]Compressing. Output file: D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\26\26070fdd-87ea-4f33-b4b5-039186c01fe7.pkm
+18.03.2025 15:09:50 - log: [compress astc]Source image============    Source:                     D:\Cocos\work\CocosSolitaireCreative\library\c7\c7fdad19-7aa5-4fe3-a781-4c3868ccd1a4.png    Color profile:              LDR    Dimensions:                 2D, 706x190    Components:                 4Compressor settings===================    Color profile:              LDR linear    Block size:                 8x8    Bitrate:                    2.00 bpp    RGB alpha scale weight:     0    R component weight:         1    G component weight:         1    B component weight:         1    A component weight:         1    Partition cutoff:           3 partitions    2 partition index cutoff:   34 partition ids    3 partition index cutoff:   28 partition ids    4 partition index cutoff:   16 partition ids    PSNR cutoff:                35.6826 dB    3 partition cutoff:         1.1    4 partition cutoff:         1.05    2 plane correlation cutoff: 0.9    Block mode centile cutoff:  77%    Candidate cutoff:           3 candidates    Refinement cutoff:          3 iterations    Compressor thread count:    12Performance metrics===================    Total time:                  0.0224 s    Coding time:                 0.0170 s    Coding rate:                 7.9056 MT/s
+18.03.2025 15:09:50 - debug(2): [compress astc]Child process exit width code 0
+18.03.2025 15:09:50 - log: Compress astc success {link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\c7\c7fdad19-7aa5-4fe3-a781-4c3868ccd1a4.astc)}
+18.03.2025 15:09:50 - log: [compress etc][malitc-4]Compression time: 2 ms
+18.03.2025 15:09:50 - log: [compress etc][malitc-5]RMSE: 3.42467[malitc-6]PSNR: 42.2096[malitc-7]Perceptually weighted RMSE: 3.39555[malitc-8]Perceptual PSNR: 42.2838
+18.03.2025 15:09:50 - debug(2): [compress etc]Child process exit width code 0
+18.03.2025 15:09:50 - log: compress etc success {link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\26\26070fdd-87ea-4f33-b4b5-039186c01fe7.pkm)}
+18.03.2025 15:09:50 - debug: execute compress task 35/52, 4 in progress}, progress: 26%
+18.03.2025 15:09:50 - debug: start compress etcD:\Cocos\work\CocosSolitaireCreative\library\38\3822d17d-6024-4998-aaf9-448ba294e7d8.pngD:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\38\3822d17d-6024-4998-aaf9-448ba294e7d8.pkmetc1_rgb
+18.03.2025 15:09:50 - debug: etc compress command :  .\etcpack.exe D:\Cocos\work\CocosSolitaireCreative\library\38\3822d17d-6024-4998-aaf9-448ba294e7d8.png D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\38 -c etc1 -s fast
+18.03.2025 15:09:50 - log: [compress etc][malitc-1]Compressing. Output file: D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\38\3822d17d-6024-4998-aaf9-448ba294e7d8.pkm
+18.03.2025 15:09:50 - debug: execute compress task 36/52, 4 in progress}, progress: 26%
+18.03.2025 15:09:50 - debug: start compress astcD:\Cocos\work\CocosSolitaireCreative\library\fb\fb4f930a-5251-42e3-8e74-3c6832d9ddfe.pngD:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\fb\fb4f930a-5251-42e3-8e74-3c6832d9ddfe.astcastc_8x8
+18.03.2025 15:09:50 - debug: astc compressed command: astcenc.exe -cl D:\Cocos\work\CocosSolitaireCreative\library\fb\fb4f930a-5251-42e3-8e74-3c6832d9ddfe.png D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\fb\fb4f930a-5251-42e3-8e74-3c6832d9ddfe.astc 8x8 -medium
+18.03.2025 15:09:51 - log: [compress astc]Source image============    Source:                     D:\Cocos\work\CocosSolitaireCreative\library\fb\fb4f930a-5251-42e3-8e74-3c6832d9ddfe.png    Color profile:              LDR    Dimensions:                 2D, 997x655    Components:                 4Compressor settings===================    Color profile:              LDR linear    Block size:                 8x8    Bitrate:                    2.00 bpp    RGB alpha scale weight:     0    R component weight:         1    G component weight:         1    B component weight:         1    A component weight:         1    Partition cutoff:           3 partitions    2 partition index cutoff:   34 partition ids    3 partition index cutoff:   28 partition ids    4 partition index cutoff:   16 partition ids    PSNR cutoff:                35.6826 dB    3 partition cutoff:         1.1    4 partition cutoff:         1.05    2 plane correlation cutoff: 0.9    Block mode centile cutoff:  77%    Candidate cutoff:           3 candidates    Refinement cutoff:          3 iterations    Compressor thread count:    12Performance metrics===================    Total time:                  0.0802 s    Coding time:                 0.0701 s    Coding rate:                 9.3093 MT/s
+18.03.2025 15:09:51 - debug(2): [compress astc]Child process exit width code 0
+18.03.2025 15:09:51 - log: Compress astc success {link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\fb\fb4f930a-5251-42e3-8e74-3c6832d9ddfe.astc)}
+18.03.2025 15:09:51 - log: [compress etc][malitc-4]Compression time: 142 ms
+18.03.2025 15:09:51 - log: [compress etc][malitc-5]RMSE: 31.4678[malitc-6]PSNR: 22.9447[malitc-7]Perceptually weighted RMSE: 26.1163[malitc-8]Perceptual PSNR: 24.5638
+18.03.2025 15:09:51 - debug(2): [compress etc]Child process exit width code 0
+18.03.2025 15:09:51 - log: compress etc success {link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\38\3822d17d-6024-4998-aaf9-448ba294e7d8.pkm)}
+18.03.2025 15:09:51 - debug: execute compress task 38/52, 3 in progress}, progress: 26%
+18.03.2025 15:09:51 - debug: start compress etcD:\Cocos\work\CocosSolitaireCreative\library\4d\4d7666f6-f37f-4eb8-bf14-5b12c8a59f6e.pngD:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\4d\4d7666f6-f37f-4eb8-bf14-5b12c8a59f6e.pkmetc1_rgb
+18.03.2025 15:09:51 - debug: etc compress command :  .\etcpack.exe D:\Cocos\work\CocosSolitaireCreative\library\4d\4d7666f6-f37f-4eb8-bf14-5b12c8a59f6e.png D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\4d -c etc1 -s fast
+18.03.2025 15:09:51 - log: [compress etc][malitc-1]Compressing. Output file: D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\4d\4d7666f6-f37f-4eb8-bf14-5b12c8a59f6e.pkm
+18.03.2025 15:09:51 - log: [compress etc][malitc-4]Compression time: 82 ms
+18.03.2025 15:09:51 - log: [compress etc][malitc-5]RMSE: 30.9806[malitc-6]PSNR: 23.0802[malitc-7]Perceptually weighted RMSE: 26.6341[malitc-8]Perceptual PSNR: 24.3932
+18.03.2025 15:09:51 - debug(2): [compress etc]Child process exit width code 0
+18.03.2025 15:09:51 - log: compress etc success {link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\4d\4d7666f6-f37f-4eb8-bf14-5b12c8a59f6e.pkm)}
+18.03.2025 15:09:51 - debug: execute compress task 39/52, 3 in progress}, progress: 26%
+18.03.2025 15:09:51 - debug: start compress etcD:\Cocos\work\CocosSolitaireCreative\library\aa\aa88f858-6a7c-4e50-85df-16dbaa991162.pngD:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\aa\aa88f858-6a7c-4e50-85df-16dbaa991162.pkmetc1_rgb
+18.03.2025 15:09:51 - debug: etc compress command :  .\etcpack.exe D:\Cocos\work\CocosSolitaireCreative\library\aa\aa88f858-6a7c-4e50-85df-16dbaa991162.png D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\aa -c etc1 -s fast
+18.03.2025 15:09:51 - log: [compress etc][malitc-1]Compressing. Output file: D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\aa\aa88f858-6a7c-4e50-85df-16dbaa991162.pkm
+18.03.2025 15:09:51 - log: [compress etc][malitc-4]Compression time: 41 ms
+18.03.2025 15:09:51 - log: [compress etc][malitc-5]RMSE: 8.51014[malitc-6]PSNR: 34.3033[malitc-7]Perceptually weighted RMSE: 7.66227[malitc-8]Perceptual PSNR: 35.2149
+18.03.2025 15:09:51 - debug(2): [compress etc]Child process exit width code 0
+18.03.2025 15:09:51 - log: compress etc success {link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\aa\aa88f858-6a7c-4e50-85df-16dbaa991162.pkm)}
+18.03.2025 15:09:51 - debug: execute compress task 40/52, 3 in progress}, progress: 26%
+18.03.2025 15:09:51 - debug: start compress etcD:\Cocos\work\CocosSolitaireCreative\library\c7\c7fdad19-7aa5-4fe3-a781-4c3868ccd1a4.pngD:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\c7\c7fdad19-7aa5-4fe3-a781-4c3868ccd1a4.pkmetc1_rgb
+18.03.2025 15:09:51 - debug: etc compress command :  .\etcpack.exe D:\Cocos\work\CocosSolitaireCreative\library\c7\c7fdad19-7aa5-4fe3-a781-4c3868ccd1a4.png D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\c7 -c etc1 -s fast
+18.03.2025 15:09:51 - log: [compress etc][malitc-1]Compressing. Output file: D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\c7\c7fdad19-7aa5-4fe3-a781-4c3868ccd1a4.pkm
+18.03.2025 15:09:51 - log: [compress etc][malitc-4]Compression time: 120 ms
+18.03.2025 15:09:51 - debug: execute compress task 41/52, 3 in progress}, progress: 26%
+18.03.2025 15:09:51 - debug: start compress astcD:\Cocos\work\CocosSolitaireCreative\library\79\797b35fb-1af5-4524-8683-1b7589b7d443.pngD:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\79\797b35fb-1af5-4524-8683-1b7589b7d443.astcastc_8x8
+18.03.2025 15:09:51 - debug: astc compressed command: astcenc.exe -cl D:\Cocos\work\CocosSolitaireCreative\library\79\797b35fb-1af5-4524-8683-1b7589b7d443.png D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\79\797b35fb-1af5-4524-8683-1b7589b7d443.astc 8x8 -medium
+18.03.2025 15:09:51 - log: [compress etc][malitc-5]RMSE: 8.68124[malitc-6]PSNR: 34.1304[malitc-7]Perceptually weighted RMSE: 7.80834[malitc-8]Perceptual PSNR: 35.0508
+18.03.2025 15:09:51 - debug: [compress etc]Child process exit width code 0
+18.03.2025 15:09:51 - log: compress etc success {link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\c7\c7fdad19-7aa5-4fe3-a781-4c3868ccd1a4.pkm)}
+18.03.2025 15:09:51 - debug: execute compress task 42/52, 3 in progress}, progress: 26%
+18.03.2025 15:09:51 - debug: [compress etc]Child process exit width code 0
+18.03.2025 15:09:51 - debug: start compress etcD:\Cocos\work\CocosSolitaireCreative\library\d5\d5fc1acd-3841-4205-86a4-cc9d4f150b67.pngD:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\d5\d5fc1acd-3841-4205-86a4-cc9d4f150b67.pkmetc1_rgb
+18.03.2025 15:09:51 - debug: etc compress command :  .\etcpack.exe D:\Cocos\work\CocosSolitaireCreative\library\d5\d5fc1acd-3841-4205-86a4-cc9d4f150b67.png D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\d5 -c etc1 -s fast
+18.03.2025 15:09:51 - log: [compress etc][malitc-1]Compressing. Output file: D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\d5\d5fc1acd-3841-4205-86a4-cc9d4f150b67.pkm
+18.03.2025 15:09:51 - log: [compress astc]Source image============    Source:                     D:\Cocos\work\CocosSolitaireCreative\library\79\797b35fb-1af5-4524-8683-1b7589b7d443.png    Color profile:              LDR    Dimensions:                 2D, 964x540    Components:                 4Compressor settings===================    Color profile:              LDR linear    Block size:                 8x8    Bitrate:                    2.00 bpp    RGB alpha scale weight:     0    R component weight:         1    G component weight:         1    B component weight:         1    A component weight:         1    Partition cutoff:           3 partitions    2 partition index cutoff:   34 partition ids    3 partition index cutoff:   28 partition ids    4 partition index cutoff:   16 partition ids    PSNR cutoff:                35.6826 dB    3 partition cutoff:         1.1    4 partition cutoff:         1.05    2 plane correlation cutoff: 0.9    Block mode centile cutoff:  77%    Candidate cutoff:           3 candidates    Refinement cutoff:          3 iterations    Compressor thread count:    12Performance metrics===================    Total time:                  0.0618 s    Coding time:                 0.0471 s    Coding rate:                11.0509 MT/s
+18.03.2025 15:09:51 - debug(2): [compress astc]Child process exit width code 0
+18.03.2025 15:09:51 - log: Compress astc success {link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\79\797b35fb-1af5-4524-8683-1b7589b7d443.astc)}
+18.03.2025 15:09:51 - log: [compress etc][malitc-4]Compression time: 118 ms
+18.03.2025 15:09:51 - log: [compress etc][malitc-5]RMSE: 28.98[malitc-6]PSNR: 23.66[malitc-7]Perceptually weighted RMSE: 25.6168[malitc-8]Perceptual PSNR: 24.7315
+18.03.2025 15:09:52 - debug(2): [compress etc]Child process exit width code 0
+18.03.2025 15:09:52 - log: compress etc success {link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\d5\d5fc1acd-3841-4205-86a4-cc9d4f150b67.pkm)}
+18.03.2025 15:09:52 - debug: execute compress task 44/52, 2 in progress}, progress: 26%
+18.03.2025 15:09:52 - debug: start compress etcD:\Cocos\work\CocosSolitaireCreative\library\79\797b35fb-1af5-4524-8683-1b7589b7d443.pngD:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\79\797b35fb-1af5-4524-8683-1b7589b7d443.pkmetc1_rgb
+18.03.2025 15:09:52 - debug: etc compress command :  .\etcpack.exe D:\Cocos\work\CocosSolitaireCreative\library\79\797b35fb-1af5-4524-8683-1b7589b7d443.png D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\79 -c etc1 -s fast
+18.03.2025 15:09:52 - log: [compress etc][malitc-1]Compressing. Output file: D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\79\797b35fb-1af5-4524-8683-1b7589b7d443.pkm
+18.03.2025 15:09:52 - log: [compress pvrtc]Compressing...Saved texture to D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\e6\e65b4630-c4d4-4a6c-9d7d-11197bf9b9af.pvr
+18.03.2025 15:09:52 - debug(2): [compress pvrtc]Child process exit width code 0
+18.03.2025 15:09:52 - log: compress pvrtc success {link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\e6\e65b4630-c4d4-4a6c-9d7d-11197bf9b9af.pvr)}
+18.03.2025 15:09:52 - debug: execute compress task 45/52, 2 in progress}, progress: 26%
+18.03.2025 15:09:52 - debug: start compress astcD:\Cocos\work\CocosSolitaireCreative\library\e6\e65b4630-c4d4-4a6c-9d7d-11197bf9b9af.pngD:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\e6\e65b4630-c4d4-4a6c-9d7d-11197bf9b9af.astcastc_8x8
+18.03.2025 15:09:52 - debug: astc compressed command: astcenc.exe -cl D:\Cocos\work\CocosSolitaireCreative\library\e6\e65b4630-c4d4-4a6c-9d7d-11197bf9b9af.png D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\e6\e65b4630-c4d4-4a6c-9d7d-11197bf9b9af.astc 8x8 -medium
+18.03.2025 15:09:52 - log: [compress astc]Source image============    Source:                     D:\Cocos\work\CocosSolitaireCreative\library\e6\e65b4630-c4d4-4a6c-9d7d-11197bf9b9af.png    Color profile:              LDR    Dimensions:                 2D, 1920x105    Components:                 4Compressor settings===================    Color profile:              LDR linear    Block size:                 8x8    Bitrate:                    2.00 bpp    RGB alpha scale weight:     0    R component weight:         1    G component weight:         1    B component weight:         1    A component weight:         1    Partition cutoff:           3 partitions    2 partition index cutoff:   34 partition ids    3 partition index cutoff:   28 partition ids    4 partition index cutoff:   16 partition ids    PSNR cutoff:                35.6826 dB    3 partition cutoff:         1.1    4 partition cutoff:         1.05    2 plane correlation cutoff: 0.9    Block mode centile cutoff:  77%    Candidate cutoff:           3 candidates    Refinement cutoff:          3 iterations    Compressor thread count:    12Performance metrics===================    Total time:                  0.0045 s    Coding time:                 0.0008 s    Coding rate:               255.9236 MT/s
+18.03.2025 15:09:52 - debug(2): [compress astc]Child process exit width code 0
+18.03.2025 15:09:52 - log: Compress astc success {link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\e6\e65b4630-c4d4-4a6c-9d7d-11197bf9b9af.astc)}
+18.03.2025 15:09:52 - debug: execute compress task 46/52, 2 in progress}, progress: 26%
+18.03.2025 15:09:52 - log: [compress etc][malitc-4]Compression time: 626 ms
+18.03.2025 15:09:52 - log: [compress etc][malitc-5]RMSE: 5.45487[malitc-6]PSNR: 38.1663[malitc-7]Perceptually weighted RMSE: 4.75147[malitc-8]Perceptual PSNR: 39.3655
+18.03.2025 15:09:52 - debug(2): [compress etc]Child process exit width code 0
+18.03.2025 15:09:52 - log: compress etc success {link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\79\797b35fb-1af5-4524-8683-1b7589b7d443.pkm)}
+18.03.2025 15:09:52 - debug: execute compress task 48/52, 1 in progress}, progress: 26%
+18.03.2025 15:09:52 - debug: start compress etcD:\Cocos\work\CocosSolitaireCreative\library\e2\e231b14e-adfa-4f5e-aeeb-769161fb5653.pngD:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\e2\e231b14e-adfa-4f5e-aeeb-769161fb5653.pkmetc1_rgb
+18.03.2025 15:09:52 - debug: etc compress command :  .\etcpack.exe D:\Cocos\work\CocosSolitaireCreative\library\e2\e231b14e-adfa-4f5e-aeeb-769161fb5653.png D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\e2 -c etc1 -s fast
+18.03.2025 15:09:52 - log: [compress etc][malitc-1]Compressing. Output file: D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\e2\e231b14e-adfa-4f5e-aeeb-769161fb5653.pkm
+18.03.2025 15:09:52 - log: [compress etc][malitc-4]Compression time: 21 ms
+18.03.2025 15:09:52 - log: [compress etc][malitc-5]RMSE: 6.83755[malitc-6]PSNR: 36.204[malitc-7]Perceptually weighted RMSE: 6.37453[malitc-8]Perceptual PSNR: 36.813
+18.03.2025 15:09:52 - debug(2): [compress etc]Child process exit width code 0
+18.03.2025 15:09:52 - log: compress etc success {link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\e2\e231b14e-adfa-4f5e-aeeb-769161fb5653.pkm)}
+18.03.2025 15:09:52 - debug: execute compress task 49/52, 1 in progress}, progress: 26%
+18.03.2025 15:09:52 - debug: start compress etcD:\Cocos\work\CocosSolitaireCreative\library\e6\e65b4630-c4d4-4a6c-9d7d-11197bf9b9af.pngD:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\e6\e65b4630-c4d4-4a6c-9d7d-11197bf9b9af.pkmetc1_rgb
+18.03.2025 15:09:52 - debug: etc compress command :  .\etcpack.exe D:\Cocos\work\CocosSolitaireCreative\library\e6\e65b4630-c4d4-4a6c-9d7d-11197bf9b9af.png D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\e6 -c etc1 -s fast
+18.03.2025 15:09:52 - log: [compress etc][malitc-1]Compressing. Output file: D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\e6\e65b4630-c4d4-4a6c-9d7d-11197bf9b9af.pkm
+18.03.2025 15:09:53 - log: [compress etc][malitc-4]Compression time: 1 ms
+18.03.2025 15:09:53 - log: [compress etc][malitc-5]RMSE: 3.31662[malitc-6]PSNR: 42.4881[malitc-7]Perceptually weighted RMSE: 3.18998[malitc-8]Perceptual PSNR: 42.8262
+18.03.2025 15:09:53 - debug(2): [compress etc]Child process exit width code 0
+18.03.2025 15:09:53 - log: compress etc success {link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\e6\e65b4630-c4d4-4a6c-9d7d-11197bf9b9af.pkm)}
+18.03.2025 15:09:53 - debug: execute compress task 50/52, 1 in progress}, progress: 26%
+18.03.2025 15:09:53 - debug: start compress etcD:\Cocos\work\CocosSolitaireCreative\library\f1\f15eae12-5007-44d5-893b-d7ee6b208441.pngD:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\f1\f15eae12-5007-44d5-893b-d7ee6b208441.pkmetc1_rgb
+18.03.2025 15:09:53 - debug: etc compress command :  .\etcpack.exe D:\Cocos\work\CocosSolitaireCreative\library\f1\f15eae12-5007-44d5-893b-d7ee6b208441.png D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\f1 -c etc1 -s fast
+18.03.2025 15:09:53 - log: [compress etc][malitc-1]Compressing. Output file: D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\f1\f15eae12-5007-44d5-893b-d7ee6b208441.pkm
+18.03.2025 15:09:53 - log: [compress etc][malitc-4]Compression time: 0 ms
+18.03.2025 15:09:53 - log: [compress etc][malitc-5]RMSE: 0[malitc-9]PSNR: infinite[malitc-7]Perceptually weighted RMSE: 0[malitc-10]Perceptual PSNR: infinite
+18.03.2025 15:09:53 - debug(2): [compress etc]Child process exit width code 0
+18.03.2025 15:09:53 - log: compress etc success {link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\f1\f15eae12-5007-44d5-893b-d7ee6b208441.pkm)}
+18.03.2025 15:09:53 - debug: execute compress task 51/52, 1 in progress}, progress: 26%
+18.03.2025 15:09:53 - debug: start compress etcD:\Cocos\work\CocosSolitaireCreative\library\fb\fb4f930a-5251-42e3-8e74-3c6832d9ddfe.pngD:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\fb\fb4f930a-5251-42e3-8e74-3c6832d9ddfe.pkmetc1_rgb
+18.03.2025 15:09:53 - debug: etc compress command :  .\etcpack.exe D:\Cocos\work\CocosSolitaireCreative\library\fb\fb4f930a-5251-42e3-8e74-3c6832d9ddfe.png D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\fb -c etc1 -s fast
+18.03.2025 15:09:53 - log: [compress etc][malitc-1]Compressing. Output file: D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\fb\fb4f930a-5251-42e3-8e74-3c6832d9ddfe.pkm
+18.03.2025 15:09:53 - log: [compress etc][malitc-4]Compression time: 343 ms
+18.03.2025 15:09:53 - log: [compress etc][malitc-5]RMSE: 6.91065[malitc-6]PSNR: 36.1116[malitc-7]Perceptually weighted RMSE: 6.43581[malitc-8]Perceptual PSNR: 36.73
+18.03.2025 15:09:53 - debug(2): [compress etc]Child process exit width code 0
+18.03.2025 15:09:53 - log: compress etc success {link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\fb\fb4f930a-5251-42e3-8e74-3c6832d9ddfe.pkm)}
+18.03.2025 15:09:53 - debug: builder:compress-texture (4853ms)
+18.03.2025 15:09:53 - debug: builder:compress-texture: 4 s
+18.03.2025 15:09:53 - groupEnd: Compress image...
+18.03.2025 15:09:53 - debug: Num of sorted image asset: 13
+18.03.2025 15:09:53 - debug: Compress image success..., progress: 26%
+18.03.2025 15:09:53 - debug: Ouput asset in bundles start, progress: 26%
+18.03.2025 15:09:53 - debug: Handle all json groups in bundle internal
+18.03.2025 15:09:53 - debug: handle json group
+18.03.2025 15:09:53 - debug: Handle all json groups in bundle resources
+18.03.2025 15:09:53 - debug: handle json group
+18.03.2025 15:09:53 - debug: handle single json
+18.03.2025 15:09:53 - debug: Handle all json groups in bundle main
+18.03.2025 15:09:53 - debug: handle json group
+18.03.2025 15:09:53 - debug: Json group(0bf163ab4) compile success，json number: 6
+18.03.2025 15:09:53 - debug: Json group(08518ba99) compile success，json number: 6
+18.03.2025 15:09:53 - debug: Json group(0f172f1da) compile success，json number: 6
+18.03.2025 15:09:53 - debug: Json group(07d7de1c0) compile success，json number: 6
+18.03.2025 15:09:53 - debug: Json group(0f624205f) compile success，json number: 6
+18.03.2025 15:09:53 - debug: handle single json
+18.03.2025 15:09:53 - debug: Json group(04e49d1b5) compile success，json number: 6
+18.03.2025 15:09:53 - debug: handle single json
+18.03.2025 15:09:53 - debug: Output asset in bundles success, progress: 26%
+18.03.2025 15:09:53 - debug: // ---- build task Build Assets ---- (5153ms)
+18.03.2025 15:09:53 - debug: run build task Build Assets success in 5 s√, progress: 31%
+18.03.2025 15:09:53 - debug: [Build Memory track]: Build Assets start:262.80MB, end 216.62MB, increase: -47289.67KB
+18.03.2025 15:09:53 - debug: Add md5 suffix to assets start, progress: 31%
+18.03.2025 15:09:53 - debug: // ---- build task Add md5 suffix to assets ----
+18.03.2025 15:09:53 - debug: // ---- build task Add md5 suffix to assets ---- (29ms)
+18.03.2025 15:09:53 - debug: run build task Add md5 suffix to assets success in 29 ms√, progress: 36%
+18.03.2025 15:09:53 - debug: [Build Memory track]: Add md5 suffix to assets start:216.70MB, end 216.76MB, increase: 62.32KB
+18.03.2025 15:09:53 - debug: Query asset bundle start, progress: 36%
+18.03.2025 15:09:53 - debug: // ---- build task Query asset bundle ----
+18.03.2025 15:09:53 - debug: Output asset in bundles start, progress: 36%
+18.03.2025 15:09:53 - debug: compress config of bundle internal...
+18.03.2025 15:09:53 - debug: compress config of bundle internal success
+18.03.2025 15:09:53 - debug: compress config of bundle resources...
+18.03.2025 15:09:53 - debug: compress config of bundle resources success
+18.03.2025 15:09:53 - debug: compress config of bundle main...
+18.03.2025 15:09:53 - debug: compress config of bundle main success
+18.03.2025 15:09:53 - debug: ouput config of bundle internal
+18.03.2025 15:09:53 - debug: output config of bundle internal success
+18.03.2025 15:09:53 - debug: ouput config of bundle resources
+18.03.2025 15:09:53 - debug: output config of bundle resources success
+18.03.2025 15:09:53 - debug: ouput config of bundle main
+18.03.2025 15:09:53 - debug: output config of bundle main success
+18.03.2025 15:09:53 - debug: Output asset in bundles success, progress: 36%
+18.03.2025 15:09:53 - debug: // ---- build task Query asset bundle ---- (65ms)
+18.03.2025 15:09:53 - debug: run build task Query asset bundle success in 65 ms√, progress: 41%
+18.03.2025 15:09:53 - debug: [Build Memory track]: Query asset bundle start:216.78MB, end 217.13MB, increase: 358.38KB
+18.03.2025 15:09:53 - debug: Sort some build options to settings.json start, progress: 41%
+18.03.2025 15:09:53 - debug: // ---- build task Sort some build options to settings.json ----
+18.03.2025 15:09:53 - debug: // ---- build task Sort some build options to settings.json ---- (33ms)
+18.03.2025 15:09:53 - debug: run build task Sort some build options to settings.json success in 33 ms√, progress: 43%
+18.03.2025 15:09:53 - debug: [Build Memory track]: Sort some build options to settings.json start:217.15MB, end 217.21MB, increase: 60.81KB
+18.03.2025 15:09:53 - debug: Fill script data to settings start, progress: 43%
+18.03.2025 15:09:53 - debug: // ---- build task Fill script data to settings ----
+18.03.2025 15:09:54 - debug: // ---- build task Fill script data to settings ---- (32ms)
+18.03.2025 15:09:54 - debug: run build task Fill script data to settings success in 32 ms√, progress: 44%
+18.03.2025 15:09:54 - debug: [Build Memory track]: Fill script data to settings start:217.22MB, end 217.28MB, increase: 61.99KB
+18.03.2025 15:09:54 - debug: Sort some build options to settings.json start, progress: 44%
+18.03.2025 15:09:54 - debug: // ---- build task Sort some build options to settings.json ----
+18.03.2025 15:09:55 - debug: // ---- build task Sort some build options to settings.json ---- (1125ms)
+18.03.2025 15:09:55 - debug: run build task Sort some build options to settings.json success in 1 s√, progress: 46%
+18.03.2025 15:09:55 - debug: [Build Memory track]: Sort some build options to settings.json start:217.30MB, end 217.44MB, increase: 146.66KB
+18.03.2025 15:09:55 - debug: web-mobile:(onBeforeCompressSettings) start..., progress: 46%
+18.03.2025 15:09:55 - debug: // ---- build task web-mobile：onBeforeCompressSettings ----
+18.03.2025 15:09:55 - debug: // ---- build task web-mobile：onBeforeCompressSettings ---- (29ms)
+18.03.2025 15:09:55 - debug: web-mobile:(onBeforeCompressSettings) in 29 ms ✓, progress: 48%
+18.03.2025 15:09:55 - debug: cocos-service:(onBeforeCompressSettings) start..., progress: 48%
+18.03.2025 15:09:55 - debug: // ---- build task cocos-service：onBeforeCompressSettings ----
+18.03.2025 15:09:55 - debug: // ---- build task cocos-service：onBeforeCompressSettings ---- (644ms)
+18.03.2025 15:09:55 - debug: cocos-service:(onBeforeCompressSettings) in 644 ms ✓, progress: 51%
+18.03.2025 15:09:55 - debug: Save Settings.json start, progress: 51%
+18.03.2025 15:09:55 - debug: // ---- build task Save Settings.json ----
+18.03.2025 15:09:55 - debug: // ---- build task Save Settings.json ---- (27ms)
+18.03.2025 15:09:55 - debug: run build task Save Settings.json success in 27 ms√, progress: 53%
+18.03.2025 15:09:55 - debug: [Build Memory track]: Save Settings.json start:217.65MB, end 217.72MB, increase: 69.39KB
+18.03.2025 15:09:55 - debug: Sort build template start, progress: 53%
+18.03.2025 15:09:55 - debug: // ---- build task Sort build template ----
+18.03.2025 15:09:55 - debug: // ---- build task Sort build template ---- (132ms)
+18.03.2025 15:09:55 - debug: run build task Sort build template success in 132 ms√, progress: 56%
+18.03.2025 15:09:55 - debug: [Build Memory track]: Sort build template start:217.73MB, end 219.22MB, increase: 1.49MB
+18.03.2025 15:09:55 - debug: cocos-service:(onAfterCompressSettings) start..., progress: 56%
+18.03.2025 15:09:55 - debug: // ---- build task cocos-service：onAfterCompressSettings ----
+18.03.2025 15:09:56 - debug: // ---- build task cocos-service：onAfterCompressSettings ---- (275ms)
+18.03.2025 15:09:56 - debug: cocos-service:(onAfterCompressSettings) in 275 ms ✓, progress: 58%
+18.03.2025 15:09:56 - debug: web-mobile:(onAfterBuild) start..., progress: 58%
+18.03.2025 15:09:56 - debug: // ---- build task web-mobile：onAfterBuild ----
+18.03.2025 15:09:56 - debug: // ---- build task web-mobile：onAfterBuild ---- (98ms)
+18.03.2025 15:09:56 - debug: web-mobile:(onAfterBuild) in 98 ms ✓, progress: 60%
+18.03.2025 15:09:56 - debug: cocos-service:(onAfterBuild) start..., progress: 60%
+18.03.2025 15:09:56 - debug: // ---- build task cocos-service：onAfterBuild ----
+18.03.2025 15:09:56 - debug: // ---- build task cocos-service：onAfterBuild ---- (298ms)
+18.03.2025 15:09:56 - debug: cocos-service:(onAfterBuild) in 298 ms ✓, progress: 62%
+18.03.2025 15:09:56 - debug: adsense-h5g-plugin:(onAfterBuild) start..., progress: 62%
+18.03.2025 15:09:56 - debug: // ---- build task adsense-h5g-plugin：onAfterBuild ----
+18.03.2025 15:09:56 - debug: // ---- build task adsense-h5g-plugin：onAfterBuild ---- (29ms)
+18.03.2025 15:09:56 - debug: adsense-h5g-plugin:(onAfterBuild) in 29 ms ✓, progress: 64%
+18.03.2025 15:09:56 - debug: super-html:(onAfterBuild) start..., progress: 64%
+18.03.2025 15:09:56 - debug: // ---- build task super-html：onAfterBuild ----
+18.03.2025 15:09:56 - log: super-html : -- start --
+18.03.2025 15:09:56 - log: super-html : engine version 3.8.2
+18.03.2025 15:09:58 - debug: // ---- build task super-html：onAfterBuild ---- (1817ms)
+18.03.2025 15:09:58 - debug: super-html:(onAfterBuild) in 1817 ms ✓, progress: 67%
+18.03.2025 15:09:58 - log: Asset DB is resume!
+18.03.2025 15:09:58 - debug: builder:build-project-total (20138ms)
+18.03.2025 15:09:58 - debug: build success in 20138!
+18.03.2025 15:09:58 - debug: [Build Memory track]: builder:build-project-total start:204.15MB, end 251.17MB, increase: 47.03MB
+18.03.2025 15:09:58 - debug: ================================ build Task (web-mobile) Finished in (20 s)ms ================================

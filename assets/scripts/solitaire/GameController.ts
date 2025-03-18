@@ -369,7 +369,6 @@ export default class GameController extends Component {
     let vec = new Vec3(30, 0, 0);
     let vec1 = new Vec3(-30, 0, 0);
 
-    // Анимация позиции узла
     tween(this.sentenceLabel.node)
         .to(0.3, { position: vec1 })
         .to(0.5, { position: this.endPosition.position })
@@ -384,7 +383,6 @@ export default class GameController extends Component {
         })
         .start();
 
-    // Анимация прозрачности
     tween(uiOpacity)
         .to(0.5, { opacity: 0 })
         .delay(0.6)
