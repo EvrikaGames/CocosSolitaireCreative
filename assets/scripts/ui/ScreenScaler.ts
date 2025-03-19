@@ -1,4 +1,6 @@
 import { _decorator, Component, Node, screen, Vec2, Vec3, view, ResolutionPolicy, Widget, Canvas } from 'cc';
+import { Letter } from '../solitaire/Letter';
+import Card from '../solitaire/Card';
 const { ccclass, property } = _decorator;
 
 @ccclass('ScreenScaler')
@@ -21,6 +23,9 @@ export class ScreenScaler extends Component {
 
     @property({type: Node})
     private iconWidget: Node = null;
+
+    @property(Node)
+    private hand: Node = null;
 
     @property({type: Node})
     private background: Node = null;
@@ -45,7 +50,7 @@ export class ScreenScaler extends Component {
     private originalCardContainerPosition: Vec3;
     private originalCompletedWordsContainerPosition: Vec3;
     private originalWordsContainerPosition: Vec3;
-
+    private originalHandPosition: Vec3;
 
     private originalPlayWidgetRight: number;
 
@@ -57,6 +62,7 @@ export class ScreenScaler extends Component {
         this.originalCardContainerPosition = this.cardContainer.getPosition();
         this.originalCompletedWordsContainerPosition = this.completedWordsContainer.getPosition();
         this.originalWordsContainerPosition = this.wordsContainer.getPosition();
+        this.originalHandPosition = this.hand.getPosition();
 
 
         this.originalLetterContainerScale = this.letterContainer.getScale().clone();
@@ -86,12 +92,18 @@ export class ScreenScaler extends Component {
         if (currentHorizontalState != this.horizontalState) {
 
             this.horizontalState = currentHorizontalState;
-
+            let massLetter: Letter[] = this.letterContainer.getComponentsInChildren(Letter);
+            let mass: Card[] = [];
+            massLetter.forEach(letter => {
+                if(letter.getCard()){
+                    mass.push(letter.getCard());
+                }
+            });
             if (currentHorizontalState) {
                 view.setDesignResolutionSize(this.originalWidth, this.originalHeigth, ResolutionPolicy.FIXED_WIDTH);
 
                 this.letterContainer.setPosition(
-                    this.originalLetterContainerPosition.x,
+                    this.originalLetterContainerPosition.x * scale,
                     this.originalLetterContainerPosition.y  * scale
                 );
                 this.cardContainer.setPosition(
@@ -106,7 +118,16 @@ export class ScreenScaler extends Component {
                     this.originalWordsContainerPosition.x * scale,
                     this.originalWordsContainerPosition.y * scale
                 );
-
+                this.originalHandPosition = this.hand.getParent().getPosition();
+                this.hand.getParent().setPosition(
+                    this.originalHandPosition.x * scale / 1.6,
+                    this.originalHandPosition.y * scale / 1.2
+                );
+                if(mass.length > 0){
+                mass.forEach(card => {
+                    card.node.setPosition(card.node.getPosition().x * scale, card.node.getPosition().y * scale / 1.025);
+                });
+            }
                 this.playWidget.getComponent(Widget).right = this.originalPlayWidgetRight;
             }
             else {
@@ -127,6 +148,16 @@ export class ScreenScaler extends Component {
                     this.originalWordsContainerPosition.x * scale * 3.1,
                     this.originalWordsContainerPosition.y * scale * 3.1
                 );
+                this.originalHandPosition = this.hand.getParent().getPosition();
+                this.hand.getParent().setPosition(
+                    this.originalHandPosition.x * scale * 1.6,
+                    this.originalHandPosition.y * scale * 1.2
+                );
+                if(mass.length > 0){
+                    mass.forEach(card => {
+                        card.node.setPosition(card.node.getPosition().x * scale, card.node.getPosition().y * scale * 1.025);
+                    });
+                }
 
             }
         }
@@ -142,6 +173,7 @@ export class ScreenScaler extends Component {
         this.sentences.setScale(scale, scale);
         this.background.setScale(scale, scale);
         this.wordsContainer.setScale(scale, scale);
+        this.hand.setScale(scale, scale);
 
         if (!currentHorizontalState) {
 
@@ -151,6 +183,7 @@ export class ScreenScaler extends Component {
             this.completedWordsContainer.setScale(scale * 2, scale * 2);
             this.sentences.setScale(scale * 1.4, scale * 1.4);
             this.wordsContainer.setScale(scale * 1.6, scale * 1.6);
+            this.hand.setScale(scale * 1.4, scale * 1.4);
 
         }
 

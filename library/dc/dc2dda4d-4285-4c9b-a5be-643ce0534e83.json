@@ -134,8 +134,8 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 960,
-      "y": 540,
+      "x": 540,
+      "y": 960.0000000000002,
       "z": 0
     },
     "_lrot": {
@@ -220,7 +220,7 @@
     "_priority": 0,
     "_fov": 45,
     "_fovAxis": 0,
-    "_orthoHeight": 600.655737704918,
+    "_orthoHeight": 960.0000000000001,
     "_near": 0,
     "_far": 2000,
     "_color": {
@@ -315,8 +315,8 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1920,
-      "height": 1080
+      "width": 3456,
+      "height": 1944
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -346,7 +346,7 @@
       "a": 255
     },
     "_spriteFrame": {
-      "__uuid__": "a09eeb67-c1e0-4416-83b6-df99029dc3a7@f9941",
+      "__uuid__": "01fa5c89-e86c-44a8-9e00-b686f12508ff@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
     "_type": 0,
@@ -419,7 +419,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": 0,
-      "y": 479.9999999999999,
+      "y": 900,
       "z": 0
     },
     "_lrot": {
@@ -561,7 +561,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": 0,
-      "y": 483.5,
+      "y": 903.5000000000001,
       "z": 0
     },
     "_lrot": {
@@ -725,8 +725,8 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": -772.1120000000001,
-      "y": -399.83179074446684,
+      "x": -352.112,
+      "y": -819.831790744467,
       "z": 0
     },
     "_lrot": {
@@ -878,7 +878,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": 0,
-      "y": 342,
+      "y": 782.0000000000001,
       "z": 0
     },
     "_lrot": {
@@ -1261,7 +1261,7 @@
     "_target": null,
     "_left": 0,
     "_right": 0,
-    "_top": 150,
+    "_top": 130,
     "_bottom": 0,
     "_horizontalCenter": 0,
     "_verticalCenter": 0,
@@ -2093,7 +2093,7 @@
       "__id__": 2
     },
     "_children": [],
-    "_active": true,
+    "_active": false,
     "_components": [
       {
         "__id__": 56
@@ -2325,8 +2325,8 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 684.7090000000001,
-      "y": -440,
+      "x": 264.709,
+      "y": -860.0000000000001,
       "z": 0
     },
     "_lrot": {
@@ -3126,6 +3126,9 @@
     "iconWidget": {
       "__id__": 17
     },
+    "hand": {
+      "__id__": 47
+    },
     "background": {
       "__id__": 5
     },
@@ -3152,8 +3155,8 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1920,
-      "height": 1080
+      "width": 1080,
+      "height": 1920.0000000000002
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",

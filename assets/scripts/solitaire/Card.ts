@@ -83,9 +83,9 @@ export default class Card extends Component {
                 const game = find('Canvas').getComponentInChildren('GameController') as GameController;
                 const closestSlot = game.moveCardToWord(this.node.getComponent(Card));
         
-                setTimeout(() => {
+               setTimeout(() => {
                     this.canTouch = true;
-                }, 700); 
+                }, 500);
             }
         }
     moveTo(targetWorldPos: Vec3){

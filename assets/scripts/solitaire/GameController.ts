@@ -1,4 +1,4 @@
-import { _decorator, Color, Component, instantiate, Label, Node, Prefab, resources, TextAsset, tween, UIOpacity, UITransform, Vec2, Vec3 } from 'cc';
+import { _decorator, Button, Canvas, Color, Component, instantiate, Label, Node, Prefab, resources, TextAsset, tween, UIOpacity, UITransform, Vec2, Vec3 } from 'cc';
 const { ccclass, property } = _decorator;
 import Card from './Card';
 import { ICardData } from './ICardData';
@@ -262,20 +262,31 @@ export default class GameController extends Component {
                         this.resultScreen.show(true);
                         this.sound.play(this.sound.correct);
                         setTimeout(() => {
-                        this.completedWords[this.currentWordIndex].setString(this.predefinedWordStrings[this.currentWordIndex]);
-                        this.completedWords[this.currentWordIndex].selectWord();
-                        this.currentWordIndex++;
-                        this.moveCardsToCompleteWord();
-                        timeLetterSlots = this.letterSlots.length * 50;
-                        setTimeout(() => {
-                            this.deleteSlots();
-                            this.letterSlots = [];
-                            this.createSlots();
-                            this.currentLetterIndex = 0;
-                            this.changeSentence();
-                            blockerComponent.hideBlocker();
+                            this.completedWords[this.currentWordIndex].setString(this.predefinedWordStrings[this.currentWordIndex]);
+                            this.completedWords[this.currentWordIndex].selectWord();
+                            this.currentWordIndex++;
+                            this.moveCardsToCompleteWord();
+                            timeLetterSlots = this.letterSlots.length * 50;
+                            setTimeout(() => {
+                                this.deleteSlots();
+                                this.letterSlots = [];
+                                this.createSlots();
+                                this.currentLetterIndex = 0;
+                                this.changeSentence();
+                                blockerComponent.hideBlocker();
+                                if(this.currentWordIndex > 4){
+                                    blockerComponent.showBlocker();
+                                    console.log("BLocker");
+                                    this.blocker.getComponent(Blocker).activateButtonStore();
+                                    const storeButtonComponent = this.storeButtonNode.getComponent(StoreButtonComponent);
+                                    if (storeButtonComponent) {
+                                        storeButtonComponent.onClick();
+                                    } else {
+                                        console.warn("StoreButtonComponent not found on the provided node!");
+                                    }
+                                }
                         }, timeLetterSlots);
-                    }, 500);
+                    }, 500);           
 
                     } else {
                         this.letterSlots.forEach(slot => {
@@ -283,29 +294,15 @@ export default class GameController extends Component {
                             slot.repeatWordEndAnimation();
                         });
                         this.sound.play(this.sound.wrong);
-                        blockerComponent.showBlocker();
+                        //blockerComponent.showBlocker();
                         setTimeout(() => {
                             this.letterSlots.forEach(slot => {
                                 this.moveCardToInitialPosition(slot.getCard()); 
                             });
                             this.currentLetterIndex = 0;
-                            blockerComponent.hideBlocker();
+                            //blockerComponent.hideBlocker();
                         }, 1500);
                     }
-                    setTimeout(() => {
-                        console.log(this.currentWordIndex);
-                        if(this.currentWordIndex > 4){
-                            blockerComponent.showBlocker();
-                            console.log("BLocker");
-                            this.blocker.getComponent(Blocker).activateButtonStore();
-                            const storeButtonComponent = this.storeButtonNode.getComponent(StoreButtonComponent);
-                            if (storeButtonComponent) {
-                            storeButtonComponent.onClick();
-                            } else {
-                                console.warn("StoreButtonComponent not found on the provided node!");
-                            }
-                        }
-                    }, 750 + timeLetterSlots);
                     
                 }, this.letterSlots.length * 50);
             } else {

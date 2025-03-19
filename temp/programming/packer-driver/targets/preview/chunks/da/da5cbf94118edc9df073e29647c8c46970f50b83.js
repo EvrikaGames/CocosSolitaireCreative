@@ -125,7 +125,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
             var closestSlot = game.moveCardToWord(this.node.getComponent(Card));
             setTimeout(() => {
               this.canTouch = true;
-            }, 700);
+            }, 500);
           }
         }
 

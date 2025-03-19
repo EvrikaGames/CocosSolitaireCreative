@@ -84,7 +84,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
 
       _cclegacy._RF.push({}, "47513HWEZBNKpV8qlNDg4Ts", "GameController", undefined);
 
-      __checkObsolete__(['_decorator', 'Color', 'Component', 'instantiate', 'Label', 'Node', 'Prefab', 'resources', 'TextAsset', 'tween', 'UIOpacity', 'UITransform', 'Vec2', 'Vec3']);
+      __checkObsolete__(['_decorator', 'Button', 'Canvas', 'Color', 'Component', 'instantiate', 'Label', 'Node', 'Prefab', 'resources', 'TextAsset', 'tween', 'UIOpacity', 'UITransform', 'Vec2', 'Vec3']);
 
       ({
         ccclass,
@@ -372,6 +372,23 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
                       this.currentLetterIndex = 0;
                       this.changeSentence();
                       blockerComponent.hideBlocker();
+
+                      if (this.currentWordIndex > 4) {
+                        blockerComponent.showBlocker();
+                        console.log("BLocker");
+                        this.blocker.getComponent(_crd && Blocker === void 0 ? (_reportPossibleCrUseOfBlocker({
+                          error: Error()
+                        }), Blocker) : Blocker).activateButtonStore();
+                        var storeButtonComponent = this.storeButtonNode.getComponent(_crd && StoreButtonComponent === void 0 ? (_reportPossibleCrUseOfStoreButtonComponent({
+                          error: Error()
+                        }), StoreButtonComponent) : StoreButtonComponent);
+
+                        if (storeButtonComponent) {
+                          storeButtonComponent.onClick();
+                        } else {
+                          console.warn("StoreButtonComponent not found on the provided node!");
+                        }
+                      }
                     }, timeLetterSlots);
                   }, 500);
                 } else {
@@ -379,37 +396,15 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
                     slot.toWrongColor();
                     slot.repeatWordEndAnimation();
                   });
-                  this.sound.play(this.sound.wrong);
-                  blockerComponent.showBlocker();
+                  this.sound.play(this.sound.wrong); //blockerComponent.showBlocker();
+
                   setTimeout(() => {
                     this.letterSlots.forEach(slot => {
                       this.moveCardToInitialPosition(slot.getCard());
                     });
-                    this.currentLetterIndex = 0;
-                    blockerComponent.hideBlocker();
+                    this.currentLetterIndex = 0; //blockerComponent.hideBlocker();
                   }, 1500);
                 }
-
-                setTimeout(() => {
-                  console.log(this.currentWordIndex);
-
-                  if (this.currentWordIndex > 4) {
-                    blockerComponent.showBlocker();
-                    console.log("BLocker");
-                    this.blocker.getComponent(_crd && Blocker === void 0 ? (_reportPossibleCrUseOfBlocker({
-                      error: Error()
-                    }), Blocker) : Blocker).activateButtonStore();
-                    var storeButtonComponent = this.storeButtonNode.getComponent(_crd && StoreButtonComponent === void 0 ? (_reportPossibleCrUseOfStoreButtonComponent({
-                      error: Error()
-                    }), StoreButtonComponent) : StoreButtonComponent);
-
-                    if (storeButtonComponent) {
-                      storeButtonComponent.onClick();
-                    } else {
-                      console.warn("StoreButtonComponent not found on the provided node!");
-                    }
-                  }
-                }, 750 + timeLetterSlots);
               }, this.letterSlots.length * 50);
             } else {
               this.letterSlots[this.currentLetterIndex - 1].repeatWordAnimation();

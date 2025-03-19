@@ -50,7 +50,7 @@ export class Letter extends Component {
         this.node.destroy();
         
     }
-    getCard(){return this.card;}
+    getCard(): Card{return this.card;}
 
     repeatWordAnimation() {
         tween(this.node)

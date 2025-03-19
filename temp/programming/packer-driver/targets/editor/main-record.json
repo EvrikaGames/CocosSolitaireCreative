@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 94191.32220005989,
+      "mTimestamp": 96434.9188000001,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -640,7 +640,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 7084437.8765000105,
+      "mTimestamp": 13946779.1494,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -2641,7 +2641,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1742373309354,
+      "mTimestamp": 1742389090118,
       "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
       "imports": [],
       "type": "esm",
@@ -7617,7 +7617,7 @@
     },
     "file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Card.ts": {
       "mTimestamp": {
-        "mtime": 1742380391711.3965,
+        "mtime": 1742403028125.905,
         "uuid": "afa4c943-531c-4c23-9494-a7877b577fb2"
       },
       "chunkId": "da5cbf94118edc9df073e29647c8c46970f50b83",
@@ -7701,7 +7701,7 @@
     },
     "file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/GameController.ts": {
       "mTimestamp": {
-        "mtime": 1742308370541.3167,
+        "mtime": 1742401442666.4995,
         "uuid": "475131d6-1190-4d2a-957c-aa53438384ec"
       },
       "chunkId": "eb9aec31b330f42ea4099cb191f8ddf22f2550e8",
@@ -7721,11 +7721,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 144
+              "column": 160
             },
             "end": {
               "line": 1,
-              "column": 148
+              "column": 164
             }
           }
         },
@@ -7963,7 +7963,7 @@
     },
     "file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Letter.ts": {
       "mTimestamp": {
-        "mtime": 1742307909086.6199,
+        "mtime": 1742393262517.945,
         "uuid": "ce94b6d9-4210-4766-82bb-c0503f491690"
       },
       "chunkId": "731eb87eb1694620359ab9fadf0d7b4591aa646c",
@@ -8340,11 +8340,15 @@
     },
     "file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/ui/ScreenScaler.ts": {
       "mTimestamp": {
-        "mtime": 1742375690506.7266,
+        "mtime": 1742394423156.32,
         "uuid": "9c4a9a4a-edcb-4d58-9d6d-6b5ce152d804"
       },
       "chunkId": "fbcf85ac8d3edb017310648d1e2563b16eead162",
       "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
         {
           "value": "cc"
         },
@@ -8363,6 +8367,20 @@
               "column": 108
             }
           }
+        },
+        {
+          "value": "../solitaire/Letter",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 23
+            },
+            "end": {
+              "line": 2,
+              "column": 44
+            }
+          }
         }
       ],
       "type": "esm",
@@ -8370,7 +8388,7 @@
         {
           "resolved": {
             "type": "module",
-            "url": "cce:/internal/x/cc"
+            "url": "cce:/internal/code-quality/cr.mjs"
           },
           "messages": []
         },
@@ -8385,6 +8403,20 @@
           "resolved": {
             "type": "module",
             "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Letter.ts"
           },
           "messages": []
         }
