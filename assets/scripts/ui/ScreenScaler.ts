@@ -91,7 +91,7 @@ export class ScreenScaler extends Component {
                 view.setDesignResolutionSize(this.originalWidth, this.originalHeigth, ResolutionPolicy.FIXED_WIDTH);
 
                 this.letterContainer.setPosition(
-                    this.originalLetterContainerPosition.x * scale,
+                    this.originalLetterContainerPosition.x,
                     this.originalLetterContainerPosition.y  * scale
                 );
                 this.cardContainer.setPosition(
@@ -131,7 +131,6 @@ export class ScreenScaler extends Component {
             }
         }
 
-      
         
 
         this.letterContainer.setScale(this.originalLetterContainerScale.x * scale, this.originalLetterContainerScale.y * scale);
@@ -156,8 +155,6 @@ export class ScreenScaler extends Component {
         }
 
         
-       
-
        
         console.log(`Screen resized: width=${width}, height=${height}, scale=${scale}`);
     }

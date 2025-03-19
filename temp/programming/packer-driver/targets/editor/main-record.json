@@ -640,7 +640,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 117096.64410007,
+      "mTimestamp": 7084437.8765000105,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -7617,7 +7617,7 @@
     },
     "file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Card.ts": {
       "mTimestamp": {
-        "mtime": 1742299695561.8792,
+        "mtime": 1742380391711.3965,
         "uuid": "afa4c943-531c-4c23-9494-a7877b577fb2"
       },
       "chunkId": "da5cbf94118edc9df073e29647c8c46970f50b83",
@@ -8340,7 +8340,7 @@
     },
     "file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/ui/ScreenScaler.ts": {
       "mTimestamp": {
-        "mtime": 1742312201036.373,
+        "mtime": 1742375690506.7266,
         "uuid": "9c4a9a4a-edcb-4d58-9d6d-6b5ce152d804"
       },
       "chunkId": "fbcf85ac8d3edb017310648d1e2563b16eead162",

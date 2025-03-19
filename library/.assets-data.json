@@ -811,7 +811,7 @@
     "value": {
       "depends": [
         "dc2dda4d-4285-4c9b-a5be-643ce0534e83",
-        "797b35fb-1af5-4524-8683-1b7589b7d443@f9941",
+        "a09eeb67-c1e0-4416-83b6-df99029dc3a7@f9941",
         "e65b4630-c4d4-4a6c-9d7d-11197bf9b9af@f9941",
         "fb4f930a-5251-42e3-8e74-3c6832d9ddfe@f9941",
         "26070fdd-87ea-4f33-b4b5-039186c01fe7@f9941",
@@ -1371,9 +1371,7 @@
   },
   "797b35fb-1af5-4524-8683-1b7589b7d443": {
     "url": "db://assets/ui/background.png",
-    "value": {
-      "depends": []
-    },
+    "value": {},
     "versionCode": 0
   },
   "797b35fb-1af5-4524-8683-1b7589b7d443@6c48a": {
@@ -1419,7 +1417,7 @@
     "value": {
       "depends": [
         "e17b4526-57a2-48d3-acc9-cf09f30aa138",
-        "24c419ea-63a8-4ea1-a9d0-7fc469489bbc@f9941",
+        "f7cd6436-7e3c-4de7-9f50-2cbe6cf04788@f9941",
         "f12a23c4-b924-4322-a260-3d982428f1e8@f9941"
       ],
       "dependScripts": []
@@ -1531,6 +1529,70 @@
         "495b81e7-07e1-446e-a07f-3d3bfc48dfa0@f9941"
       ],
       "dependScripts": []
+    },
+    "versionCode": 0
+  },
+  "09643429-e4dc-4323-9789-9db82f0efbcb": {
+    "url": "db://assets/materials/material.mtl",
+    "value": {
+      "depends": [
+        "c8f66d17-351a-48da-a12c-0212d28575c4"
+      ]
+    },
+    "versionCode": 0
+  },
+  "763e1d10-99d9-4b1f-9cd8-1d8a41da89d3": {
+    "url": "db://assets/materials",
+    "value": {},
+    "versionCode": 0
+  },
+  "f7cd6436-7e3c-4de7-9f50-2cbe6cf04788": {
+    "url": "db://assets/ui/circle.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "f7cd6436-7e3c-4de7-9f50-2cbe6cf04788@6c48a": {
+    "url": "db://assets/ui/circle.png@6c48a",
+    "value": {
+      "depends": [
+        "f7cd6436-7e3c-4de7-9f50-2cbe6cf04788"
+      ]
+    },
+    "versionCode": 0
+  },
+  "f7cd6436-7e3c-4de7-9f50-2cbe6cf04788@f9941": {
+    "url": "db://assets/ui/circle.png@f9941",
+    "value": {
+      "depends": [
+        "f7cd6436-7e3c-4de7-9f50-2cbe6cf04788@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "a09eeb67-c1e0-4416-83b6-df99029dc3a7": {
+    "url": "db://assets/ui/background.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "a09eeb67-c1e0-4416-83b6-df99029dc3a7@6c48a": {
+    "url": "db://assets/ui/background.png@6c48a",
+    "value": {
+      "depends": [
+        "a09eeb67-c1e0-4416-83b6-df99029dc3a7"
+      ]
+    },
+    "versionCode": 0
+  },
+  "a09eeb67-c1e0-4416-83b6-df99029dc3a7@f9941": {
+    "url": "db://assets/ui/background.png@f9941",
+    "value": {
+      "depends": [
+        "a09eeb67-c1e0-4416-83b6-df99029dc3a7@6c48a"
+      ]
     },
     "versionCode": 0
   }

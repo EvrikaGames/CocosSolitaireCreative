@@ -50,31 +50,6 @@
     }
   },
   "camera-infos": {
-    "e9be2a8d-e47c-4edc-b9f3-0967a12cf069": {
-      "position": {
-        "x": 650.7162561576354,
-        "y": 366.7966666666667,
-        "z": 5000
-      },
-      "rotation": {
-        "x": 0,
-        "y": 0,
-        "z": 0,
-        "w": 1
-      },
-      "viewCenter": {
-        "x": 0,
-        "y": 0,
-        "z": 0
-      },
-      "contentRect": {
-        "x": 0.1945812807882216,
-        "y": 0,
-        "width": 902,
-        "height": 507
-      },
-      "scale": 0.7
-    },
     "cc5508db-08e0-4bb9-9c43-984372bcac36": {
       "position": {
         "x": 727.2605911330048,
@@ -1250,6 +1225,31 @@
       },
       "scale": 1.6523908579461077
     },
+    "0dc47658-64c5-44d1-9d15-69ffe8f91c61": {
+      "position": {
+        "x": 1869.847251748252,
+        "y": 194.697,
+        "z": 5000
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "viewCenter": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "contentRect": {
+        "x": 406.61032028469754,
+        "y": 235.1103202846975,
+        "width": 899.0034965034965,
+        "height": 562
+      },
+      "scale": 0.9825174825174825
+    },
     "c77ecaa8-c936-46c4-a5b0-98692673ed87": {
       "position": {
         "x": 960.0000000000001,
@@ -1268,17 +1268,17 @@
         "z": 0
       },
       "contentRect": {
-        "x": -2.5201612903225805,
-        "y": 96.23865927419355,
-        "width": 1860,
-        "height": 1240
+        "x": 0,
+        "y": 183.56249999999997,
+        "width": 292,
+        "height": 519.2185430463576
       },
-      "scale": 0.992
+      "scale": 0.9668874172185431
     },
     "dc2dda4d-4285-4c9b-a5be-643ce0534e83": {
       "position": {
-        "x": 457.5,
-        "y": 256.5,
+        "x": -162.89564373982185,
+        "y": 246.3767123287671,
         "z": 5000
       },
       "rotation": {
@@ -1295,14 +1295,13 @@
       "contentRect": {
         "x": 0,
         "y": 0,
-        "width": 897.1637426900585,
-        "height": 503
+        "width": 292,
+        "height": 519.2185430463576
       },
-      "scale": 0.9805068226120858
+      "scale": 0.9668874172185431
     }
   },
   "camera-uuids": [
-    "e9be2a8d-e47c-4edc-b9f3-0967a12cf069",
     "cc5508db-08e0-4bb9-9c43-984372bcac36",
     "90e06a1c-468d-479a-818a-c20160d919a8",
     "5fd19914-4ca2-48a9-9878-c8fdf3a3d5f7",
@@ -1350,6 +1349,7 @@
     "6fc246e6-e86a-4758-864c-da5cd3b93ba0",
     "189313e1-5a22-4e45-9d3b-3874c655d63e",
     "41812075-5872-4d22-ae09-db5a8a128bed",
+    "0dc47658-64c5-44d1-9d15-69ffe8f91c61",
     "c77ecaa8-c936-46c4-a5b0-98692673ed87",
     "dc2dda4d-4285-4c9b-a5be-643ce0534e83"
   ],
@@ -1379,14 +1379,14 @@
     "output_device": "__default_design__"
   },
   "game-view": {
-    "scaleValue": 27,
-    "sliderValue": 9,
+    "scaleValue": 137,
+    "sliderValue": 56,
     "fullScreen": true,
     "devicesInfo": {
-      "name": "i18n:scene.game_view.design_resolution",
-      "type": "design",
-      "width": 1920,
-      "height": 1080
+      "name": "iPhone SE",
+      "type": "device",
+      "width": 375,
+      "height": 667
     },
     "rotate": false
   }

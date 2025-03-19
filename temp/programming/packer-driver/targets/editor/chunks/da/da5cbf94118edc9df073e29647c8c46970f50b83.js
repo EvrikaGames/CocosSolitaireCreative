@@ -156,7 +156,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           }).call(() => {
             this.removeCard();
           }).start();
-          this.schedule(this.createCircle.bind(this), 0.005, Math.ceil(0.5 / 0.005));
+          this.schedule(this.createCircle.bind(this), 0.005, Math.ceil(0.1 / 0.005));
         }
 
         createCircle() {

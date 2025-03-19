@@ -29,10 +29,13 @@
       },
       {
         "__id__": 10
+      },
+      {
+        "__id__": 12
       }
     ],
     "_prefab": {
-      "__id__": 12
+      "__id__": 14
     },
     "_lpos": {
       "__type__": "cc.Vec3",
@@ -143,7 +146,7 @@
   },
   {
     "__type__": "cc.ParticleSystem2D",
-    "_name": "Node<ParticleSystem2D>",
+    "_name": "",
     "_objFlags": 0,
     "__editorExtras__": {},
     "node": {
@@ -164,19 +167,19 @@
       "a": 255
     },
     "duration": 0.1,
-    "emissionRate": 1000,
+    "emissionRate": 500,
     "life": 0.3,
-    "lifeVar": 0.1,
+    "lifeVar": 0.3,
     "angle": 360,
     "angleVar": 360,
-    "startSize": 50,
-    "startSizeVar": 50,
+    "startSize": 30,
+    "startSizeVar": 30,
     "endSize": 0,
     "endSizeVar": 0,
-    "startSpin": -47.369998931884766,
+    "startSpin": 0,
     "startSpinVar": 0,
-    "endSpin": -47.369998931884766,
-    "endSpinVar": -142.11000061035156,
+    "endSpin": 0,
+    "endSpinVar": 0,
     "sourcePos": {
       "__type__": "cc.Vec2",
       "x": 0,
@@ -200,8 +203,8 @@
     "radialAccel": -671.0499877929688,
     "radialAccelVar": 65.79000091552734,
     "rotationIsDir": false,
-    "startRadius": 40,
-    "startRadiusVar": 10,
+    "startRadius": 20,
+    "startRadiusVar": 20,
     "endRadius": 0,
     "endRadiusVar": 0,
     "rotatePerS": 0,
@@ -216,16 +219,16 @@
       "__expectedType__": "cc.ParticleAsset"
     },
     "_spriteFrame": {
-      "__uuid__": "24c419ea-63a8-4ea1-a9d0-7fc469489bbc@f9941",
+      "__uuid__": "f7cd6436-7e3c-4de7-9f50-2cbe6cf04788@f9941",
       "__expectedType__": "cc.SpriteFrame"
     },
-    "_totalParticles": 200,
+    "_totalParticles": 500,
     "_startColor": {
       "__type__": "cc.Color",
       "r": 255,
       "g": 255,
       "b": 255,
-      "a": 255
+      "a": 53
     },
     "_startColorVar": {
       "__type__": "cc.Color",
@@ -239,7 +242,7 @@
       "r": 255,
       "g": 255,
       "b": 255,
-      "a": 255
+      "a": 0
     },
     "_endColorVar": {
       "__type__": "cc.Color",
@@ -253,7 +256,7 @@
   },
   {
     "__type__": "cc.CompPrefabInfo",
-    "fileId": "0d6vSiXpNEGqQxqDkhRlHR"
+    "fileId": "749p1D9ctM6Km3gsRtxUFj"
   },
   {
     "__type__": "cc.PrefabInfo",
@@ -342,6 +345,25 @@
     "fileId": "b0TNTi7IxJfpHcf6o1otoc"
   },
   {
+    "__type__": "cc.UIOpacity",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "__prefab": {
+      "__id__": 13
+    },
+    "_opacity": 100,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "45m/LOCJlN17olGWTzs5eK"
+  },
+  {
     "__type__": "cc.PrefabInfo",
     "root": {
       "__id__": 1
@@ -350,6 +372,7 @@
       "__id__": 0
     },
     "fileId": "e95eetPwlA+qRLhH2Rkcql",
+    "instance": null,
     "targetOverrides": null
   }
 ]

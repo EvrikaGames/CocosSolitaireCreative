@@ -118,7 +118,7 @@ export default class Card extends Component {
         })
         .start();
     
-        this.schedule(this.createCircle.bind(this), 0.005, Math.ceil(0.5 / 0.005));
+        this.schedule(this.createCircle.bind(this), 0.005, Math.ceil(0.1 / 0.005));
     }
     
     

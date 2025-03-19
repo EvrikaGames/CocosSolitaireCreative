@@ -117,7 +117,7 @@ System.register(["cc"], function (_export, _context) {
 
             if (currentHorizontalState) {
               view.setDesignResolutionSize(this.originalWidth, this.originalHeigth, ResolutionPolicy.FIXED_WIDTH);
-              this.letterContainer.setPosition(this.originalLetterContainerPosition.x * scale, this.originalLetterContainerPosition.y * scale);
+              this.letterContainer.setPosition(this.originalLetterContainerPosition.x, this.originalLetterContainerPosition.y * scale);
               this.cardContainer.setPosition(this.originalCardContainerPosition.x * scale, this.originalCardContainerPosition.y * scale);
               this.completedWordsContainer.setPosition(this.originalCompletedWordsContainerPosition.x * scale, this.originalCompletedWordsContainerPosition.y * scale);
               this.wordsContainer.setPosition(this.originalWordsContainerPosition.x * scale, this.originalWordsContainerPosition.y * scale);
