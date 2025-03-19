@@ -4057,3 +4057,73 @@ Feature changed: false
 19:50:37 debug: Resolve file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/ui/ScreenScaler.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/ui/ScreenScaler.ts.
 19:50:37 debug: Resolve file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/ui/StoreButtonComponent.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/ui/StoreButtonComponent.ts.
 19:50:37 debug: Target(preview) ends with cost 656.4798999987543ms.
+20:00:13 debug: Dispatch build request for time accumulated 1 asset changes.
+20:00:13 debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+20:00:13 debug: Target(editor) build started.
+20:00:13 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 06:52:26 GMT+0300 (Москва, стандартное время), Current mtime: Thu Jan 01 1970 07:02:03 GMT+0300 (Москва, стандартное время)
+20:00:13 debug: Inspect cce:/internal/x/prerequisite-imports
+20:00:13 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+20:00:13 debug: Resolve file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/services/StoreController.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/services/StoreController.ts.
+20:00:13 debug: Resolve file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/services/super_html_playable.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/services/super_html_playable.ts.
+20:00:13 debug: Resolve file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Blocker.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Blocker.ts.
+20:00:13 debug: Resolve file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Card.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Card.ts.
+20:00:13 debug: Detected change: file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/GameController.ts. Last mtime: Wed Mar 19 2025 19:24:02 GMT+0300 (Москва, стандартное время)@475131d6-1190-4d2a-957c-aa53438384ec, Current mtime: Wed Mar 19 2025 20:00:09 GMT+0300 (Москва, стандартное время)@475131d6-1190-4d2a-957c-aa53438384ec
+20:00:13 debug: Inspect file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/GameController.ts
+20:00:14 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/GameController.ts as cce:/internal/code-quality/cr.mjs.
+20:00:14 debug: Resolve cc from file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/GameController.ts as cce:/internal/x/cc.
+20:00:14 debug: Resolve cc from file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/GameController.ts as cce:/internal/x/cc.
+20:00:14 debug: Resolve cc from file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/GameController.ts as cce:/internal/x/cc.
+20:00:14 debug: Resolve ./Card from file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/GameController.ts as file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Card.ts.
+20:00:14 debug: Resolve ./Word from file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/GameController.ts as file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Word.ts.
+20:00:14 debug: Resolve ./Letter from file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/GameController.ts as file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Letter.ts.
+20:00:14 debug: Resolve ./Blocker from file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/GameController.ts as file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Blocker.ts.
+20:00:14 debug: Resolve ../ui/StoreButtonComponent from file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/GameController.ts as file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/ui/StoreButtonComponent.ts.
+20:00:14 debug: Resolve ./ResultScreen from file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/GameController.ts as file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/ResultScreen.ts.
+20:00:14 debug: Resolve ../sound/SoundController from file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/GameController.ts as file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/sound/SoundController.ts.
+20:00:14 debug: Resolve file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/GameController.ts.
+20:00:14 debug: Resolve file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/ICardData.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/ICardData.ts.
+20:00:14 debug: Resolve file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/IWordData.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/IWordData.ts.
+20:00:14 debug: Resolve file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Letter.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Letter.ts.
+20:00:14 debug: Resolve file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/ResultScreen.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/ResultScreen.ts.
+20:00:14 debug: Resolve file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Text.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Text.ts.
+20:00:14 debug: Resolve file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/TutorialHandMover.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/TutorialHandMover.ts.
+20:00:14 debug: Resolve file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Word.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Word.ts.
+20:00:14 debug: Resolve file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/sound/SoundController.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/sound/SoundController.ts.
+20:00:14 debug: Resolve file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/ui/ScreenScaler.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/ui/ScreenScaler.ts.
+20:00:14 debug: Resolve file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/ui/StoreButtonComponent.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/ui/StoreButtonComponent.ts.
+20:00:14 debug: Target(editor) ends with cost 1200.9340000003576ms.
+20:00:14 debug: Target(preview) build started.
+20:00:14 debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 06:52:27 GMT+0300 (Москва, стандартное время), Current mtime: Thu Jan 01 1970 07:02:04 GMT+0300 (Москва, стандартное время)
+20:00:14 debug: Inspect cce:/internal/x/prerequisite-imports
+20:00:15 debug: Resolve file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts from cce:/internal/x/prerequisite-imports as file:///C:/ProgramData/cocos/editors/Creator/3.8.2/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts.
+20:00:15 debug: Resolve file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/services/StoreController.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/services/StoreController.ts.
+20:00:15 debug: Resolve file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/services/super_html_playable.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/services/super_html_playable.ts.
+20:00:15 debug: Resolve file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Blocker.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Blocker.ts.
+20:00:15 debug: Resolve file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Card.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Card.ts.
+20:00:15 debug: Detected change: file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/GameController.ts. Last mtime: Wed Mar 19 2025 19:24:02 GMT+0300 (Москва, стандартное время)@475131d6-1190-4d2a-957c-aa53438384ec, Current mtime: Wed Mar 19 2025 20:00:09 GMT+0300 (Москва, стандартное время)@475131d6-1190-4d2a-957c-aa53438384ec
+20:00:15 debug: Inspect file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/GameController.ts
+20:00:16 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/GameController.ts as cce:/internal/code-quality/cr.mjs.
+20:00:16 debug: Resolve cc from file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/GameController.ts as cce:/internal/x/cc.
+20:00:16 debug: Resolve cc from file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/GameController.ts as cce:/internal/x/cc.
+20:00:16 debug: Resolve cc from file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/GameController.ts as cce:/internal/x/cc.
+20:00:16 debug: Resolve ./Card from file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/GameController.ts as file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Card.ts.
+20:00:16 debug: Resolve ./Word from file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/GameController.ts as file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Word.ts.
+20:00:16 debug: Resolve ./Letter from file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/GameController.ts as file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Letter.ts.
+20:00:16 debug: Resolve ./Blocker from file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/GameController.ts as file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Blocker.ts.
+20:00:16 debug: Resolve ../ui/StoreButtonComponent from file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/GameController.ts as file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/ui/StoreButtonComponent.ts.
+20:00:16 debug: Resolve ./ResultScreen from file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/GameController.ts as file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/ResultScreen.ts.
+20:00:16 debug: Resolve ../sound/SoundController from file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/GameController.ts as file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/sound/SoundController.ts.
+20:00:16 debug: Resolve file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/GameController.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/GameController.ts.
+20:00:16 debug: Resolve file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/ICardData.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/ICardData.ts.
+20:00:16 debug: Resolve file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/IWordData.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/IWordData.ts.
+20:00:16 debug: Resolve file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Letter.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Letter.ts.
+20:00:16 debug: Resolve file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/ResultScreen.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/ResultScreen.ts.
+20:00:16 debug: Resolve file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Text.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Text.ts.
+20:00:16 debug: Resolve file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/TutorialHandMover.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/TutorialHandMover.ts.
+20:00:16 debug: Resolve file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Word.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Word.ts.
+20:00:16 debug: Resolve file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/sound/SoundController.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/sound/SoundController.ts.
+20:00:16 debug: Resolve file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/ui/ScreenScaler.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/ui/ScreenScaler.ts.
+20:00:16 debug: Resolve file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/ui/StoreButtonComponent.ts from cce:/internal/x/prerequisite-imports as file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/ui/StoreButtonComponent.ts.
+20:00:16 debug: Target(preview) ends with cost 1852.4063000008464ms.

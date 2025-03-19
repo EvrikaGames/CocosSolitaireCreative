@@ -294,13 +294,13 @@ export default class GameController extends Component {
                             slot.repeatWordEndAnimation();
                         });
                         this.sound.play(this.sound.wrong);
-                        //blockerComponent.showBlocker();
+                        blockerComponent.showBlocker();
                         setTimeout(() => {
                             this.letterSlots.forEach(slot => {
                                 this.moveCardToInitialPosition(slot.getCard()); 
                             });
                             this.currentLetterIndex = 0;
-                            //blockerComponent.hideBlocker();
+                            blockerComponent.hideBlocker();
                         }, 1500);
                     }
                     

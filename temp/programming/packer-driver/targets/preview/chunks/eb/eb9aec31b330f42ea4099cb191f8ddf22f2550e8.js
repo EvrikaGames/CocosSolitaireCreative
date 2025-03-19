@@ -396,13 +396,14 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
                     slot.toWrongColor();
                     slot.repeatWordEndAnimation();
                   });
-                  this.sound.play(this.sound.wrong); //blockerComponent.showBlocker();
-
+                  this.sound.play(this.sound.wrong);
+                  blockerComponent.showBlocker();
                   setTimeout(() => {
                     this.letterSlots.forEach(slot => {
                       this.moveCardToInitialPosition(slot.getCard());
                     });
-                    this.currentLetterIndex = 0; //blockerComponent.hideBlocker();
+                    this.currentLetterIndex = 0;
+                    blockerComponent.hideBlocker();
                   }, 1500);
                 }
               }, this.letterSlots.length * 50);

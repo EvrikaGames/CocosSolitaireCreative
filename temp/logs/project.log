@@ -19054,3 +19054,17 @@ at addChunk (internal/streams/readable.js:309:12)
 at readableAddChunk (internal/streams/readable.js:284:9)  
 at Socket.Readable.push (internal/streams/readable.js:223:10)  
 at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+19.03.2025 20:00:14 - log: Use preview template {link(D:\Cocos\work\CocosSolitaireCreative\preview-template\index.ejs)}
+19.03.2025 20:00:18 - log: Use preview template {link(D:\Cocos\work\CocosSolitaireCreative\preview-template\index.ejs)}
+19.03.2025 20:01:44 - warn: [Assets] [build-script][[Build.Script.Rollup]] Circular dependency: file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Card.ts -> file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/GameController.ts -> file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Card.ts
+[Assets] [build-script][[Build.Script.Rollup]] Circular dependency: file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Card.ts -> file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/GameController.ts -> file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Card.ts
+  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:1:1260)  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1530)  
+at NewConsole.warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\builder\dist\worker\console.ccc:1:2267)  
+at Socket.<anonymous> (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\builder\dist\worker\worker-pools\sub-process-manager.ccc:1:3499)  
+at Socket.emit (events.js:315:20)  
+at addChunk (internal/streams/readable.js:309:12)  
+at readableAddChunk (internal/streams/readable.js:284:9)  
+at Socket.Readable.push (internal/streams/readable.js:223:10)  
+at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
