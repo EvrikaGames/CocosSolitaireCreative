@@ -41,6 +41,9 @@ export default class GameController extends Component {
     letterSlotContainer: Node = null;
 
     @property(Node)
+    letterContainer: Node = null;
+
+    @property(Node)
     startPosition: Node = null;
     @property(Node)
     endPosition: Node = null;
@@ -126,6 +129,7 @@ export default class GameController extends Component {
             this.sentenceLabel.string = this.predefinedSentences[this.currentSentenceIndex];
             this.createCompletedWords();
             this.createSlots();
+            
         }).catch((error) => {
             console.error("Error loading resources:", error);
         });
@@ -202,6 +206,7 @@ export default class GameController extends Component {
     createCompletedWords(){
         for (let j = 0; j < this.predefinedWords.length; j++) {
             const completedWordNode = instantiate(this.completedWordPrefab);
+            completedWordNode.getComponent(Word).setNumber(j + 1);
             this.completedWords.push(completedWordNode.getComponent(Word));
             completedWordNode.setPosition(this.getCompletedWordPosition(j, j % 2 == 0 ? j : j - 1));
             this.completedWordContainer.addChild(completedWordNode);
@@ -222,6 +227,8 @@ export default class GameController extends Component {
             letterSlotNode.setPosition(this.getSlotPosition(i, len));
             this.letterSlotContainer.addChild(letterSlotNode);
         }
+        this.letterContainer.getComponent(UITransform).setContentSize(this.letterSlots.length * 110, this.letterContainer.getComponent(UITransform).contentSize.y);
+
     }
     deleteSlots(){
         this.letterSlots.forEach(slot => {

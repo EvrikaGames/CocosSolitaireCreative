@@ -1,7 +1,7 @@
 System.register(["cc"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Label, Node, _dec, _dec2, _dec3, _class, _class2, _descriptor, _descriptor2, _crd, ccclass, property, Word;
+  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Label, Node, _dec, _dec2, _dec3, _dec4, _dec5, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _crd, ccclass, property, Word;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -31,13 +31,17 @@ System.register(["cc"], function (_export, _context) {
         property
       } = _decorator);
 
-      _export("Word", Word = (_dec = ccclass('Word'), _dec2 = property(Label), _dec3 = property(Node), _dec(_class = (_class2 = class Word extends Component {
+      _export("Word", Word = (_dec = ccclass('Word'), _dec2 = property(Label), _dec3 = property(Node), _dec4 = property(Node), _dec5 = property(Label), _dec(_class = (_class2 = class Word extends Component {
         constructor() {
           super(...arguments);
 
           _initializerDefineProperty(this, "label", _descriptor, this);
 
           _initializerDefineProperty(this, "selectedBack", _descriptor2, this);
+
+          _initializerDefineProperty(this, "numbers", _descriptor3, this);
+
+          _initializerDefineProperty(this, "element", _descriptor4, this);
 
           this.isSelected = false;
         }
@@ -48,6 +52,11 @@ System.register(["cc"], function (_export, _context) {
 
         setString(str) {
           this.label.string = str;
+          this.numbers.destroy();
+        }
+
+        setNumber(num) {
+          this.element.string = num.toString();
         }
 
       }, (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "label", [_dec2], {
@@ -58,6 +67,20 @@ System.register(["cc"], function (_export, _context) {
           return null;
         }
       }), _descriptor2 = _applyDecoratedDescriptor(_class2.prototype, "selectedBack", [_dec3], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function initializer() {
+          return null;
+        }
+      }), _descriptor3 = _applyDecoratedDescriptor(_class2.prototype, "numbers", [_dec4], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function initializer() {
+          return null;
+        }
+      }), _descriptor4 = _applyDecoratedDescriptor(_class2.prototype, "element", [_dec5], {
         configurable: true,
         enumerable: true,
         writable: true,

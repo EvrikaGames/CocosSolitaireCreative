@@ -8,6 +8,10 @@ export class Word extends Component {
     
     @property(Node)
     selectedBack: Node = null;
+    @property(Node)
+    private numbers = null;
+    @property(Label)
+    private element = null;
     
     private isSelected: boolean = false;
 
@@ -16,7 +20,11 @@ export class Word extends Component {
     }
     setString(str: string){
         this.label.string = str;
+        this.numbers.destroy();
     }
+    setNumber(num: number){
+        this.element.string = num.toString();
+   }
 }
 
 

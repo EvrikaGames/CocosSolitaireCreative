@@ -1,0 +1,196 @@
+19.03.2025 11:35:32-log: Cannot access game frame or container.
+19.03.2025 11:35:34-debug: asset-db:require-engine-code (5263ms)
+19.03.2025 11:35:34-log: meshopt wasm decoder initialized
+19.03.2025 11:35:34-log: [box2d]:box2d wasm lib loaded.
+19.03.2025 11:35:36-log: [bullet]:bullet wasm lib loaded.
+19.03.2025 11:35:40-log: Cocos Creator v3.8.2
+19.03.2025 11:35:40-debug: [Assets Memory track]: asset-db:worker-init: initEngine start:19.40MB, end 105.04MB, increase: 85.64MB
+19.03.2025 11:35:42-debug: [Assets Memory track]: asset-db-plugin-register: programming start:105.67MB, end 109.38MB, increase: 3.72MB
+19.03.2025 11:36:26-debug: [Assets Memory track]: asset-db-plugin-register: engine-extends start:109.43MB, end 174.25MB, increase: 64.82MB
+19.03.2025 11:36:26-debug: [Assets Memory track]: asset-db-plugin-enable: builder start:110.07MB, end 177.63MB, increase: 67.55MB
+19.03.2025 11:36:26-debug: [Assets Memory track]: asset-db:worker-init: initPlugin start:105.04MB, end 174.26MB, increase: 69.22MB
+19.03.2025 11:36:26-debug: [Assets Memory track]: asset-db-plugin-enable: project start:109.67MB, end 174.26MB, increase: 64.59MB
+19.03.2025 11:36:26-debug: run package(package-asset) handler(enable) start
+19.03.2025 11:36:26-debug: run package(node-library) handler(enable) success!
+19.03.2025 11:36:26-debug: run package(process) handler(enable) start
+19.03.2025 11:36:26-debug: run package(package-asset) handler(enable) success!
+19.03.2025 11:36:26-debug: run package(node-library) handler(enable) start
+19.03.2025 11:36:26-debug: run package(reference-image) handler(enable) start
+19.03.2025 11:36:26-debug: run package(reference-image) handler(enable) success!
+19.03.2025 11:36:26-debug: run package(process) handler(enable) success!
+19.03.2025 11:36:26-debug: run package(reflection-probe) handler(enable) success!
+19.03.2025 11:36:26-debug: run package(engine-extends) handler(enable) success!
+19.03.2025 11:36:26-debug: run package(adsense-h5g-plugin) handler(enable) start
+19.03.2025 11:36:26-debug: run package(engine-extends) handler(enable) start
+19.03.2025 11:36:26-debug: run package(reflection-probe) handler(enable) start
+19.03.2025 11:36:26-debug: run package(adsense-h5g-plugin) handler(enable) success!
+19.03.2025 11:36:26-debug: run package(alipay-mini-game) handler(enable) start
+19.03.2025 11:36:26-debug: run package(alipay-mini-game) handler(enable) success!
+19.03.2025 11:36:26-debug: run package(android) handler(enable) success!
+19.03.2025 11:36:26-debug: run package(bytedance-mini-game) handler(enable) start
+19.03.2025 11:36:26-debug: run package(bytedance-mini-game) handler(enable) success!
+19.03.2025 11:36:26-debug: run package(certificate) handler(enable) success!
+19.03.2025 11:36:26-debug: run package(certificate) handler(enable) start
+19.03.2025 11:36:26-debug: run package(channel-upload-tools) handler(enable) start
+19.03.2025 11:36:26-debug: run package(channel-upload-tools) handler(enable) success!
+19.03.2025 11:36:26-debug: run package(android) handler(enable) start
+19.03.2025 11:36:26-debug: run package(fb-instant-games) handler(enable) start
+19.03.2025 11:36:26-debug: run package(fb-instant-games) handler(enable) success!
+19.03.2025 11:36:26-debug: run package(huawei-agc) handler(enable) start
+19.03.2025 11:36:26-debug: run package(huawei-quick-game) handler(enable) start
+19.03.2025 11:36:26-debug: run package(huawei-quick-game) handler(enable) success!
+19.03.2025 11:36:26-debug: run package(ios) handler(enable) success!
+19.03.2025 11:36:26-debug: run package(huawei-agc) handler(enable) success!
+19.03.2025 11:36:26-debug: run package(linux) handler(enable) success!
+19.03.2025 11:36:26-debug: run package(linux) handler(enable) start
+19.03.2025 11:36:26-debug: run package(mac) handler(enable) start
+19.03.2025 11:36:26-debug: run package(mac) handler(enable) success!
+19.03.2025 11:36:26-debug: run package(native) handler(enable) success!
+19.03.2025 11:36:26-debug: run package(ios) handler(enable) start
+19.03.2025 11:36:26-debug: run package(native) handler(enable) start
+19.03.2025 11:36:26-debug: run package(ohos) handler(enable) success!
+19.03.2025 11:36:26-debug: run package(openharmony) handler(enable) success!
+19.03.2025 11:36:26-debug: run package(openharmony) handler(enable) start
+19.03.2025 11:36:26-debug: run package(oppo-mini-game) handler(enable) start
+19.03.2025 11:36:26-debug: run package(ohos) handler(enable) start
+19.03.2025 11:36:26-debug: run package(oppo-mini-game) handler(enable) success!
+19.03.2025 11:36:26-debug: run package(runtime-dev-tools) handler(enable) success!
+19.03.2025 11:36:26-debug: run package(taobao-creative-app) handler(enable) success!
+19.03.2025 11:36:26-debug: run package(runtime-dev-tools) handler(enable) start
+19.03.2025 11:36:26-debug: run package(taobao-creative-app) handler(enable) start
+19.03.2025 11:36:26-debug: run package(taobao-mini-game) handler(enable) success!
+19.03.2025 11:36:26-debug: run package(taobao-mini-game) handler(enable) start
+19.03.2025 11:36:26-debug: run package(vivo-mini-game) handler(enable) success!
+19.03.2025 11:36:26-debug: run package(web-desktop) handler(enable) success!
+19.03.2025 11:36:26-debug: run package(vivo-mini-game) handler(enable) start
+19.03.2025 11:36:26-debug: run package(web-mobile) handler(enable) start
+19.03.2025 11:36:26-debug: run package(web-mobile) handler(enable) success!
+19.03.2025 11:36:26-debug: run package(web-desktop) handler(enable) start
+19.03.2025 11:36:26-debug: run package(wechatgame) handler(enable) success!
+19.03.2025 11:36:26-debug: run package(wechatgame) handler(enable) start
+19.03.2025 11:36:26-debug: run package(wechatprogram) handler(enable) start
+19.03.2025 11:36:26-debug: run package(windows) handler(enable) success!
+19.03.2025 11:36:26-debug: run package(wechatprogram) handler(enable) success!
+19.03.2025 11:36:26-debug: run package(xiaomi-quick-game) handler(enable) start
+19.03.2025 11:36:26-debug: run package(xiaomi-quick-game) handler(enable) success!
+19.03.2025 11:36:26-debug: run package(cocos-service) handler(enable) success!
+19.03.2025 11:36:26-debug: run package(im-plugin) handler(enable) start
+19.03.2025 11:36:26-debug: run package(im-plugin) handler(enable) success!
+19.03.2025 11:36:26-debug: run package(fix-device) handler(enable) start
+19.03.2025 11:36:26-debug: run package(cocos-service) handler(enable) start
+19.03.2025 11:36:26-debug: run package(fix-device) handler(enable) success!
+19.03.2025 11:36:26-debug: run package(windows) handler(enable) start
+19.03.2025 11:36:26-debug: run package(super-html) handler(enable) start
+19.03.2025 11:36:26-debug: run package(super-html) handler(enable) success!
+19.03.2025 11:36:26-debug: run package(placeholder) handler(enable) success!
+19.03.2025 11:36:26-debug: run package(placeholder) handler(enable) start
+19.03.2025 11:36:26-debug: asset-db:worker-init: initPlugin (46207ms)
+19.03.2025 11:36:26-debug: [Assets Memory track]: asset-db:worker-init start:19.40MB, end 178.98MB, increase: 159.58MB
+19.03.2025 11:36:26-debug: Run asset db hook programming:beforePreStart ...
+19.03.2025 11:36:26-debug: Run asset db hook engine-extends:beforePreStart ...
+19.03.2025 11:36:26-debug: Run asset db hook engine-extends:beforePreStart success!
+19.03.2025 11:36:26-debug: Run asset db hook programming:beforePreStart success!
+19.03.2025 11:36:41-debug: asset-db:worker-init (72840ms)
+19.03.2025 11:36:41-debug: asset-db-hook-programming-beforePreStart (15031ms)
+19.03.2025 11:36:41-debug: asset-db-hook-engine-extends-beforePreStart (15029ms)
+19.03.2025 11:36:42-debug: Preimport db internal success
+19.03.2025 11:36:42-debug: Preimport db assets success
+19.03.2025 11:36:42-debug: Run asset db hook programming:afterPreStart ...
+19.03.2025 11:36:42-debug: starting packer-driver...
+19.03.2025 11:36:45-debug: initialize scripting environment...
+19.03.2025 11:36:45-debug: Set detail map pack:///resolution-detail-map.json: {}
+19.03.2025 11:36:45-debug: Run asset db hook programming:afterPreStart success!
+19.03.2025 11:36:45-debug: [Assets Memory track]: asset-db:worker-init: preStart start:178.99MB, end 181.16MB, increase: 2.17MB
+19.03.2025 11:36:45-debug: Run asset db hook engine-extends:afterPreStart success!
+19.03.2025 11:36:45-debug: Start up the 'internal' database...
+19.03.2025 11:36:45-debug: Run asset db hook engine-extends:afterPreStart ...
+19.03.2025 11:36:49-debug: asset-db-hook-programming-afterPreStart (6269ms)
+19.03.2025 11:36:49-debug: asset-db:worker-effect-data-processing (3289ms)
+19.03.2025 11:36:49-debug: asset-db-hook-engine-extends-afterPreStart (3290ms)
+19.03.2025 11:36:49-debug: Start up the 'assets' database...
+19.03.2025 11:36:50-debug: asset-db:worker-startup-database[internal] (17275ms)
+19.03.2025 11:36:50-debug: asset-db:worker-startup-database[assets] (8465ms)
+19.03.2025 11:36:50-debug: asset-db:start-database (23727ms)
+19.03.2025 11:36:50-debug: asset-db:ready (96689ms)
+19.03.2025 11:36:50-debug: init worker message success
+19.03.2025 11:37:05-debug: [Build Memory track]: builder:worker-init start:182.25MB, end 211.49MB, increase: 29.24MB
+19.03.2025 11:37:05-debug: programming:execute-script (66ms)
+19.03.2025 11:37:06-debug: builder:worker-init (15093ms)
+19.03.2025 11:37:06-debug: refresh db internal success
+19.03.2025 11:37:06-debug: refresh db assets success
+19.03.2025 11:37:06-debug: Run asset db hook engine-extends:afterRefresh ...
+19.03.2025 11:37:06-debug: Run asset db hook engine-extends:afterRefresh success!
+19.03.2025 11:37:06-debug: asset-db:refresh-all-database (640ms)
+19.03.2025 11:37:06-debug: asset-db:worker-effect-data-processing (31ms)
+19.03.2025 11:37:06-debug: asset-db-hook-engine-extends-afterRefresh (31ms)
+19.03.2025 11:37:07-debug: programming:execute-script (20ms)
+19.03.2025 11:40:17-debug: programming:execute-script (67ms)
+19.03.2025 11:40:21-debug: Query all assets info in project
+19.03.2025 11:40:21-debug: init custom config: keepNodeUuid: false, useCache: true
+19.03.2025 11:40:21-debug:   Number of all scenes: 1
+19.03.2025 11:40:21-debug:   Number of all scripts: 16
+19.03.2025 11:40:21-debug:   Number of other assets: 387
+19.03.2025 11:40:21-debug: Query asset bundle start, progress: 0%
+19.03.2025 11:40:21-debug: // ---- build task Query asset bundle ----
+19.03.2025 11:40:21-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,15049ccd-4dd7-451e-a8ae-af66735c929e,521c5f6e-1a26-42e2-8108-4400c912d9bf,4c3ce6de-e6d1-47f7-aa36-36b9b58f72d3,4361db28-3f24-44cc-8e51-32ee5fd651ac,cafd95c9-c558-46f9-9812-1224b65c09ee,28d6d6b8-3f66-4a73-9795-17a0852ba2d4,2df0a40b-26c2-47ce-be0d-4d3cd4164737,dace6a58-1705-48c7-a275-70afc9534e88,ec8106fe-05bf-4e94-943c-e0d3b7bb5e45,39f74202-ead5-4a45-b966-273d526adbf1,8f6ac413-2f1e-4b88-b26f-54556b5dd510,45e7c0c8-2699-4912-b45f-d42bb8384189,84ac6f69-3086-455a-86a4-561da8ee710b,5c601d96-e4c7-4698-991b-7ee674b11079,bf0a6d94-58f0-4ad2-bdf2-c4a31c7dd856,871c3b6c-7379-419d-bda3-794b239ab90d
+19.03.2025 11:40:21-debug: // ---- build task Query asset bundle ---- (39ms)
+19.03.2025 11:40:21-debug: run build task Query asset bundle success in 39 ms√, progress: 5%
+19.03.2025 11:40:21-debug: Query asset bundle start, progress: 5%
+19.03.2025 11:40:21-debug: [Build Memory track]: Query asset bundle start:204.82MB, end 205.65MB, increase: 848.69KB
+19.03.2025 11:40:21-debug: // ---- build task Query asset bundle ----
+19.03.2025 11:40:21-debug: // ---- build task Query asset bundle ---- (3ms)
+19.03.2025 11:40:21-debug: [Build Memory track]: Query asset bundle start:205.66MB, end 205.68MB, increase: 15.75KB
+19.03.2025 11:40:21-debug: Sort some build options to settings.json start, progress: 10%
+19.03.2025 11:40:21-debug: // ---- build task Sort some build options to settings.json ----
+19.03.2025 11:40:21-debug: run build task Query asset bundle success in 3 ms√, progress: 10%
+19.03.2025 11:40:21-debug: // ---- build task Sort some build options to settings.json ---- (3ms)
+19.03.2025 11:40:21-debug: run build task Sort some build options to settings.json success in 3 ms√, progress: 12%
+19.03.2025 11:40:21-debug: [Build Memory track]: Sort some build options to settings.json start:205.69MB, end 205.71MB, increase: 18.17KB
+19.03.2025 11:40:21-debug: // ---- build task Fill script data to settings ----
+19.03.2025 11:40:21-debug: Fill script data to settings start, progress: 12%
+19.03.2025 11:40:21-debug: // ---- build task Fill script data to settings ---- (3ms)
+19.03.2025 11:40:21-debug: run build task Fill script data to settings success in 3 ms√, progress: 13%
+19.03.2025 11:40:21-debug: // ---- build task Sort some build options to settings.json ----
+19.03.2025 11:40:21-debug: [Build Memory track]: Fill script data to settings start:205.72MB, end 205.74MB, increase: 21.74KB
+19.03.2025 11:40:21-debug: Sort some build options to settings.json start, progress: 13%
+19.03.2025 11:40:21-debug: // ---- build task Sort some build options to settings.json ---- (13ms)
+19.03.2025 11:40:21-debug: run build task Sort some build options to settings.json success in 13 ms√, progress: 15%
+19.03.2025 11:40:21-debug: [Build Memory track]: Sort some build options to settings.json start:205.76MB, end 205.88MB, increase: 124.56KB
+19.03.2025 11:40:52-debug: Query all assets info in project
+19.03.2025 11:40:52-debug: init custom config: keepNodeUuid: false, useCache: true
+19.03.2025 11:40:52-debug:   Number of all scenes: 1
+19.03.2025 11:40:52-debug:   Number of other assets: 387
+19.03.2025 11:40:52-debug:   Number of all scripts: 16
+19.03.2025 11:40:52-debug: Query asset bundle start, progress: 0%
+19.03.2025 11:40:52-debug: // ---- build task Query asset bundle ----
+19.03.2025 11:40:52-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,15049ccd-4dd7-451e-a8ae-af66735c929e,521c5f6e-1a26-42e2-8108-4400c912d9bf,4c3ce6de-e6d1-47f7-aa36-36b9b58f72d3,4361db28-3f24-44cc-8e51-32ee5fd651ac,cafd95c9-c558-46f9-9812-1224b65c09ee,28d6d6b8-3f66-4a73-9795-17a0852ba2d4,2df0a40b-26c2-47ce-be0d-4d3cd4164737,dace6a58-1705-48c7-a275-70afc9534e88,ec8106fe-05bf-4e94-943c-e0d3b7bb5e45,39f74202-ead5-4a45-b966-273d526adbf1,8f6ac413-2f1e-4b88-b26f-54556b5dd510,45e7c0c8-2699-4912-b45f-d42bb8384189,84ac6f69-3086-455a-86a4-561da8ee710b,5c601d96-e4c7-4698-991b-7ee674b11079,bf0a6d94-58f0-4ad2-bdf2-c4a31c7dd856,871c3b6c-7379-419d-bda3-794b239ab90d
+19.03.2025 11:40:52-debug: // ---- build task Query asset bundle ---- (72ms)
+19.03.2025 11:40:52-debug: run build task Query asset bundle success in 72 ms√, progress: 5%
+19.03.2025 11:40:52-debug: [Build Memory track]: Query asset bundle start:206.16MB, end 206.04MB, increase: -123.83KB
+19.03.2025 11:40:52-debug: // ---- build task Query asset bundle ----
+19.03.2025 11:40:52-debug: Query asset bundle start, progress: 5%
+19.03.2025 11:40:52-debug: // ---- build task Query asset bundle ---- (6ms)
+19.03.2025 11:40:52-debug: run build task Query asset bundle success in 6 ms√, progress: 10%
+19.03.2025 11:40:52-debug: // ---- build task Sort some build options to settings.json ----
+19.03.2025 11:40:52-debug: [Build Memory track]: Query asset bundle start:206.05MB, end 206.07MB, increase: 17.04KB
+19.03.2025 11:40:52-debug: Sort some build options to settings.json start, progress: 10%
+19.03.2025 11:40:52-debug: // ---- build task Sort some build options to settings.json ---- (7ms)
+19.03.2025 11:40:52-debug: run build task Sort some build options to settings.json success in 7 ms√, progress: 12%
+19.03.2025 11:40:52-debug: Fill script data to settings start, progress: 12%
+19.03.2025 11:40:52-debug: [Build Memory track]: Sort some build options to settings.json start:206.08MB, end 206.10MB, increase: 18.74KB
+19.03.2025 11:40:52-debug: // ---- build task Fill script data to settings ----
+19.03.2025 11:40:52-debug: // ---- build task Fill script data to settings ---- (8ms)
+19.03.2025 11:40:52-debug: run build task Fill script data to settings success in 8 ms√, progress: 13%
+19.03.2025 11:40:52-debug: [Build Memory track]: Fill script data to settings start:206.11MB, end 206.13MB, increase: 17.66KB
+19.03.2025 11:40:52-debug: Sort some build options to settings.json start, progress: 13%
+19.03.2025 11:40:52-debug: // ---- build task Sort some build options to settings.json ----
+19.03.2025 11:40:52-debug: // ---- build task Sort some build options to settings.json ---- (30ms)
+19.03.2025 11:40:52-debug: run build task Sort some build options to settings.json success in 30 ms√, progress: 15%
+19.03.2025 11:40:52-debug: [Build Memory track]: Sort some build options to settings.json start:206.15MB, end 206.27MB, increase: 128.50KB
+19.03.2025 11:44:31-debug: refresh db internal success
+19.03.2025 11:44:31-debug: refresh db assets success
+19.03.2025 11:44:31-debug: Run asset db hook engine-extends:afterRefresh ...
+19.03.2025 11:44:31-debug: Run asset db hook engine-extends:afterRefresh success!
+19.03.2025 11:44:31-debug: asset-db:refresh-all-database (549ms)
+19.03.2025 11:44:31-debug: asset-db:worker-effect-data-processing (3ms)
+19.03.2025 11:44:31-debug: asset-db-hook-engine-extends-afterRefresh (4ms)

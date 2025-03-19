@@ -725,10 +725,6 @@
     "D:\\Cocos\\CocosSolitaireCreative\\assets\\ui\\win\\EXELLENT!.png.meta": {
       "time": 1741875147450.7666
     },
-    "D:\\Cocos\\CocosSolitaireCreative\\assets\\ui\\win\\EXELLENT!.png": {
-      "time": 1741852767678.927,
-      "uuid": "29a8c3d6-9db7-4064-8000-7cfe17b880ca"
-    },
     "D:\\Cocos\\CocosSolitaireCreative\\assets\\ui\\win\\GREAT!.png.meta": {
       "time": 1741875147480.687
     },
@@ -745,10 +741,6 @@
     },
     "D:\\Cocos\\CocosSolitaireCreative\\assets\\ui\\win\\UNBELIVABLE!.png.meta": {
       "time": 1741875147444.783
-    },
-    "D:\\Cocos\\CocosSolitaireCreative\\assets\\ui\\win\\UNBELIVABLE!.png": {
-      "time": 1741852773173.6045,
-      "uuid": "230118d9-c05a-4d39-aeec-45ede3987558"
     },
     "D:\\Cocos\\CocosSolitaireCreative\\assets\\resources\\animations\\win.anim.meta": {
       "time": 1741854000668.5518
@@ -800,7 +792,7 @@
       "uuid": "0dc47658-64c5-44d1-9d15-69ffe8f91c61"
     },
     "D:\\Cocos\\work\\CocosSolitaireCreative\\assets\\prefabs": {
-      "time": 1742226891728.1584,
+      "time": 1742372738981.85,
       "uuid": "8333d836-1de7-4ad6-a1f3-79d94b6570fc"
     },
     "D:\\Cocos\\work\\CocosSolitaireCreative\\assets\\resources": {
@@ -816,7 +808,7 @@
       "uuid": "14b4ab56-c428-4eda-819b-c6755a201ea9"
     },
     "D:\\Cocos\\work\\CocosSolitaireCreative\\assets\\ui": {
-      "time": 1742226891756.106,
+      "time": 1742372738981.85,
       "uuid": "187d7a2e-ad71-449a-9fa9-b00c2c269fab"
     },
     "D:\\Cocos\\work\\CocosSolitaireCreative\\assets\\resources\\animations": {
@@ -868,7 +860,7 @@
       "uuid": "afa4c943-531c-4c23-9494-a7877b577fb2"
     },
     "D:\\Cocos\\work\\CocosSolitaireCreative\\assets\\scripts\\solitaire\\GameController.ts": {
-      "time": 1742299710022.4775,
+      "time": 1742308370541.3167,
       "uuid": "475131d6-1190-4d2a-957c-aa53438384ec"
     },
     "D:\\Cocos\\work\\CocosSolitaireCreative\\assets\\scripts\\solitaire\\ICardData.ts": {
@@ -880,7 +872,7 @@
       "uuid": "10a63032-1612-4848-9eaf-7b582f6e0bde"
     },
     "D:\\Cocos\\work\\CocosSolitaireCreative\\assets\\scripts\\solitaire\\Letter.ts": {
-      "time": 1742226891744.1223,
+      "time": 1742307909086.6199,
       "uuid": "ce94b6d9-4210-4766-82bb-c0503f491690"
     },
     "D:\\Cocos\\work\\CocosSolitaireCreative\\assets\\scripts\\solitaire\\ResultScreen.ts": {
@@ -896,7 +888,7 @@
       "uuid": "7ee2306f-260f-4232-ac42-b31941231a9b"
     },
     "D:\\Cocos\\work\\CocosSolitaireCreative\\assets\\scripts\\solitaire\\Word.ts": {
-      "time": 1742299729342.6018,
+      "time": 1742308443210.3247,
       "uuid": "5dc38a51-536d-4696-928e-80720967e982"
     },
     "D:\\Cocos\\work\\CocosSolitaireCreative\\assets\\scripts\\sound\\SoundController.ts": {
@@ -904,7 +896,7 @@
       "uuid": "6532c9eb-1747-47e1-a466-993b0fb81d1a"
     },
     "D:\\Cocos\\work\\CocosSolitaireCreative\\assets\\scripts\\ui\\ScreenScaler.ts": {
-      "time": 1742299676211.3384,
+      "time": 1742312201036.373,
       "uuid": "9c4a9a4a-edcb-4d58-9d6d-6b5ce152d804"
     },
     "D:\\Cocos\\work\\CocosSolitaireCreative\\assets\\scripts\\ui\\StoreButtonComponent.ts": {
@@ -1004,15 +996,15 @@
       "uuid": "0dc47658-64c5-44d1-9d15-69ffe8f91c61"
     },
     "D:\\Cocos\\work\\CocosSolitaireCreative\\assets\\prefabs\\LetterSlot.prefab": {
-      "time": 1742226891728.1584,
+      "time": 1742304745470.2268,
       "uuid": "189313e1-5a22-4e45-9d3b-3874c655d63e"
     },
     "D:\\Cocos\\work\\CocosSolitaireCreative\\assets\\prefabs\\Word.prefab": {
-      "time": 1742226891728.1584,
+      "time": 1742373173305.1052,
       "uuid": "41812075-5872-4d22-ae09-db5a8a128bed"
     },
     "D:\\Cocos\\work\\CocosSolitaireCreative\\assets\\scenes\\main.scene": {
-      "time": 1742299749407.2314,
+      "time": 1742373269268.7764,
       "uuid": "dc2dda4d-4285-4c9b-a5be-643ce0534e83"
     },
     "D:\\Cocos\\work\\CocosSolitaireCreative\\assets\\ui\\background.png": {
@@ -1204,6 +1196,20 @@
     "D:\\Cocos\\work\\CocosSolitaireCreative\\assets\\ui\\win\\UNBELIEVABLE.png": {
       "time": 1742281623462.3818,
       "uuid": "68e3e1fc-95be-44b1-96c8-567355e78c04"
+    },
+    "D:\\Cocos\\work\\CocosSolitaireCreative\\assets\\ui\\Property 1=Variant2.1.png.meta": {
+      "time": 1742372671072.6084
+    },
+    "D:\\Cocos\\work\\CocosSolitaireCreative\\assets\\ui\\Property 1=Variant2.1.png": {
+      "time": 1742372587482.4934,
+      "uuid": "495b81e7-07e1-446e-a07f-3d3bfc48dfa0"
+    },
+    "D:\\Cocos\\work\\CocosSolitaireCreative\\assets\\prefabs\\Property 1=Variant2.1.prefab.meta": {
+      "time": 1742372730317.5625
+    },
+    "D:\\Cocos\\work\\CocosSolitaireCreative\\assets\\prefabs\\Property 1=Variant2.1.prefab": {
+      "time": 1742372730294.62,
+      "uuid": "d31615f1-ed77-4747-a819-012ba2d6d410"
     }
   },
   "missing": {
@@ -1418,9 +1424,9 @@
       "removeTime": 1741853468146
     },
     "29a8c3d6-9db7-4064-8000-7cfe17b880ca": {
-      "path": "D:\\Cocos\\work\\CocosSolitaireCreative\\assets\\ui\\win\\EXELLENT!.png",
-      "time": 1742226891760.101,
-      "removeTime": 1742285057754
+      "path": "D:\\Cocos\\CocosSolitaireCreative\\assets\\ui\\win\\EXELLENT!.png",
+      "time": 1741852767678.927,
+      "removeTime": 1742307736829
     },
     "4d7666f6-f37f-4eb8-bf14-5b12c8a59f6e": {
       "path": "D:\\Cocos\\CocosSolitaireCreative\\assets\\ui\\EPIC!.png",
@@ -1428,9 +1434,9 @@
       "removeTime": 1741853468147
     },
     "230118d9-c05a-4d39-aeec-45ede3987558": {
-      "path": "D:\\Cocos\\work\\CocosSolitaireCreative\\assets\\ui\\win\\UNBELIVABLE!.png",
-      "time": 1742226891764.0957,
-      "removeTime": 1742285061982
+      "path": "D:\\Cocos\\CocosSolitaireCreative\\assets\\ui\\win\\UNBELIVABLE!.png",
+      "time": 1741852773173.6045,
+      "removeTime": 1742307736829
     },
     "3822d17d-6024-4998-aaf9-448ba294e7d8": {
       "path": "D:\\Cocos\\CocosSolitaireCreative\\assets\\ui\\GOOD!.png",
@@ -1711,6 +1717,16 @@
       "path": "D:\\Cocos\\work\\CocosSolitaireCreative\\assets\\ui\\win\\GOOD! (6).png",
       "time": 1742281623462.3818,
       "removeTime": 1742285092500
+    },
+    "3aa532b4-c76e-4711-a671-5c618c6f9c4d": {
+      "path": "D:\\Cocos\\work\\CocosSolitaireCreative\\assets\\ui\\Property 1=Variant2.1.png",
+      "time": 1742372251712.9124,
+      "removeTime": 1742372619835
+    },
+    "d31615f1-ed77-4747-a819-012ba2d6d410": {
+      "path": "D:\\Cocos\\work\\CocosSolitaireCreative\\assets\\ui\\Property 1=Variant2.1.prefab",
+      "time": 1742372730294.62,
+      "removeTime": 1742372738985
     }
   }
 }

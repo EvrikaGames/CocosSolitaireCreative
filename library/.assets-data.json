@@ -1120,11 +1120,13 @@
     "url": "db://assets/prefabs/Word.prefab",
     "value": {
       "depends": [
-        "22a509cd-7164-4e0d-934a-33162f27e622@f9941",
-        "c31cef33-1266-4a99-bfe8-8400f560bbe8",
-        "f15eae12-5007-44d5-893b-d7ee6b208441@f9941"
+        "d31615f1-ed77-4747-a819-012ba2d6d410",
+        "f12a23c4-b924-4322-a260-3d982428f1e8@f9941",
+        "f15eae12-5007-44d5-893b-d7ee6b208441@f9941",
+        "c31cef33-1266-4a99-bfe8-8400f560bbe8"
       ],
       "dependScripts": [
+        "CC3eba29-7abb-723a-f7ab-ae275e2277e8",
         "5dc38a51-536d-4696-928e-80720967e982"
       ]
     },
@@ -1471,6 +1473,64 @@
       "depends": [
         "982f5662-f59c-4f28-97dc-188273f7a9d6@6c48a"
       ]
+    },
+    "versionCode": 0
+  },
+  "3aa532b4-c76e-4711-a671-5c618c6f9c4d": {
+    "url": "db://assets/ui/Property 1=Variant2.1.png",
+    "value": {},
+    "versionCode": 0
+  },
+  "3aa532b4-c76e-4711-a671-5c618c6f9c4d@6c48a": {
+    "url": "db://assets/ui/Property 1=Variant2.1.png@6c48a",
+    "value": {
+      "depends": [
+        "3aa532b4-c76e-4711-a671-5c618c6f9c4d"
+      ]
+    },
+    "versionCode": 0
+  },
+  "3aa532b4-c76e-4711-a671-5c618c6f9c4d@f9941": {
+    "url": "db://assets/ui/Property 1=Variant2.1.png@f9941",
+    "value": {
+      "depends": [
+        "3aa532b4-c76e-4711-a671-5c618c6f9c4d@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "495b81e7-07e1-446e-a07f-3d3bfc48dfa0": {
+    "url": "db://assets/ui/Property 1=Variant2.1.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "495b81e7-07e1-446e-a07f-3d3bfc48dfa0@6c48a": {
+    "url": "db://assets/ui/Property 1=Variant2.1.png@6c48a",
+    "value": {
+      "depends": [
+        "495b81e7-07e1-446e-a07f-3d3bfc48dfa0"
+      ]
+    },
+    "versionCode": 0
+  },
+  "495b81e7-07e1-446e-a07f-3d3bfc48dfa0@f9941": {
+    "url": "db://assets/ui/Property 1=Variant2.1.png@f9941",
+    "value": {
+      "depends": [
+        "495b81e7-07e1-446e-a07f-3d3bfc48dfa0@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "d31615f1-ed77-4747-a819-012ba2d6d410": {
+    "url": "db://assets/prefabs/Property 1=Variant2.1.prefab",
+    "value": {
+      "depends": [
+        "495b81e7-07e1-446e-a07f-3d3bfc48dfa0@f9941"
+      ],
+      "dependScripts": []
     },
     "versionCode": 0
   }

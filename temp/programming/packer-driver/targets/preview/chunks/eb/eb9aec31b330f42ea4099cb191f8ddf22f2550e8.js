@@ -1,7 +1,7 @@
 System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__unresolved_3", "__unresolved_4", "__unresolved_5", "__unresolved_6", "__unresolved_7"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, instantiate, Label, Node, Prefab, resources, TextAsset, tween, UIOpacity, Vec3, Card, Word, Letter, Blocker, StoreButtonComponent, ResultScreen, SoundController, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _dec8, _dec9, _dec10, _dec11, _dec12, _dec13, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _descriptor8, _descriptor9, _descriptor10, _descriptor11, _descriptor12, _descriptor13, _class3, _crd, ccclass, property, GameController;
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, instantiate, Label, Node, Prefab, resources, TextAsset, tween, UIOpacity, UITransform, Vec3, Card, Word, Letter, Blocker, StoreButtonComponent, ResultScreen, SoundController, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _dec8, _dec9, _dec10, _dec11, _dec12, _dec13, _dec14, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _descriptor8, _descriptor9, _descriptor10, _descriptor11, _descriptor12, _descriptor13, _descriptor14, _class3, _crd, ccclass, property, GameController;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -62,6 +62,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
       TextAsset = _cc.TextAsset;
       tween = _cc.tween;
       UIOpacity = _cc.UIOpacity;
+      UITransform = _cc.UITransform;
       Vec3 = _cc.Vec3;
     }, function (_unresolved_2) {
       Card = _unresolved_2.default;
@@ -90,11 +91,11 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
         property
       } = _decorator);
 
-      _export("default", GameController = (_dec = property(Node), _dec2 = property(Label), _dec3 = property(Prefab), _dec4 = property(Node), _dec5 = property(Prefab), _dec6 = property(Node), _dec7 = property(Prefab), _dec8 = property(Node), _dec9 = property(Node), _dec10 = property(Node), _dec11 = property({
+      _export("default", GameController = (_dec = property(Node), _dec2 = property(Label), _dec3 = property(Prefab), _dec4 = property(Node), _dec5 = property(Prefab), _dec6 = property(Node), _dec7 = property(Prefab), _dec8 = property(Node), _dec9 = property(Node), _dec10 = property(Node), _dec11 = property(Node), _dec12 = property({
         type: Node
-      }), _dec12 = property(_crd && ResultScreen === void 0 ? (_reportPossibleCrUseOfResultScreen({
+      }), _dec13 = property(_crd && ResultScreen === void 0 ? (_reportPossibleCrUseOfResultScreen({
         error: Error()
-      }), ResultScreen) : ResultScreen), _dec13 = property({
+      }), ResultScreen) : ResultScreen), _dec14 = property({
         type: _crd && SoundController === void 0 ? (_reportPossibleCrUseOfSoundController({
           error: Error()
         }), SoundController) : SoundController
@@ -118,15 +119,17 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
 
           _initializerDefineProperty(this, "letterSlotContainer", _descriptor8, this);
 
-          _initializerDefineProperty(this, "startPosition", _descriptor9, this);
+          _initializerDefineProperty(this, "letterContainer", _descriptor9, this);
 
-          _initializerDefineProperty(this, "endPosition", _descriptor10, this);
+          _initializerDefineProperty(this, "startPosition", _descriptor10, this);
 
-          _initializerDefineProperty(this, "storeButtonNode", _descriptor11, this);
+          _initializerDefineProperty(this, "endPosition", _descriptor11, this);
 
-          _initializerDefineProperty(this, "resultScreen", _descriptor12, this);
+          _initializerDefineProperty(this, "storeButtonNode", _descriptor12, this);
 
-          _initializerDefineProperty(this, "sound", _descriptor13, this);
+          _initializerDefineProperty(this, "resultScreen", _descriptor13, this);
+
+          _initializerDefineProperty(this, "sound", _descriptor14, this);
 
           this.predefinedDeck = [];
           this.predefinedWords = [];
@@ -287,6 +290,9 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
         createCompletedWords() {
           for (var j = 0; j < this.predefinedWords.length; j++) {
             var completedWordNode = instantiate(this.completedWordPrefab);
+            completedWordNode.getComponent(_crd && Word === void 0 ? (_reportPossibleCrUseOfWord({
+              error: Error()
+            }), Word) : Word).setNumber(j + 1);
             this.completedWords.push(completedWordNode.getComponent(_crd && Word === void 0 ? (_reportPossibleCrUseOfWord({
               error: Error()
             }), Word) : Word));
@@ -314,6 +320,8 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
             letterSlotNode.setPosition(this.getSlotPosition(i, len));
             this.letterSlotContainer.addChild(letterSlotNode);
           }
+
+          this.letterContainer.getComponent(UITransform).setContentSize(this.letterSlots.length * 110, this.letterContainer.getComponent(UITransform).contentSize.y);
         }
 
         deleteSlots() {
@@ -559,35 +567,42 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
         initializer: function initializer() {
           return null;
         }
-      }), _descriptor9 = _applyDecoratedDescriptor(_class2.prototype, "startPosition", [_dec9], {
+      }), _descriptor9 = _applyDecoratedDescriptor(_class2.prototype, "letterContainer", [_dec9], {
         configurable: true,
         enumerable: true,
         writable: true,
         initializer: function initializer() {
           return null;
         }
-      }), _descriptor10 = _applyDecoratedDescriptor(_class2.prototype, "endPosition", [_dec10], {
+      }), _descriptor10 = _applyDecoratedDescriptor(_class2.prototype, "startPosition", [_dec10], {
         configurable: true,
         enumerable: true,
         writable: true,
         initializer: function initializer() {
           return null;
         }
-      }), _descriptor11 = _applyDecoratedDescriptor(_class2.prototype, "storeButtonNode", [_dec11], {
+      }), _descriptor11 = _applyDecoratedDescriptor(_class2.prototype, "endPosition", [_dec11], {
         configurable: true,
         enumerable: true,
         writable: true,
         initializer: function initializer() {
           return null;
         }
-      }), _descriptor12 = _applyDecoratedDescriptor(_class2.prototype, "resultScreen", [_dec12], {
+      }), _descriptor12 = _applyDecoratedDescriptor(_class2.prototype, "storeButtonNode", [_dec12], {
         configurable: true,
         enumerable: true,
         writable: true,
         initializer: function initializer() {
           return null;
         }
-      }), _descriptor13 = _applyDecoratedDescriptor(_class2.prototype, "sound", [_dec13], {
+      }), _descriptor13 = _applyDecoratedDescriptor(_class2.prototype, "resultScreen", [_dec13], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function initializer() {
+          return null;
+        }
+      }), _descriptor14 = _applyDecoratedDescriptor(_class2.prototype, "sound", [_dec14], {
         configurable: true,
         enumerable: true,
         writable: true,
