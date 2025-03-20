@@ -31,13 +31,13 @@
   },
   "BuildTaskManager": {
     "taskMap": {
-      "1742403668075": {
+      "1742470665449": {
         "type": "build",
-        "id": "1742403668075",
+        "id": "1742470665449",
         "progress": 1,
         "state": "success",
         "stage": "build",
-        "message": "19.03.2025 20:02:09 build success in 1 min!",
+        "message": "20.03.2025 14:37:59 build success in 13 s!",
         "options": {
           "name": "SolitaireCreative",
           "server": "",
@@ -76,10 +76,76 @@
           "packages": {},
           "__version__": "1.3.7",
           "buildMode": "normal",
-          "logDest": "project://temp/builder/log/web-mobile19.03.2025 20-01.log"
+          "logDest": "project://temp/builder/log/web-mobile20.03.2025 14-37.log"
         },
-        "time": "19.03.2025 20:01:08",
-        "dirty": false
+        "time": "20.03.2025 14:37:45",
+        "dirty": true,
+        "rawOptions": {
+          "name": "SolitaireCreative",
+          "server": "",
+          "platform": "web-mobile",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "polyfills": {
+            "asyncFunctions": true
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": false,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "dc2dda4d-4285-4c9b-a5be-643ce0534e83",
+          "outputName": "web-mobile",
+          "taskName": "web-mobile",
+          "scenes": [
+            {
+              "url": "db://assets/scenes/main.scene",
+              "uuid": "dc2dda4d-4285-4c9b-a5be-643ce0534e83"
+            }
+          ],
+          "overwriteProjectSettings": {
+            "includeModules": {
+              "gfx-webgl2": "inherit-project-setting"
+            }
+          },
+          "packages": {
+            "engine": {
+              "cleanupImageCache": "inheritProjectSetting",
+              "__version__": "1.0.8"
+            },
+            "adsense-h5g-plugin": {
+              "enableAdsense": false,
+              "enableTestAd": false,
+              "__version__": "1.0.1",
+              "AFPHostPropertyCode": "ca-host-pub-5396158963872751",
+              "AFPHostDomain": "douyougame.com",
+              "otherAFPHostPropertyCode": "",
+              "otherAFPDomain": ""
+            },
+            "cocos-service": {
+              "configID": "a250cd",
+              "services": [],
+              "__version__": "3.0.7"
+            },
+            "web-mobile": {
+              "orientation": "portrait",
+              "embedWebDebugger": false,
+              "cullEngineAsmJsModule": false,
+              "useWebGPU": false,
+              "__version__": "1.0.1"
+            }
+          },
+          "__version__": "1.3.7",
+          "buildMode": "normal",
+          "logDest": "project://temp/builder/log/web-mobile20.03.2025 14-37.log"
+        }
       }
     }
   }

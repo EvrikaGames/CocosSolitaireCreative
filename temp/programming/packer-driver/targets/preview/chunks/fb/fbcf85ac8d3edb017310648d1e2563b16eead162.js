@@ -39,7 +39,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
       _cclegacy._RF.push({}, "9c4a9pK7ctNWJ1ta1zhUtgE", "ScreenScaler", undefined);
 
-      __checkObsolete__(['_decorator', 'Component', 'Node', 'screen', 'Vec2', 'Vec3', 'view', 'ResolutionPolicy', 'Widget', 'Canvas']);
+      __checkObsolete__(['_decorator', 'Component', 'Node', 'screen', 'Vec2', 'Vec3', 'view', 'ResolutionPolicy', 'Widget', 'Canvas', 'UITransform']);
 
       ({
         ccclass,
@@ -99,6 +99,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           this.originalCompletedWordsContainerPosition = void 0;
           this.originalWordsContainerPosition = void 0;
           this.originalHandPosition = void 0;
+          this.originalSentencesWidgetTop = void 0;
           this.originalPlayWidgetRight = void 0;
           this.originalLetterContainerScale = void 0;
         }
@@ -109,6 +110,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           this.originalCompletedWordsContainerPosition = this.completedWordsContainer.getPosition();
           this.originalWordsContainerPosition = this.wordsContainer.getPosition();
           this.originalHandPosition = this.hand.getPosition();
+          this.originalSentencesWidgetTop = this.sentences.getComponent(Widget).top;
           this.originalLetterContainerScale = this.letterContainer.getScale().clone();
           this.originalPlayWidgetRight = this.playWidget.getComponent(Widget).right;
           this.onWindowResize(screen.windowSize.width, screen.windowSize.height);
@@ -148,6 +150,8 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
               this.wordsContainer.setPosition(this.originalWordsContainerPosition.x * scale, this.originalWordsContainerPosition.y * scale);
               this.originalHandPosition = this.hand.getParent().getPosition();
               this.hand.getParent().setPosition(this.originalHandPosition.x * scale / 1.6, this.originalHandPosition.y * scale / 1.2);
+              this.sentences.getComponent(Widget).enabled = true;
+              this.sentences.getComponent(Widget).top = this.originalSentencesWidgetTop;
 
               if (mass.length > 0) {
                 mass.forEach(card => {
@@ -160,10 +164,12 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
               view.setDesignResolutionSize(this.originalHeigth, this.originalWidth, ResolutionPolicy.FIXED_HEIGHT);
               this.letterContainer.setPosition(this.originalLetterContainerPosition.x * scale * 1.4, this.originalLetterContainerPosition.y * scale * 1.4);
               this.cardContainer.setPosition(this.originalCardContainerPosition.x * scale * 1.7, this.originalCardContainerPosition.y * scale / 1.7);
-              this.completedWordsContainer.setPosition(this.originalCompletedWordsContainerPosition.x * scale * 1.5, this.originalCompletedWordsContainerPosition.y * scale * 2.2);
+              this.completedWordsContainer.setPosition(this.originalCompletedWordsContainerPosition.x * scale * 1.7, this.originalCompletedWordsContainerPosition.y * scale * 2.3);
               this.wordsContainer.setPosition(this.originalWordsContainerPosition.x * scale * 3.1, this.originalWordsContainerPosition.y * scale * 3.1);
               this.originalHandPosition = this.hand.getParent().getPosition();
               this.hand.getParent().setPosition(this.originalHandPosition.x * scale * 1.6, this.originalHandPosition.y * scale * 1.2);
+              this.sentences.getComponent(Widget).enabled = false;
+              this.sentences.setPosition(0, (1920 - this.completedWordsContainer.position.y) / 2 * 1.1 * scale); // this.sentences.getComponent(Widget).top = this.originalSentencesWidgetTop * scale * 1.7;
 
               if (mass.length > 0) {
                 mass.forEach(card => {
@@ -188,9 +194,9 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
             this.background.setScale(scale * 2, scale * 2);
             this.letterContainer.setScale(this.originalLetterContainerScale.x * 1.7 * scale, this.originalLetterContainerScale.y * 1.7 * scale);
             this.cardContainer.setScale(scale * 1.7, scale * 1.7);
-            this.completedWordsContainer.setScale(scale * 2, scale * 2);
+            this.completedWordsContainer.setScale(scale * 2.2, scale * 2.2);
             this.sentences.setScale(scale * 1.4, scale * 1.4);
-            this.wordsContainer.setScale(scale * 1.6, scale * 1.6);
+            this.wordsContainer.setScale(scale * 1.7, scale * 1.7);
             this.hand.setScale(scale * 1.4, scale * 1.4);
           }
 

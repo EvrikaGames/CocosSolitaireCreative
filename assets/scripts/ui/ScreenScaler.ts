@@ -1,4 +1,4 @@
-import { _decorator, Component, Node, screen, Vec2, Vec3, view, ResolutionPolicy, Widget, Canvas } from 'cc';
+import { _decorator, Component, Node, screen, Vec2, Vec3, view, ResolutionPolicy, Widget, Canvas, UITransform } from 'cc';
 import { Letter } from '../solitaire/Letter';
 import Card from '../solitaire/Card';
 const { ccclass, property } = _decorator;
@@ -51,6 +51,7 @@ export class ScreenScaler extends Component {
     private originalCompletedWordsContainerPosition: Vec3;
     private originalWordsContainerPosition: Vec3;
     private originalHandPosition: Vec3;
+    private originalSentencesWidgetTop: number;
 
     private originalPlayWidgetRight: number;
 
@@ -63,7 +64,7 @@ export class ScreenScaler extends Component {
         this.originalCompletedWordsContainerPosition = this.completedWordsContainer.getPosition();
         this.originalWordsContainerPosition = this.wordsContainer.getPosition();
         this.originalHandPosition = this.hand.getPosition();
-
+        this.originalSentencesWidgetTop = this.sentences.getComponent(Widget).top;
 
         this.originalLetterContainerScale = this.letterContainer.getScale().clone();
 
@@ -123,6 +124,8 @@ export class ScreenScaler extends Component {
                     this.originalHandPosition.x * scale / 1.6,
                     this.originalHandPosition.y * scale / 1.2
                 );
+                this.sentences.getComponent(Widget).enabled = true;
+                this.sentences.getComponent(Widget).top = this.originalSentencesWidgetTop;
                 if(mass.length > 0){
                 mass.forEach(card => {
                     card.node.setPosition(card.node.getPosition().x * scale, card.node.getPosition().y * scale / 1.025);
@@ -141,8 +144,8 @@ export class ScreenScaler extends Component {
                     this.originalCardContainerPosition.y  * scale / 1.7
                 );
                 this.completedWordsContainer.setPosition(
-                    this.originalCompletedWordsContainerPosition.x * scale * 1.5,
-                    this.originalCompletedWordsContainerPosition.y * scale* 2.2
+                    this.originalCompletedWordsContainerPosition.x * scale * 1.7,
+                    this.originalCompletedWordsContainerPosition.y * scale* 2.3
                 );
                 this.wordsContainer.setPosition(
                     this.originalWordsContainerPosition.x * scale * 3.1,
@@ -153,6 +156,9 @@ export class ScreenScaler extends Component {
                     this.originalHandPosition.x * scale * 1.6,
                     this.originalHandPosition.y * scale * 1.2
                 );
+                this.sentences.getComponent(Widget).enabled = false;
+                this.sentences.setPosition(0, ((1920 - this.completedWordsContainer.position.y) / 2) * 1.1 * scale);
+               // this.sentences.getComponent(Widget).top = this.originalSentencesWidgetTop * scale * 1.7;
                 if(mass.length > 0){
                     mass.forEach(card => {
                         card.node.setPosition(card.node.getPosition().x * scale, card.node.getPosition().y * scale * 1.025);
@@ -180,9 +186,9 @@ export class ScreenScaler extends Component {
             this.background.setScale(scale * 2, scale * 2);
             this.letterContainer.setScale(this.originalLetterContainerScale.x * 1.7 * scale, this.originalLetterContainerScale.y * 1.7* scale);
             this.cardContainer.setScale(scale * 1.7, scale * 1.7);
-            this.completedWordsContainer.setScale(scale * 2, scale * 2);
+            this.completedWordsContainer.setScale(scale * 2.2, scale * 2.2);
             this.sentences.setScale(scale * 1.4, scale * 1.4);
-            this.wordsContainer.setScale(scale * 1.6, scale * 1.6);
+            this.wordsContainer.setScale(scale * 1.7, scale * 1.7);
             this.hand.setScale(scale * 1.4, scale * 1.4);
 
         }

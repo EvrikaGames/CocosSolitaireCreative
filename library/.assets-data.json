@@ -1499,9 +1499,7 @@
   },
   "495b81e7-07e1-446e-a07f-3d3bfc48dfa0": {
     "url": "db://assets/ui/Property 1=Variant2.1.png",
-    "value": {
-      "depends": []
-    },
+    "value": {},
     "versionCode": 0
   },
   "495b81e7-07e1-446e-a07f-3d3bfc48dfa0@6c48a": {
@@ -1526,7 +1524,7 @@
     "url": "db://assets/prefabs/Property 1=Variant2.1.prefab",
     "value": {
       "depends": [
-        "495b81e7-07e1-446e-a07f-3d3bfc48dfa0@f9941"
+        "a5b486a5-416d-42a0-907c-9b7ac8769012@f9941"
       ],
       "dependScripts": []
     },
@@ -1611,6 +1609,31 @@
     "value": {
       "depends": [
         "01fa5c89-e86c-44a8-9e00-b686f12508ff@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "a5b486a5-416d-42a0-907c-9b7ac8769012": {
+    "url": "db://assets/ui/Group 1918.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "a5b486a5-416d-42a0-907c-9b7ac8769012@6c48a": {
+    "url": "db://assets/ui/Group 1918.png@6c48a",
+    "value": {
+      "depends": [
+        "a5b486a5-416d-42a0-907c-9b7ac8769012"
+      ]
+    },
+    "versionCode": 0
+  },
+  "a5b486a5-416d-42a0-907c-9b7ac8769012@f9941": {
+    "url": "db://assets/ui/Group 1918.png@f9941",
+    "value": {
+      "depends": [
+        "a5b486a5-416d-42a0-907c-9b7ac8769012@6c48a"
       ]
     },
     "versionCode": 0

@@ -41,9 +41,6 @@ export default class GameController extends Component {
     letterSlotContainer: Node = null;
 
     @property(Node)
-    letterContainer: Node = null;
-
-    @property(Node)
     startPosition: Node = null;
     @property(Node)
     endPosition: Node = null;
@@ -227,8 +224,6 @@ export default class GameController extends Component {
             letterSlotNode.setPosition(this.getSlotPosition(i, len));
             this.letterSlotContainer.addChild(letterSlotNode);
         }
-        this.letterContainer.getComponent(UITransform).setContentSize(this.letterSlots.length * 110, this.letterContainer.getComponent(UITransform).contentSize.y);
-
     }
     deleteSlots(){
         this.letterSlots.forEach(slot => {

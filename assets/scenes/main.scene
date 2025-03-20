@@ -878,7 +878,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": 0,
-      "y": 782.0000000000001,
+      "y": 762.0000000000001,
       "z": 0
     },
     "_lrot": {
@@ -1261,7 +1261,7 @@
     "_target": null,
     "_left": 0,
     "_right": 0,
-    "_top": 130,
+    "_top": 150,
     "_bottom": 0,
     "_horizontalCenter": 0,
     "_verticalCenter": 0,
@@ -1386,7 +1386,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 550,
+      "width": 600,
       "height": 150
     },
     "_anchorPoint": {
@@ -2063,9 +2063,6 @@
     },
     "letterSlotContainer": {
       "__id__": 33
-    },
-    "letterContainer": {
-      "__id__": 34
     },
     "startPosition": {
       "__id__": 26
