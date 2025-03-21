@@ -1,7 +1,7 @@
 System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Node, screen, view, ResolutionPolicy, Widget, Letter, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _dec8, _dec9, _dec10, _dec11, _dec12, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _descriptor8, _descriptor9, _descriptor10, _descriptor11, _crd, ccclass, property, ScreenScaler;
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Node, screen, view, ResolutionPolicy, Widget, Letter, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _dec8, _dec9, _dec10, _dec11, _dec12, _dec13, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _descriptor8, _descriptor9, _descriptor10, _descriptor11, _descriptor12, _crd, ccclass, property, ScreenScaler;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -62,7 +62,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
         type: Node
       }), _dec11 = property({
         type: Node
-      }), _dec12 = property({
+      }), _dec12 = property(Node), _dec13 = property({
         type: Node
       }), _dec(_class = (_class2 = class ScreenScaler extends Component {
         constructor(...args) {
@@ -88,7 +88,9 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
           _initializerDefineProperty(this, "sentences", _descriptor10, this);
 
-          _initializerDefineProperty(this, "win", _descriptor11, this);
+          _initializerDefineProperty(this, "constLabel", _descriptor11, this);
+
+          _initializerDefineProperty(this, "win", _descriptor12, this);
 
           this.originalWidth = 1920;
           this.originalHeigth = 1080;
@@ -99,7 +101,9 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           this.originalCompletedWordsContainerPosition = void 0;
           this.originalWordsContainerPosition = void 0;
           this.originalHandPosition = void 0;
+          this.originalConstLabelWidget = void 0;
           this.originalSentencesWidgetTop = void 0;
+          this.originalIconWidgetLeft = void 0;
           this.originalPlayWidgetRight = void 0;
           this.originalLetterContainerScale = void 0;
         }
@@ -111,8 +115,10 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
           this.originalWordsContainerPosition = this.wordsContainer.getPosition();
           this.originalHandPosition = this.hand.getPosition();
           this.originalSentencesWidgetTop = this.sentences.getComponent(Widget).top;
+          this.originalConstLabelWidget = this.constLabel.getComponent(Widget).top;
           this.originalLetterContainerScale = this.letterContainer.getScale().clone();
           this.originalPlayWidgetRight = this.playWidget.getComponent(Widget).right;
+          this.originalIconWidgetLeft = this.iconWidget.getComponent(Widget).left;
           this.onWindowResize(screen.windowSize.width, screen.windowSize.height);
         }
 
@@ -150,12 +156,16 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
               this.wordsContainer.setPosition(this.originalWordsContainerPosition.x * scale, this.originalWordsContainerPosition.y * scale);
               this.originalHandPosition = this.hand.getParent().getPosition();
               this.hand.getParent().setPosition(this.originalHandPosition.x * scale / 1.6, this.originalHandPosition.y * scale / 1.2);
+              this.constLabel.getComponent(Widget).enabled = true;
+              this.constLabel.getComponent(Widget).top = this.originalConstLabelWidget * scale;
               this.sentences.getComponent(Widget).enabled = true;
-              this.sentences.getComponent(Widget).top = this.originalSentencesWidgetTop;
+              this.sentences.getComponent(Widget).top = this.originalSentencesWidgetTop * scale;
+              this.playWidget.getComponent(Widget).right = this.originalPlayWidgetRight * scale;
+              this.iconWidget.getComponent(Widget).left = this.originalIconWidgetLeft * scale;
 
               if (mass.length > 0) {
                 mass.forEach(card => {
-                  card.node.setPosition(card.node.getPosition().x * scale, card.node.getPosition().y * scale / 1.025);
+                  card.node.setPosition(card.node.getPosition().x * scale, card.node.getPosition().y * scale * 1.03);
                 });
               }
 
@@ -163,17 +173,22 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
             } else {
               view.setDesignResolutionSize(this.originalHeigth, this.originalWidth, ResolutionPolicy.FIXED_HEIGHT);
               this.letterContainer.setPosition(this.originalLetterContainerPosition.x * scale * 1.4, this.originalLetterContainerPosition.y * scale * 1.4);
-              this.cardContainer.setPosition(this.originalCardContainerPosition.x * scale * 1.7, this.originalCardContainerPosition.y * scale / 1.7);
-              this.completedWordsContainer.setPosition(this.originalCompletedWordsContainerPosition.x * scale * 1.7, this.originalCompletedWordsContainerPosition.y * scale * 2.3);
+              this.cardContainer.setPosition(this.originalCardContainerPosition.x * scale * 1.7, this.originalCardContainerPosition.y * scale);
+              this.completedWordsContainer.setPosition(this.originalCompletedWordsContainerPosition.x * scale * 1.6, this.originalCompletedWordsContainerPosition.y * scale * 2.3);
               this.wordsContainer.setPosition(this.originalWordsContainerPosition.x * scale * 3.1, this.originalWordsContainerPosition.y * scale * 3.1);
               this.originalHandPosition = this.hand.getParent().getPosition();
               this.hand.getParent().setPosition(this.originalHandPosition.x * scale * 1.6, this.originalHandPosition.y * scale * 1.2);
               this.sentences.getComponent(Widget).enabled = false;
-              this.sentences.setPosition(0, (1920 - this.completedWordsContainer.position.y) / 2 * 1.1 * scale); // this.sentences.getComponent(Widget).top = this.originalSentencesWidgetTop * scale * 1.7;
+              this.sentences.setPosition(0, (1920 - this.completedWordsContainer.position.y) / 2 / 1.2 * scale); // this.sentences.getComponent(Widget).top = this.originalSentencesWidgetTop * scale * 1.7;
+
+              this.constLabel.getComponent(Widget).top *= 2;
+              this.constLabel.getComponent(Widget).top = this.originalConstLabelWidget * scale * 2;
+              this.playWidget.getComponent(Widget).right = this.originalPlayWidgetRight / 2 * scale;
+              this.iconWidget.getComponent(Widget).left = this.originalIconWidgetLeft / 2 * scale;
 
               if (mass.length > 0) {
                 mass.forEach(card => {
-                  card.node.setPosition(card.node.getPosition().x * scale, card.node.getPosition().y * scale * 1.025);
+                  card.node.setPosition(card.node.getPosition().x * scale, card.node.getPosition().y * scale / 1.03);
                 });
               }
             }
@@ -181,23 +196,24 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
 
           this.letterContainer.setScale(this.originalLetterContainerScale.x * scale, this.originalLetterContainerScale.y * scale);
           this.cardContainer.setScale(scale, scale);
-          this.completedWordsContainer.setScale(scale * 1.3, scale * 1.3);
+          this.completedWordsContainer.setScale(scale, scale);
           this.playWidget.setScale(scale, scale);
           this.win.setScale(scale, scale);
           this.constName.setScale(scale, scale);
-          this.sentences.setScale(scale, scale);
+          this.sentences.setScale(scale * 1.4, scale * 1.4);
           this.background.setScale(scale, scale);
           this.wordsContainer.setScale(scale, scale);
           this.hand.setScale(scale, scale);
 
           if (!currentHorizontalState) {
-            this.background.setScale(scale * 2, scale * 2);
+            //this.background.setScale(scale * 2, scale * 2);
             this.letterContainer.setScale(this.originalLetterContainerScale.x * 1.7 * scale, this.originalLetterContainerScale.y * 1.7 * scale);
             this.cardContainer.setScale(scale * 1.7, scale * 1.7);
-            this.completedWordsContainer.setScale(scale * 2.2, scale * 2.2);
-            this.sentences.setScale(scale * 1.4, scale * 1.4);
+            this.completedWordsContainer.setScale(scale * 1.7, scale * 1.7);
+            this.sentences.setScale(scale * 2, scale * 2);
             this.wordsContainer.setScale(scale * 1.7, scale * 1.7);
             this.hand.setScale(scale * 1.4, scale * 1.4);
+            this.constName.setScale(scale * 1.5, scale * 1.5);
           }
 
           console.log(`Screen resized: width=${width}, height=${height}, scale=${scale}`);
@@ -273,7 +289,14 @@ System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _
         initializer: function () {
           return null;
         }
-      }), _descriptor11 = _applyDecoratedDescriptor(_class2.prototype, "win", [_dec12], {
+      }), _descriptor11 = _applyDecoratedDescriptor(_class2.prototype, "constLabel", [_dec12], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function () {
+          return null;
+        }
+      }), _descriptor12 = _applyDecoratedDescriptor(_class2.prototype, "win", [_dec13], {
         configurable: true,
         enumerable: true,
         writable: true,

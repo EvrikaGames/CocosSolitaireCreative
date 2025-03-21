@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 24386.22349999845,
+      "mTimestamp": 97996.28549999997,
       "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
       "imports": [
         {
@@ -304,7 +304,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 6429869.139599994,
+      "mTimestamp": 146598.81470000002,
       "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
       "imports": [
         {
@@ -2305,7 +2305,7 @@
       ]
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1742464211190,
+      "mTimestamp": 1742549443841,
       "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
       "imports": [],
       "type": "esm",
@@ -7365,7 +7365,7 @@
     },
     "file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/GameController.ts": {
       "mTimestamp": {
-        "mtime": 1742464950777.7117,
+        "mtime": 1742548351890.4104,
         "uuid": "475131d6-1190-4d2a-957c-aa53438384ec"
       },
       "chunkId": "eb9aec31b330f42ea4099cb191f8ddf22f2550e8",
@@ -7575,7 +7575,7 @@
     },
     "file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Word.ts": {
       "mTimestamp": {
-        "mtime": 1742308443210.3247,
+        "mtime": 1742547257186.331,
         "uuid": "5dc38a51-536d-4696-928e-80720967e982"
       },
       "chunkId": "e9d35cea5ace03bf3cecefe01e4103dac37b0302",
@@ -8004,7 +8004,7 @@
     },
     "file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/ui/ScreenScaler.ts": {
       "mTimestamp": {
-        "mtime": 1742470639425.467,
+        "mtime": 1742548604109.0955,
         "uuid": "9c4a9a4a-edcb-4d58-9d6d-6b5ce152d804"
       },
       "chunkId": "fbcf85ac8d3edb017310648d1e2563b16eead162",

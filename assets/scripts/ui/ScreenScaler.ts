@@ -34,6 +34,9 @@ export class ScreenScaler extends Component {
     @property({type: Node})
     private sentences: Node = null;
 
+    @property(Node)
+    private constLabel: Node = null;
+
     @property({type: Node})
     private win: Node = null;
 
@@ -51,7 +54,9 @@ export class ScreenScaler extends Component {
     private originalCompletedWordsContainerPosition: Vec3;
     private originalWordsContainerPosition: Vec3;
     private originalHandPosition: Vec3;
+    private originalConstLabelWidget: number;
     private originalSentencesWidgetTop: number;
+    private originalIconWidgetLeft: number;
 
     private originalPlayWidgetRight: number;
 
@@ -65,10 +70,12 @@ export class ScreenScaler extends Component {
         this.originalWordsContainerPosition = this.wordsContainer.getPosition();
         this.originalHandPosition = this.hand.getPosition();
         this.originalSentencesWidgetTop = this.sentences.getComponent(Widget).top;
+        this.originalConstLabelWidget = this.constLabel.getComponent(Widget).top;
 
         this.originalLetterContainerScale = this.letterContainer.getScale().clone();
 
         this.originalPlayWidgetRight =  this.playWidget.getComponent(Widget).right;
+        this.originalIconWidgetLeft = this.iconWidget.getComponent(Widget).left;
         
         this.onWindowResize(screen.windowSize.width, screen.windowSize.height);
     }
@@ -124,11 +131,15 @@ export class ScreenScaler extends Component {
                     this.originalHandPosition.x * scale / 1.6,
                     this.originalHandPosition.y * scale / 1.2
                 );
+                this.constLabel.getComponent(Widget).enabled = true;
+                this.constLabel.getComponent(Widget).top = this.originalConstLabelWidget * scale;
                 this.sentences.getComponent(Widget).enabled = true;
-                this.sentences.getComponent(Widget).top = this.originalSentencesWidgetTop;
+                this.sentences.getComponent(Widget).top = this.originalSentencesWidgetTop * scale;
+                this.playWidget.getComponent(Widget).right = this.originalPlayWidgetRight * scale;
+                this.iconWidget.getComponent(Widget).left = this.originalIconWidgetLeft * scale;
                 if(mass.length > 0){
                 mass.forEach(card => {
-                    card.node.setPosition(card.node.getPosition().x * scale, card.node.getPosition().y * scale / 1.025);
+                    card.node.setPosition(card.node.getPosition().x * scale, card.node.getPosition().y * scale * 1.03);
                 });
             }
                 this.playWidget.getComponent(Widget).right = this.originalPlayWidgetRight;
@@ -141,10 +152,10 @@ export class ScreenScaler extends Component {
                 );
                 this.cardContainer.setPosition(
                     this.originalCardContainerPosition.x * scale* 1.7,
-                    this.originalCardContainerPosition.y  * scale / 1.7
+                    this.originalCardContainerPosition.y  * scale 
                 );
                 this.completedWordsContainer.setPosition(
-                    this.originalCompletedWordsContainerPosition.x * scale * 1.7,
+                    this.originalCompletedWordsContainerPosition.x * scale * 1.6,
                     this.originalCompletedWordsContainerPosition.y * scale* 2.3
                 );
                 this.wordsContainer.setPosition(
@@ -157,11 +168,15 @@ export class ScreenScaler extends Component {
                     this.originalHandPosition.y * scale * 1.2
                 );
                 this.sentences.getComponent(Widget).enabled = false;
-                this.sentences.setPosition(0, ((1920 - this.completedWordsContainer.position.y) / 2) * 1.1 * scale);
+                this.sentences.setPosition(0, ((1920 - this.completedWordsContainer.position.y) / 2) / 1.2 * scale);
                // this.sentences.getComponent(Widget).top = this.originalSentencesWidgetTop * scale * 1.7;
+               this.constLabel.getComponent(Widget).top *= 2;
+               this.constLabel.getComponent(Widget).top = this.originalConstLabelWidget * scale * 2;
+               this.playWidget.getComponent(Widget).right = this.originalPlayWidgetRight / 2 * scale;
+               this.iconWidget.getComponent(Widget).left = this.originalIconWidgetLeft / 2 * scale;
                 if(mass.length > 0){
                     mass.forEach(card => {
-                        card.node.setPosition(card.node.getPosition().x * scale, card.node.getPosition().y * scale * 1.025);
+                        card.node.setPosition(card.node.getPosition().x * scale, card.node.getPosition().y * scale / 1.03);
                     });
                 }
 
@@ -172,24 +187,25 @@ export class ScreenScaler extends Component {
 
         this.letterContainer.setScale(this.originalLetterContainerScale.x * scale, this.originalLetterContainerScale.y * scale);
         this.cardContainer.setScale(scale, scale);
-        this.completedWordsContainer.setScale(scale * 1.3, scale * 1.3);
+        this.completedWordsContainer.setScale(scale, scale);
         this.playWidget.setScale(scale, scale);
         this.win.setScale(scale, scale);
         this.constName.setScale(scale, scale);
-        this.sentences.setScale(scale, scale);
+        this.sentences.setScale(scale * 1.4, scale * 1.4);
         this.background.setScale(scale, scale);
         this.wordsContainer.setScale(scale, scale);
         this.hand.setScale(scale, scale);
 
         if (!currentHorizontalState) {
 
-            this.background.setScale(scale * 2, scale * 2);
+            //this.background.setScale(scale * 2, scale * 2);
             this.letterContainer.setScale(this.originalLetterContainerScale.x * 1.7 * scale, this.originalLetterContainerScale.y * 1.7* scale);
             this.cardContainer.setScale(scale * 1.7, scale * 1.7);
-            this.completedWordsContainer.setScale(scale * 2.2, scale * 2.2);
-            this.sentences.setScale(scale * 1.4, scale * 1.4);
+            this.completedWordsContainer.setScale(scale * 1.7, scale * 1.7);
+            this.sentences.setScale(scale * 2, scale * 2);
             this.wordsContainer.setScale(scale * 1.7, scale * 1.7);
             this.hand.setScale(scale * 1.4, scale * 1.4);
+            this.constName.setScale(scale * 1.5, scale * 1.5);
 
         }
 

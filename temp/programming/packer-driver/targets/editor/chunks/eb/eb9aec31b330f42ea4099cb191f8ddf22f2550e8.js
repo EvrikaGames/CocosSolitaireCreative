@@ -281,7 +281,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
         }
 
         getCardPosition(pileIndex, cardIndex) {
-          return new Vec3(pileIndex * 120, cardIndex * -30, 0);
+          return new Vec3(pileIndex * 110, cardIndex * -23, 0);
         }
 
         createCompletedWords() {
@@ -296,8 +296,6 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
             completedWordNode.setPosition(this.getCompletedWordPosition(j, j % 2 == 0 ? j : j - 1));
             this.completedWordContainer.addChild(completedWordNode);
           }
-
-          this.completedWords[this.currentWordIndex].selectWord();
         }
 
         getCompletedWordPosition(pileIndex, yPos) {
@@ -326,7 +324,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
         }
 
         getSlotPosition(num, len) {
-          return new Vec3(len % 2 == 0 ? num < len / 2 ? (len / 2 - 1 / 2 - num) * -92 : (num - len / 2 + 1 / 2) * 92 : num < len / 2 ? (len / 2 - 1 / 2 - num) * -92 : (num - (len / 2 - 1 / 2)) * 92, 0, 0);
+          return new Vec3(len % 2 == 0 ? num < len / 2 ? (len / 2 - 1 / 2 - num) * -75 : (num - len / 2 + 1 / 2) * 75 : num < len / 2 ? (len / 2 - 1 / 2 - num) * -75 : (num - (len / 2 - 1 / 2)) * 75, 0, 0);
         }
 
         moveCardToWord(card) {
@@ -355,7 +353,7 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
                   this.resultScreen.show(true);
                   this.sound.play(this.sound.correct);
                   setTimeout(() => {
-                    this.completedWords[this.currentWordIndex].setString(this.predefinedWordStrings[this.currentWordIndex]);
+                    //this.completedWords[this.currentWordIndex].setString(this.predefinedWordStrings[this.currentWordIndex]);
                     this.completedWords[this.currentWordIndex].selectWord();
                     this.currentWordIndex++;
                     this.moveCardsToCompleteWord();
@@ -497,6 +495,16 @@ System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__
         moveCardsToCompleteWord() {
           let targetNode = this.completedWords[this.currentWordIndex - 1].node;
           let worldPos = targetNode.getWorldPosition();
+          tween(targetNode).to(0.3, {
+            scale: new Vec3(1, 0, 0)
+          }).call(() => {
+            targetNode.getComponent(_crd && Word === void 0 ? (_reportPossibleCrUseOfWord({
+              error: Error()
+            }), Word) : Word).setString(this.predefinedWordStrings[this.currentWordIndex - 1]);
+            tween(targetNode).to(0.3, {
+              scale: new Vec3(1, 1, 1)
+            }).start();
+          }).start();
           this.letterSlots.forEach((slot, index) => {
             setTimeout(() => {
               slot.getCard().moveToCompleteWord(worldPos);

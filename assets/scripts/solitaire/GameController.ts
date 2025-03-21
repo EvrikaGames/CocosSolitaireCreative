@@ -197,7 +197,7 @@ export default class GameController extends Component {
     }
 
     getCardPosition(pileIndex: number, cardIndex: number): Vec3 {
-        return new Vec3(pileIndex * 120, cardIndex * -30, 0);
+        return new Vec3(pileIndex * 110, cardIndex * -23, 0);
     }
 
     createCompletedWords(){
@@ -208,7 +208,6 @@ export default class GameController extends Component {
             completedWordNode.setPosition(this.getCompletedWordPosition(j, j % 2 == 0 ? j : j - 1));
             this.completedWordContainer.addChild(completedWordNode);
         }
-        this.completedWords[this.currentWordIndex].selectWord();
     }
     getCompletedWordPosition(pileIndex: number, yPos: number): Vec3 {
         return new Vec3((pileIndex % 2) * 212, yPos * -34);
@@ -231,8 +230,8 @@ export default class GameController extends Component {
         });
     }
     getSlotPosition(num: number, len: number): Vec3 {
-        return new Vec3(len % 2 == 0 ? (num < len / 2 ? ((len / 2 - 1 / 2 - num) * -92) : ((num - len / 2 + 1 / 2) * 92)) : (num < len / 2 ? 
-            ((len / 2 - 1 / 2 - num) * -92) : (num - (len / 2 - 1 /2)) * 92), 0, 0);
+        return new Vec3(len % 2 == 0 ? (num < len / 2 ? ((len / 2 - 1 / 2 - num) * -75) : ((num - len / 2 + 1 / 2) * 75)) : (num < len / 2 ? 
+            ((len / 2 - 1 / 2 - num) * -75) : (num - (len / 2 - 1 /2)) * 75), 0, 0);
     }
 
     moveCardToWord(card: Card){
@@ -257,7 +256,7 @@ export default class GameController extends Component {
                         this.resultScreen.show(true);
                         this.sound.play(this.sound.correct);
                         setTimeout(() => {
-                            this.completedWords[this.currentWordIndex].setString(this.predefinedWordStrings[this.currentWordIndex]);
+                            //this.completedWords[this.currentWordIndex].setString(this.predefinedWordStrings[this.currentWordIndex]);
                             this.completedWords[this.currentWordIndex].selectWord();
                             this.currentWordIndex++;
                             this.moveCardsToCompleteWord();
@@ -396,10 +395,20 @@ export default class GameController extends Component {
 
     moveCardsToCompleteWord(){
         let targetNode = this.completedWords[this.currentWordIndex - 1].node;
-
         let worldPos: Vec3 = targetNode.getWorldPosition();
+        tween(targetNode)
+            .to(0.3, {scale: new Vec3(1, 0, 0)})
+            .call(() => {
+                targetNode.getComponent(Word).setString(this.predefinedWordStrings[this.currentWordIndex - 1]);
+                tween(targetNode)
+                    .to(0.3, {scale: new Vec3(1, 1, 1)})
+                    .start();
+            })
+            .start();
 
-        this.letterSlots.forEach((slot, index) => {
+
+
+       this.letterSlots.forEach((slot, index) => {
             setTimeout(() => {
             slot.getCard().moveToCompleteWord(worldPos);
             }, 50 * index);
