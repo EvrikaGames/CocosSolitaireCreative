@@ -3492,3 +3492,791 @@
 21.03.2025 13:47:33-debug: asset-db:refresh-all-database (446ms)
 21.03.2025 13:47:33-debug: asset-db:worker-effect-data-processing (5ms)
 21.03.2025 13:47:33-debug: asset-db-hook-engine-extends-afterRefresh (5ms)
+21.03.2025 16:20:18-debug: refresh db internal success
+21.03.2025 16:20:18-debug: refresh db assets success
+21.03.2025 16:20:18-debug: Run asset db hook engine-extends:afterRefresh ...
+21.03.2025 16:20:18-debug: Run asset db hook engine-extends:afterRefresh success!
+21.03.2025 16:20:19-debug: asset-db:refresh-all-database (2382ms)
+21.03.2025 16:20:19-debug: asset-db:worker-effect-data-processing (107ms)
+21.03.2025 16:20:19-debug: asset-db-hook-engine-extends-afterRefresh (181ms)
+21.03.2025 16:20:25-debug: refresh db internal success
+21.03.2025 16:20:25-debug: refresh db assets success
+21.03.2025 16:20:25-debug: Run asset db hook engine-extends:afterRefresh ...
+21.03.2025 16:20:25-debug: Run asset db hook engine-extends:afterRefresh success!
+21.03.2025 16:20:25-debug: asset-db:refresh-all-database (512ms)
+21.03.2025 16:20:25-debug: asset-db:worker-effect-data-processing (2ms)
+21.03.2025 16:20:25-debug: asset-db-hook-engine-extends-afterRefresh (4ms)
+21.03.2025 16:20:29-debug: start refresh asset from D:\Cocos\work\CocosSolitaireCreative\assets\ui\scars_dawa_illustration_of_a_realistic_a_beautiful_casual_style_6a9b2ffc-da58-46c4-9e3a-2ffa8b6dac8e1.png...
+21.03.2025 16:20:30-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\scars_dawa_illustration_of_a_realistic_a_beautiful_casual_style_6a9b2ffc-da58-46c4-9e3a-2ffa8b6dac8e1.pngbackground: #aaff85; color: #000;color: #000;
+21.03.2025 16:20:30-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\scars_dawa_illustration_of_a_realistic_a_beautiful_casual_style_6a9b2ffc-da58-46c4-9e3a-2ffa8b6dac8e1.png@6c48abackground: #aaff85; color: #000;color: #000;
+21.03.2025 16:20:30-debug: refresh asset D:\Cocos\work\CocosSolitaireCreative\assets\ui success
+21.03.2025 16:20:30-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\uibackground: #aaff85; color: #000;color: #000;
+21.03.2025 16:20:44-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\scars_dawa_illustration_of_a_realistic_a_beautiful_casual_style_6a9b2ffc-da58-46c4-9e3a-2ffa8b6dac8e1.pngbackground: #aaff85; color: #000;color: #000;
+21.03.2025 16:20:44-debug: %cReImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\scars_dawa_illustration_of_a_realistic_a_beautiful_casual_style_6a9b2ffc-da58-46c4-9e3a-2ffa8b6dac8e1.png@6c48abackground: #aaff85; color: #000;color: #000;
+21.03.2025 16:20:44-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\scars_dawa_illustration_of_a_realistic_a_beautiful_casual_style_6a9b2ffc-da58-46c4-9e3a-2ffa8b6dac8e1.png@f9941background: #aaff85; color: #000;color: #000;
+21.03.2025 16:20:45-debug: asset-db:reimport-asset1b1ca809-c8d4-4e02-aaa8-265e373a4945 (134ms)
+21.03.2025 16:21:03-debug: programming:execute-script (94ms)
+21.03.2025 16:21:05-debug: start remove asset D:\Cocos\work\CocosSolitaireCreative\assets\ui\background.png...
+21.03.2025 16:21:06-debug: start refresh asset from D:\Cocos\work\CocosSolitaireCreative\assets\ui\background.png...
+21.03.2025 16:21:06-debug: %cDestroy%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\background.png@6c48abackground: #ffb8b8; color: #000;color: #000;
+21.03.2025 16:21:06-debug: %cDestroy%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\background.png@f9941background: #ffb8b8; color: #000;color: #000;
+21.03.2025 16:21:06-debug: %cDestroy%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\background.pngbackground: #ffb8b8; color: #000;color: #000;
+21.03.2025 16:21:06-debug: remove asset D:\Cocos\work\CocosSolitaireCreative\assets\ui\background.png success
+21.03.2025 16:21:06-debug: refresh asset D:\Cocos\work\CocosSolitaireCreative\assets\ui success
+21.03.2025 16:21:06-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\uibackground: #aaff85; color: #000;color: #000;
+21.03.2025 16:21:07-debug: refresh db internal success
+21.03.2025 16:21:07-debug: refresh db assets success
+21.03.2025 16:21:07-debug: Run asset db hook engine-extends:afterRefresh ...
+21.03.2025 16:21:07-debug: Run asset db hook engine-extends:afterRefresh success!
+21.03.2025 16:21:07-debug: asset-db:refresh-all-database (493ms)
+21.03.2025 16:21:07-debug: asset-db:worker-effect-data-processing (2ms)
+21.03.2025 16:21:07-debug: asset-db-hook-engine-extends-afterRefresh (3ms)
+21.03.2025 16:21:08-debug: Query all assets info in project
+21.03.2025 16:21:08-debug: init custom config: keepNodeUuid: false, useCache: true
+21.03.2025 16:21:09-debug:   Number of all scenes: 1
+21.03.2025 16:21:09-debug:   Number of all scripts: 16
+21.03.2025 16:21:09-debug:   Number of other assets: 405
+21.03.2025 16:21:09-debug: Query asset bundle start, progress: 0%
+21.03.2025 16:21:09-debug: // ---- build task Query asset bundle ----
+21.03.2025 16:21:09-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,15049ccd-4dd7-451e-a8ae-af66735c929e,521c5f6e-1a26-42e2-8108-4400c912d9bf,4c3ce6de-e6d1-47f7-aa36-36b9b58f72d3,4361db28-3f24-44cc-8e51-32ee5fd651ac,cafd95c9-c558-46f9-9812-1224b65c09ee,28d6d6b8-3f66-4a73-9795-17a0852ba2d4,2df0a40b-26c2-47ce-be0d-4d3cd4164737,dace6a58-1705-48c7-a275-70afc9534e88,ec8106fe-05bf-4e94-943c-e0d3b7bb5e45,39f74202-ead5-4a45-b966-273d526adbf1,8f6ac413-2f1e-4b88-b26f-54556b5dd510,45e7c0c8-2699-4912-b45f-d42bb8384189,84ac6f69-3086-455a-86a4-561da8ee710b,5c601d96-e4c7-4698-991b-7ee674b11079,bf0a6d94-58f0-4ad2-bdf2-c4a31c7dd856,871c3b6c-7379-419d-bda3-794b239ab90d
+21.03.2025 16:21:09-debug: // ---- build task Query asset bundle ---- (78ms)
+21.03.2025 16:21:09-debug: run build task Query asset bundle success in 78 ms√, progress: 5%
+21.03.2025 16:21:09-debug: [Build Memory track]: Query asset bundle start:292.85MB, end 293.25MB, increase: 411.11KB
+21.03.2025 16:21:09-debug: // ---- build task Query asset bundle ----
+21.03.2025 16:21:09-debug: Query asset bundle start, progress: 5%
+21.03.2025 16:21:09-debug: // ---- build task Query asset bundle ---- (6ms)
+21.03.2025 16:21:09-debug: run build task Query asset bundle success in 6 ms√, progress: 10%
+21.03.2025 16:21:09-debug: [Build Memory track]: Query asset bundle start:293.27MB, end 293.28MB, increase: 14.86KB
+21.03.2025 16:21:09-debug: // ---- build task Sort some build options to settings.json ----
+21.03.2025 16:21:09-debug: Sort some build options to settings.json start, progress: 10%
+21.03.2025 16:21:09-debug: run build task Sort some build options to settings.json success in 7 ms√, progress: 12%
+21.03.2025 16:21:09-debug: [Build Memory track]: Sort some build options to settings.json start:293.29MB, end 293.31MB, increase: 18.72KB
+21.03.2025 16:21:09-debug: // ---- build task Fill script data to settings ----
+21.03.2025 16:21:09-debug: // ---- build task Sort some build options to settings.json ---- (7ms)
+21.03.2025 16:21:09-debug: Fill script data to settings start, progress: 12%
+21.03.2025 16:21:09-debug: // ---- build task Fill script data to settings ---- (7ms)
+21.03.2025 16:21:09-debug: run build task Fill script data to settings success in 7 ms√, progress: 13%
+21.03.2025 16:21:09-debug: // ---- build task Sort some build options to settings.json ----
+21.03.2025 16:21:09-debug: [Build Memory track]: Fill script data to settings start:293.33MB, end 293.34MB, increase: 16.25KB
+21.03.2025 16:21:09-debug: Sort some build options to settings.json start, progress: 13%
+21.03.2025 16:21:09-debug: // ---- build task Sort some build options to settings.json ---- (50ms)
+21.03.2025 16:21:09-debug: run build task Sort some build options to settings.json success in 50 ms√, progress: 15%
+21.03.2025 16:21:09-debug: [Build Memory track]: Sort some build options to settings.json start:293.36MB, end 293.48MB, increase: 129.24KB
+21.03.2025 16:21:53-debug: refresh db internal success
+21.03.2025 16:21:53-debug: refresh db assets success
+21.03.2025 16:21:53-debug: Run asset db hook engine-extends:afterRefresh ...
+21.03.2025 16:21:53-debug: Run asset db hook engine-extends:afterRefresh success!
+21.03.2025 16:21:54-debug: asset-db:refresh-all-database (488ms)
+21.03.2025 16:21:54-debug: asset-db-hook-engine-extends-afterRefresh (4ms)
+21.03.2025 16:21:54-debug: asset-db:worker-effect-data-processing (3ms)
+21.03.2025 16:21:59-debug: refresh db internal success
+21.03.2025 16:21:59-debug: Run asset db hook engine-extends:afterRefresh ...
+21.03.2025 16:21:59-debug: Run asset db hook engine-extends:afterRefresh success!
+21.03.2025 16:21:59-debug: refresh db assets success
+21.03.2025 16:21:59-debug: asset-db:refresh-all-database (470ms)
+21.03.2025 16:21:59-debug: asset-db:worker-effect-data-processing (2ms)
+21.03.2025 16:21:59-debug: asset-db-hook-engine-extends-afterRefresh (3ms)
+21.03.2025 16:22:04-debug: refresh db internal success
+21.03.2025 16:22:04-debug: refresh db assets success
+21.03.2025 16:22:04-debug: Run asset db hook engine-extends:afterRefresh ...
+21.03.2025 16:22:04-debug: Run asset db hook engine-extends:afterRefresh success!
+21.03.2025 16:22:04-debug: asset-db:refresh-all-database (411ms)
+21.03.2025 16:22:04-debug: asset-db:worker-effect-data-processing (3ms)
+21.03.2025 16:22:04-debug: asset-db-hook-engine-extends-afterRefresh (3ms)
+21.03.2025 16:22:09-debug: refresh db internal success
+21.03.2025 16:22:09-debug: refresh db assets success
+21.03.2025 16:22:09-debug: Run asset db hook engine-extends:afterRefresh ...
+21.03.2025 16:22:09-debug: Run asset db hook engine-extends:afterRefresh success!
+21.03.2025 16:22:09-debug: asset-db:refresh-all-database (406ms)
+21.03.2025 16:22:09-debug: asset-db:worker-effect-data-processing (3ms)
+21.03.2025 16:22:09-debug: asset-db-hook-engine-extends-afterRefresh (4ms)
+21.03.2025 16:22:13-debug: refresh db internal success
+21.03.2025 16:22:13-debug: refresh db assets success
+21.03.2025 16:22:13-debug: Run asset db hook engine-extends:afterRefresh ...
+21.03.2025 16:22:13-debug: Run asset db hook engine-extends:afterRefresh success!
+21.03.2025 16:22:13-debug: asset-db:refresh-all-database (397ms)
+21.03.2025 16:22:13-debug: asset-db:worker-effect-data-processing (4ms)
+21.03.2025 16:22:13-debug: asset-db-hook-engine-extends-afterRefresh (5ms)
+21.03.2025 16:22:17-debug: refresh db internal success
+21.03.2025 16:22:17-debug: refresh db assets success
+21.03.2025 16:22:17-debug: Run asset db hook engine-extends:afterRefresh ...
+21.03.2025 16:22:17-debug: Run asset db hook engine-extends:afterRefresh success!
+21.03.2025 16:22:17-debug: asset-db:refresh-all-database (354ms)
+21.03.2025 16:22:17-debug: asset-db-hook-engine-extends-afterRefresh (3ms)
+21.03.2025 16:22:17-debug: asset-db:worker-effect-data-processing (3ms)
+21.03.2025 16:22:19-debug: refresh db internal success
+21.03.2025 16:22:19-debug: refresh db assets success
+21.03.2025 16:22:19-debug: Run asset db hook engine-extends:afterRefresh ...
+21.03.2025 16:22:19-debug: Run asset db hook engine-extends:afterRefresh success!
+21.03.2025 16:22:19-debug: asset-db:worker-effect-data-processing (3ms)
+21.03.2025 16:22:19-debug: asset-db:refresh-all-database (391ms)
+21.03.2025 16:22:19-debug: asset-db-hook-engine-extends-afterRefresh (5ms)
+21.03.2025 16:22:29-debug: start refresh asset from D:\Cocos\work\CocosSolitaireCreative\assets\scenes\main.scene...
+21.03.2025 16:22:29-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\scenes\main.scenebackground: #aaff85; color: #000;color: #000;
+21.03.2025 16:22:29-debug: refresh asset D:\Cocos\work\CocosSolitaireCreative\assets\scenes success
+21.03.2025 16:22:31-debug: Query all assets info in project
+21.03.2025 16:22:31-debug: init custom config: keepNodeUuid: false, useCache: true
+21.03.2025 16:22:31-debug:   Number of all scenes: 1
+21.03.2025 16:22:31-debug:   Number of all scripts: 16
+21.03.2025 16:22:31-debug:   Number of other assets: 405
+21.03.2025 16:22:31-debug: Query asset bundle start, progress: 0%
+21.03.2025 16:22:31-debug: // ---- build task Query asset bundle ----
+21.03.2025 16:22:31-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,15049ccd-4dd7-451e-a8ae-af66735c929e,521c5f6e-1a26-42e2-8108-4400c912d9bf,4c3ce6de-e6d1-47f7-aa36-36b9b58f72d3,4361db28-3f24-44cc-8e51-32ee5fd651ac,cafd95c9-c558-46f9-9812-1224b65c09ee,28d6d6b8-3f66-4a73-9795-17a0852ba2d4,2df0a40b-26c2-47ce-be0d-4d3cd4164737,dace6a58-1705-48c7-a275-70afc9534e88,ec8106fe-05bf-4e94-943c-e0d3b7bb5e45,39f74202-ead5-4a45-b966-273d526adbf1,8f6ac413-2f1e-4b88-b26f-54556b5dd510,45e7c0c8-2699-4912-b45f-d42bb8384189,84ac6f69-3086-455a-86a4-561da8ee710b,5c601d96-e4c7-4698-991b-7ee674b11079,bf0a6d94-58f0-4ad2-bdf2-c4a31c7dd856,871c3b6c-7379-419d-bda3-794b239ab90d
+21.03.2025 16:22:31-debug: // ---- build task Query asset bundle ---- (112ms)
+21.03.2025 16:22:31-debug: run build task Query asset bundle success in 112 ms√, progress: 5%
+21.03.2025 16:22:31-debug: [Build Memory track]: Query asset bundle start:298.07MB, end 297.96MB, increase: -119.41KB
+21.03.2025 16:22:31-debug: Query asset bundle start, progress: 5%
+21.03.2025 16:22:31-debug: // ---- build task Query asset bundle ----
+21.03.2025 16:22:31-debug: // ---- build task Query asset bundle ---- (3ms)
+21.03.2025 16:22:31-debug: run build task Query asset bundle success in 3 ms√, progress: 10%
+21.03.2025 16:22:31-debug: [Build Memory track]: Query asset bundle start:297.97MB, end 297.98MB, increase: 14.59KB
+21.03.2025 16:22:31-debug: Sort some build options to settings.json start, progress: 10%
+21.03.2025 16:22:31-debug: // ---- build task Sort some build options to settings.json ----
+21.03.2025 16:22:31-debug: // ---- build task Sort some build options to settings.json ---- (8ms)
+21.03.2025 16:22:31-debug: Fill script data to settings start, progress: 12%
+21.03.2025 16:22:31-debug: // ---- build task Fill script data to settings ----
+21.03.2025 16:22:31-debug: run build task Sort some build options to settings.json success in 8 ms√, progress: 12%
+21.03.2025 16:22:31-debug: [Build Memory track]: Sort some build options to settings.json start:298.00MB, end 298.01MB, increase: 16.39KB
+21.03.2025 16:22:31-debug: // ---- build task Fill script data to settings ---- (5ms)
+21.03.2025 16:22:31-debug: run build task Fill script data to settings success in 5 ms√, progress: 13%
+21.03.2025 16:22:31-debug: [Build Memory track]: Fill script data to settings start:298.03MB, end 298.04MB, increase: 17.22KB
+21.03.2025 16:22:31-debug: Sort some build options to settings.json start, progress: 13%
+21.03.2025 16:22:31-debug: // ---- build task Sort some build options to settings.json ----
+21.03.2025 16:22:31-debug: // ---- build task Sort some build options to settings.json ---- (16ms)
+21.03.2025 16:22:31-debug: run build task Sort some build options to settings.json success in 16 ms√, progress: 15%
+21.03.2025 16:22:31-debug: [Build Memory track]: Sort some build options to settings.json start:298.06MB, end 298.19MB, increase: 133.96KB
+21.03.2025 16:23:00-debug: refresh db internal success
+21.03.2025 16:23:00-debug: Run asset db hook engine-extends:afterRefresh ...
+21.03.2025 16:23:00-debug: Run asset db hook engine-extends:afterRefresh success!
+21.03.2025 16:23:00-debug: refresh db assets success
+21.03.2025 16:23:00-debug: asset-db:refresh-all-database (734ms)
+21.03.2025 16:23:00-debug: asset-db:worker-effect-data-processing (3ms)
+21.03.2025 16:23:00-debug: asset-db-hook-engine-extends-afterRefresh (4ms)
+21.03.2025 16:23:02-debug: refresh db internal success
+21.03.2025 16:23:02-debug: refresh db assets success
+21.03.2025 16:23:02-debug: Run asset db hook engine-extends:afterRefresh ...
+21.03.2025 16:23:02-debug: Run asset db hook engine-extends:afterRefresh success!
+21.03.2025 16:23:02-debug: asset-db:refresh-all-database (380ms)
+21.03.2025 16:23:02-debug: asset-db:worker-effect-data-processing (3ms)
+21.03.2025 16:23:02-debug: asset-db-hook-engine-extends-afterRefresh (4ms)
+21.03.2025 16:23:07-debug: refresh db internal success
+21.03.2025 16:23:07-debug: refresh db assets success
+21.03.2025 16:23:07-debug: Run asset db hook engine-extends:afterRefresh ...
+21.03.2025 16:23:07-debug: Run asset db hook engine-extends:afterRefresh success!
+21.03.2025 16:23:07-debug: asset-db:refresh-all-database (374ms)
+21.03.2025 16:23:07-debug: asset-db:worker-effect-data-processing (4ms)
+21.03.2025 16:23:07-debug: asset-db-hook-engine-extends-afterRefresh (4ms)
+21.03.2025 16:23:10-debug: refresh db internal success
+21.03.2025 16:23:10-debug: refresh db assets success
+21.03.2025 16:23:10-debug: Run asset db hook engine-extends:afterRefresh ...
+21.03.2025 16:23:10-debug: Run asset db hook engine-extends:afterRefresh success!
+21.03.2025 16:23:10-debug: asset-db:refresh-all-database (1242ms)
+21.03.2025 16:23:10-debug: asset-db:worker-effect-data-processing (3ms)
+21.03.2025 16:23:10-debug: asset-db-hook-engine-extends-afterRefresh (3ms)
+21.03.2025 16:23:13-debug: refresh db internal success
+21.03.2025 16:23:13-debug: refresh db assets success
+21.03.2025 16:23:13-debug: Run asset db hook engine-extends:afterRefresh ...
+21.03.2025 16:23:13-debug: Run asset db hook engine-extends:afterRefresh success!
+21.03.2025 16:23:13-debug: asset-db:refresh-all-database (394ms)
+21.03.2025 16:23:13-debug: asset-db:worker-effect-data-processing (2ms)
+21.03.2025 16:23:13-debug: asset-db-hook-engine-extends-afterRefresh (3ms)
+21.03.2025 16:23:27-debug: refresh db internal success
+21.03.2025 16:23:27-debug: refresh db assets success
+21.03.2025 16:23:27-debug: Run asset db hook engine-extends:afterRefresh ...
+21.03.2025 16:23:27-debug: Run asset db hook engine-extends:afterRefresh success!
+21.03.2025 16:23:27-debug: asset-db:refresh-all-database (393ms)
+21.03.2025 16:23:27-debug: asset-db:worker-effect-data-processing (2ms)
+21.03.2025 16:23:27-debug: asset-db-hook-engine-extends-afterRefresh (4ms)
+21.03.2025 16:23:32-debug: refresh db internal success
+21.03.2025 16:23:32-debug: refresh db assets success
+21.03.2025 16:23:32-debug: Run asset db hook engine-extends:afterRefresh ...
+21.03.2025 16:23:32-debug: Run asset db hook engine-extends:afterRefresh success!
+21.03.2025 16:23:32-debug: asset-db:refresh-all-database (407ms)
+21.03.2025 16:23:32-debug: asset-db:worker-effect-data-processing (2ms)
+21.03.2025 16:23:32-debug: asset-db-hook-engine-extends-afterRefresh (4ms)
+21.03.2025 16:23:35-debug: Query all assets info in project
+21.03.2025 16:23:35-debug: init custom config: keepNodeUuid: false, useCache: true
+21.03.2025 16:23:35-debug:   Number of all scenes: 1
+21.03.2025 16:23:35-debug:   Number of all scripts: 16
+21.03.2025 16:23:35-debug:   Number of other assets: 405
+21.03.2025 16:23:35-debug: Query asset bundle start, progress: 0%
+21.03.2025 16:23:35-debug: // ---- build task Query asset bundle ----
+21.03.2025 16:23:35-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,15049ccd-4dd7-451e-a8ae-af66735c929e,521c5f6e-1a26-42e2-8108-4400c912d9bf,4c3ce6de-e6d1-47f7-aa36-36b9b58f72d3,4361db28-3f24-44cc-8e51-32ee5fd651ac,cafd95c9-c558-46f9-9812-1224b65c09ee,28d6d6b8-3f66-4a73-9795-17a0852ba2d4,2df0a40b-26c2-47ce-be0d-4d3cd4164737,dace6a58-1705-48c7-a275-70afc9534e88,ec8106fe-05bf-4e94-943c-e0d3b7bb5e45,39f74202-ead5-4a45-b966-273d526adbf1,8f6ac413-2f1e-4b88-b26f-54556b5dd510,45e7c0c8-2699-4912-b45f-d42bb8384189,84ac6f69-3086-455a-86a4-561da8ee710b,5c601d96-e4c7-4698-991b-7ee674b11079,bf0a6d94-58f0-4ad2-bdf2-c4a31c7dd856,871c3b6c-7379-419d-bda3-794b239ab90d
+21.03.2025 16:23:35-debug: run build task Query asset bundle success in 81 ms√, progress: 5%
+21.03.2025 16:23:35-debug: [Build Memory track]: Query asset bundle start:236.30MB, end 236.61MB, increase: 317.53KB
+21.03.2025 16:23:35-debug: // ---- build task Query asset bundle ----
+21.03.2025 16:23:35-debug: Query asset bundle start, progress: 5%
+21.03.2025 16:23:35-debug: // ---- build task Query asset bundle ---- (81ms)
+21.03.2025 16:23:35-debug: run build task Query asset bundle success in 4 ms√, progress: 10%
+21.03.2025 16:23:35-debug: Sort some build options to settings.json start, progress: 10%
+21.03.2025 16:23:35-debug: // ---- build task Sort some build options to settings.json ----
+21.03.2025 16:23:35-debug: [Build Memory track]: Query asset bundle start:236.63MB, end 236.64MB, increase: 15.29KB
+21.03.2025 16:23:35-debug: // ---- build task Query asset bundle ---- (4ms)
+21.03.2025 16:23:35-debug: // ---- build task Sort some build options to settings.json ---- (5ms)
+21.03.2025 16:23:35-debug: Fill script data to settings start, progress: 12%
+21.03.2025 16:23:35-debug: run build task Sort some build options to settings.json success in 5 ms√, progress: 12%
+21.03.2025 16:23:35-debug: [Build Memory track]: Sort some build options to settings.json start:236.66MB, end 236.67MB, increase: 16.07KB
+21.03.2025 16:23:35-debug: // ---- build task Fill script data to settings ----
+21.03.2025 16:23:35-debug: // ---- build task Fill script data to settings ---- (3ms)
+21.03.2025 16:23:35-debug: run build task Fill script data to settings success in 3 ms√, progress: 13%
+21.03.2025 16:23:35-debug: [Build Memory track]: Fill script data to settings start:236.68MB, end 236.70MB, increase: 17.88KB
+21.03.2025 16:23:35-debug: Sort some build options to settings.json start, progress: 13%
+21.03.2025 16:23:35-debug: // ---- build task Sort some build options to settings.json ----
+21.03.2025 16:23:35-debug: // ---- build task Sort some build options to settings.json ---- (35ms)
+21.03.2025 16:23:35-debug: run build task Sort some build options to settings.json success in 35 ms√, progress: 15%
+21.03.2025 16:23:35-debug: [Build Memory track]: Sort some build options to settings.json start:236.71MB, end 236.84MB, increase: 125.68KB
+21.03.2025 16:25:02-debug: refresh db internal success
+21.03.2025 16:25:02-debug: refresh db assets success
+21.03.2025 16:25:02-debug: Run asset db hook engine-extends:afterRefresh ...
+21.03.2025 16:25:02-debug: Run asset db hook engine-extends:afterRefresh success!
+21.03.2025 16:25:02-debug: asset-db:refresh-all-database (402ms)
+21.03.2025 16:25:02-debug: asset-db:worker-effect-data-processing (4ms)
+21.03.2025 16:25:02-debug: asset-db-hook-engine-extends-afterRefresh (4ms)
+21.03.2025 16:25:03-debug: Query all assets info in project
+21.03.2025 16:25:03-debug: init custom config: keepNodeUuid: false, useCache: true
+21.03.2025 16:25:03-debug:   Number of all scenes: 1
+21.03.2025 16:25:03-debug:   Number of all scripts: 16
+21.03.2025 16:25:03-debug:   Number of other assets: 405
+21.03.2025 16:25:03-debug: Query asset bundle start, progress: 0%
+21.03.2025 16:25:03-debug: // ---- build task Query asset bundle ----
+21.03.2025 16:25:03-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,15049ccd-4dd7-451e-a8ae-af66735c929e,521c5f6e-1a26-42e2-8108-4400c912d9bf,4c3ce6de-e6d1-47f7-aa36-36b9b58f72d3,4361db28-3f24-44cc-8e51-32ee5fd651ac,cafd95c9-c558-46f9-9812-1224b65c09ee,28d6d6b8-3f66-4a73-9795-17a0852ba2d4,2df0a40b-26c2-47ce-be0d-4d3cd4164737,dace6a58-1705-48c7-a275-70afc9534e88,ec8106fe-05bf-4e94-943c-e0d3b7bb5e45,39f74202-ead5-4a45-b966-273d526adbf1,8f6ac413-2f1e-4b88-b26f-54556b5dd510,45e7c0c8-2699-4912-b45f-d42bb8384189,84ac6f69-3086-455a-86a4-561da8ee710b,5c601d96-e4c7-4698-991b-7ee674b11079,bf0a6d94-58f0-4ad2-bdf2-c4a31c7dd856,871c3b6c-7379-419d-bda3-794b239ab90d
+21.03.2025 16:25:03-debug: // ---- build task Query asset bundle ---- (52ms)
+21.03.2025 16:25:03-debug: run build task Query asset bundle success in 52 ms√, progress: 5%
+21.03.2025 16:25:03-debug: [Build Memory track]: Query asset bundle start:238.05MB, end 238.59MB, increase: 555.28KB
+21.03.2025 16:25:03-debug: Query asset bundle start, progress: 5%
+21.03.2025 16:25:03-debug: // ---- build task Query asset bundle ----
+21.03.2025 16:25:03-debug: // ---- build task Query asset bundle ---- (3ms)
+21.03.2025 16:25:03-debug: [Build Memory track]: Query asset bundle start:238.61MB, end 238.62MB, increase: 14.34KB
+21.03.2025 16:25:03-debug: Sort some build options to settings.json start, progress: 10%
+21.03.2025 16:25:03-debug: // ---- build task Sort some build options to settings.json ----
+21.03.2025 16:25:03-debug: run build task Query asset bundle success in 3 ms√, progress: 10%
+21.03.2025 16:25:03-debug: // ---- build task Sort some build options to settings.json ---- (3ms)
+21.03.2025 16:25:03-debug: run build task Sort some build options to settings.json success in 3 ms√, progress: 12%
+21.03.2025 16:25:03-debug: [Build Memory track]: Sort some build options to settings.json start:238.63MB, end 238.65MB, increase: 17.46KB
+21.03.2025 16:25:03-debug: // ---- build task Fill script data to settings ----
+21.03.2025 16:25:03-debug: Fill script data to settings start, progress: 12%
+21.03.2025 16:25:03-debug: // ---- build task Fill script data to settings ---- (4ms)
+21.03.2025 16:25:03-debug: run build task Fill script data to settings success in 4 ms√, progress: 13%
+21.03.2025 16:25:03-debug: // ---- build task Sort some build options to settings.json ----
+21.03.2025 16:25:03-debug: [Build Memory track]: Fill script data to settings start:238.66MB, end 238.68MB, increase: 17.75KB
+21.03.2025 16:25:03-debug: Sort some build options to settings.json start, progress: 13%
+21.03.2025 16:25:03-debug: // ---- build task Sort some build options to settings.json ---- (14ms)
+21.03.2025 16:25:03-debug: run build task Sort some build options to settings.json success in 14 ms√, progress: 15%
+21.03.2025 16:25:03-debug: [Build Memory track]: Sort some build options to settings.json start:238.69MB, end 238.82MB, increase: 126.60KB
+21.03.2025 16:25:18-debug: Query all assets info in project
+21.03.2025 16:25:18-debug: init custom config: keepNodeUuid: false, useCache: true
+21.03.2025 16:25:18-debug:   Number of all scenes: 1
+21.03.2025 16:25:18-debug:   Number of other assets: 405
+21.03.2025 16:25:18-debug:   Number of all scripts: 16
+21.03.2025 16:25:18-debug: Query asset bundle start, progress: 0%
+21.03.2025 16:25:18-debug: // ---- build task Query asset bundle ----
+21.03.2025 16:25:18-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,15049ccd-4dd7-451e-a8ae-af66735c929e,521c5f6e-1a26-42e2-8108-4400c912d9bf,4c3ce6de-e6d1-47f7-aa36-36b9b58f72d3,4361db28-3f24-44cc-8e51-32ee5fd651ac,cafd95c9-c558-46f9-9812-1224b65c09ee,28d6d6b8-3f66-4a73-9795-17a0852ba2d4,2df0a40b-26c2-47ce-be0d-4d3cd4164737,dace6a58-1705-48c7-a275-70afc9534e88,ec8106fe-05bf-4e94-943c-e0d3b7bb5e45,39f74202-ead5-4a45-b966-273d526adbf1,8f6ac413-2f1e-4b88-b26f-54556b5dd510,45e7c0c8-2699-4912-b45f-d42bb8384189,84ac6f69-3086-455a-86a4-561da8ee710b,5c601d96-e4c7-4698-991b-7ee674b11079,bf0a6d94-58f0-4ad2-bdf2-c4a31c7dd856,871c3b6c-7379-419d-bda3-794b239ab90d
+21.03.2025 16:25:18-debug: // ---- build task Query asset bundle ---- (35ms)
+21.03.2025 16:25:18-debug: run build task Query asset bundle success in 35 ms√, progress: 5%
+21.03.2025 16:25:18-debug: Query asset bundle start, progress: 5%
+21.03.2025 16:25:18-debug: [Build Memory track]: Query asset bundle start:238.77MB, end 238.88MB, increase: 118.44KB
+21.03.2025 16:25:18-debug: // ---- build task Query asset bundle ----
+21.03.2025 16:25:18-debug: // ---- build task Query asset bundle ---- (2ms)
+21.03.2025 16:25:18-debug: run build task Query asset bundle success in 2 ms√, progress: 10%
+21.03.2025 16:25:18-debug: [Build Memory track]: Query asset bundle start:238.90MB, end 238.91MB, increase: 14.93KB
+21.03.2025 16:25:18-debug: // ---- build task Sort some build options to settings.json ----
+21.03.2025 16:25:18-debug: Sort some build options to settings.json start, progress: 10%
+21.03.2025 16:25:18-debug: // ---- build task Sort some build options to settings.json ---- (2ms)
+21.03.2025 16:25:18-debug: run build task Sort some build options to settings.json success in 2 ms√, progress: 12%
+21.03.2025 16:25:18-debug: Fill script data to settings start, progress: 12%
+21.03.2025 16:25:18-debug: // ---- build task Fill script data to settings ----
+21.03.2025 16:25:18-debug: [Build Memory track]: Sort some build options to settings.json start:238.93MB, end 238.94MB, increase: 18.72KB
+21.03.2025 16:25:18-debug: // ---- build task Fill script data to settings ---- (2ms)
+21.03.2025 16:25:18-debug: run build task Fill script data to settings success in 2 ms√, progress: 13%
+21.03.2025 16:25:18-debug: [Build Memory track]: Fill script data to settings start:238.96MB, end 238.97MB, increase: 15.14KB
+21.03.2025 16:25:18-debug: Sort some build options to settings.json start, progress: 13%
+21.03.2025 16:25:18-debug: // ---- build task Sort some build options to settings.json ----
+21.03.2025 16:25:18-debug: // ---- build task Sort some build options to settings.json ---- (12ms)
+21.03.2025 16:25:18-debug: run build task Sort some build options to settings.json success in 12 ms√, progress: 15%
+21.03.2025 16:25:18-debug: [Build Memory track]: Sort some build options to settings.json start:238.98MB, end 239.11MB, increase: 123.70KB
+21.03.2025 16:25:57-debug: refresh db internal success
+21.03.2025 16:25:57-debug: refresh db assets success
+21.03.2025 16:25:57-debug: Run asset db hook engine-extends:afterRefresh ...
+21.03.2025 16:25:57-debug: Run asset db hook engine-extends:afterRefresh success!
+21.03.2025 16:25:57-debug: asset-db:refresh-all-database (638ms)
+21.03.2025 16:25:57-debug: asset-db:worker-effect-data-processing (2ms)
+21.03.2025 16:25:57-debug: asset-db-hook-engine-extends-afterRefresh (3ms)
+21.03.2025 16:27:44-debug: refresh db internal success
+21.03.2025 16:27:45-debug: refresh db assets success
+21.03.2025 16:27:45-debug: Run asset db hook engine-extends:afterRefresh ...
+21.03.2025 16:27:45-debug: Run asset db hook engine-extends:afterRefresh success!
+21.03.2025 16:27:45-debug: asset-db:refresh-all-database (402ms)
+21.03.2025 16:27:45-debug: asset-db:worker-effect-data-processing (2ms)
+21.03.2025 16:27:45-debug: asset-db-hook-engine-extends-afterRefresh (4ms)
+21.03.2025 16:27:49-debug: refresh db internal success
+21.03.2025 16:27:49-debug: refresh db assets success
+21.03.2025 16:27:49-debug: Run asset db hook engine-extends:afterRefresh ...
+21.03.2025 16:27:49-debug: Run asset db hook engine-extends:afterRefresh success!
+21.03.2025 16:27:49-debug: asset-db:refresh-all-database (404ms)
+21.03.2025 16:27:49-debug: asset-db:worker-effect-data-processing (3ms)
+21.03.2025 16:27:49-debug: asset-db-hook-engine-extends-afterRefresh (3ms)
+21.03.2025 16:31:09-debug: refresh db internal success
+21.03.2025 16:31:09-debug: refresh db assets success
+21.03.2025 16:31:09-debug: Run asset db hook engine-extends:afterRefresh ...
+21.03.2025 16:31:09-debug: Run asset db hook engine-extends:afterRefresh success!
+21.03.2025 16:31:09-debug: asset-db:refresh-all-database (394ms)
+21.03.2025 16:31:09-debug: asset-db:worker-effect-data-processing (2ms)
+21.03.2025 16:31:09-debug: asset-db-hook-engine-extends-afterRefresh (3ms)
+21.03.2025 16:31:41-debug: refresh db internal success
+21.03.2025 16:31:41-debug: refresh db assets success
+21.03.2025 16:31:41-debug: Run asset db hook engine-extends:afterRefresh success!
+21.03.2025 16:31:41-debug: Run asset db hook engine-extends:afterRefresh ...
+21.03.2025 16:31:41-debug: asset-db:refresh-all-database (412ms)
+21.03.2025 16:31:41-debug: asset-db:worker-effect-data-processing (10ms)
+21.03.2025 16:31:41-debug: asset-db-hook-engine-extends-afterRefresh (11ms)
+21.03.2025 16:31:42-debug: start refresh asset from D:\Cocos\work\CocosSolitaireCreative\assets\ui\Group 19181.png...
+21.03.2025 16:31:42-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\Group 19181.pngbackground: #aaff85; color: #000;color: #000;
+21.03.2025 16:31:42-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\Group 19181.png@6c48abackground: #aaff85; color: #000;color: #000;
+21.03.2025 16:31:42-debug: refresh asset D:\Cocos\work\CocosSolitaireCreative\assets\ui success
+21.03.2025 16:31:42-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\uibackground: #aaff85; color: #000;color: #000;
+21.03.2025 16:31:46-debug: programming:execute-script (1ms)
+21.03.2025 16:31:47-debug: start remove asset D:\Cocos\work\CocosSolitaireCreative\assets\ui\Group 1918.png...
+21.03.2025 16:31:48-debug: start refresh asset from D:\Cocos\work\CocosSolitaireCreative\assets\ui\Group 1918.png...
+21.03.2025 16:31:48-debug: %cDestroy%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\Group 1918.png@6c48abackground: #ffb8b8; color: #000;color: #000;
+21.03.2025 16:31:48-debug: %cDestroy%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\Group 1918.png@f9941background: #ffb8b8; color: #000;color: #000;
+21.03.2025 16:31:48-debug: %cDestroy%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\Group 1918.pngbackground: #ffb8b8; color: #000;color: #000;
+21.03.2025 16:31:48-debug: refresh asset D:\Cocos\work\CocosSolitaireCreative\assets\ui success
+21.03.2025 16:31:48-debug: remove asset D:\Cocos\work\CocosSolitaireCreative\assets\ui\Group 1918.png success
+21.03.2025 16:31:49-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\uibackground: #aaff85; color: #000;color: #000;
+21.03.2025 16:31:49-debug: refresh db internal success
+21.03.2025 16:31:49-debug: refresh db assets success
+21.03.2025 16:31:49-debug: Run asset db hook engine-extends:afterRefresh ...
+21.03.2025 16:31:49-debug: Run asset db hook engine-extends:afterRefresh success!
+21.03.2025 16:31:49-debug: asset-db:refresh-all-database (471ms)
+21.03.2025 16:31:49-debug: asset-db:worker-effect-data-processing (10ms)
+21.03.2025 16:31:49-debug: asset-db-hook-engine-extends-afterRefresh (12ms)
+21.03.2025 16:31:53-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\Group 19181.pngbackground: #aaff85; color: #000;color: #000;
+21.03.2025 16:31:53-debug: %cReImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\Group 19181.png@6c48abackground: #aaff85; color: #000;color: #000;
+21.03.2025 16:31:53-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\ui\Group 19181.png@f9941background: #aaff85; color: #000;color: #000;
+21.03.2025 16:31:53-debug: asset-db:reimport-asset3a457ab1-45f2-482a-bf64-d7540d30358d (70ms)
+21.03.2025 16:34:49-debug: start refresh asset from D:\Cocos\work\CocosSolitaireCreative\assets\prefabs\Word.prefab...
+21.03.2025 16:34:49-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\prefabs\Word.prefabbackground: #aaff85; color: #000;color: #000;
+21.03.2025 16:34:49-debug: refresh asset D:\Cocos\work\CocosSolitaireCreative\assets\prefabs success
+21.03.2025 16:34:51-debug: Query all assets info in project
+21.03.2025 16:34:51-debug: init custom config: keepNodeUuid: false, useCache: true
+21.03.2025 16:34:51-debug:   Number of all scenes: 1
+21.03.2025 16:34:51-debug:   Number of all scripts: 16
+21.03.2025 16:34:51-debug:   Number of other assets: 405
+21.03.2025 16:34:52-debug: Query asset bundle start, progress: 0%
+21.03.2025 16:34:52-debug: // ---- build task Query asset bundle ----
+21.03.2025 16:34:52-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,15049ccd-4dd7-451e-a8ae-af66735c929e,521c5f6e-1a26-42e2-8108-4400c912d9bf,4c3ce6de-e6d1-47f7-aa36-36b9b58f72d3,4361db28-3f24-44cc-8e51-32ee5fd651ac,cafd95c9-c558-46f9-9812-1224b65c09ee,28d6d6b8-3f66-4a73-9795-17a0852ba2d4,2df0a40b-26c2-47ce-be0d-4d3cd4164737,dace6a58-1705-48c7-a275-70afc9534e88,ec8106fe-05bf-4e94-943c-e0d3b7bb5e45,39f74202-ead5-4a45-b966-273d526adbf1,8f6ac413-2f1e-4b88-b26f-54556b5dd510,45e7c0c8-2699-4912-b45f-d42bb8384189,84ac6f69-3086-455a-86a4-561da8ee710b,5c601d96-e4c7-4698-991b-7ee674b11079,bf0a6d94-58f0-4ad2-bdf2-c4a31c7dd856,871c3b6c-7379-419d-bda3-794b239ab90d
+21.03.2025 16:34:52-debug: // ---- build task Query asset bundle ---- (116ms)
+21.03.2025 16:34:52-debug: run build task Query asset bundle success in 116 ms√, progress: 5%
+21.03.2025 16:34:52-debug: [Build Memory track]: Query asset bundle start:247.84MB, end 248.48MB, increase: 659.23KB
+21.03.2025 16:34:52-debug: // ---- build task Query asset bundle ----
+21.03.2025 16:34:52-debug: Query asset bundle start, progress: 5%
+21.03.2025 16:34:52-debug: run build task Query asset bundle success in 6 ms√, progress: 10%
+21.03.2025 16:34:52-debug: [Build Memory track]: Query asset bundle start:248.50MB, end 248.51MB, increase: 15.06KB
+21.03.2025 16:34:52-debug: // ---- build task Query asset bundle ---- (6ms)
+21.03.2025 16:34:52-debug: Sort some build options to settings.json start, progress: 10%
+21.03.2025 16:34:52-debug: // ---- build task Sort some build options to settings.json ----
+21.03.2025 16:34:52-debug: // ---- build task Sort some build options to settings.json ---- (3ms)
+21.03.2025 16:34:52-debug: run build task Sort some build options to settings.json success in 3 ms√, progress: 12%
+21.03.2025 16:34:52-debug: // ---- build task Fill script data to settings ----
+21.03.2025 16:34:52-debug: [Build Memory track]: Sort some build options to settings.json start:248.52MB, end 248.54MB, increase: 17.92KB
+21.03.2025 16:34:52-debug: Fill script data to settings start, progress: 12%
+21.03.2025 16:34:52-debug: // ---- build task Fill script data to settings ---- (3ms)
+21.03.2025 16:34:52-debug: run build task Fill script data to settings success in 3 ms√, progress: 13%
+21.03.2025 16:34:52-debug: [Build Memory track]: Fill script data to settings start:248.56MB, end 248.57MB, increase: 16.81KB
+21.03.2025 16:34:52-debug: // ---- build task Sort some build options to settings.json ----
+21.03.2025 16:34:52-debug: Sort some build options to settings.json start, progress: 13%
+21.03.2025 16:34:52-debug: // ---- build task Sort some build options to settings.json ---- (23ms)
+21.03.2025 16:34:52-debug: run build task Sort some build options to settings.json success in 23 ms√, progress: 15%
+21.03.2025 16:34:52-debug: [Build Memory track]: Sort some build options to settings.json start:247.87MB, end 248.00MB, increase: 128.26KB
+21.03.2025 16:35:16-debug: refresh db internal success
+21.03.2025 16:35:16-debug: refresh db assets success
+21.03.2025 16:35:16-debug: Run asset db hook engine-extends:afterRefresh ...
+21.03.2025 16:35:16-debug: Run asset db hook engine-extends:afterRefresh success!
+21.03.2025 16:35:16-debug: asset-db:refresh-all-database (561ms)
+21.03.2025 16:35:16-debug: asset-db:worker-effect-data-processing (4ms)
+21.03.2025 16:35:16-debug: asset-db-hook-engine-extends-afterRefresh (5ms)
+21.03.2025 16:35:26-debug: start refresh asset from D:\Cocos\work\CocosSolitaireCreative\assets\prefabs\Word.prefab...
+21.03.2025 16:35:26-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\prefabs\Word.prefabbackground: #aaff85; color: #000;color: #000;
+21.03.2025 16:35:26-debug: refresh asset D:\Cocos\work\CocosSolitaireCreative\assets\prefabs success
+21.03.2025 16:35:28-debug: Query all assets info in project
+21.03.2025 16:35:29-debug: init custom config: keepNodeUuid: false, useCache: true
+21.03.2025 16:35:29-debug:   Number of all scenes: 1
+21.03.2025 16:35:29-debug:   Number of all scripts: 16
+21.03.2025 16:35:29-debug:   Number of other assets: 405
+21.03.2025 16:35:29-debug: Query asset bundle start, progress: 0%
+21.03.2025 16:35:29-debug: // ---- build task Query asset bundle ----
+21.03.2025 16:35:29-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,15049ccd-4dd7-451e-a8ae-af66735c929e,521c5f6e-1a26-42e2-8108-4400c912d9bf,4c3ce6de-e6d1-47f7-aa36-36b9b58f72d3,4361db28-3f24-44cc-8e51-32ee5fd651ac,cafd95c9-c558-46f9-9812-1224b65c09ee,28d6d6b8-3f66-4a73-9795-17a0852ba2d4,2df0a40b-26c2-47ce-be0d-4d3cd4164737,dace6a58-1705-48c7-a275-70afc9534e88,ec8106fe-05bf-4e94-943c-e0d3b7bb5e45,39f74202-ead5-4a45-b966-273d526adbf1,8f6ac413-2f1e-4b88-b26f-54556b5dd510,45e7c0c8-2699-4912-b45f-d42bb8384189,84ac6f69-3086-455a-86a4-561da8ee710b,5c601d96-e4c7-4698-991b-7ee674b11079,bf0a6d94-58f0-4ad2-bdf2-c4a31c7dd856,871c3b6c-7379-419d-bda3-794b239ab90d
+21.03.2025 16:35:29-debug: // ---- build task Query asset bundle ---- (95ms)
+21.03.2025 16:35:29-debug: [Build Memory track]: Query asset bundle start:250.41MB, end 251.06MB, increase: 668.50KB
+21.03.2025 16:35:29-debug: run build task Query asset bundle success in 95 ms√, progress: 5%
+21.03.2025 16:35:29-debug: Query asset bundle start, progress: 5%
+21.03.2025 16:35:29-debug: // ---- build task Query asset bundle ----
+21.03.2025 16:35:29-debug: // ---- build task Query asset bundle ---- (6ms)
+21.03.2025 16:35:29-debug: run build task Query asset bundle success in 6 ms√, progress: 10%
+21.03.2025 16:35:29-debug: // ---- build task Sort some build options to settings.json ----
+21.03.2025 16:35:29-debug: Sort some build options to settings.json start, progress: 10%
+21.03.2025 16:35:29-debug: [Build Memory track]: Query asset bundle start:250.37MB, end 250.38MB, increase: 14.40KB
+21.03.2025 16:35:29-debug: // ---- build task Sort some build options to settings.json ---- (3ms)
+21.03.2025 16:35:29-debug: run build task Sort some build options to settings.json success in 3 ms√, progress: 12%
+21.03.2025 16:35:29-debug: // ---- build task Fill script data to settings ----
+21.03.2025 16:35:29-debug: Fill script data to settings start, progress: 12%
+21.03.2025 16:35:29-debug: [Build Memory track]: Sort some build options to settings.json start:250.40MB, end 250.41MB, increase: 18.62KB
+21.03.2025 16:35:29-debug: // ---- build task Fill script data to settings ---- (3ms)
+21.03.2025 16:35:29-debug: run build task Fill script data to settings success in 3 ms√, progress: 13%
+21.03.2025 16:35:29-debug: [Build Memory track]: Fill script data to settings start:250.43MB, end 250.44MB, increase: 15.18KB
+21.03.2025 16:35:29-debug: Sort some build options to settings.json start, progress: 13%
+21.03.2025 16:35:29-debug: // ---- build task Sort some build options to settings.json ----
+21.03.2025 16:35:29-debug: // ---- build task Sort some build options to settings.json ---- (19ms)
+21.03.2025 16:35:29-debug: run build task Sort some build options to settings.json success in 19 ms√, progress: 15%
+21.03.2025 16:35:29-debug: [Build Memory track]: Sort some build options to settings.json start:250.45MB, end 250.57MB, increase: 120.21KB
+21.03.2025 16:36:58-debug: refresh db internal success
+21.03.2025 16:36:58-debug: refresh db assets success
+21.03.2025 16:36:58-debug: Run asset db hook engine-extends:afterRefresh ...
+21.03.2025 16:36:58-debug: Run asset db hook engine-extends:afterRefresh success!
+21.03.2025 16:36:58-debug: asset-db:refresh-all-database (483ms)
+21.03.2025 16:36:58-debug: asset-db:worker-effect-data-processing (2ms)
+21.03.2025 16:36:58-debug: asset-db-hook-engine-extends-afterRefresh (4ms)
+21.03.2025 16:37:00-debug: start refresh asset from D:\Cocos\work\CocosSolitaireCreative\assets\scenes\main.scene...
+21.03.2025 16:37:00-debug: %cImport%c: D:\Cocos\work\CocosSolitaireCreative\assets\scenes\main.scenebackground: #aaff85; color: #000;color: #000;
+21.03.2025 16:37:00-debug: refresh asset D:\Cocos\work\CocosSolitaireCreative\assets\scenes success
+21.03.2025 16:37:26-debug: refresh db internal success
+21.03.2025 16:37:27-debug: refresh db assets success
+21.03.2025 16:37:27-debug: Run asset db hook engine-extends:afterRefresh ...
+21.03.2025 16:37:27-debug: Run asset db hook engine-extends:afterRefresh success!
+21.03.2025 16:37:27-debug: asset-db:refresh-all-database (395ms)
+21.03.2025 16:37:27-debug: asset-db:worker-effect-data-processing (2ms)
+21.03.2025 16:37:27-debug: asset-db-hook-engine-extends-afterRefresh (3ms)
+21.03.2025 16:38:11-debug: Start record console... {file(D:\Cocos\work\CocosSolitaireCreative\temp\builder\log\web-mobile21.03.2025 16-38.log)}
+21.03.2025 16:38:11-debug: =================================== build Task (web-mobile) Start ================================
+21.03.2025 16:38:11-debug: Start build task, options:{"name":"SolitaireCreative","server":"","platform":"web-mobile","buildPath":"project://build","debug":false,"md5Cache":false,"skipCompressTexture":false,"sourceMaps":false,"polyfills":{"asyncFunctions":true},"experimentalEraseModules":false,"startSceneAssetBundle":false,"bundleConfigs":[],"useBuiltinServer":false,"mainBundleIsRemote":false,"mainBundleCompressionType":"merge_dep","useSplashScreen":false,"bundleCommonChunk":false,"packAutoAtlas":true,"startScene":"dc2dda4d-4285-4c9b-a5be-643ce0534e83","outputName":"web-mobile","taskName":"web-mobile","scenes":[{"url":"db://assets/scenes/main.scene","uuid":"dc2dda4d-4285-4c9b-a5be-643ce0534e83"}],"overwriteProjectSettings":{"includeModules":{"gfx-webgl2":"inherit-project-setting"}},"packages":{"engine":{"cleanupImageCache":"inheritProjectSetting","__version__":"1.0.8"},"adsense-h5g-plugin":{"enableAdsense":false,"enableTestAd":false,"__version__":"1.0.1","AFPHostPropertyCode":"other","AFPHostDomain":"douyougame.com","otherAFPHostPropertyCode":"","otherAFPDomain":""},"cocos-service":{"configID":"a250cd","services":[],"__version__":"3.0.7"},"web-mobile":{"orientation":"portrait","embedWebDebugger":false,"cullEngineAsmJsModule":false,"useWebGPU":false,"__version__":"1.0.1"}},"__version__":"1.3.7","buildMode":"normal","logDest":"project://temp/builder/log/web-mobile21.03.2025 16-38.log"}
+21.03.2025 16:38:11-debug: Build with Cocos Creator 3.8.2
+21.03.2025 16:38:11-debug: cocos-service:(onBeforeBuild) start..., progress: 0%
+21.03.2025 16:38:11-debug: // ---- build task cocos-service：onBeforeBuild ----
+21.03.2025 16:38:12-debug: // ---- build task cocos-service：onBeforeBuild ---- (1153ms)
+21.03.2025 16:38:12-debug: cocos-service:(onBeforeBuild) in 1153 ms ✓, progress: 2%
+21.03.2025 16:38:12-debug: // ---- build task scene：onBeforeBuild ----
+21.03.2025 16:38:12-debug: scene:(onBeforeBuild) start..., progress: 2%
+21.03.2025 16:38:12-debug: // ---- build task scene：onBeforeBuild ---- (211ms)
+21.03.2025 16:38:12-debug: scene:(onBeforeBuild) in 211 ms ✓, progress: 4%
+21.03.2025 16:38:12-debug: Start lock asset db..., progress: 4%
+21.03.2025 16:38:12-log: Asset DB is paused with build!
+21.03.2025 16:38:12-debug: Query all assets info in project
+21.03.2025 16:38:12-debug: init custom config: keepNodeUuid: false, useCache: true
+21.03.2025 16:38:13-debug:   Number of all scenes: 1
+21.03.2025 16:38:13-debug:   Number of all scripts: 16
+21.03.2025 16:38:13-debug:   Number of other assets: 405
+21.03.2025 16:38:13-debug: web-mobile:(onAfterInit) start..., progress: 4%
+21.03.2025 16:38:13-debug: // ---- build task web-mobile：onAfterInit ----
+21.03.2025 16:38:13-debug: // ---- build task web-mobile：onAfterInit ---- (259ms)
+21.03.2025 16:38:13-debug: web-mobile:(onAfterInit) in 259 ms ✓, progress: 7%
+21.03.2025 16:38:13-debug: cocos-service:(onAfterInit) start..., progress: 7%
+21.03.2025 16:38:13-debug: // ---- build task cocos-service：onAfterInit ----
+21.03.2025 16:38:14-debug: // ---- build task cocos-service：onAfterInit ---- (1318ms)
+21.03.2025 16:38:14-debug: cocos-service:(onAfterInit) in 1318 ms ✓, progress: 9%
+21.03.2025 16:38:14-debug: // ---- build task engine：onAfterInit ----
+21.03.2025 16:38:14-debug: engine:(onAfterInit) start..., progress: 9%
+21.03.2025 16:38:14-debug: // ---- build task engine：onAfterInit ---- (223ms)
+21.03.2025 16:38:14-debug: engine:(onAfterInit) in 223 ms ✓, progress: 11%
+21.03.2025 16:38:14-debug: // ---- build task adsense-h5g-plugin：onBeforeBundleInit ----
+21.03.2025 16:38:14-debug: adsense-h5g-plugin:(onBeforeBundleInit) start..., progress: 11%
+21.03.2025 16:38:15-debug: [adsense-h5g-plugin] remove script success
+21.03.2025 16:38:15-debug: // ---- build task adsense-h5g-plugin：onBeforeBundleInit ---- (207ms)
+21.03.2025 16:38:15-debug: adsense-h5g-plugin:(onBeforeBundleInit) in 207 ms ✓, progress: 11%
+21.03.2025 16:38:15-debug: Init all bundles start..., progress: 11%
+21.03.2025 16:38:15-debug: Num of bundles: 3..., progress: 11%
+21.03.2025 16:38:15-debug: reload all scripts.
+21.03.2025 16:38:15-debug: Set detail map pack:///resolution-detail-map.json: {}
+21.03.2025 16:38:15-debug: Unregister StoreController
+21.03.2025 16:38:15-debug: Unregister DebugViewRuntimeControl
+21.03.2025 16:38:15-debug: Unregister StoreButtonComponent
+21.03.2025 16:38:15-debug: Unregister Blocker
+21.03.2025 16:38:15-debug: Unregister Word
+21.03.2025 16:38:15-debug: Unregister Letter
+21.03.2025 16:38:15-debug: Unregister SoundController
+21.03.2025 16:38:15-debug: Unregister GameController
+21.03.2025 16:38:15-debug: Unregister Card
+21.03.2025 16:38:15-debug: Unregister ResultScreen
+21.03.2025 16:38:15-debug: Unregister TutorialHandMover
+21.03.2025 16:38:15-debug: Invalidating 'pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js'
+21.03.2025 16:38:15-debug: Invalidating 'pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js'
+21.03.2025 16:38:15-debug: Unregister Text
+21.03.2025 16:38:15-debug: Unregister ScreenScaler
+21.03.2025 16:38:15-debug: Invalidating 'pack:///chunks/dd/dd8ffe4b66ab421921fe26a7524871e3101b074e.js'
+21.03.2025 16:38:15-debug: Invalidating 'pack:///chunks/93/93c3779d5fadd5c8745b7de819307631d10787cd.js'
+21.03.2025 16:38:15-debug: Invalidating 'pack:///chunks/0e/0e55dff55ab1bf34b7b940a388d8e903e00b4778.js'
+21.03.2025 16:38:15-debug: Invalidating 'pack:///chunks/77/77906dee3d98492894b50c7de99f48faee2dd461.js'
+21.03.2025 16:38:15-debug: Invalidating 'pack:///chunks/da/da5cbf94118edc9df073e29647c8c46970f50b83.js'
+21.03.2025 16:38:15-debug: Invalidating 'pack:///chunks/09/09ddf93620a28a2c5a78fd722d8b27f0b00d56aa.js'
+21.03.2025 16:38:15-debug: Invalidating 'pack:///chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js'
+21.03.2025 16:38:15-debug: Invalidating 'pack:///chunks/eb/eb9aec31b330f42ea4099cb191f8ddf22f2550e8.js'
+21.03.2025 16:38:15-debug: Invalidating 'pack:///chunks/73/731eb87eb1694620359ab9fadf0d7b4591aa646c.js'
+21.03.2025 16:38:15-debug: Invalidating 'pack:///chunks/89/89899f2f538bc689a2ae40ce4802b86cb59343d4.js'
+21.03.2025 16:38:15-debug: Invalidating 'pack:///chunks/5d/5d7a8a3ab690e77ab3534d15f891866ecc8fa3fa.js'
+21.03.2025 16:38:15-debug: Invalidating 'pack:///chunks/80/80694765410dacc24fa6fe495b29084a893044ee.js'
+21.03.2025 16:38:15-debug: Invalidating 'pack:///chunks/9e/9eda43c462c230fb58a6184f9dbd7710690bd3c5.js'
+21.03.2025 16:38:15-debug: Invalidating 'pack:///chunks/e9/e9d35cea5ace03bf3cecefe01e4103dac37b0302.js'
+21.03.2025 16:38:15-debug: Invalidating 'pack:///chunks/fb/fbcf85ac8d3edb017310648d1e2563b16eead162.js'
+21.03.2025 16:38:15-debug: Invalidating 'pack:///chunks/a7/a70709c2ebe87f7c9113eea729a541c2dcb4642c.js'
+21.03.2025 16:38:15-debug: Invalidating 'pack:///chunks/51/51d11f5898811b12faad3f121aaa4cc4e0ae4ac8.js'
+21.03.2025 16:38:15-debug: [[Executor]] Module "pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js" loaded.
+21.03.2025 16:38:15-debug: [[Executor]] Module "pack:///chunks/dd/dd8ffe4b66ab421921fe26a7524871e3101b074e.js" loaded.
+21.03.2025 16:38:15-debug: [[Executor]] Module "pack:///chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js" loaded.
+21.03.2025 16:38:15-debug: [[Executor]] Module "pack:///chunks/77/77906dee3d98492894b50c7de99f48faee2dd461.js" loaded.
+21.03.2025 16:38:15-debug: [[Executor]] Register DebugViewRuntimeControl
+21.03.2025 16:38:15-debug: [[Executor]] Module "pack:///chunks/93/93c3779d5fadd5c8745b7de819307631d10787cd.js" loaded.
+21.03.2025 16:38:15-debug: [[Executor]] Register StoreController
+21.03.2025 16:38:15-debug: [[Executor]] Register StoreButtonComponent
+21.03.2025 16:38:15-debug: [[Executor]] Module "pack:///chunks/09/09ddf93620a28a2c5a78fd722d8b27f0b00d56aa.js" loaded.
+21.03.2025 16:38:15-debug: [[Executor]] Module "pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js" loaded.
+21.03.2025 16:38:15-debug: [[Executor]] Register Word
+21.03.2025 16:38:15-debug: [[Executor]] Module "pack:///chunks/e9/e9d35cea5ace03bf3cecefe01e4103dac37b0302.js" loaded.
+21.03.2025 16:38:15-debug: [[Executor]] Register Letter
+21.03.2025 16:38:15-debug: [[Executor]] Register Blocker
+21.03.2025 16:38:15-debug: [[Executor]] Module "pack:///chunks/0e/0e55dff55ab1bf34b7b940a388d8e903e00b4778.js" loaded.
+21.03.2025 16:38:15-debug: [[Executor]] Register ResultScreen
+21.03.2025 16:38:15-debug: [[Executor]] Module "pack:///chunks/5d/5d7a8a3ab690e77ab3534d15f891866ecc8fa3fa.js" loaded.
+21.03.2025 16:38:15-debug: [[Executor]] Module "pack:///chunks/73/731eb87eb1694620359ab9fadf0d7b4591aa646c.js" loaded.
+21.03.2025 16:38:15-debug: [[Executor]] Module "pack:///chunks/89/89899f2f538bc689a2ae40ce4802b86cb59343d4.js" loaded.
+21.03.2025 16:38:15-debug: [[Executor]] Register SoundController
+21.03.2025 16:38:15-debug: [[Executor]] Module "pack:///chunks/eb/eb9aec31b330f42ea4099cb191f8ddf22f2550e8.js" loaded.
+21.03.2025 16:38:15-debug: [[Executor]] Register GameController
+21.03.2025 16:38:15-debug: [[Executor]] Register Card
+21.03.2025 16:38:15-debug: [[Executor]] Module "pack:///chunks/da/da5cbf94118edc9df073e29647c8c46970f50b83.js" loaded.
+21.03.2025 16:38:15-debug: [[Executor]] Module "pack:///chunks/9e/9eda43c462c230fb58a6184f9dbd7710690bd3c5.js" loaded.
+21.03.2025 16:38:15-debug: [[Executor]] Module "pack:///chunks/51/51d11f5898811b12faad3f121aaa4cc4e0ae4ac8.js" loaded.
+21.03.2025 16:38:15-debug: [[Executor]] Module "pack:///chunks/80/80694765410dacc24fa6fe495b29084a893044ee.js" loaded.
+21.03.2025 16:38:15-debug: [[Executor]] Module "pack:///chunks/a7/a70709c2ebe87f7c9113eea729a541c2dcb4642c.js" loaded.
+21.03.2025 16:38:15-debug: [[Executor]] Register TutorialHandMover
+21.03.2025 16:38:15-debug: [[Executor]] Register Text
+21.03.2025 16:38:15-debug: [[Executor]] Register ScreenScaler
+21.03.2025 16:38:15-debug: [[Executor]] Module "pack:///chunks/fb/fbcf85ac8d3edb017310648d1e2563b16eead162.js" loaded.
+21.03.2025 16:38:15-debug: [[Executor]] Module "pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js" loaded.
+21.03.2025 16:38:15-debug: Incremental keys: 
+21.03.2025 16:38:15-debug: web-mobile:(onAfterBundleInit) start..., progress: 11%
+21.03.2025 16:38:15-debug: // ---- build task web-mobile：onAfterBundleInit ----
+21.03.2025 16:38:15-debug: // ---- build task web-mobile：onAfterBundleInit ---- (101ms)
+21.03.2025 16:38:15-debug: // ---- build task Query asset bundle ----
+21.03.2025 16:38:15-debug: Init bundle root assets start..., progress: 11%
+21.03.2025 16:38:15-debug: web-mobile:(onAfterBundleInit) in 101 ms ✓, progress: 11%
+21.03.2025 16:38:15-debug: Query asset bundle start, progress: 11%
+21.03.2025 16:38:15-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,15049ccd-4dd7-451e-a8ae-af66735c929e,521c5f6e-1a26-42e2-8108-4400c912d9bf,4c3ce6de-e6d1-47f7-aa36-36b9b58f72d3,4361db28-3f24-44cc-8e51-32ee5fd651ac,cafd95c9-c558-46f9-9812-1224b65c09ee,28d6d6b8-3f66-4a73-9795-17a0852ba2d4,2df0a40b-26c2-47ce-be0d-4d3cd4164737,dace6a58-1705-48c7-a275-70afc9534e88,ec8106fe-05bf-4e94-943c-e0d3b7bb5e45,39f74202-ead5-4a45-b966-273d526adbf1,8f6ac413-2f1e-4b88-b26f-54556b5dd510,45e7c0c8-2699-4912-b45f-d42bb8384189,84ac6f69-3086-455a-86a4-561da8ee710b,5c601d96-e4c7-4698-991b-7ee674b11079,bf0a6d94-58f0-4ad2-bdf2-c4a31c7dd856,871c3b6c-7379-419d-bda3-794b239ab90d
+21.03.2025 16:38:15-debug: Init bundle root assets success..., progress: 11%
+21.03.2025 16:38:15-debug: Init bundle share assets start..., progress: 11%
+21.03.2025 16:38:16-warn: The SpriteFrame used by component "cc.Sprite" in prefab "Property 1=Variant2.1" is missing. Detailed information:Node path: "Property 1=Variant2.1"Asset url: "db://assets/prefabs/Property 1=Variant2.1"Asset file: "D:\Cocos\work\CocosSolitaireCreative\assets\ui\Group 1918.png"Asset deleted time: "21.03.2025, 16:31:48"Missing uuid: "a5b486a5-416d-42a0-907c-9b7ac8769012@f9941"
+21.03.2025 16:38:16-debug: Init bundle share assets success..., progress: 11%
+21.03.2025 16:38:16-debug: handle json group in bundle internal
+21.03.2025 16:38:16-debug: handle json group in bundle internal success
+21.03.2025 16:38:16-debug: handle json group in bundle resources
+21.03.2025 16:38:16-debug: init image compress task 0 in bundle internal
+21.03.2025 16:38:16-debug: handle json group in bundle resources success
+21.03.2025 16:38:16-debug: init image compress task 0 in bundle resources
+21.03.2025 16:38:16-debug: handle json group in bundle main success
+21.03.2025 16:38:16-debug: init image compress task 9 in bundle main
+21.03.2025 16:38:16-debug: handle json group in bundle main
+21.03.2025 16:38:16-debug: // ---- build task Query asset bundle ---- (577ms)
+21.03.2025 16:38:16-debug: Query asset bundle start, progress: 16%
+21.03.2025 16:38:16-debug: run build task Query asset bundle success in 577 ms√, progress: 16%
+21.03.2025 16:38:16-debug: [Build Memory track]: Query asset bundle start:232.89MB, end 233.30MB, increase: 426.10KB
+21.03.2025 16:38:16-debug: // ---- build task Query asset bundle ----
+21.03.2025 16:38:16-debug: // ---- build task Query asset bundle ---- (196ms)
+21.03.2025 16:38:16-debug: [Build Memory track]: Query asset bundle start:233.32MB, end 233.39MB, increase: 73.14KB
+21.03.2025 16:38:16-debug: web-mobile:(onAfterBundleDataTask) start..., progress: 21%
+21.03.2025 16:38:16-debug: // ---- build task web-mobile：onAfterBundleDataTask ----
+21.03.2025 16:38:16-debug: run build task Query asset bundle success in 196 ms√, progress: 21%
+21.03.2025 16:38:16-debug: // ---- build task web-mobile：onAfterBundleDataTask ---- (184ms)
+21.03.2025 16:38:16-debug: Build script start, progress: 21%
+21.03.2025 16:38:16-debug: // ---- build task Build script ----
+21.03.2025 16:38:16-debug: web-mobile:(onAfterBundleDataTask) in 184 ms ✓, progress: 21%
+21.03.2025 16:38:24-debug: Generate systemJs..., progress: 21%
+21.03.2025 16:38:35-debug: Build project script start..., progress: 21%
+21.03.2025 16:38:35-debug: Build script in bundle start, progress: 21%
+21.03.2025 16:38:35-log: Run build task(build-script) in child, see: chrome://inspect/#devices
+21.03.2025 16:38:39-log: [build-script]enter sub process 14376, C:\ProgramData\cocos\editors\Creator\3.8.2\CocosCreator.exe,C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\builder\static\sub-process-index
+21.03.2025 16:38:50-warn: [build-script][[Build.Script.Rollup]] Circular dependency: file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Card.ts -> file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/GameController.ts -> file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Card.ts
+21.03.2025 16:38:57-debug: excute-script over with build-script 21507ms
+21.03.2025 16:38:57-debug: Build script in bundle success, progress: 21%
+21.03.2025 16:38:57-debug: Copy externalScripts success!
+21.03.2025 16:38:57-debug: Build project script in (21981 ms) √, progress: 21%
+21.03.2025 16:38:57-debug: Build engine start..., progress: 21%
+21.03.2025 16:38:58-debug: Use cache engine: {link(C:\Users\sasha\AppData\Local\Temp\CocosCreator\3.8.2\builder\engine\2aa992e55a92258e4cb8847a32e4b4a6)}
+21.03.2025 16:38:58-debug: {"debug":false,"sourceMaps":false,"includeModules":["2d","animation","audio","base","custom-pipeline","gfx-webgl","gfx-webgl2","particle-2d","profiler","tween","ui","video","webview"],"engineVersion":"3.8.2","md5Map":[],"engineName":"cocos-js","platform":"HTML5","useCache":true,"isNative":false,"split":false,"ammoJsWasm":"fallback","assetURLFormat":"runtime-resolved","output":"D:\\Cocos\\work\\CocosSolitaireCreative\\build\\web-mobile\\cocos-js","flags":{"DEBUG":false,"WASM_FALLBACK":true,"CULL_ASM_JS_MODULE":false,"WEBGPU":false,"CULL_MESHOPT":true},"entry":"C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine"}
+21.03.2025 16:38:58-debug: Build engine in (698 ms) √, progress: 21%
+21.03.2025 16:38:58-debug: Copy plugin script ..., progress: 21%
+21.03.2025 16:38:58-debug: Generate import-map..., progress: 21%
+21.03.2025 16:38:58-debug: // ---- build task Build script ---- (42306ms)
+21.03.2025 16:38:58-debug: run build task Build script success in 42 s√, progress: 26%
+21.03.2025 16:38:58-debug: Build Assets start, progress: 26%
+21.03.2025 16:38:58-debug: [Build Memory track]: Build script start:233.58MB, end 287.46MB, increase: 53.88MB
+21.03.2025 16:38:58-debug: Pack Images start, progress: 26%
+21.03.2025 16:38:58-debug: // ---- build task Build Assets ----
+21.03.2025 16:38:58-debug: Build bundles..., progress: 26%
+21.03.2025 16:38:59-debug: builder:pack-auto-atlas-image (313ms)
+21.03.2025 16:38:59-debug: Compress image start..., progress: 26%
+21.03.2025 16:38:59-debug: Pack Images success, progress: 26%
+21.03.2025 16:38:59-debug: Use cache compress image of {Asset(17baa3e8-8c49-42d7-b116-681adfea90b3)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\17\17baa3e8-8c49-42d7-b116-681adfea90b3.astc)})
+21.03.2025 16:38:59-debug: Use cache compress image of {Asset(17baa3e8-8c49-42d7-b116-681adfea90b3)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\17\17baa3e8-8c49-42d7-b116-681adfea90b3.pkm)})
+21.03.2025 16:38:59-debug: Use cache compress image of {Asset(3822d17d-6024-4998-aaf9-448ba294e7d8)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\38\3822d17d-6024-4998-aaf9-448ba294e7d8.astc)})
+21.03.2025 16:38:59-debug: Use cache compress image of {Asset(17baa3e8-8c49-42d7-b116-681adfea90b3)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\17\17baa3e8-8c49-42d7-b116-681adfea90b3.pvr)})
+21.03.2025 16:38:59-debug: Use cache compress image of {Asset(17baa3e8-8c49-42d7-b116-681adfea90b3)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\17\17baa3e8-8c49-42d7-b116-681adfea90b3.png)})
+21.03.2025 16:38:59-debug: Use cache compress image of {Asset(3822d17d-6024-4998-aaf9-448ba294e7d8)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\38\3822d17d-6024-4998-aaf9-448ba294e7d8.pkm)})
+21.03.2025 16:38:59-debug: Use cache compress image of {Asset(4d7666f6-f37f-4eb8-bf14-5b12c8a59f6e)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\4d\4d7666f6-f37f-4eb8-bf14-5b12c8a59f6e.astc)})
+21.03.2025 16:38:59-debug: Use cache compress image of {Asset(4d7666f6-f37f-4eb8-bf14-5b12c8a59f6e)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\4d\4d7666f6-f37f-4eb8-bf14-5b12c8a59f6e.pkm)})
+21.03.2025 16:38:59-debug: Use cache compress image of {Asset(3822d17d-6024-4998-aaf9-448ba294e7d8)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\38\3822d17d-6024-4998-aaf9-448ba294e7d8.png)})
+21.03.2025 16:38:59-debug: Use cache compress image of {Asset(3822d17d-6024-4998-aaf9-448ba294e7d8)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\38\3822d17d-6024-4998-aaf9-448ba294e7d8.pvr)})
+21.03.2025 16:38:59-debug: Use cache compress image of {Asset(aa88f858-6a7c-4e50-85df-16dbaa991162)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\aa\aa88f858-6a7c-4e50-85df-16dbaa991162.astc)})
+21.03.2025 16:38:59-debug: Use cache compress image of {Asset(4d7666f6-f37f-4eb8-bf14-5b12c8a59f6e)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\4d\4d7666f6-f37f-4eb8-bf14-5b12c8a59f6e.pvr)})
+21.03.2025 16:38:59-debug: Use cache compress image of {Asset(aa88f858-6a7c-4e50-85df-16dbaa991162)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\aa\aa88f858-6a7c-4e50-85df-16dbaa991162.pvr)})
+21.03.2025 16:38:59-debug: Use cache compress image of {Asset(4d7666f6-f37f-4eb8-bf14-5b12c8a59f6e)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\4d\4d7666f6-f37f-4eb8-bf14-5b12c8a59f6e.png)})
+21.03.2025 16:38:59-debug: Use cache compress image of {Asset(c7fdad19-7aa5-4fe3-a781-4c3868ccd1a4)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\c7\c7fdad19-7aa5-4fe3-a781-4c3868ccd1a4.astc)})
+21.03.2025 16:38:59-debug: Use cache compress image of {Asset(aa88f858-6a7c-4e50-85df-16dbaa991162)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\aa\aa88f858-6a7c-4e50-85df-16dbaa991162.png)})
+21.03.2025 16:38:59-debug: Use cache compress image of {Asset(c7fdad19-7aa5-4fe3-a781-4c3868ccd1a4)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\c7\c7fdad19-7aa5-4fe3-a781-4c3868ccd1a4.pvr)})
+21.03.2025 16:38:59-debug: Use cache compress image of {Asset(c7fdad19-7aa5-4fe3-a781-4c3868ccd1a4)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\c7\c7fdad19-7aa5-4fe3-a781-4c3868ccd1a4.pkm)})
+21.03.2025 16:38:59-debug: Use cache compress image of {Asset(c7fdad19-7aa5-4fe3-a781-4c3868ccd1a4)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\c7\c7fdad19-7aa5-4fe3-a781-4c3868ccd1a4.png)})
+21.03.2025 16:38:59-debug: Use cache compress image of {Asset(d5fc1acd-3841-4205-86a4-cc9d4f150b67)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\d5\d5fc1acd-3841-4205-86a4-cc9d4f150b67.astc)})
+21.03.2025 16:38:59-debug: Use cache compress image of {Asset(d5fc1acd-3841-4205-86a4-cc9d4f150b67)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\d5\d5fc1acd-3841-4205-86a4-cc9d4f150b67.pkm)})
+21.03.2025 16:38:59-debug: Use cache compress image of {Asset(aa88f858-6a7c-4e50-85df-16dbaa991162)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\aa\aa88f858-6a7c-4e50-85df-16dbaa991162.pkm)})
+21.03.2025 16:38:59-debug: Use cache compress image of {Asset(e231b14e-adfa-4f5e-aeeb-769161fb5653)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\e2\e231b14e-adfa-4f5e-aeeb-769161fb5653.astc)})
+21.03.2025 16:38:59-debug: Use cache compress image of {Asset(e231b14e-adfa-4f5e-aeeb-769161fb5653)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\e2\e231b14e-adfa-4f5e-aeeb-769161fb5653.pkm)})
+21.03.2025 16:38:59-debug: Use cache compress image of {Asset(d5fc1acd-3841-4205-86a4-cc9d4f150b67)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\d5\d5fc1acd-3841-4205-86a4-cc9d4f150b67.pvr)})
+21.03.2025 16:38:59-debug: Use cache compress image of {Asset(d5fc1acd-3841-4205-86a4-cc9d4f150b67)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\d5\d5fc1acd-3841-4205-86a4-cc9d4f150b67.png)})
+21.03.2025 16:38:59-debug: Use cache compress image of {Asset(e231b14e-adfa-4f5e-aeeb-769161fb5653)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\e2\e231b14e-adfa-4f5e-aeeb-769161fb5653.pvr)})
+21.03.2025 16:38:59-debug: Use cache compress image of {Asset(e65b4630-c4d4-4a6c-9d7d-11197bf9b9af)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\e6\e65b4630-c4d4-4a6c-9d7d-11197bf9b9af.astc)})
+21.03.2025 16:38:59-debug: Use cache compress image of {Asset(e65b4630-c4d4-4a6c-9d7d-11197bf9b9af)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\e6\e65b4630-c4d4-4a6c-9d7d-11197bf9b9af.pvr)})
+21.03.2025 16:38:59-debug: Use cache compress image of {Asset(e65b4630-c4d4-4a6c-9d7d-11197bf9b9af)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\e6\e65b4630-c4d4-4a6c-9d7d-11197bf9b9af.pkm)})
+21.03.2025 16:38:59-debug: Use cache compress image of {Asset(fb4f930a-5251-42e3-8e74-3c6832d9ddfe)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\fb\fb4f930a-5251-42e3-8e74-3c6832d9ddfe.astc)})
+21.03.2025 16:38:59-debug: Use cache compress image of {Asset(e65b4630-c4d4-4a6c-9d7d-11197bf9b9af)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\e6\e65b4630-c4d4-4a6c-9d7d-11197bf9b9af.png)})
+21.03.2025 16:38:59-debug: Use cache compress image of {Asset(fb4f930a-5251-42e3-8e74-3c6832d9ddfe)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\fb\fb4f930a-5251-42e3-8e74-3c6832d9ddfe.pkm)})
+21.03.2025 16:38:59-debug: Use cache compress image of {Asset(fb4f930a-5251-42e3-8e74-3c6832d9ddfe)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\fb\fb4f930a-5251-42e3-8e74-3c6832d9ddfe.png)})
+21.03.2025 16:38:59-debug: Use cache compress image of {Asset(fb4f930a-5251-42e3-8e74-3c6832d9ddfe)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\fb\fb4f930a-5251-42e3-8e74-3c6832d9ddfe.pvr)})
+21.03.2025 16:38:59-debug: Num of all image compress task 9, really: 0, configTasks: 0
+21.03.2025 16:38:59-debug: No image need to compress
+21.03.2025 16:38:59-debug: Compress image success..., progress: 26%
+21.03.2025 16:38:59-debug: Use cache compress image of {Asset(e231b14e-adfa-4f5e-aeeb-769161fb5653)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\e2\e231b14e-adfa-4f5e-aeeb-769161fb5653.png)})
+21.03.2025 16:38:59-debug: Ouput asset in bundles start, progress: 26%
+21.03.2025 16:38:59-debug: sort compress task {}
+21.03.2025 16:38:59-debug: Handle all json groups in bundle internal
+21.03.2025 16:38:59-debug: Handle all json groups in bundle resources
+21.03.2025 16:38:59-debug: handle single json
+21.03.2025 16:38:59-debug: handle json group
+21.03.2025 16:38:59-debug: handle json group
+21.03.2025 16:39:00-debug: Handle all json groups in bundle main
+21.03.2025 16:39:00-debug: handle json group
+21.03.2025 16:39:00-debug: Json group(0c44681e6) compile success，json number: 6
+21.03.2025 16:39:00-debug: Json group(08518ba99) compile success，json number: 6
+21.03.2025 16:39:00-warn: The SpriteFrame used by component "cc.Sprite" in prefab "Property 1=Variant2.1" is missing. Detailed information:Node path: "Property 1=Variant2.1"Asset url: "db://assets/prefabs/Property 1=Variant2.1"Asset file: "D:\Cocos\work\CocosSolitaireCreative\assets\ui\Group 1918.png"Asset deleted time: "21.03.2025, 16:31:48"Missing uuid: "a5b486a5-416d-42a0-907c-9b7ac8769012@f9941"
+21.03.2025 16:39:00-debug: Json group(0bb9fa0be) compile success，json number: 6
+21.03.2025 16:39:01-debug: Json group(07d7de1c0) compile success，json number: 6
+21.03.2025 16:39:01-debug: Json group(0bf0d329c) compile success，json number: 6
+21.03.2025 16:39:01-debug: handle single json
+21.03.2025 16:39:02-debug: Json group(0f624205f) compile success，json number: 6
+21.03.2025 16:39:02-debug: handle single json
+21.03.2025 16:39:02-debug: Output asset in bundles success, progress: 26%
+21.03.2025 16:39:02-debug: // ---- build task Build Assets ---- (3746ms)
+21.03.2025 16:39:02-debug: run build task Build Assets success in 3 s√, progress: 31%
+21.03.2025 16:39:02-debug: [Build Memory track]: Build Assets start:287.47MB, end 289.20MB, increase: 1.73MB
+21.03.2025 16:39:02-debug: // ---- build task Add md5 suffix to assets ----
+21.03.2025 16:39:02-debug: Add md5 suffix to assets start, progress: 31%
+21.03.2025 16:39:02-debug: // ---- build task Add md5 suffix to assets ---- (145ms)
+21.03.2025 16:39:02-debug: run build task Add md5 suffix to assets success in 145 ms√, progress: 36%
+21.03.2025 16:39:02-debug: [Build Memory track]: Add md5 suffix to assets start:289.29MB, end 289.34MB, increase: 60.54KB
+21.03.2025 16:39:02-debug: Query asset bundle start, progress: 36%
+21.03.2025 16:39:02-debug: // ---- build task Query asset bundle ----
+21.03.2025 16:39:02-debug: Output asset in bundles start, progress: 36%
+21.03.2025 16:39:02-debug: compress config of bundle internal...
+21.03.2025 16:39:02-debug: compress config of bundle internal success
+21.03.2025 16:39:02-debug: compress config of bundle resources...
+21.03.2025 16:39:02-debug: compress config of bundle resources success
+21.03.2025 16:39:02-debug: compress config of bundle main...
+21.03.2025 16:39:02-debug: compress config of bundle main success
+21.03.2025 16:39:02-debug: output config of bundle internal success
+21.03.2025 16:39:02-debug: output config of bundle resources success
+21.03.2025 16:39:02-debug: ouput config of bundle resources
+21.03.2025 16:39:02-debug: output config of bundle main success
+21.03.2025 16:39:02-debug: Output asset in bundles success, progress: 36%
+21.03.2025 16:39:02-debug: ouput config of bundle internal
+21.03.2025 16:39:02-debug: ouput config of bundle main
+21.03.2025 16:39:03-debug: // ---- build task Query asset bundle ---- (364ms)
+21.03.2025 16:39:03-debug: run build task Query asset bundle success in 364 ms√, progress: 41%
+21.03.2025 16:39:03-debug: [Build Memory track]: Query asset bundle start:289.36MB, end 289.72MB, increase: 369.73KB
+21.03.2025 16:39:03-debug: // ---- build task Sort some build options to settings.json ----
+21.03.2025 16:39:03-debug: Sort some build options to settings.json start, progress: 41%
+21.03.2025 16:39:03-debug: // ---- build task Sort some build options to settings.json ---- (185ms)
+21.03.2025 16:39:03-debug: run build task Sort some build options to settings.json success in 185 ms√, progress: 43%
+21.03.2025 16:39:03-debug: // ---- build task Fill script data to settings ----
+21.03.2025 16:39:03-debug: [Build Memory track]: Sort some build options to settings.json start:289.74MB, end 289.80MB, increase: 59.47KB
+21.03.2025 16:39:03-debug: Fill script data to settings start, progress: 43%
+21.03.2025 16:39:03-debug: // ---- build task Fill script data to settings ---- (160ms)
+21.03.2025 16:39:03-debug: run build task Fill script data to settings success in 160 ms√, progress: 44%
+21.03.2025 16:39:03-debug: // ---- build task Sort some build options to settings.json ----
+21.03.2025 16:39:03-debug: [Build Memory track]: Fill script data to settings start:289.81MB, end 289.87MB, increase: 60.79KB
+21.03.2025 16:39:03-debug: Sort some build options to settings.json start, progress: 44%
+21.03.2025 16:39:04-debug: // ---- build task Sort some build options to settings.json ---- (751ms)
+21.03.2025 16:39:04-debug: web-mobile:(onBeforeCompressSettings) start..., progress: 46%
+21.03.2025 16:39:04-debug: run build task Sort some build options to settings.json success in 751 ms√, progress: 46%
+21.03.2025 16:39:04-debug: [Build Memory track]: Sort some build options to settings.json start:289.89MB, end 290.02MB, increase: 134.41KB
+21.03.2025 16:39:04-debug: // ---- build task web-mobile：onBeforeCompressSettings ----
+21.03.2025 16:39:04-debug: // ---- build task web-mobile：onBeforeCompressSettings ---- (135ms)
+21.03.2025 16:39:04-debug: web-mobile:(onBeforeCompressSettings) in 135 ms ✓, progress: 48%
+21.03.2025 16:39:04-debug: cocos-service:(onBeforeCompressSettings) start..., progress: 48%
+21.03.2025 16:39:04-debug: // ---- build task cocos-service：onBeforeCompressSettings ----
+21.03.2025 16:39:05-debug: // ---- build task cocos-service：onBeforeCompressSettings ---- (859ms)
+21.03.2025 16:39:05-debug: cocos-service:(onBeforeCompressSettings) in 859 ms ✓, progress: 51%
+21.03.2025 16:39:05-debug: // ---- build task Save Settings.json ----
+21.03.2025 16:39:05-debug: Save Settings.json start, progress: 51%
+21.03.2025 16:39:05-debug: // ---- build task Save Settings.json ---- (132ms)
+21.03.2025 16:39:05-debug: [Build Memory track]: Save Settings.json start:290.22MB, end 290.28MB, increase: 67.75KB
+21.03.2025 16:39:05-debug: Sort build template start, progress: 53%
+21.03.2025 16:39:05-debug: run build task Save Settings.json success in 132 ms√, progress: 53%
+21.03.2025 16:39:05-debug: // ---- build task Sort build template ----
+21.03.2025 16:39:05-debug: // ---- build task Sort build template ---- (361ms)
+21.03.2025 16:39:05-debug: run build task Sort build template success in 361 ms√, progress: 56%
+21.03.2025 16:39:05-debug: // ---- build task cocos-service：onAfterCompressSettings ----
+21.03.2025 16:39:05-debug: [Build Memory track]: Sort build template start:290.30MB, end 288.70MB, increase: -1633.78KB
+21.03.2025 16:39:05-debug: cocos-service:(onAfterCompressSettings) start..., progress: 56%
+21.03.2025 16:39:06-debug: // ---- build task cocos-service：onAfterCompressSettings ---- (658ms)
+21.03.2025 16:39:06-debug: web-mobile:(onAfterBuild) start..., progress: 58%
+21.03.2025 16:39:06-debug: cocos-service:(onAfterCompressSettings) in 658 ms ✓, progress: 58%
+21.03.2025 16:39:06-debug: // ---- build task web-mobile：onAfterBuild ----
+21.03.2025 16:39:06-debug: // ---- build task web-mobile：onAfterBuild ---- (539ms)
+21.03.2025 16:39:06-debug: web-mobile:(onAfterBuild) in 539 ms ✓, progress: 60%
+21.03.2025 16:39:06-debug: cocos-service:(onAfterBuild) start..., progress: 60%
+21.03.2025 16:39:06-debug: // ---- build task cocos-service：onAfterBuild ----
+21.03.2025 16:39:07-debug: cocos-service:(onAfterBuild) in 504 ms ✓, progress: 62%
+21.03.2025 16:39:07-debug: // ---- build task cocos-service：onAfterBuild ---- (504ms)
+21.03.2025 16:39:07-debug: adsense-h5g-plugin:(onAfterBuild) start..., progress: 62%
+21.03.2025 16:39:07-debug: // ---- build task adsense-h5g-plugin：onAfterBuild ----
+21.03.2025 16:39:07-debug: // ---- build task adsense-h5g-plugin：onAfterBuild ---- (139ms)
+21.03.2025 16:39:07-debug: adsense-h5g-plugin:(onAfterBuild) in 139 ms ✓, progress: 64%
+21.03.2025 16:39:07-debug: super-html:(onAfterBuild) start..., progress: 64%
+21.03.2025 16:39:07-log: super-html : -- start --
+21.03.2025 16:39:07-debug: // ---- build task super-html：onAfterBuild ----
+21.03.2025 16:39:07-log: super-html : engine version 3.8.2
+21.03.2025 16:39:17-debug: // ---- build task super-html：onAfterBuild ---- (9128ms)
+21.03.2025 16:39:17-log: Asset DB is resume!
+21.03.2025 16:39:17-debug: super-html:(onAfterBuild) in 9128 ms ✓, progress: 67%
+21.03.2025 16:39:17-debug: builder:build-project-total (65867ms)
+21.03.2025 16:39:17-debug: build success in 65867!
+21.03.2025 16:39:17-debug: [Build Memory track]: builder:build-project-total start:256.34MB, end 301.39MB, increase: 45.05MB
+21.03.2025 16:39:17-warn: The SpriteFrame used by component "cc.Sprite" in prefab "Property 1=Variant2.1" is missing. Detailed information:Node path: "Property 1=Variant2.1"Asset url: "db://assets/prefabs/Property 1=Variant2.1"Asset file: "D:\Cocos\work\CocosSolitaireCreative\assets\ui\Group 1918.png"Asset deleted time: "21.03.2025, 16:31:48"Missing uuid: "a5b486a5-416d-42a0-907c-9b7ac8769012@f9941"
+21.03.2025 16:39:18-debug: ================================ build Task (web-mobile) Finished in (1 min 6 s)ms ================================
+21.03.2025 16:39:18-debug: Stop record console. {file(D:\Cocos\work\CocosSolitaireCreative\temp\builder\log\web-mobile21.03.2025 16-38.log)}
+21.03.2025 16:39:21-log: super-html : [common] [11647 kb] D:\Cocos\work\CocosSolitaireCreative\build\super-html\common\index_nozip.html
+21.03.2025 16:39:21-log: super-html : [common] [3426 kb] D:\Cocos\work\CocosSolitaireCreative\build\super-html\common\index.html
+21.03.2025 16:39:22-log: super-html : [ironsource] [3429 kb] D:\Cocos\work\CocosSolitaireCreative\build\super-html\ironsource\index.html
+21.03.2025 16:39:21-log: super-html : [applovin] [3426 kb] D:\Cocos\work\CocosSolitaireCreative\build\super-html\applovin\index.html
+21.03.2025 16:39:24-log: super-html : [mintegral] [2496 kb] D:\Cocos\work\CocosSolitaireCreative\build\super-html\mintegral\index.zip
+21.03.2025 16:39:24-log: super-html : [unity] [3427 kb] D:\Cocos\work\CocosSolitaireCreative\build\super-html\unity\index.html
+21.03.2025 16:39:26-log: super-html : [google] [2517 kb] D:\Cocos\work\CocosSolitaireCreative\build\super-html\google\google.zip
+21.03.2025 16:39:27-log: super-html : [google] [2517 kb] D:\Cocos\work\CocosSolitaireCreative\build\super-html\google\google_portrait.zip
+21.03.2025 16:39:29-log: super-html : [google] [2517 kb] D:\Cocos\work\CocosSolitaireCreative\build\super-html\google\google_landscape.zip
+21.03.2025 16:39:29-log: super-html : [facebook] [3426 kb] D:\Cocos\work\CocosSolitaireCreative\build\super-html\facebook\index.html
+21.03.2025 16:39:31-log: super-html : [facebook] [2516 kb] D:\Cocos\work\CocosSolitaireCreative\build\super-html\facebook\facebook.zip
+21.03.2025 16:39:34-log: super-html : [pangle] [2496 kb] D:\Cocos\work\CocosSolitaireCreative\build\super-html\pangle\pangle.zip
+21.03.2025 16:39:36-log: super-html : [pangle] [2496 kb] D:\Cocos\work\CocosSolitaireCreative\build\super-html\pangle\pangle_portrait.zip
+21.03.2025 16:39:39-log: super-html : [pangle] [2496 kb] D:\Cocos\work\CocosSolitaireCreative\build\super-html\pangle\pangle_landscape.zip
+21.03.2025 16:39:43-log: super-html : [liftoff] [2496 kb] D:\Cocos\work\CocosSolitaireCreative\build\super-html\liftoff\liftoff.zip
+21.03.2025 16:39:43-log: super-html : [moloco] [3426 kb] D:\Cocos\work\CocosSolitaireCreative\build\super-html\moloco\index.html
+21.03.2025 16:39:46-log: super-html : [tiktok] [2496 kb] D:\Cocos\work\CocosSolitaireCreative\build\super-html\tiktok\tiktok.zip
+21.03.2025 16:39:48-log: super-html : [vungle] [2496 kb] D:\Cocos\work\CocosSolitaireCreative\build\super-html\vungle\vungle.zip
+21.03.2025 16:39:48-log: super-html : run time 41.307S
+21.03.2025 16:39:48-log: super-html : -- end -- 

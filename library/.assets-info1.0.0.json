@@ -804,7 +804,7 @@
       "uuid": "14b4ab56-c428-4eda-819b-c6755a201ea9"
     },
     "D:\\Cocos\\work\\CocosSolitaireCreative\\assets\\ui": {
-      "time": 1742547099231.504,
+      "time": 1742563908764.896,
       "uuid": "187d7a2e-ad71-449a-9fa9-b00c2c269fab"
     },
     "D:\\Cocos\\work\\CocosSolitaireCreative\\assets\\resources\\animations": {
@@ -996,11 +996,11 @@
       "uuid": "189313e1-5a22-4e45-9d3b-3874c655d63e"
     },
     "D:\\Cocos\\work\\CocosSolitaireCreative\\assets\\prefabs\\Word.prefab": {
-      "time": 1742547271787.4202,
+      "time": 1742564126174.7563,
       "uuid": "41812075-5872-4d22-ae09-db5a8a128bed"
     },
     "D:\\Cocos\\work\\CocosSolitaireCreative\\assets\\scenes\\main.scene": {
-      "time": 1742552836223.196,
+      "time": 1742564220321.9744,
       "uuid": "dc2dda4d-4285-4c9b-a5be-643ce0534e83"
     },
     "D:\\Cocos\\work\\CocosSolitaireCreative\\assets\\ui\\Buttons.png": {
@@ -1200,20 +1200,6 @@
       "time": 1742378348327.055,
       "uuid": "f7cd6436-7e3c-4de7-9f50-2cbe6cf04788"
     },
-    "D:\\Cocos\\work\\CocosSolitaireCreative\\assets\\ui\\background.png.meta": {
-      "time": 1742395115011.0217
-    },
-    "D:\\Cocos\\work\\CocosSolitaireCreative\\assets\\ui\\background.png": {
-      "time": 1742395072761.4834,
-      "uuid": "01fa5c89-e86c-44a8-9e00-b686f12508ff"
-    },
-    "D:\\Cocos\\work\\CocosSolitaireCreative\\assets\\ui\\Group 1918.png.meta": {
-      "time": 1742464326139.253
-    },
-    "D:\\Cocos\\work\\CocosSolitaireCreative\\assets\\ui\\Group 1918.png": {
-      "time": 1742463733845.4893,
-      "uuid": "a5b486a5-416d-42a0-907c-9b7ac8769012"
-    },
     "D:\\Cocos\\work\\CocosSolitaireCreative\\assets\\ui\\WordsContainer.png.meta": {
       "time": 1742503713966.9214
     },
@@ -1248,6 +1234,20 @@
     "D:\\Cocos\\work\\CocosSolitaireCreative\\assets\\ui\\Property 1=Variant2.1.png": {
       "time": 1742372587482.4934,
       "uuid": "729a42f5-42f2-48ab-9711-c5c39925ff89"
+    },
+    "D:\\Cocos\\work\\CocosSolitaireCreative\\assets\\ui\\scars_dawa_illustration_of_a_realistic_a_beautiful_casual_style_6a9b2ffc-da58-46c4-9e3a-2ffa8b6dac8e1.png.meta": {
+      "time": 1742563245055.7031
+    },
+    "D:\\Cocos\\work\\CocosSolitaireCreative\\assets\\ui\\scars_dawa_illustration_of_a_realistic_a_beautiful_casual_style_6a9b2ffc-da58-46c4-9e3a-2ffa8b6dac8e1.png": {
+      "time": 1742562948130.6921,
+      "uuid": "1b1ca809-c8d4-4e02-aaa8-265e373a4945"
+    },
+    "D:\\Cocos\\work\\CocosSolitaireCreative\\assets\\ui\\Group 19181.png.meta": {
+      "time": 1742563913546.5393
+    },
+    "D:\\Cocos\\work\\CocosSolitaireCreative\\assets\\ui\\Group 19181.png": {
+      "time": 1742563852417.9343,
+      "uuid": "3a457ab1-45f2-482a-bf64-d7540d30358d"
     }
   },
   "missing": {
@@ -1787,9 +1787,9 @@
       "removeTime": 1742394961798
     },
     "01fa5c89-e86c-44a8-9e00-b686f12508ff": {
-      "path": "D:\\Cocos\\work\\CocosSolitaireCreative\\assets\\ui\\1.png",
+      "path": "D:\\Cocos\\work\\CocosSolitaireCreative\\assets\\ui\\background.png",
       "time": 1742395072761.4834,
-      "removeTime": 1742395114917
+      "removeTime": 1742563266643
     },
     "495b81e7-07e1-446e-a07f-3d3bfc48dfa0": {
       "path": "D:\\Cocos\\work\\CocosSolitaireCreative\\assets\\ui\\Property 1=Variant2.1.png",
@@ -1810,6 +1810,11 @@
       "path": "D:\\Cocos\\work\\CocosSolitaireCreative\\assets\\ui\\win\\Снимок экрана 2025-03-20 233528.png",
       "time": 1742502932632.8372,
       "removeTime": 1742549961210
+    },
+    "a5b486a5-416d-42a0-907c-9b7ac8769012": {
+      "path": "D:\\Cocos\\work\\CocosSolitaireCreative\\assets\\ui\\Group 1918.png",
+      "time": 1742463733845.4893,
+      "removeTime": 1742563908814
     }
   }
 }
