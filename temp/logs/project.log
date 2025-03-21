@@ -1,10 +1,1567 @@
-21.03.2025 12:30:34 - log: Load engine in C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine
-21.03.2025 12:30:43 - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,custom-pipeline,gfx-webgl,gfx-webgl2,particle-2d,profiler,tween,ui,video,webview)
-21.03.2025 12:30:43 - log: Register native engine in C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\native
-21.03.2025 12:32:38 - log: [Scene] meshopt wasm decoder initialized
-21.03.2025 12:32:38 - log: [Scene] [box2d]:box2d wasm lib loaded.
-21.03.2025 12:32:39 - log: [Scene] [bullet]:bullet wasm lib loaded.
-21.03.2025 12:32:42 - log: [Scene] [PHYSICS]: using builtin.
-21.03.2025 12:33:10 - log: [Scene] Cocos Creator v3.8.2
-21.03.2025 12:33:10 - info: [Scene] Forward render pipeline initialized.
-21.03.2025 12:33:12 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to builtin.
+21.03.2025 13:00:38 - log: Load engine in C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine
+21.03.2025 13:00:41 - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,custom-pipeline,gfx-webgl,gfx-webgl2,particle-2d,profiler,tween,ui,video,webview)
+21.03.2025 13:00:41 - log: Register native engine in C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\native
+21.03.2025 13:01:26 - info: [PreviewInEditor] preview process is ready
+21.03.2025 13:01:30 - log: [Scene] meshopt wasm decoder initialized
+21.03.2025 13:01:30 - log: [Scene] [box2d]:box2d wasm lib loaded.
+21.03.2025 13:01:31 - log: [Scene] [bullet]:bullet wasm lib loaded.
+21.03.2025 13:01:34 - log: [Scene] [PHYSICS]: using builtin.
+21.03.2025 13:01:35 - log: [Scene] Cocos Creator v3.8.2
+21.03.2025 13:01:35 - info: [Scene] Forward render pipeline initialized.
+21.03.2025 13:01:36 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to builtin.
+21.03.2025 13:02:12 - info: [Window] Download the Vue Devtools extension for a better development experience:
+https://github.com/vuejs/vue-devtools
+21.03.2025 13:02:12 - info: [Window] You are running Vue in development mode.
+Make sure to turn on production mode when deploying for production.
+See more tips at https://vuejs.org/guide/deployment.html
+21.03.2025 13:03:09 - warn: [Assets] [build-script][[Build.Script.Rollup]] Circular dependency: file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Card.ts -> file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/GameController.ts -> file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Card.ts
+[Assets] [build-script][[Build.Script.Rollup]] Circular dependency: file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Card.ts -> file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/GameController.ts -> file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Card.ts
+  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:1:1260)  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1530)  
+at NewConsole.warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\builder\dist\worker\console.ccc:1:2267)  
+at Socket.<anonymous> (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\builder\dist\worker\worker-pools\sub-process-manager.ccc:1:3499)  
+at Socket.emit (events.js:315:20)  
+at addChunk (internal/streams/readable.js:309:12)  
+at readableAddChunk (internal/streams/readable.js:284:9)  
+at Socket.Readable.push (internal/streams/readable.js:223:10)  
+at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+21.03.2025 13:05:43 - warn: failed to connect login server due to request timeout
+21.03.2025 13:05:46 - warn: failed to connect login server due to request timeout
+21.03.2025 13:05:49 - warn: failed to connect login server due to request timeout
+21.03.2025 13:05:49 - warn: [Window] query AFPHostPropertyCodeList failed!Error: [Window] query AFPHostPropertyCodeList failed!
+    at Vue.init (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\modules\platform-extensions\extensions\adsense-h5g-plugin\dist\panel.ccc:1:1475)
+    at async Vue.mounted (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\modules\platform-extensions\extensions\adsense-h5g-plugin\dist\panel.ccc:1:2873)
+21.03.2025 13:05:49 - warn: [Window] Network ErrorError: [Window] Network Error
+    at Vue.init (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\modules\platform-extensions\extensions\adsense-h5g-plugin\dist\panel.ccc:1:1529)
+    at async Vue.mounted (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\modules\platform-extensions\extensions\adsense-h5g-plugin\dist\panel.ccc:1:2873)
+21.03.2025 13:05:52 - warn: failed to connect login server due to request timeout
+21.03.2025 13:05:57 - warn: [Window] query AFPHostPropertyCodeList failed!Error: [Window] query AFPHostPropertyCodeList failed!
+    at Vue.init (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\modules\platform-extensions\extensions\adsense-h5g-plugin\dist\panel.ccc:1:1475)
+    at async Vue.mounted (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\modules\platform-extensions\extensions\adsense-h5g-plugin\dist\panel.ccc:1:2873)
+21.03.2025 13:05:57 - warn: [Window] Network ErrorError: [Window] Network Error
+    at Vue.init (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\modules\platform-extensions\extensions\adsense-h5g-plugin\dist\panel.ccc:1:1529)
+    at async Vue.mounted (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\modules\platform-extensions\extensions\adsense-h5g-plugin\dist\panel.ccc:1:2873)
+21.03.2025 13:05:57 - warn: failed to connect login server... skipping login
+21.03.2025 13:05:57 - warn: failed to connect login server... skipping login
+21.03.2025 13:05:57 - warn: failed to connect login server... skipping login
+21.03.2025 13:05:57 - warn: failed to connect login server... skipping login
+21.03.2025 13:06:35 - warn: [Assets] [build-script][[Build.Script.Rollup]] Circular dependency: file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Card.ts -> file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/GameController.ts -> file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Card.ts
+[Assets] [build-script][[Build.Script.Rollup]] Circular dependency: file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Card.ts -> file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/GameController.ts -> file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Card.ts
+  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:1:1260)  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1530)  
+at NewConsole.warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\builder\dist\worker\console.ccc:1:2267)  
+at Socket.<anonymous> (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\builder\dist\worker\worker-pools\sub-process-manager.ccc:1:3499)  
+at Socket.emit (events.js:315:20)  
+at addChunk (internal/streams/readable.js:309:12)  
+at readableAddChunk (internal/streams/readable.js:284:9)  
+at Socket.Readable.push (internal/streams/readable.js:223:10)  
+at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+21.03.2025 13:08:21 - warn: [Assets] [build-script][[Build.Script.Rollup]] Circular dependency: file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Card.ts -> file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/GameController.ts -> file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Card.ts
+[Assets] [build-script][[Build.Script.Rollup]] Circular dependency: file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Card.ts -> file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/GameController.ts -> file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Card.ts
+  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:1:1260)  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1530)  
+at NewConsole.warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\builder\dist\worker\console.ccc:1:2267)  
+at Socket.<anonymous> (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\builder\dist\worker\worker-pools\sub-process-manager.ccc:1:3499)  
+at Socket.emit (events.js:315:20)  
+at addChunk (internal/streams/readable.js:309:12)  
+at readableAddChunk (internal/streams/readable.js:284:9)  
+at Socket.Readable.push (internal/streams/readable.js:223:10)  
+at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+21.03.2025 13:09:14 - log: [Window] Clear cache of project assets successfully
+21.03.2025 13:09:14 - log: [Window] Clear cache of engine in global successfully: {link(C:\Users\sasha\AppData\Local\Temp\CocosCreator\3.8.2\builder)}
+21.03.2025 13:10:19 - warn: [Assets] [build-script][[Build.Script.Rollup]] Circular dependency: file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Card.ts -> file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/GameController.ts -> file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Card.ts
+[Assets] [build-script][[Build.Script.Rollup]] Circular dependency: file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Card.ts -> file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/GameController.ts -> file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Card.ts
+  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:1:1260)  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1530)  
+at NewConsole.warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\builder\dist\worker\console.ccc:1:2267)  
+at Socket.<anonymous> (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\builder\dist\worker\worker-pools\sub-process-manager.ccc:1:3499)  
+at Socket.emit (events.js:315:20)  
+at addChunk (internal/streams/readable.js:309:12)  
+at readableAddChunk (internal/streams/readable.js:284:9)  
+at Socket.Readable.push (internal/streams/readable.js:223:10)  
+at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+21.03.2025 13:17:31 - log: Use preview template {link(D:\Cocos\work\CocosSolitaireCreative\preview-template\index.ejs)}
+21.03.2025 13:19:20 - log: Use preview template {link(D:\Cocos\work\CocosSolitaireCreative\preview-template\index.ejs)}
+21.03.2025 13:19:22 - log: Use preview template {link(D:\Cocos\work\CocosSolitaireCreative\preview-template\index.ejs)}
+21.03.2025 13:19:23 - log: Use preview template {link(D:\Cocos\work\CocosSolitaireCreative\preview-template\index.ejs)}
+21.03.2025 13:20:13 - info: [PreviewInEditor] preview process is ready
+21.03.2025 13:20:14 - log: [PreviewInEditor] meshopt wasm decoder initialized
+21.03.2025 13:20:14 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+21.03.2025 13:20:15 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+21.03.2025 13:20:18 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+21.03.2025 13:20:19 - log: [PreviewInEditor] Cocos Creator v3.8.2
+21.03.2025 13:20:19 - info: [PreviewInEditor] Forward render pipeline initialized.
+21.03.2025 13:20:21 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to builtin.
+21.03.2025 13:20:25 - log: [PreviewInEditor] request settings failed!Error: request settings failed!
+    at XMLHttpRequest.eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:13945:24)
+21.03.2025 13:20:25 - error: [Window] request settings failed!Error: request settings failed!
+    at <process:scene>
+    at XMLHttpRequest.eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:13945:24)
+21.03.2025 13:20:50 - warn: [PreviewInEditor] load error http://192.168.1.100:7456/remote/resources/native/60/605f6ffc-50a5-470a-8754-816175437d5e.mp3 Error: load audio failed: http://192.168.1.100:7456/remote/resources/native/60/605f6ffc-50a5-470a-8754-816175437d5e.mp3, status: 0(error)
+    at XMLHttpRequest.eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:251087:22)Error: [PreviewInEditor] load error http://192.168.1.100:7456/remote/resources/native/60/605f6ffc-50a5-470a-8754-816175437d5e.mp3 Error: load audio failed: http://192.168.1.100:7456/remote/resources/native/60/605f6ffc-50a5-470a-8754-816175437d5e.mp3, status: 0(error)
+    at console.warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:1:1260)
+    at Module.warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:251057:21)
+21.03.2025 13:20:50 - warn: [PreviewInEditor] load error http://192.168.1.100:7456/remote/resources/native/9b/9b9dd169-1bd7-4dfe-819c-579067af921f.mp3 Error: load audio failed: http://192.168.1.100:7456/remote/resources/native/9b/9b9dd169-1bd7-4dfe-819c-579067af921f.mp3, status: 0(error)
+    at XMLHttpRequest.eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:251087:22)Error: [PreviewInEditor] load error http://192.168.1.100:7456/remote/resources/native/9b/9b9dd169-1bd7-4dfe-819c-579067af921f.mp3 Error: load audio failed: http://192.168.1.100:7456/remote/resources/native/9b/9b9dd169-1bd7-4dfe-819c-579067af921f.mp3, status: 0(error)
+    at console.warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:1:1260)
+    at Module.warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148661:12)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:251057:21)
+21.03.2025 13:21:17 - error: [PreviewInEditor] Failed to refresh the current sceneError: [PreviewInEditor] Failed to refresh the current scene
+    at GameviewSceneProxy.softReload (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\manager\scene\proxy\gameview-scene-proxy.ccc:1:779)
+    at PreviewSceneFacade.softReloadScene (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\facade\general-scene-facade.ccc:1:6227)
+    at SceneFacadeManager.softReloadScene (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\facade\scene-facade-manager.ccc:1:8272)
+    at PreviewPlay.start (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\manager\preview-play\index.ccc:1:3718)
+    at PreviewSceneFacade.enterGameview (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\facade\preview-scene-facade.ccc:1:2531)
+    at PreviewSceneFacade.enter (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\facade\preview-scene-facade.ccc:1:2316)
+    at SceneFacadeFSM.issueCommand (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\utils\state-machine\finite-state-machine.ccc:1:1127)
+21.03.2025 13:21:17 - error: [PreviewInEditor] Open scene timeoutError: Open scene timeout
+    at C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\scene\dist\script\3d\manager\scene\utils.ccc:1:1652
+21.03.2025 13:21:29 - info: [PreviewInEditor] preview process is ready
+21.03.2025 13:21:29 - log: [PreviewInEditor] meshopt wasm decoder initialized
+21.03.2025 13:21:30 - log: [PreviewInEditor] [box2d]:box2d wasm lib loaded.
+21.03.2025 13:21:31 - log: [PreviewInEditor] [bullet]:bullet wasm lib loaded.
+21.03.2025 13:21:34 - log: [PreviewInEditor] [PHYSICS]: using builtin.
+21.03.2025 13:21:36 - log: [PreviewInEditor] Cocos Creator v3.8.2
+21.03.2025 13:21:36 - info: [PreviewInEditor] Forward render pipeline initialized.
+21.03.2025 13:21:38 - log: [PreviewInEditor] [PHYSICS2D]: switch from box2d-wasm to builtin.
+21.03.2025 13:21:47 - log: [PreviewInEditor] Screen resized: width=302.5, height=537.5, scale=1
+21.03.2025 13:21:48 - log: [PreviewInEditor] [
+  { letters: [ 'S', 'U', 'N', 'N', 'Y' ], completed: false },
+  { letters: [ 'B', 'E', 'A', 'C', 'H' ], completed: false },
+  { letters: [ 'N', 'I', 'G', 'H', 'T' ], completed: false },
+  { letters: [ 'S', 'A', 'N', 'D' ], completed: false },
+  { letters: [ 'W', 'A', 'R', 'M' ], completed: false },
+  { letters: [ 'T', 'R', 'E', 'A' ], completed: false },
+  { letters: [ 'T', 'R', 'E', 'A' ], completed: false },
+  { letters: [ 'T', 'R', 'E', 'A' ], completed: false }
+]
+21.03.2025 13:21:48 - log: [PreviewInEditor] [
+  "IF IT'S NOT CLOUDY, IT'S __",
+  "IF IT'S NOT OCEAN, IT'S __",
+  "IF IT'S NOT DAY, IT'S __",
+  "IF IT'S NOT STONE, IT'S __",
+  "IF IT'S NOT COLD, IT'S __",
+  "IF IT'S NOT BUSH, IT'S __"
+]
+21.03.2025 13:21:48 - log: [PreviewInEditor] [
+  [
+    { letter: 'S', position: 1, revealed: false },
+    { letter: 'A', position: 1, revealed: false },
+    { letter: 'W', position: 1, revealed: false },
+    { letter: 'I', position: 1, revealed: false },
+    { letter: 'B', position: 1, revealed: false },
+    { letter: 'S', position: 1, revealed: true }
+  ],
+  [
+    { letter: 'E', position: 2, revealed: false },
+    { letter: 'R', position: 2, revealed: false },
+    { letter: 'S', position: 2, revealed: false },
+    { letter: 'N', position: 2, revealed: false },
+    { letter: 'A', position: 2, revealed: false },
+    { letter: 'U', position: 2, revealed: true }
+  ],
+  [
+    { letter: 'A', position: 3, revealed: false },
+    { letter: 'M', position: 3, revealed: false },
+    { letter: 'A', position: 3, revealed: false },
+    { letter: 'G', position: 3, revealed: false },
+    { letter: 'E', position: 3, revealed: false },
+    { letter: 'N', position: 3, revealed: true }
+  ],
+  [
+    { letter: 'E', position: 4, revealed: false },
+    { letter: 'T', position: 4, revealed: false },
+    { letter: 'N', position: 4, revealed: false },
+    { letter: 'H', position: 4, revealed: false },
+    { letter: 'C', position: 4, revealed: false },
+    { letter: 'N', position: 4, revealed: true }
+  ],
+  [
+    { letter: 'E', position: 5, revealed: false },
+    { letter: 'R', position: 5, revealed: false },
+    { letter: 'D', position: 5, revealed: false },
+    { letter: 'T', position: 5, revealed: false },
+    { letter: 'H', position: 5, revealed: false },
+    { letter: 'Y', position: 5, revealed: true }
+  ]
+]
+21.03.2025 13:21:48 - log: [PreviewInEditor] [
+  "IF IT'S NOT CLOUDY, IT'S __",
+  "IF IT'S NOT OCEAN, IT'S __",
+  "IF IT'S NOT DAY, IT'S __",
+  "IF IT'S NOT STONE, IT'S __",
+  "IF IT'S NOT COLD, IT'S __",
+  "IF IT'S NOT BUSH, IT'S __"
+]
+21.03.2025 13:21:48 - log: [PreviewInEditor] IF IT'S NOT CLOUDY, IT'S __
+21.03.2025 13:22:05 - log: [PreviewInEditor] Screen resized: width=915, height=513.75, scale=0.9981785063752278
+21.03.2025 13:22:06 - log: [PreviewInEditor] Screen resized: width=302.5, height=537.5, scale=1
+21.03.2025 13:22:07 - log: [PreviewInEditor] Screen resized: width=915, height=513.75, scale=0.9981785063752278
+21.03.2025 13:22:08 - log: [PreviewInEditor] Screen resized: width=302.5, height=537.5, scale=1
+21.03.2025 13:22:35 - error: libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: cHRM chunk does not match sRGB
+
+21.03.2025 13:22:35 - log: 13:22:19 [DEBUG]: SCREEN DPI = 96, SCREEN SCALE = 1.00
+13:22:19 [DEBUG]: WORKAREA WIDTH 1528.00, HEIGHT 773.00
+13:22:19 [DEBUG]: FRAME SCALE = 1.00
+13:22:19 [DEBUG]: Project Config:
+13:22:19 [DEBUG]:     project dir: C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\native\simulator\Release\
+13:22:19 [DEBUG]:     writable path: $(PROJDIR)\
+13:22:19 [DEBUG]:     script file: $(PROJDIR)\main.js
+13:22:19 [DEBUG]:     frame size: 667 x 375
+13:22:19 [DEBUG]:     frame scale: 1.00
+13:22:19 [DEBUG]:     show console: NO
+13:22:19 [DEBUG]:     write debug log: NO ()
+13:22:19 [DEBUG]:     listen: 
+13:22:19 [DEBUG]:     debugger: none
+13:22:19 [DEBUG]:     add searching path:
+13:22:19 [DEBUG]: 
+
+
+13:22:19 [DEBUG]: [WARNING]:not find lang
+13:22:24 [INFO]: Setup EGLConfig: depth [24] stencil [8] sampleBuffer [0] sampleCount [0]
+13:22:24 [DEBUG]: EGL context bounded to thread 430b7548cf67744b
+13:22:24 [INFO]: GLES3 device initialized.
+13:22:24 [INFO]: RENDERER: PVRVFrame 10.8 - None (Host : NVIDIA GeForce GTX 1650 Ti/PCIe/SSE2) (SDK Build: 18.1@5086772)
+13:22:24 [INFO]: VENDOR: Imagination Technologies (Host: NVIDIA Corporation)
+13:22:24 [INFO]: VERSION: OpenGL ES 3.2 (Host : 4.6.0 NVIDIA 545.92)
+13:22:24 [INFO]: COMPRESSED_FORMATS: etc1 etc2 pvrtc astc 
+13:22:24 [INFO]: FRAMEBUFFER_FETCH: NONE
+13:22:24 [INFO]: MULTI_SAMPLE_RENDER_TO_TEXTURE: NONE
+13:22:24 [INFO]: Device validator enabled.
+13:22:24 [DEBUG]: D/ Initializing V8, version: 11.6.189.22
+
+13:22:24 [DEBUG]: D/ libuv version: 1.41.0
+
+13:22:24 [DEBUG]: D/ Number of interfaces: 7
+13:22:24 [DEBUG]: D/ Debugger listening..., visit [
+13:22:24 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=127.0.0.1:5086/00010002-0003-4004-8005-000600070008
+13:22:24 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=192.168.1.100:5086/00010002-0003-4004-8005-000600070008
+13:22:24 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=25.60.236.193:5086/00010002-0003-4004-8005-000600070008
+13:22:24 [DEBUG]: D/   ] in chrome browser to debug!
+13:22:24 [DEBUG]: D/ For help see https://nodejs.org/en/docs/inspector
+13:22:24 [INFO]: JS: injectWebAssembly ...
+13:22:25 [DEBUG]: In the constructor of HttpClient!
+13:22:25 [DEBUG]: iShow!
+13:22:25 [DEBUG]: EventBus[Engine] has no listener found!
+13:22:32 [WARN]: JS: Failed to set shading scale, pipelineSceneData is invalid.
+13:22:32 [WARN]: JS: Read json failed: path: C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\native\simulator\Release/gamecaches/cacheList.json message: Unexpected end of JSON input
+13:22:32 [DEBUG]: EGL context bounded to thread a886460d8e19872c
+13:22:32 [INFO]: Device thread detached.
+13:22:33 [DEBUG]: JS: Cocos Creator v3.8.2
+13:22:35 [DEBUG]: OpenAL was initialized successfully!
+13:22:35 [DEBUG]: V/AudioCache (56): AudioCache() 000001A7916123F0, id=1
+13:22:35 [DEBUG]: V/AudioCache (102): readDataTask begin, cache id=1
+13:22:35 [DEBUG]: V/AudioCache (56): AudioCache() 000001A791612590, id=2
+13:22:35 [DEBUG]: V/AudioCache (102): readDataTask begin, cache id=2
+13:22:35 [DEBUG]: V/AudioCache (56): AudioCache() 000001A791DA9D90, id=3
+13:22:35 [DEBUG]: V/AudioCache (102): readDataTask begin, cache id=3
+13:22:35 [DEBUG]: V/AudioCache (212): pcm buffer was loaded successfully, total frames: 13510, total read frames: 13510, adjust frames: 0, remainingFrames: 0
+13:22:35 [DEBUG]: V/AudioCache (259): readDataTask end, cache id=2
+13:22:35 [DEBUG]: V/AudioCache (212): pcm buffer was loaded successfully, total frames: 62067, total read frames: 62067, adjust frames: 0, remainingFrames: 0
+13:22:35 [DEBUG]: V/AudioCache (259): readDataTask end, cache id=3
+13:22:35 [DEBUG]: V/AudioCache (212): pcm buffer was loaded successfully, total frames: 74486, total read frames: 74486, adjust frames: 0, remainingFrames: 0
+13:22:35 [DEBUG]: V/AudioCache (259): readDataTask end, cache id=1
+13:22:35 [DEBUG]: JS: somehow preload success on windows
+13:22:35 [DEBUG]: JS: somehow preload success on windows
+13:22:35 [DEBUG]: JS: somehow preload success on windows
+13:2
+21.03.2025 13:22:43 - log: 2:35 [DEBUG]: JS: Screen resized: width=667, height=375, scale=0.9995002498750625
+13:22:35 [INFO]: Shader 'for2d/builtin-sprite|sprite-vs:vert|sprite-fs:frag|CC_USE_EMBEDDED_ALPHA0|USE_TEXTURE1|IS_GRAY0' compilation succeeded.
+13:22:35 [INFO]: Shader 'util/profiler|profiler-vs:vert|profiler-fs:frag' compilation succeeded.
+13:22:35 [DEBUG]: JS: IF IT'S NOT CLOUDY, IT'S __,IF IT'S NOT OCEAN, IT'S __,IF IT'S NOT DAY, IT'S __,IF IT'S NOT STONE, IT'S __,IF IT'S NOT COLD, IT'S __,IF IT'S NOT BUSH, IT'S __
+13:22:35 [DEBUG]: JS: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+13:22:35 [DEBUG]: JS: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+13:22:36 [DEBUG]: JS: IF IT'S NOT CLOUDY, IT'S __,IF IT'S NOT OCEAN, IT'S __,IF IT'S NOT DAY, IT'S __,IF IT'S NOT STONE, IT'S __,IF IT'S NOT COLD, IT'S __,IF IT'S NOT BUSH, IT'S __
+13:22:36 [DEBUG]: JS: IF IT'S NOT CLOUDY, IT'S __
+13:22:39 [DEBUG]: JS: somehow preload success on windows
+13:22:40 [DEBUG]: JS: somehow preload success on windows
+13:22:40 [DEBUG]: JS: somehow preload success on windows
+13:22:41 [DEBUG]: JS: somehow preload success on windows
+13:22:41 [DEBUG]: JS: somehow preload success on windows
+13:22:42 [DEBUG]: JS: somehow preload success on windows
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791DEA560 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791DEB940 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791DEB5F0 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791B7A740 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791BC3690 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791BC57B0 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791BC4A70 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791BC4720 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791BC61A0 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791BC5B00 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791BC5E50 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791BC64F0 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791BC5460 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791BC3340 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791BC4080 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791BC4DC0 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791BC39E0 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791BC6840 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791BC3D30 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791BC6B90 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791BC43D0 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791BC6EE0 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791BC5110 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791DD8990 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791DD8CE0 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791DD9030 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791DD96D0 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791DD6BC0 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791DD9380 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791DD9A20 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791DD75B0 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791DD9D70 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791DD6520 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791DD7C50 ... 
+
+13:22:43 [DEBUG]: D/
+21.03.2025 13:22:43 - log:  XMLHttpRequest_finalize, 000001A791DD6F10 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791DD7900 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791DDA0C0 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791DD7260 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791DD7FA0 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791DD6870 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791DD82F0 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791DD8640 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791DEAC00 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791DE8790 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791DE9820 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791DEAF50 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791941530 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791942FB0 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791941F20 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791940B40 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A79193FE00 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A7919404A0 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A7919407F0 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A7919411E0 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791941BD0 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A7919425C0 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791942C60 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791B7B7D0 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791B78620 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791B7BB20 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791B7AA90 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791B77F80 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791B782D0 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791B7ADE0 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791B79D50 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791B7B480 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791B78970 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791B78CC0 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791B79010 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791B7A3F0 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791B7B130 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791B79360 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791B79A00 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791B796B0 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791B7A0A0 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A79159CAF0 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A79159AD20 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A79159B3C0 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A79159A680 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A79159CE40 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A79159A9D0 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A79159BA60 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A79159D830 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A79159BDB0 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A79159DB80 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A79193F760 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791942270 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A79193FAB0 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791943300 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791942910 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791940E90 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791941880 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791940150 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize,
+21.03.2025 13:22:44 - log:  000001A71093F030 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A710C2B2B0 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A71093E8B0 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A710971560 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A710C32B10 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A79146A9A0 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791468050 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A710C6E330 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A71098EE20 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A71065D2E0 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A71098F170 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A710BE8010 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A710BE8360 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A710A3FDA0 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A710A3E130 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A79127A410 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791279A20 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A79127A760 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A791279D70 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A79127A0C0 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A79127AAB0 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A79127AE00 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A79127B150 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A79127B4A0 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A79159C100 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A79159DED0 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A79159D4E0 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A79159E220 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A79159C450 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A79159B070 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A79159D190 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A79159C7A0 ... 
+
+13:22:43 [DEBUG]: D/ XMLHttpRequest_finalize, 000001A79159B710 ... 
+
+13:22:44 [DEBUG]: HttpClient::destroyInstance begin
+13:22:44 [DEBUG]: HttpClient destructor
+13:22:44 [DEBUG]: HttpClient::destroyInstance() finished!
+13:22:44 [DEBUG]: V/AudioCache (64): ~AudioCache() 000001A7916123F0, id=1, begin
+13:22:44 [DEBUG]: V/AudioCache (81): ~AudioCache(id=1), delete buffer: 2
+13:22:44 [DEBUG]: V/AudioCache (97): ~AudioCache() 000001A7916123F0, id=1, end
+13:22:44 [DEBUG]: V/AudioCache (64): ~AudioCache() 000001A791612590, id=2, begin
+13:22:44 [DEBUG]: V/AudioCache (81): ~AudioCache(id=2), delete buffer: 1
+13:22:44 [DEBUG]: V/AudioCache (97): ~AudioCache() 000001A791612590, id=2, end
+13:22:44 [DEBUG]: V/AudioCache (64): ~AudioCache() 000001A791DA9D90, id=3, begin
+13:22:44 [DEBUG]: V/AudioCache (81): ~AudioCache(id=3), delete buffer: 3
+13:22:44 [DEBUG]: V/AudioCache (97): ~AudioCache() 000001A791DA9D90, id=3, end
+13:22:44 [DEBUG]: D/ ScriptEngine::cleanup begin ...
+
+13:22:44 [DEBUG]: D/ GC begin ..., (js->native map) size: 2623
+
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updat
+21.03.2025 13:22:44 - log: ed buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adap
+21.03.2025 13:22:44 - log: ter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970
+21.03.2025 13:22:44 - log: .js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos
+21.03.2025 13:22:44 - log: -js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init St
+21.03.2025 13:22:44 - log: acktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-upd
+21.03.2025 13:22:44 - log: ated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-ad
+21.03.2025 13:22:44 - log: apter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/coc
+21.03.2025 13:22:44 - log: os-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [WARN]: Triple buffer enabled for infrequently-updated buffer, consider using MemoryUsageBit::DEVICE instead
+13:22:44 [DEBUG]: Init Stacktrace:  - [0]anonymous@src/cocos-js/director-cf2afd11.js:694
+ - [1]tick@src/cocos-js/director-cf2afd11.js:1491
+ - [2]_updateCallback@src/cocos-js/deprecated-88c49970.js:1080
+ - [3]anonymous@src/cocos-js/deprecated-88c49970.js:140
+ - [4]tick@jsb-adapter/web-adapter.js:551
+13:22:44 [DEBUG]: D/ GC end ..., (js->native map) size: 1408
+
+13:22:44 [DEBUG]: D/ GC begin ..., (js->native map) size: 1408
+
+13:22:44 [DEBUG
+21.03.2025 13:22:44 - log: (Info) Hardware profile: None
+(Info) PVRVFrame version 10.8
+
+21.03.2025 13:22:44 - log: ]: D/ GC end ..., (js->native map) size: 1408
+
+13:22:44 [DEBUG]: D/ GC begin ..., (js->native map) size: 0
+
+13:22:44 [DEBUG]: D/ GC end ..., (js->native map) size: 0
+
+13:22:44 [DEBUG]: D/ ScriptEngine::cleanup end ...
+
+13:22:44 [DEBUG]: EGL context bounded to thread a886460d8e19872c
+
+21.03.2025 13:23:07 - error: libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: cHRM chunk does not match sRGB
+
+21.03.2025 13:23:07 - log: 13:22:53 [DEBUG]: SCREEN DPI = 96, SCREEN SCALE = 1.00
+13:22:53 [DEBUG]: WORKAREA WIDTH 1528.00, HEIGHT 773.00
+13:22:53 [DEBUG]: FRAME SCALE = 1.00
+13:22:53 [DEBUG]: Project Config:
+13:22:53 [DEBUG]:     project dir: C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\native\simulator\Release\
+13:22:53 [DEBUG]:     writable path: $(PROJDIR)\
+13:22:53 [DEBUG]:     script file: $(PROJDIR)\main.js
+13:22:53 [DEBUG]:     frame size: 667 x 375
+13:22:53 [DEBUG]:     frame scale: 1.00
+13:22:53 [DEBUG]:     show console: NO
+13:22:53 [DEBUG]:     write debug log: NO ()
+13:22:53 [DEBUG]:     listen: 
+13:22:53 [DEBUG]:     debugger: none
+13:22:53 [DEBUG]:     add searching path:
+13:22:53 [DEBUG]: 
+
+
+13:22:53 [DEBUG]: [WARNING]:not find lang
+13:22:57 [INFO]: Setup EGLConfig: depth [24] stencil [8] sampleBuffer [0] sampleCount [0]
+13:22:57 [DEBUG]: EGL context bounded to thread b052397ef0c53d9a
+13:22:57 [INFO]: GLES3 device initialized.
+13:22:57 [INFO]: RENDERER: PVRVFrame 10.8 - None (Host : NVIDIA GeForce GTX 1650 Ti/PCIe/SSE2) (SDK Build: 18.1@5086772)
+13:22:57 [INFO]: VENDOR: Imagination Technologies (Host: NVIDIA Corporation)
+13:22:57 [INFO]: VERSION: OpenGL ES 3.2 (Host : 4.6.0 NVIDIA 545.92)
+13:22:57 [INFO]: COMPRESSED_FORMATS: etc1 etc2 pvrtc astc 
+13:22:57 [INFO]: FRAMEBUFFER_FETCH: NONE
+13:22:57 [INFO]: MULTI_SAMPLE_RENDER_TO_TEXTURE: NONE
+13:22:57 [INFO]: Device validator enabled.
+13:22:57 [DEBUG]: D/ Initializing V8, version: 11.6.189.22
+
+13:22:57 [DEBUG]: D/ libuv version: 1.41.0
+
+13:22:57 [DEBUG]: D/ Number of interfaces: 7
+13:22:57 [DEBUG]: D/ Debugger listening..., visit [
+13:22:57 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=127.0.0.1:5086/00010002-0003-4004-8005-000600070008
+13:22:57 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=192.168.1.100:5086/00010002-0003-4004-8005-000600070008
+13:22:57 [DEBUG]: D/     devtools://devtools/bundled/js_app.html?v8only=true&ws=25.60.236.193:5086/00010002-0003-4004-8005-000600070008
+13:22:57 [DEBUG]: D/   ] in chrome browser to debug!
+13:22:57 [DEBUG]: D/ For help see https://nodejs.org/en/docs/inspector
+13:22:58 [INFO]: JS: injectWebAssembly ...
+13:22:58 [DEBUG]: In the constructor of HttpClient!
+13:22:58 [DEBUG]: iShow!
+13:22:58 [DEBUG]: EventBus[Engine] has no listener found!
+13:23:04 [WARN]: JS: Failed to set shading scale, pipelineSceneData is invalid.
+13:23:04 [WARN]: JS: Read json failed: path: C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\native\simulator\Release/gamecaches/cacheList.json message: Unexpected end of JSON input
+13:23:04 [DEBUG]: EGL context bounded to thread e737375e53af1db2
+13:23:04 [INFO]: Device thread detached.
+13:23:05 [DEBUG]: JS: Cocos Creator v3.8.2
+13:23:06 [DEBUG]: OpenAL was initialized successfully!
+13:23:06 [DEBUG]: V/AudioCache (56): AudioCache() 000001601573B700, id=1
+13:23:06 [DEBUG]: V/AudioCache (102): readDataTask begin, cache id=1
+13:23:06 [DEBUG]: V/AudioCache (56): AudioCache() 000001601573B080, id=2
+13:23:06 [DEBUG]: V/AudioCache (102): readDataTask begin, cache id=2
+13:23:06 [DEBUG]: V/AudioCache (56): AudioCache() 0000016015EC1260, id=3
+13:23:06 [DEBUG]: V/AudioCache (102): readDataTask begin, cache id=3
+13:23:06 [DEBUG]: V/AudioCache (212): pcm buffer was loaded successfully, total frames: 13510, total read frames: 13510, adjust frames: 0, remainingFrames: 0
+13:23:06 [DEBUG]: V/AudioCache (259): readDataTask end, cache id=2
+13:23:06 [DEBUG]: V/AudioCache (212): pcm buffer was loaded successfully, total frames: 62067, total read frames: 62067, adjust frames: 0, remainingFrames: 0
+13:23:06 [DEBUG]: V/AudioCache (259): readDataTask end, cache id=3
+13:23:06 [DEBUG]: V/AudioCache (212): pcm buffer was loaded successfully, total frames: 74486, total read frames: 74486, adjust frames: 0, remainingFrames: 0
+13:23:06 [DEBUG]: V/AudioCache (259): readDataTask end, cache id=1
+13:23:06 [DEBUG]: JS: somehow preload success on windows
+13:23:06 [DEBUG]: JS: somehow preload success on windows
+13:23:06 [DEBUG]: JS: somehow preload success on windows
+13:2
+21.03.2025 13:23:12 - log: 3:07 [DEBUG]: JS: Screen resized: width=667, height=375, scale=0.9995002498750625
+13:23:07 [INFO]: Shader 'for2d/builtin-sprite|sprite-vs:vert|sprite-fs:frag|CC_USE_EMBEDDED_ALPHA0|USE_TEXTURE1|IS_GRAY0' compilation succeeded.
+13:23:07 [INFO]: Shader 'util/profiler|profiler-vs:vert|profiler-fs:frag' compilation succeeded.
+13:23:07 [DEBUG]: JS: IF IT'S NOT CLOUDY, IT'S __,IF IT'S NOT OCEAN, IT'S __,IF IT'S NOT DAY, IT'S __,IF IT'S NOT STONE, IT'S __,IF IT'S NOT COLD, IT'S __,IF IT'S NOT BUSH, IT'S __
+13:23:07 [DEBUG]: JS: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+13:23:07 [DEBUG]: JS: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+13:23:07 [DEBUG]: JS: IF IT'S NOT CLOUDY, IT'S __,IF IT'S NOT OCEAN, IT'S __,IF IT'S NOT DAY, IT'S __,IF IT'S NOT STONE, IT'S __,IF IT'S NOT COLD, IT'S __,IF IT'S NOT BUSH, IT'S __
+13:23:07 [DEBUG]: JS: IF IT'S NOT CLOUDY, IT'S __
+13:23:10 [DEBUG]: JS: somehow preload success on windows
+13:23:10 [DEBUG]: JS: somehow preload success on windows
+13:23:10 [DEBUG]: JS: somehow preload success on windows
+13:23:11 [DEBUG]: JS: somehow preload success on windows
+13:23:11 [DEBUG]: JS: somehow preload success on windows
+13:23:11 [DEBUG]: JS: somehow preload success on windows
+13:23:12 [DEBUG]: HttpClient::destroyInstance begin
+13:23:12 [DEBUG]: HttpClient destructor
+13:23:12 [DEBUG]: HttpClient::destroyInstance() finished!
+13:23:12 [DEBUG]: V/AudioCache (64): ~AudioCache() 000001601573B700, id=1, begin
+13:23:12 [DEBUG]: V/AudioCache (81): ~AudioCache(id=1), delete buffer: 2
+13:23:12 [DEBUG]: V/AudioCache (97): ~AudioCache() 000001601573B700, id=1, end
+13:23:12 [DEBUG]: V/AudioCache (64): ~AudioCache() 000001601573B080, id=2, begin
+13:23:12 [DEBUG]: V/AudioCache (81): ~AudioCache(id=2), delete buffer: 1
+13:23:12 [DEBUG]: V/AudioCache (97): ~AudioCache() 000001601573B080, id=2, end
+13:23:12 [DEBUG]: V/AudioCache (64): ~AudioCache() 0000016015EC1260, id=3, begin
+13:23:12 [DEBUG]: V/AudioCache (81): ~AudioCache(id=3), delete buffer: 3
+13:23:12 [DEBUG]: V/AudioCache (97): ~AudioCache() 0000016015EC1260, id=3, end
+13:23:12 [DEBUG]: D/ ScriptEngine::cleanup begin ...
+
+13:23:12 [DEBUG]: D/ GC begin ..., (js->native map) size: 2218
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015EF2B30 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015EF4260 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015EF3F10 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015C4E970 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015C50A90 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015C4FA00 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015C4DC30 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015C50DE0 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015C500A0 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015C4E620 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015C51480 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015C4F010 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015C51130 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015C4D8E0 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015C4ECC0 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015C4F360 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015C503F0 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015C4DF80 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015C4E2D0 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015C4F6B0 ... 
+
+13:23:12 [DEBUG]: D
+21.03.2025 13:23:12 - log: / XMLHttpRequest_finalize, 0000016015C4FD50 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015C50740 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015EED020 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015EEB5A0 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015EEE400 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015EED370 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015EEC980 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015EEBC40 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015EEF140 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015EEBF90 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015EEC2E0 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015EEE750 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015EEC630 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015EED6C0 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015EEDA10 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015EEE0B0 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015EECCD0 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015EEB8F0 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015EEDD60 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015EEEAA0 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015EEEDF0 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015EF52F0 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015EF45B0 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015EF2140 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015EF5990 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015EF1DF0 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015A8C580 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015A8CC20 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015A8A110 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015A8C8D0 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015A8A460 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015A8CF70 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015A8BB90 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015A89720 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015A8BEE0 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015A8C230 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015C06F80 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015C051B0 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015C08360 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015C05BA0 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015C07CC0 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015C05500 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015C06240 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015C07620 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015C06590 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015C08010 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015C068E0 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015C05EF0 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015C06C30 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015C072D0 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015C05850 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015C07970 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015C04E60 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015C086B0 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015C04B10 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000015FD4D802D0 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000015FD4D80970 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000015FD4D7DE60 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000015FD4D7E850 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize
+21.03.2025 13:23:13 - log: (Info) Hardware profile: None
+(Info) PVRVFrame version 10.8
+
+21.03.2025 13:23:13 - log: , 0000015FD4D80CC0 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000015FD4D7E500 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000015FD4D7EEF0 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000015FD4D81010 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000015FD4D81360 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015A8AE50 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015A8A7B0 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015A8AB00 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015A893D0 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015A89A70 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015A8B1A0 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015A8B4F0 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015A8B840 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015A89DC0 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000015FD4B6B2C0 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000015FD4B47E80 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000015FD4B4DC40 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000015FD4E3DBB0 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 000001601562DC90 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 00000160156DA660 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015430320 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015430670 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 00000160154309C0 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000015FD4B07220 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000015FD4B07570 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000015FD4B078C0 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 00000160154297E0 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000016015429B30 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000015FD4D78560 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000015FD4D78210 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000015FD4D77EC0 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000015FD4D76AE0 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000015FD4D76E30 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000015FD4D77180 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000015FD4D774D0 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000015FD4D77820 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000015FD4D77B70 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000015FD4D7E1B0 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000015FD4D7EBA0 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000015FD4D80620 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000015FD4D7F240 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000015FD4D7F590 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000015FD4D7FC30 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000015FD4D7F8E0 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000015FD4D816B0 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000015FD4D7DB10 ... 
+
+13:23:12 [DEBUG]: D/ XMLHttpRequest_finalize, 0000015FD4D7FF80 ... 
+
+13:23:12 [DEBUG]: D/ GC end ..., (js->native map) size: 2027
+
+13:23:12 [DEBUG]: D/ GC begin ..., (js->native map) size: 2027
+
+13:23:12 [DEBUG]: D/ GC end ..., (js->native map) size: 2027
+
+13:23:12 [DEBUG]: D/ GC begin ..., (js->native map) size: 0
+
+13:23:12 [DEBUG]: D/ GC end ..., (js->native map) size: 0
+
+13:23:12 [DEBUG]: D/ ScriptEngine::cleanup end ...
+
+13:23:12 [DEBUG]: EGL context bounded to thread e737375e53af1db2
+
+21.03.2025 13:23:40 - log: Use preview template {link(D:\Cocos\work\CocosSolitaireCreative\preview-template\index.ejs)}
+21.03.2025 13:23:43 - warn: [Assets] Preview in build may make some errors[Assets] Preview in build may make some errors  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1530)  
+at NewConsole.warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\builder\dist\worker\console.ccc:1:2267)  
+at BuilderAssetCache.init (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\builder\dist\worker\builder\manager\asset.ccc:1:530)  
+at BuildTask.init (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\builder\dist\worker\builder\index.ccc:1:2912)  
+at BuildTask.getPreviewSettings (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\builder\dist\worker\builder\index.ccc:1:8458)  
+at getPreviewSettings (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\builder\dist\worker\index.ccc:1:5811)  
+at Ipc.<anonymous> (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\builder\dist\worker\msg-util.ccc:1:202)
+21.03.2025 13:24:22 - warn: [Assets] [build-script][[Build.Script.Rollup]] Circular dependency: file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Card.ts -> file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/GameController.ts -> file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Card.ts
+[Assets] [build-script][[Build.Script.Rollup]] Circular dependency: file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Card.ts -> file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/GameController.ts -> file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Card.ts
+  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:1:1260)  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1530)  
+at NewConsole.warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\builder\dist\worker\console.ccc:1:2267)  
+at Socket.<anonymous> (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\builder\dist\worker\worker-pools\sub-process-manager.ccc:1:3499)  
+at Socket.emit (events.js:315:20)  
+at addChunk (internal/streams/readable.js:309:12)  
+at readableAddChunk (internal/streams/readable.js:284:9)  
+at Socket.Readable.push (internal/streams/readable.js:223:10)  
+at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+21.03.2025 13:28:18 - log: Use preview template {link(D:\Cocos\work\CocosSolitaireCreative\preview-template\index.ejs)}
+21.03.2025 13:29:20 - log: Use preview template {link(D:\Cocos\work\CocosSolitaireCreative\preview-template\index.ejs)}
+21.03.2025 13:29:23 - log: Use preview template {link(D:\Cocos\work\CocosSolitaireCreative\preview-template\index.ejs)}
+21.03.2025 13:30:33 - warn: [Assets] [build-script][[Build.Script.Rollup]] Circular dependency: file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Card.ts -> file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/GameController.ts -> file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Card.ts
+[Assets] [build-script][[Build.Script.Rollup]] Circular dependency: file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Card.ts -> file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/GameController.ts -> file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Card.ts
+  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:1:1260)  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1530)  
+at NewConsole.warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\builder\dist\worker\console.ccc:1:2267)  
+at Socket.<anonymous> (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\builder\dist\worker\worker-pools\sub-process-manager.ccc:1:3499)  
+at Socket.emit (events.js:315:20)  
+at addChunk (internal/streams/readable.js:309:12)  
+at readableAddChunk (internal/streams/readable.js:284:9)  
+at Socket.Readable.push (internal/streams/readable.js:223:10)  
+at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+21.03.2025 13:32:24 - log: Use preview template {link(D:\Cocos\work\CocosSolitaireCreative\preview-template\index.ejs)}
+21.03.2025 13:35:04 - warn: [Assets] [build-script][[Build.Script.Rollup]] Circular dependency: file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Card.ts -> file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/GameController.ts -> file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Card.ts
+[Assets] [build-script][[Build.Script.Rollup]] Circular dependency: file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Card.ts -> file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/GameController.ts -> file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Card.ts
+  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:1:1260)  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1530)  
+at NewConsole.warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\builder\dist\worker\console.ccc:1:2267)  
+at Socket.<anonymous> (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\builder\dist\worker\worker-pools\sub-process-manager.ccc:1:3499)  
+at Socket.emit (events.js:315:20)  
+at addChunk (internal/streams/readable.js:309:12)  
+at readableAddChunk (internal/streams/readable.js:284:9)  
+at Socket.Readable.push (internal/streams/readable.js:223:10)  
+at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+21.03.2025 13:38:14 - error: [Window] Cannot read property 'cancel' of undefinedTypeError: Cannot read property 'cancel' of undefined
+    at Object.close (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\editor\inspector\contributions\node.js:641:34)
+    at Object.close (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\resources\3d\engine\editor\inspector\contributions\node.js:2169:27)
+    at HTMLElement._setPanel (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\creator-ui-kit\dist\renderer.ccc:2:1641746)
+    at HTMLElement.attributeChangedCallback (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\creator-ui-kit\dist\renderer.ccc:2:1642345)
+    at Object.sceneClose (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\modules\editor-extensions\extensions\inspector\dist\panels\inspector\index.ccc:1:3400)
+    at C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\panel\lib\element.ccc:1:5038
+    at new Promise (<anonymous>)
+    at EventEmitter.<anonymous> (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@editor\panel\lib\element.ccc:1:4999)
+    at EventEmitter.emit (events.js:315:20)
+    at EventEmitter.<anonymous> (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@base\electron-base-ipc\dist\renderer.ccc:1:3660)
+21.03.2025 13:39:42 - log: Use preview template {link(D:\Cocos\work\CocosSolitaireCreative\preview-template\index.ejs)}
+21.03.2025 13:40:43 - log: Use preview template {link(D:\Cocos\work\CocosSolitaireCreative\preview-template\index.ejs)}
+21.03.2025 13:41:57 - warn: [Assets] [build-script][[Build.Script.Rollup]] Circular dependency: file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Card.ts -> file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/GameController.ts -> file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Card.ts
+[Assets] [build-script][[Build.Script.Rollup]] Circular dependency: file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Card.ts -> file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/GameController.ts -> file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Card.ts
+  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:1:1260)  
+at Object.warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1530)  
+at NewConsole.warn (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\builder\dist\worker\console.ccc:1:2267)  
+at Socket.<anonymous> (C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\builder\dist\worker\worker-pools\sub-process-manager.ccc:1:3499)  
+at Socket.emit (events.js:315:20)  
+at addChunk (internal/streams/readable.js:309:12)  
+at readableAddChunk (internal/streams/readable.js:284:9)  
+at Socket.Readable.push (internal/streams/readable.js:223:10)  
+at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+21.03.2025 13:44:47 - log: Use preview template {link(D:\Cocos\work\CocosSolitaireCreative\preview-template\index.ejs)}

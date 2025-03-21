@@ -836,7 +836,7 @@
       "uuid": "2230398b-3343-4045-a36f-91d9f55d9654"
     },
     "D:\\Cocos\\work\\CocosSolitaireCreative\\assets\\ui\\win": {
-      "time": 1742502945507.6692,
+      "time": 1742549961167.6294,
       "uuid": "fa114eb9-257e-4719-9319-0981825ce5e8"
     },
     "D:\\Cocos\\work\\CocosSolitaireCreative\\assets\\scripts\\services\\StoreController.ts": {
@@ -892,7 +892,7 @@
       "uuid": "6532c9eb-1747-47e1-a466-993b0fb81d1a"
     },
     "D:\\Cocos\\work\\CocosSolitaireCreative\\assets\\scripts\\ui\\ScreenScaler.ts": {
-      "time": 1742548604109.0955,
+      "time": 1742553637766.3442,
       "uuid": "9c4a9a4a-edcb-4d58-9d6d-6b5ce152d804"
     },
     "D:\\Cocos\\work\\CocosSolitaireCreative\\assets\\scripts\\ui\\StoreButtonComponent.ts": {
@@ -1000,7 +1000,7 @@
       "uuid": "41812075-5872-4d22-ae09-db5a8a128bed"
     },
     "D:\\Cocos\\work\\CocosSolitaireCreative\\assets\\scenes\\main.scene": {
-      "time": 1742548751945.8396,
+      "time": 1742552836223.196,
       "uuid": "dc2dda4d-4285-4c9b-a5be-643ce0534e83"
     },
     "D:\\Cocos\\work\\CocosSolitaireCreative\\assets\\ui\\Buttons.png": {
@@ -1213,13 +1213,6 @@
     "D:\\Cocos\\work\\CocosSolitaireCreative\\assets\\ui\\Group 1918.png": {
       "time": 1742463733845.4893,
       "uuid": "a5b486a5-416d-42a0-907c-9b7ac8769012"
-    },
-    "D:\\Cocos\\work\\CocosSolitaireCreative\\assets\\ui\\win\\Снимок экрана 2025-03-20 233528.png.meta": {
-      "time": 1742502951989.7126
-    },
-    "D:\\Cocos\\work\\CocosSolitaireCreative\\assets\\ui\\win\\Снимок экрана 2025-03-20 233528.png": {
-      "time": 1742502932632.8372,
-      "uuid": "77c76b28-2db6-4493-a60d-94fc91856072"
     },
     "D:\\Cocos\\work\\CocosSolitaireCreative\\assets\\ui\\WordsContainer.png.meta": {
       "time": 1742503713966.9214
@@ -1812,6 +1805,11 @@
       "path": "D:\\Cocos\\work\\CocosSolitaireCreative\\assets\\ui\\Cards1.png",
       "time": 1742505446724.505,
       "removeTime": 1742505573307
+    },
+    "77c76b28-2db6-4493-a60d-94fc91856072": {
+      "path": "D:\\Cocos\\work\\CocosSolitaireCreative\\assets\\ui\\win\\Снимок экрана 2025-03-20 233528.png",
+      "time": 1742502932632.8372,
+      "removeTime": 1742549961210
     }
   }
 }

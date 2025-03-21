@@ -170,7 +170,6 @@ export class ScreenScaler extends Component {
                 this.sentences.getComponent(Widget).enabled = false;
                 this.sentences.setPosition(0, ((1920 - this.completedWordsContainer.position.y) / 2) / 1.2 * scale);
                // this.sentences.getComponent(Widget).top = this.originalSentencesWidgetTop * scale * 1.7;
-               this.constLabel.getComponent(Widget).top *= 2;
                this.constLabel.getComponent(Widget).top = this.originalConstLabelWidget * scale * 2;
                this.playWidget.getComponent(Widget).right = this.originalPlayWidgetRight / 2 * scale;
                this.iconWidget.getComponent(Widget).left = this.originalIconWidgetLeft / 2 * scale;
@@ -195,10 +194,11 @@ export class ScreenScaler extends Component {
         this.background.setScale(scale, scale);
         this.wordsContainer.setScale(scale, scale);
         this.hand.setScale(scale, scale);
+        this.constLabel.setScale(scale, scale);
 
         if (!currentHorizontalState) {
 
-            //this.background.setScale(scale * 2, scale * 2);
+            this.background.setScale(scale * 2, scale * 2);
             this.letterContainer.setScale(this.originalLetterContainerScale.x * 1.7 * scale, this.originalLetterContainerScale.y * 1.7* scale);
             this.cardContainer.setScale(scale * 1.7, scale * 1.7);
             this.completedWordsContainer.setScale(scale * 1.7, scale * 1.7);
@@ -206,6 +206,7 @@ export class ScreenScaler extends Component {
             this.wordsContainer.setScale(scale * 1.7, scale * 1.7);
             this.hand.setScale(scale * 1.4, scale * 1.4);
             this.constName.setScale(scale * 1.5, scale * 1.5);
+            this.constLabel.setScale(scale * 0.8, scale * 0.8);
 
         }
 

@@ -1,0 +1,317 @@
+21.03.2025 13:41:21 - debug: =================================== build Task (web-mobile) Start ================================
+21.03.2025 13:41:21 - debug: Start build task, options:{"name":"SolitaireCreative","server":"","platform":"web-mobile","buildPath":"project://build","debug":false,"md5Cache":false,"skipCompressTexture":false,"sourceMaps":false,"polyfills":{"asyncFunctions":true},"experimentalEraseModules":false,"startSceneAssetBundle":false,"bundleConfigs":[],"useBuiltinServer":false,"mainBundleIsRemote":false,"mainBundleCompressionType":"merge_dep","useSplashScreen":false,"bundleCommonChunk":false,"packAutoAtlas":true,"startScene":"dc2dda4d-4285-4c9b-a5be-643ce0534e83","outputName":"web-mobile","taskName":"web-mobile","scenes":[{"url":"db://assets/scenes/main.scene","uuid":"dc2dda4d-4285-4c9b-a5be-643ce0534e83"}],"overwriteProjectSettings":{"includeModules":{"gfx-webgl2":"inherit-project-setting"}},"packages":{"engine":{"cleanupImageCache":"inheritProjectSetting","__version__":"1.0.8"},"adsense-h5g-plugin":{"enableAdsense":false,"enableTestAd":false,"__version__":"1.0.1","AFPHostPropertyCode":"other","AFPHostDomain":"douyougame.com","otherAFPHostPropertyCode":"","otherAFPDomain":""},"cocos-service":{"configID":"a250cd","services":[],"__version__":"3.0.7"},"web-mobile":{"orientation":"portrait","embedWebDebugger":false,"cullEngineAsmJsModule":false,"useWebGPU":false,"__version__":"1.0.1"}},"__version__":"1.3.7","buildMode":"normal","logDest":"project://temp/builder/log/web-mobile21.03.2025 13-41.log"}
+21.03.2025 13:41:21 - debug: Build with Cocos Creator 3.8.2
+21.03.2025 13:41:21 - debug: cocos-service:(onBeforeBuild) start..., progress: 0%
+21.03.2025 13:41:21 - debug: // ---- build task cocos-service：onBeforeBuild ----
+21.03.2025 13:41:22 - debug: // ---- build task cocos-service：onBeforeBuild ---- (918ms)
+21.03.2025 13:41:22 - debug: cocos-service:(onBeforeBuild) in 918 ms ✓, progress: 2%
+21.03.2025 13:41:22 - debug: scene:(onBeforeBuild) start..., progress: 2%
+21.03.2025 13:41:22 - debug: // ---- build task scene：onBeforeBuild ----
+21.03.2025 13:41:22 - debug: // ---- build task scene：onBeforeBuild ---- (165ms)
+21.03.2025 13:41:22 - debug: scene:(onBeforeBuild) in 165 ms ✓, progress: 4%
+21.03.2025 13:41:22 - debug: Start lock asset db..., progress: 4%
+21.03.2025 13:41:22 - log: Asset DB is paused with build!
+21.03.2025 13:41:22 - debug: Query all assets info in project
+21.03.2025 13:41:22 - debug: init custom config: keepNodeUuid: false, useCache: true
+21.03.2025 13:41:22 - debug:   Number of all scenes: 1
+21.03.2025 13:41:22 - debug:   Number of all scripts: 16
+21.03.2025 13:41:22 - debug:   Number of other assets: 405
+21.03.2025 13:41:22 - debug: web-mobile:(onAfterInit) start..., progress: 4%
+21.03.2025 13:41:22 - debug: // ---- build task web-mobile：onAfterInit ----
+21.03.2025 13:41:22 - debug: // ---- build task web-mobile：onAfterInit ---- (107ms)
+21.03.2025 13:41:22 - debug: web-mobile:(onAfterInit) in 107 ms ✓, progress: 7%
+21.03.2025 13:41:22 - debug: cocos-service:(onAfterInit) start..., progress: 7%
+21.03.2025 13:41:22 - debug: // ---- build task cocos-service：onAfterInit ----
+21.03.2025 13:41:23 - debug: // ---- build task cocos-service：onAfterInit ---- (462ms)
+21.03.2025 13:41:23 - debug: cocos-service:(onAfterInit) in 462 ms ✓, progress: 9%
+21.03.2025 13:41:23 - debug: engine:(onAfterInit) start..., progress: 9%
+21.03.2025 13:41:23 - debug: // ---- build task engine：onAfterInit ----
+21.03.2025 13:41:23 - debug: // ---- build task engine：onAfterInit ---- (168ms)
+21.03.2025 13:41:23 - debug: engine:(onAfterInit) in 168 ms ✓, progress: 11%
+21.03.2025 13:41:23 - debug: adsense-h5g-plugin:(onBeforeBundleInit) start..., progress: 11%
+21.03.2025 13:41:23 - debug: // ---- build task adsense-h5g-plugin：onBeforeBundleInit ----
+21.03.2025 13:41:23 - debug: [adsense-h5g-plugin] remove script success
+21.03.2025 13:41:23 - debug: // ---- build task adsense-h5g-plugin：onBeforeBundleInit ---- (202ms)
+21.03.2025 13:41:23 - debug: adsense-h5g-plugin:(onBeforeBundleInit) in 202 ms ✓, progress: 11%
+21.03.2025 13:41:23 - debug: Init all bundles start..., progress: 11%
+21.03.2025 13:41:23 - debug: Num of bundles: 3..., progress: 11%
+21.03.2025 13:41:23 - debug: reload all scripts.
+21.03.2025 13:41:24 - debug: Set detail map pack:///resolution-detail-map.json: {}
+21.03.2025 13:41:24 - groupCollapsed: Invalidate all modules
+21.03.2025 13:41:24 - debug: Unregister DebugViewRuntimeControl
+21.03.2025 13:41:24 - debug: Unregister StoreController
+21.03.2025 13:41:24 - debug: Unregister StoreButtonComponent
+21.03.2025 13:41:24 - debug: Unregister Blocker
+21.03.2025 13:41:24 - debug: Unregister Word
+21.03.2025 13:41:24 - debug: Unregister Letter
+21.03.2025 13:41:24 - debug: Unregister ResultScreen
+21.03.2025 13:41:24 - debug: Unregister SoundController
+21.03.2025 13:41:24 - debug: Unregister GameController
+21.03.2025 13:41:24 - debug: Unregister Card
+21.03.2025 13:41:24 - debug: Unregister Text
+21.03.2025 13:41:24 - debug: Unregister TutorialHandMover
+21.03.2025 13:41:24 - debug: Unregister ScreenScaler
+21.03.2025 13:41:24 - debug: Invalidating 'pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js'
+21.03.2025 13:41:24 - debug: Invalidating 'pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js'
+21.03.2025 13:41:24 - debug: Invalidating 'pack:///chunks/dd/dd8ffe4b66ab421921fe26a7524871e3101b074e.js'
+21.03.2025 13:41:24 - debug: Invalidating 'pack:///chunks/93/93c3779d5fadd5c8745b7de819307631d10787cd.js'
+21.03.2025 13:41:24 - debug: Invalidating 'pack:///chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js'
+21.03.2025 13:41:24 - debug: Invalidating 'pack:///chunks/77/77906dee3d98492894b50c7de99f48faee2dd461.js'
+21.03.2025 13:41:24 - debug: Invalidating 'pack:///chunks/0e/0e55dff55ab1bf34b7b940a388d8e903e00b4778.js'
+21.03.2025 13:41:24 - debug: Invalidating 'pack:///chunks/09/09ddf93620a28a2c5a78fd722d8b27f0b00d56aa.js'
+21.03.2025 13:41:24 - debug: Invalidating 'pack:///chunks/da/da5cbf94118edc9df073e29647c8c46970f50b83.js'
+21.03.2025 13:41:24 - debug: Invalidating 'pack:///chunks/eb/eb9aec31b330f42ea4099cb191f8ddf22f2550e8.js'
+21.03.2025 13:41:24 - debug: Invalidating 'pack:///chunks/e9/e9d35cea5ace03bf3cecefe01e4103dac37b0302.js'
+21.03.2025 13:41:24 - debug: Invalidating 'pack:///chunks/73/731eb87eb1694620359ab9fadf0d7b4591aa646c.js'
+21.03.2025 13:41:24 - debug: Invalidating 'pack:///chunks/5d/5d7a8a3ab690e77ab3534d15f891866ecc8fa3fa.js'
+21.03.2025 13:41:24 - debug: Invalidating 'pack:///chunks/89/89899f2f538bc689a2ae40ce4802b86cb59343d4.js'
+21.03.2025 13:41:24 - debug: Invalidating 'pack:///chunks/9e/9eda43c462c230fb58a6184f9dbd7710690bd3c5.js'
+21.03.2025 13:41:24 - debug: Invalidating 'pack:///chunks/80/80694765410dacc24fa6fe495b29084a893044ee.js'
+21.03.2025 13:41:24 - debug: Invalidating 'pack:///chunks/51/51d11f5898811b12faad3f121aaa4cc4e0ae4ac8.js'
+21.03.2025 13:41:24 - debug: Invalidating 'pack:///chunks/a7/a70709c2ebe87f7c9113eea729a541c2dcb4642c.js'
+21.03.2025 13:41:24 - debug: Invalidating 'pack:///chunks/fb/fbcf85ac8d3edb017310648d1e2563b16eead162.js'
+21.03.2025 13:41:24 - groupEnd: Invalidate all modules
+21.03.2025 13:41:24 - groupCollapsed: Imports all modules
+21.03.2025 13:41:24 - debug: [[Executor]] Module "pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js" loaded.
+21.03.2025 13:41:24 - debug: D:\Cocos\work\CocosSolitaireCreative\temp\programming\packer-driver\targets\editor\chunks\6d\6d8fd2b0177941b032ddc0733af48a561fb60657.js resolved to D:\Cocos\work\CocosSolitaireCreative\temp\programming\packer-driver\targets\editor\chunks\6d\6d8fd2b0177941b032ddc0733af48a561fb60657.js is not in module cache!
+21.03.2025 13:41:24 - debug: [[Executor]] Module "pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js" loaded.
+21.03.2025 13:41:24 - debug: [[Executor]] Register DebugViewRuntimeControl
+21.03.2025 13:41:24 - debug: [[Executor]] Module "pack:///chunks/dd/dd8ffe4b66ab421921fe26a7524871e3101b074e.js" loaded.
+21.03.2025 13:41:24 - debug: [[Executor]] Module "pack:///chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js" loaded.
+21.03.2025 13:41:24 - debug: [[Executor]] Module "pack:///chunks/77/77906dee3d98492894b50c7de99f48faee2dd461.js" loaded.
+21.03.2025 13:41:24 - debug: [[Executor]] Register StoreController
+21.03.2025 13:41:24 - debug: [[Executor]] Module "pack:///chunks/93/93c3779d5fadd5c8745b7de819307631d10787cd.js" loaded.
+21.03.2025 13:41:24 - debug: [[Executor]] Register StoreButtonComponent
+21.03.2025 13:41:24 - debug: [[Executor]] Module "pack:///chunks/09/09ddf93620a28a2c5a78fd722d8b27f0b00d56aa.js" loaded.
+21.03.2025 13:41:24 - debug: [[Executor]] Register Blocker
+21.03.2025 13:41:24 - debug: [[Executor]] Module "pack:///chunks/0e/0e55dff55ab1bf34b7b940a388d8e903e00b4778.js" loaded.
+21.03.2025 13:41:24 - debug: [[Executor]] Register Word
+21.03.2025 13:41:24 - debug: [[Executor]] Module "pack:///chunks/e9/e9d35cea5ace03bf3cecefe01e4103dac37b0302.js" loaded.
+21.03.2025 13:41:24 - debug: [[Executor]] Register Letter
+21.03.2025 13:41:24 - debug: [[Executor]] Module "pack:///chunks/73/731eb87eb1694620359ab9fadf0d7b4591aa646c.js" loaded.
+21.03.2025 13:41:24 - debug: [[Executor]] Register ResultScreen
+21.03.2025 13:41:24 - debug: [[Executor]] Module "pack:///chunks/5d/5d7a8a3ab690e77ab3534d15f891866ecc8fa3fa.js" loaded.
+21.03.2025 13:41:24 - debug: [[Executor]] Register SoundController
+21.03.2025 13:41:24 - debug: [[Executor]] Module "pack:///chunks/89/89899f2f538bc689a2ae40ce4802b86cb59343d4.js" loaded.
+21.03.2025 13:41:24 - debug: [[Executor]] Register GameController
+21.03.2025 13:41:24 - debug: [[Executor]] Module "pack:///chunks/eb/eb9aec31b330f42ea4099cb191f8ddf22f2550e8.js" loaded.
+21.03.2025 13:41:24 - debug: [[Executor]] Register Card
+21.03.2025 13:41:24 - debug: [[Executor]] Module "pack:///chunks/da/da5cbf94118edc9df073e29647c8c46970f50b83.js" loaded.
+21.03.2025 13:41:24 - debug: [[Executor]] Module "pack:///chunks/9e/9eda43c462c230fb58a6184f9dbd7710690bd3c5.js" loaded.
+21.03.2025 13:41:24 - debug: [[Executor]] Module "pack:///chunks/80/80694765410dacc24fa6fe495b29084a893044ee.js" loaded.
+21.03.2025 13:41:24 - debug: [[Executor]] Register Text
+21.03.2025 13:41:24 - debug: [[Executor]] Module "pack:///chunks/51/51d11f5898811b12faad3f121aaa4cc4e0ae4ac8.js" loaded.
+21.03.2025 13:41:24 - debug: [[Executor]] Register TutorialHandMover
+21.03.2025 13:41:24 - debug: [[Executor]] Module "pack:///chunks/a7/a70709c2ebe87f7c9113eea729a541c2dcb4642c.js" loaded.
+21.03.2025 13:41:24 - debug: D:\Cocos\work\CocosSolitaireCreative\temp\programming\packer-driver\targets\editor\chunks\fb\fbcf85ac8d3edb017310648d1e2563b16eead162.js resolved to D:\Cocos\work\CocosSolitaireCreative\temp\programming\packer-driver\targets\editor\chunks\fb\fbcf85ac8d3edb017310648d1e2563b16eead162.js is not in module cache!
+21.03.2025 13:41:24 - debug: [[Executor]] Register ScreenScaler
+21.03.2025 13:41:24 - debug: [[Executor]] Module "pack:///chunks/fb/fbcf85ac8d3edb017310648d1e2563b16eead162.js" loaded.
+21.03.2025 13:41:24 - debug: [[Executor]] Module "pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js" loaded.
+21.03.2025 13:41:24 - groupEnd: Imports all modules
+21.03.2025 13:41:24 - debug: Incremental keys: 
+21.03.2025 13:41:24 - debug: web-mobile:(onAfterBundleInit) start..., progress: 11%
+21.03.2025 13:41:24 - debug: // ---- build task web-mobile：onAfterBundleInit ----
+21.03.2025 13:41:24 - debug: // ---- build task web-mobile：onAfterBundleInit ---- (88ms)
+21.03.2025 13:41:24 - debug: web-mobile:(onAfterBundleInit) in 88 ms ✓, progress: 11%
+21.03.2025 13:41:24 - debug: Query asset bundle start, progress: 11%
+21.03.2025 13:41:24 - debug: // ---- build task Query asset bundle ----
+21.03.2025 13:41:24 - debug: Init bundle root assets start..., progress: 11%
+21.03.2025 13:41:24 - debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,15049ccd-4dd7-451e-a8ae-af66735c929e,521c5f6e-1a26-42e2-8108-4400c912d9bf,4c3ce6de-e6d1-47f7-aa36-36b9b58f72d3,4361db28-3f24-44cc-8e51-32ee5fd651ac,cafd95c9-c558-46f9-9812-1224b65c09ee,28d6d6b8-3f66-4a73-9795-17a0852ba2d4,2df0a40b-26c2-47ce-be0d-4d3cd4164737,dace6a58-1705-48c7-a275-70afc9534e88,ec8106fe-05bf-4e94-943c-e0d3b7bb5e45,39f74202-ead5-4a45-b966-273d526adbf1,8f6ac413-2f1e-4b88-b26f-54556b5dd510,45e7c0c8-2699-4912-b45f-d42bb8384189,84ac6f69-3086-455a-86a4-561da8ee710b,5c601d96-e4c7-4698-991b-7ee674b11079,bf0a6d94-58f0-4ad2-bdf2-c4a31c7dd856,871c3b6c-7379-419d-bda3-794b239ab90d
+21.03.2025 13:41:24 - debug: Init bundle root assets success..., progress: 11%
+21.03.2025 13:41:24 - debug: Init bundle share assets start..., progress: 11%
+21.03.2025 13:41:24 - debug: Init bundle share assets success..., progress: 11%
+21.03.2025 13:41:24 - debug: handle json group in bundle internal
+21.03.2025 13:41:24 - debug: handle json group in bundle internal success
+21.03.2025 13:41:24 - debug: handle json group in bundle resources
+21.03.2025 13:41:24 - debug: handle json group in bundle main
+21.03.2025 13:41:24 - debug: init image compress task 0 in bundle internal
+21.03.2025 13:41:24 - debug: handle json group in bundle resources success
+21.03.2025 13:41:24 - debug: init image compress task 0 in bundle resources
+21.03.2025 13:41:24 - debug: handle json group in bundle main success
+21.03.2025 13:41:24 - debug: init image compress task 9 in bundle main
+21.03.2025 13:41:24 - debug: // ---- build task Query asset bundle ---- (526ms)
+21.03.2025 13:41:24 - debug: run build task Query asset bundle success in 526 ms√, progress: 16%
+21.03.2025 13:41:24 - debug: [Build Memory track]: Query asset bundle start:291.18MB, end 291.11MB, increase: -71.42KB
+21.03.2025 13:41:24 - debug: Query asset bundle start, progress: 16%
+21.03.2025 13:41:24 - debug: // ---- build task Query asset bundle ----
+21.03.2025 13:41:24 - debug: // ---- build task Query asset bundle ---- (132ms)
+21.03.2025 13:41:24 - debug: run build task Query asset bundle success in 132 ms√, progress: 21%
+21.03.2025 13:41:24 - debug: [Build Memory track]: Query asset bundle start:291.13MB, end 291.19MB, increase: 64.22KB
+21.03.2025 13:41:24 - debug: web-mobile:(onAfterBundleDataTask) start..., progress: 21%
+21.03.2025 13:41:24 - debug: // ---- build task web-mobile：onAfterBundleDataTask ----
+21.03.2025 13:41:25 - debug: // ---- build task web-mobile：onAfterBundleDataTask ---- (147ms)
+21.03.2025 13:41:25 - debug: web-mobile:(onAfterBundleDataTask) in 147 ms ✓, progress: 21%
+21.03.2025 13:41:25 - debug: Build script start, progress: 21%
+21.03.2025 13:41:25 - debug: // ---- build task Build script ----
+21.03.2025 13:41:32 - debug: Generate systemJs..., progress: 21%
+21.03.2025 13:41:43 - debug: Build project script start..., progress: 21%
+21.03.2025 13:41:43 - debug: Build script in bundle start, progress: 21%
+21.03.2025 13:41:44 - log: Run build task(build-script) in child, see: chrome://inspect/#devices
+21.03.2025 13:41:47 - log: [build-script]enter sub process 19736, C:\ProgramData\cocos\editors\Creator\3.8.2\CocosCreator.exe,C:\ProgramData\cocos\editors\Creator\3.8.2\resources\app.asar\builtin\builder\static\sub-process-index
+21.03.2025 13:41:57 - warn: [build-script][[Build.Script.Rollup]] Circular dependency: file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Card.ts -> file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/GameController.ts -> file:///D:/Cocos/work/CocosSolitaireCreative/assets/scripts/solitaire/Card.ts
+21.03.2025 13:42:04 - debug: excute-script over with build-script 20158ms
+21.03.2025 13:42:04 - debug: Copy externalScripts success!
+21.03.2025 13:42:04 - debug: Build script in bundle success, progress: 21%
+21.03.2025 13:42:04 - debug: Build project script in (20523 ms) √, progress: 21%
+21.03.2025 13:42:04 - debug: Build engine start..., progress: 21%
+21.03.2025 13:42:04 - debug: Use cache engine: {link(C:\Users\sasha\AppData\Local\Temp\CocosCreator\3.8.2\builder\engine\2aa992e55a92258e4cb8847a32e4b4a6)}
+21.03.2025 13:42:04 - debug: {"debug":false,"sourceMaps":false,"includeModules":["2d","animation","audio","base","custom-pipeline","gfx-webgl","gfx-webgl2","particle-2d","profiler","tween","ui","video","webview"],"engineVersion":"3.8.2","md5Map":[],"engineName":"cocos-js","platform":"HTML5","useCache":true,"isNative":false,"split":false,"ammoJsWasm":"fallback","assetURLFormat":"runtime-resolved","output":"D:\\Cocos\\work\\CocosSolitaireCreative\\build\\web-mobile\\cocos-js","flags":{"DEBUG":false,"WASM_FALLBACK":true,"CULL_ASM_JS_MODULE":false,"WEBGPU":false,"CULL_MESHOPT":true},"entry":"C:\\ProgramData\\cocos\\editors\\Creator\\3.8.2\\resources\\resources\\3d\\engine"}
+21.03.2025 13:42:04 - debug: Build engine in (473 ms) √, progress: 21%
+21.03.2025 13:42:04 - debug: Copy plugin script ..., progress: 21%
+21.03.2025 13:42:04 - debug: Generate import-map..., progress: 21%
+21.03.2025 13:42:05 - debug: // ---- build task Build script ---- (39974ms)
+21.03.2025 13:42:05 - debug: run build task Build script success in 39 s√, progress: 26%
+21.03.2025 13:42:05 - debug: [Build Memory track]: Build script start:291.40MB, end 284.73MB, increase: -6829.06KB
+21.03.2025 13:42:05 - debug: Build Assets start, progress: 26%
+21.03.2025 13:42:05 - debug: // ---- build task Build Assets ----
+21.03.2025 13:42:05 - debug: Build bundles..., progress: 26%
+21.03.2025 13:42:05 - debug: Pack Images start, progress: 26%
+21.03.2025 13:42:05 - debug: builder:pack-auto-atlas-image (434ms)
+21.03.2025 13:42:05 - debug: Pack Images success, progress: 26%
+21.03.2025 13:42:05 - debug: Compress image start..., progress: 26%
+21.03.2025 13:42:05 - group: Compress image...
+21.03.2025 13:42:05 - debug: Use cache compress image of {Asset(17baa3e8-8c49-42d7-b116-681adfea90b3)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\17\17baa3e8-8c49-42d7-b116-681adfea90b3.astc)})
+21.03.2025 13:42:05 - debug: Use cache compress image of {Asset(17baa3e8-8c49-42d7-b116-681adfea90b3)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\17\17baa3e8-8c49-42d7-b116-681adfea90b3.pkm)})
+21.03.2025 13:42:05 - debug: Use cache compress image of {Asset(17baa3e8-8c49-42d7-b116-681adfea90b3)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\17\17baa3e8-8c49-42d7-b116-681adfea90b3.pvr)})
+21.03.2025 13:42:05 - debug: Use cache compress image of {Asset(17baa3e8-8c49-42d7-b116-681adfea90b3)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\17\17baa3e8-8c49-42d7-b116-681adfea90b3.png)})
+21.03.2025 13:42:05 - debug: Use cache compress image of {Asset(3822d17d-6024-4998-aaf9-448ba294e7d8)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\38\3822d17d-6024-4998-aaf9-448ba294e7d8.astc)})
+21.03.2025 13:42:05 - debug: Use cache compress image of {Asset(3822d17d-6024-4998-aaf9-448ba294e7d8)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\38\3822d17d-6024-4998-aaf9-448ba294e7d8.pkm)})
+21.03.2025 13:42:05 - debug: Use cache compress image of {Asset(3822d17d-6024-4998-aaf9-448ba294e7d8)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\38\3822d17d-6024-4998-aaf9-448ba294e7d8.pvr)})
+21.03.2025 13:42:05 - debug: Use cache compress image of {Asset(3822d17d-6024-4998-aaf9-448ba294e7d8)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\38\3822d17d-6024-4998-aaf9-448ba294e7d8.png)})
+21.03.2025 13:42:05 - debug: Use cache compress image of {Asset(4d7666f6-f37f-4eb8-bf14-5b12c8a59f6e)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\4d\4d7666f6-f37f-4eb8-bf14-5b12c8a59f6e.astc)})
+21.03.2025 13:42:05 - debug: Use cache compress image of {Asset(4d7666f6-f37f-4eb8-bf14-5b12c8a59f6e)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\4d\4d7666f6-f37f-4eb8-bf14-5b12c8a59f6e.pkm)})
+21.03.2025 13:42:05 - debug: Use cache compress image of {Asset(4d7666f6-f37f-4eb8-bf14-5b12c8a59f6e)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\4d\4d7666f6-f37f-4eb8-bf14-5b12c8a59f6e.pvr)})
+21.03.2025 13:42:05 - debug: Use cache compress image of {Asset(4d7666f6-f37f-4eb8-bf14-5b12c8a59f6e)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\4d\4d7666f6-f37f-4eb8-bf14-5b12c8a59f6e.png)})
+21.03.2025 13:42:05 - debug: Use cache compress image of {Asset(aa88f858-6a7c-4e50-85df-16dbaa991162)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\aa\aa88f858-6a7c-4e50-85df-16dbaa991162.astc)})
+21.03.2025 13:42:05 - debug: Use cache compress image of {Asset(aa88f858-6a7c-4e50-85df-16dbaa991162)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\aa\aa88f858-6a7c-4e50-85df-16dbaa991162.pkm)})
+21.03.2025 13:42:05 - debug: Use cache compress image of {Asset(aa88f858-6a7c-4e50-85df-16dbaa991162)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\aa\aa88f858-6a7c-4e50-85df-16dbaa991162.pvr)})
+21.03.2025 13:42:05 - debug: Use cache compress image of {Asset(aa88f858-6a7c-4e50-85df-16dbaa991162)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\aa\aa88f858-6a7c-4e50-85df-16dbaa991162.png)})
+21.03.2025 13:42:05 - debug: Use cache compress image of {Asset(c7fdad19-7aa5-4fe3-a781-4c3868ccd1a4)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\c7\c7fdad19-7aa5-4fe3-a781-4c3868ccd1a4.astc)})
+21.03.2025 13:42:05 - debug: Use cache compress image of {Asset(c7fdad19-7aa5-4fe3-a781-4c3868ccd1a4)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\c7\c7fdad19-7aa5-4fe3-a781-4c3868ccd1a4.pkm)})
+21.03.2025 13:42:05 - debug: Use cache compress image of {Asset(c7fdad19-7aa5-4fe3-a781-4c3868ccd1a4)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\c7\c7fdad19-7aa5-4fe3-a781-4c3868ccd1a4.pvr)})
+21.03.2025 13:42:05 - debug: Use cache compress image of {Asset(c7fdad19-7aa5-4fe3-a781-4c3868ccd1a4)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\c7\c7fdad19-7aa5-4fe3-a781-4c3868ccd1a4.png)})
+21.03.2025 13:42:05 - debug: Use cache compress image of {Asset(d5fc1acd-3841-4205-86a4-cc9d4f150b67)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\d5\d5fc1acd-3841-4205-86a4-cc9d4f150b67.astc)})
+21.03.2025 13:42:05 - debug: Use cache compress image of {Asset(d5fc1acd-3841-4205-86a4-cc9d4f150b67)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\d5\d5fc1acd-3841-4205-86a4-cc9d4f150b67.pkm)})
+21.03.2025 13:42:05 - debug: Use cache compress image of {Asset(d5fc1acd-3841-4205-86a4-cc9d4f150b67)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\d5\d5fc1acd-3841-4205-86a4-cc9d4f150b67.pvr)})
+21.03.2025 13:42:05 - debug: Use cache compress image of {Asset(d5fc1acd-3841-4205-86a4-cc9d4f150b67)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\d5\d5fc1acd-3841-4205-86a4-cc9d4f150b67.png)})
+21.03.2025 13:42:05 - debug: Use cache compress image of {Asset(e231b14e-adfa-4f5e-aeeb-769161fb5653)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\e2\e231b14e-adfa-4f5e-aeeb-769161fb5653.astc)})
+21.03.2025 13:42:05 - debug: Use cache compress image of {Asset(e231b14e-adfa-4f5e-aeeb-769161fb5653)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\e2\e231b14e-adfa-4f5e-aeeb-769161fb5653.pkm)})
+21.03.2025 13:42:05 - debug: Use cache compress image of {Asset(e231b14e-adfa-4f5e-aeeb-769161fb5653)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\e2\e231b14e-adfa-4f5e-aeeb-769161fb5653.pvr)})
+21.03.2025 13:42:05 - debug: Use cache compress image of {Asset(e231b14e-adfa-4f5e-aeeb-769161fb5653)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\e2\e231b14e-adfa-4f5e-aeeb-769161fb5653.png)})
+21.03.2025 13:42:05 - debug: Use cache compress image of {Asset(e65b4630-c4d4-4a6c-9d7d-11197bf9b9af)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\e6\e65b4630-c4d4-4a6c-9d7d-11197bf9b9af.astc)})
+21.03.2025 13:42:05 - debug: Use cache compress image of {Asset(e65b4630-c4d4-4a6c-9d7d-11197bf9b9af)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\e6\e65b4630-c4d4-4a6c-9d7d-11197bf9b9af.pkm)})
+21.03.2025 13:42:05 - debug: Use cache compress image of {Asset(e65b4630-c4d4-4a6c-9d7d-11197bf9b9af)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\e6\e65b4630-c4d4-4a6c-9d7d-11197bf9b9af.pvr)})
+21.03.2025 13:42:05 - debug: Use cache compress image of {Asset(e65b4630-c4d4-4a6c-9d7d-11197bf9b9af)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\e6\e65b4630-c4d4-4a6c-9d7d-11197bf9b9af.png)})
+21.03.2025 13:42:05 - debug: Use cache compress image of {Asset(fb4f930a-5251-42e3-8e74-3c6832d9ddfe)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\fb\fb4f930a-5251-42e3-8e74-3c6832d9ddfe.astc)})
+21.03.2025 13:42:05 - debug: Use cache compress image of {Asset(fb4f930a-5251-42e3-8e74-3c6832d9ddfe)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\fb\fb4f930a-5251-42e3-8e74-3c6832d9ddfe.pkm)})
+21.03.2025 13:42:05 - debug: Use cache compress image of {Asset(fb4f930a-5251-42e3-8e74-3c6832d9ddfe)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\fb\fb4f930a-5251-42e3-8e74-3c6832d9ddfe.pvr)})
+21.03.2025 13:42:05 - debug: Use cache compress image of {Asset(fb4f930a-5251-42e3-8e74-3c6832d9ddfe)} ({link(D:\Cocos\work\CocosSolitaireCreative\temp\builder\CompressTexture\fb\fb4f930a-5251-42e3-8e74-3c6832d9ddfe.png)})
+21.03.2025 13:42:05 - debug: sort compress task {}
+21.03.2025 13:42:05 - debug: Num of all image compress task 9, really: 0, configTasks: 0
+21.03.2025 13:42:05 - debug: No image need to compress
+21.03.2025 13:42:05 - groupEnd: Compress image...
+21.03.2025 13:42:05 - debug: Compress image success..., progress: 26%
+21.03.2025 13:42:05 - debug: Ouput asset in bundles start, progress: 26%
+21.03.2025 13:42:05 - debug: Handle all json groups in bundle internal
+21.03.2025 13:42:05 - debug: handle json group
+21.03.2025 13:42:05 - debug: Handle all json groups in bundle resources
+21.03.2025 13:42:05 - debug: handle json group
+21.03.2025 13:42:05 - debug: handle single json
+21.03.2025 13:42:05 - debug: Handle all json groups in bundle main
+21.03.2025 13:42:05 - debug: handle json group
+21.03.2025 13:42:05 - debug: Json group(0c44681e6) compile success，json number: 6
+21.03.2025 13:42:06 - debug: Json group(08518ba99) compile success，json number: 6
+21.03.2025 13:42:06 - debug: Json group(0f7a0fda8) compile success，json number: 6
+21.03.2025 13:42:06 - debug: Json group(07d7de1c0) compile success，json number: 6
+21.03.2025 13:42:06 - debug: Json group(0f624205f) compile success，json number: 6
+21.03.2025 13:42:06 - debug: handle single json
+21.03.2025 13:42:06 - debug: Json group(02a0b3340) compile success，json number: 6
+21.03.2025 13:42:06 - debug: handle single json
+21.03.2025 13:42:06 - debug: Output asset in bundles success, progress: 26%
+21.03.2025 13:42:06 - debug: // ---- build task Build Assets ---- (1718ms)
+21.03.2025 13:42:06 - debug: run build task Build Assets success in 1 s√, progress: 31%
+21.03.2025 13:42:06 - debug: [Build Memory track]: Build Assets start:284.75MB, end 286.59MB, increase: 1.85MB
+21.03.2025 13:42:06 - debug: Add md5 suffix to assets start, progress: 31%
+21.03.2025 13:42:06 - debug: // ---- build task Add md5 suffix to assets ----
+21.03.2025 13:42:06 - debug: // ---- build task Add md5 suffix to assets ---- (173ms)
+21.03.2025 13:42:06 - debug: run build task Add md5 suffix to assets success in 173 ms√, progress: 36%
+21.03.2025 13:42:06 - debug: [Build Memory track]: Add md5 suffix to assets start:286.68MB, end 286.74MB, increase: 59.84KB
+21.03.2025 13:42:06 - debug: Query asset bundle start, progress: 36%
+21.03.2025 13:42:06 - debug: // ---- build task Query asset bundle ----
+21.03.2025 13:42:06 - debug: Output asset in bundles start, progress: 36%
+21.03.2025 13:42:06 - debug: compress config of bundle internal...
+21.03.2025 13:42:06 - debug: compress config of bundle internal success
+21.03.2025 13:42:06 - debug: compress config of bundle resources...
+21.03.2025 13:42:06 - debug: compress config of bundle resources success
+21.03.2025 13:42:06 - debug: compress config of bundle main...
+21.03.2025 13:42:06 - debug: compress config of bundle main success
+21.03.2025 13:42:06 - debug: ouput config of bundle internal
+21.03.2025 13:42:06 - debug: output config of bundle internal success
+21.03.2025 13:42:06 - debug: ouput config of bundle resources
+21.03.2025 13:42:06 - debug: output config of bundle resources success
+21.03.2025 13:42:06 - debug: ouput config of bundle main
+21.03.2025 13:42:06 - debug: output config of bundle main success
+21.03.2025 13:42:06 - debug: Output asset in bundles success, progress: 36%
+21.03.2025 13:42:07 - debug: // ---- build task Query asset bundle ---- (436ms)
+21.03.2025 13:42:07 - debug: run build task Query asset bundle success in 436 ms√, progress: 41%
+21.03.2025 13:42:07 - debug: [Build Memory track]: Query asset bundle start:286.75MB, end 287.11MB, increase: 366.84KB
+21.03.2025 13:42:07 - debug: Sort some build options to settings.json start, progress: 41%
+21.03.2025 13:42:07 - debug: // ---- build task Sort some build options to settings.json ----
+21.03.2025 13:42:07 - debug: // ---- build task Sort some build options to settings.json ---- (152ms)
+21.03.2025 13:42:07 - debug: run build task Sort some build options to settings.json success in 152 ms√, progress: 43%
+21.03.2025 13:42:07 - debug: [Build Memory track]: Sort some build options to settings.json start:287.13MB, end 287.18MB, increase: 58.93KB
+21.03.2025 13:42:07 - debug: Fill script data to settings start, progress: 43%
+21.03.2025 13:42:07 - debug: // ---- build task Fill script data to settings ----
+21.03.2025 13:42:07 - debug: // ---- build task Fill script data to settings ---- (151ms)
+21.03.2025 13:42:07 - debug: run build task Fill script data to settings success in 151 ms√, progress: 44%
+21.03.2025 13:42:07 - debug: [Build Memory track]: Fill script data to settings start:287.20MB, end 287.26MB, increase: 64.27KB
+21.03.2025 13:42:07 - debug: Sort some build options to settings.json start, progress: 44%
+21.03.2025 13:42:07 - debug: // ---- build task Sort some build options to settings.json ----
+21.03.2025 13:42:08 - debug: // ---- build task Sort some build options to settings.json ---- (797ms)
+21.03.2025 13:42:08 - debug: run build task Sort some build options to settings.json success in 797 ms√, progress: 46%
+21.03.2025 13:42:08 - debug: [Build Memory track]: Sort some build options to settings.json start:287.28MB, end 287.41MB, increase: 133.24KB
+21.03.2025 13:42:08 - debug: web-mobile:(onBeforeCompressSettings) start..., progress: 46%
+21.03.2025 13:42:08 - debug: // ---- build task web-mobile：onBeforeCompressSettings ----
+21.03.2025 13:42:08 - debug: // ---- build task web-mobile：onBeforeCompressSettings ---- (161ms)
+21.03.2025 13:42:08 - debug: web-mobile:(onBeforeCompressSettings) in 161 ms ✓, progress: 48%
+21.03.2025 13:42:08 - debug: cocos-service:(onBeforeCompressSettings) start..., progress: 48%
+21.03.2025 13:42:08 - debug: // ---- build task cocos-service：onBeforeCompressSettings ----
+21.03.2025 13:42:09 - debug: // ---- build task cocos-service：onBeforeCompressSettings ---- (845ms)
+21.03.2025 13:42:09 - debug: cocos-service:(onBeforeCompressSettings) in 845 ms ✓, progress: 51%
+21.03.2025 13:42:09 - debug: Save Settings.json start, progress: 51%
+21.03.2025 13:42:09 - debug: // ---- build task Save Settings.json ----
+21.03.2025 13:42:09 - debug: // ---- build task Save Settings.json ---- (224ms)
+21.03.2025 13:42:09 - debug: run build task Save Settings.json success in 224 ms√, progress: 53%
+21.03.2025 13:42:09 - debug: [Build Memory track]: Save Settings.json start:287.61MB, end 287.68MB, increase: 66.29KB
+21.03.2025 13:42:09 - debug: Sort build template start, progress: 53%
+21.03.2025 13:42:09 - debug: // ---- build task Sort build template ----
+21.03.2025 13:42:10 - debug: // ---- build task Sort build template ---- (371ms)
+21.03.2025 13:42:10 - debug: run build task Sort build template success in 371 ms√, progress: 56%
+21.03.2025 13:42:10 - debug: [Build Memory track]: Sort build template start:287.69MB, end 287.94MB, increase: 257.62KB
+21.03.2025 13:42:10 - debug: cocos-service:(onAfterCompressSettings) start..., progress: 56%
+21.03.2025 13:42:10 - debug: // ---- build task cocos-service：onAfterCompressSettings ----
+21.03.2025 13:42:11 - debug: // ---- build task cocos-service：onAfterCompressSettings ---- (1172ms)
+21.03.2025 13:42:11 - debug: cocos-service:(onAfterCompressSettings) in 1172 ms ✓, progress: 58%
+21.03.2025 13:42:11 - debug: web-mobile:(onAfterBuild) start..., progress: 58%
+21.03.2025 13:42:11 - debug: // ---- build task web-mobile：onAfterBuild ----
+21.03.2025 13:42:11 - debug: // ---- build task web-mobile：onAfterBuild ---- (379ms)
+21.03.2025 13:42:11 - debug: web-mobile:(onAfterBuild) in 379 ms ✓, progress: 60%
+21.03.2025 13:42:11 - debug: cocos-service:(onAfterBuild) start..., progress: 60%
+21.03.2025 13:42:11 - debug: // ---- build task cocos-service：onAfterBuild ----
+21.03.2025 13:42:12 - debug: // ---- build task cocos-service：onAfterBuild ---- (501ms)
+21.03.2025 13:42:12 - debug: cocos-service:(onAfterBuild) in 501 ms ✓, progress: 62%
+21.03.2025 13:42:12 - debug: adsense-h5g-plugin:(onAfterBuild) start..., progress: 62%
+21.03.2025 13:42:12 - debug: // ---- build task adsense-h5g-plugin：onAfterBuild ----
+21.03.2025 13:42:12 - debug: // ---- build task adsense-h5g-plugin：onAfterBuild ---- (132ms)
+21.03.2025 13:42:12 - debug: adsense-h5g-plugin:(onAfterBuild) in 132 ms ✓, progress: 64%
+21.03.2025 13:42:12 - debug: super-html:(onAfterBuild) start..., progress: 64%
+21.03.2025 13:42:12 - debug: // ---- build task super-html：onAfterBuild ----
+21.03.2025 13:42:12 - log: super-html : -- start --
+21.03.2025 13:42:12 - log: super-html : engine version 3.8.2
+21.03.2025 13:42:21 - debug: // ---- build task super-html：onAfterBuild ---- (8465ms)
+21.03.2025 13:42:21 - debug: super-html:(onAfterBuild) in 8465 ms ✓, progress: 67%
+21.03.2025 13:42:21 - log: Asset DB is resume!
+21.03.2025 13:42:21 - debug: builder:build-project-total (59761ms)
+21.03.2025 13:42:21 - debug: build success in 59761!
+21.03.2025 13:42:21 - debug: [Build Memory track]: builder:build-project-total start:290.13MB, end 257.46MB, increase: -33455.46KB
+21.03.2025 13:42:22 - debug: ================================ build Task (web-mobile) Finished in (1 min)ms ================================
